@@ -18740,8 +18740,6 @@ with pkgs;
 
   gtk-doc = callPackage ../development/tools/documentation/gtk-doc { };
 
-  gtkdialog = callPackage ../development/tools/misc/gtkdialog { };
-
   crowdin-cli = callPackage ../tools/text/crowdin-cli { };
 
   gtranslator = callPackage ../tools/text/gtranslator { };
