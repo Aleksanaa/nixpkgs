@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
     owner = "Tookmund";
     repo = "Swapspace";
     rev = "v${version}";
-    sha256 = "sha256-tzsw10cpu5hldkm0psWcFnWToWQejout/oGHJais6yw=";
+    hash = "sha256-tzsw10cpu5hldkm0psWcFnWToWQejout/oGHJais6yw=";
   };
 
   nativeBuildInputs = [

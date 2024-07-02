@@ -35,7 +35,7 @@ stdenv.mkDerivation rec {
     owner = "AravisProject";
     repo = pname;
     rev = version;
-    sha256 = "sha256-CsXnwrZqBCS7JVAB/7JlAAvks5HnYxgrdc4Bmg68QdE=";
+    hash = "sha256-CsXnwrZqBCS7JVAB/7JlAAvks5HnYxgrdc4Bmg68QdE=";
   };
 
   outputs = [ "bin" "dev" "out" "lib" ];

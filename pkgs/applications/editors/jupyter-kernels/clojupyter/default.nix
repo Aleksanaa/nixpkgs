@@ -41,7 +41,7 @@ let
       owner = "clojupyter";
       repo = "clojupyter";
       rev = version;
-      sha256 = "sha256-BCzcPnLSonm+ELFU4JIIzLPlVnP0VzlrRSGxOd/LFow=";
+      hash = "sha256-BCzcPnLSonm+ELFU4JIIzLPlVnP0VzlrRSGxOd/LFow=";
     };
 
     buildInputs = [ imagemagick ];

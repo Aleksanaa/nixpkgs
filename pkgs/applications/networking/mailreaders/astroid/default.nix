@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
     owner = "astroidmail";
     repo = "astroid";
     rev = "v${version}";
-    sha256 = "sha256-6xQniOLNUk8tDkooDN3Tp6sb43GqoynO6+fN9yhNqZ4=";
+    hash = "sha256-6xQniOLNUk8tDkooDN3Tp6sb43GqoynO6+fN9yhNqZ4=";
   };
 
   patches = [

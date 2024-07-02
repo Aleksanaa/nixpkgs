@@ -33,7 +33,7 @@ mkDerivation rec {
     owner = "qTox";
     repo = "qTox";
     rev = "v${version}";
-    sha256 = "sha256-naKWoodSMw0AEtACvkASFmw9t0H0d2pcqOW79NNTYF0=";
+    hash = "sha256-naKWoodSMw0AEtACvkASFmw9t0H0d2pcqOW79NNTYF0=";
   };
 
   buildInputs = [

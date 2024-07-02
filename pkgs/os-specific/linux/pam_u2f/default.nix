@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src     = fetchurl {
     url = "https://developers.yubico.com/pam-u2f/Releases/${pname}-${version}.tar.gz";
-    sha256 = "sha256-cjYMaHVIXrTfQJ2o+PUrF4k/BeTZmFKcI4gUSA4RUiA=";
+    hash = "sha256-cjYMaHVIXrTfQJ2o+PUrF4k/BeTZmFKcI4gUSA4RUiA=";
   };
 
   nativeBuildInputs = [ pkg-config ];

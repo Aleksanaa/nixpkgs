@@ -14,7 +14,7 @@ let
 
     src = fetchurl {
       url = "mirror://sourceforge/flightgear/release-${shortVersion}/FlightGear-${version}-data.txz";
-      sha256 = "sha256-863EnNBU+rYTdxHwMV6HbBu99lO6H3mKGuyumm6YR5U=";
+      hash = "sha256-863EnNBU+rYTdxHwMV6HbBu99lO6H3mKGuyumm6YR5U=";
     };
 
     dontUnpack = true;
@@ -32,7 +32,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://sourceforge/flightgear/release-${shortVersion}/${pname}-${version}.tar.bz2";
-    sha256 = "sha256-Fn0I3pzA9yIYs3myPNflbH9u4Y19VZUS2lGjvWfzjm4=";
+    hash = "sha256-Fn0I3pzA9yIYs3myPNflbH9u4Y19VZUS2lGjvWfzjm4=";
   };
 
   nativeBuildInputs = [ cmake wrapQtAppsHook ];

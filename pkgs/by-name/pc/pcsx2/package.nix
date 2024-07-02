@@ -34,7 +34,7 @@ let
     owner = "PCSX2";
     repo = "pcsx2_patches";
     rev = "b3a788e16ea12efac006cbbe1ece45b6b9b34326";
-    sha256 = "sha256-Uvpz2Gpj533Sr6wLruubZxssoXefQDey8GHIDKWhW3s=";
+    hash = "sha256-Uvpz2Gpj533Sr6wLruubZxssoXefQDey8GHIDKWhW3s=";
   };
   inherit (qt6)
     qtbase
@@ -53,7 +53,7 @@ llvmPackages_17.stdenv.mkDerivation (finalAttrs: {
     repo = "pcsx2";
     fetchSubmodules = true;
     rev = "v${finalAttrs.version}";
-    sha256 = "sha256-WiwnP5yoBy8bRLUPuCZ7z4nhIzrY8P29KS5ZjErM/A4=";
+    hash = "sha256-WiwnP5yoBy8bRLUPuCZ7z4nhIzrY8P29KS5ZjErM/A4=";
   };
 
   patches = [
@@ -61,11 +61,11 @@ llvmPackages_17.stdenv.mkDerivation (finalAttrs: {
     # Backport patches to fix random crashes on startup
     (fetchpatch {
       url = "https://github.com/PCSX2/pcsx2/commit/e47bcf8d80df9a93201eefbaf169ec1a0673a833.patch";
-      sha256 = "sha256-7CL1Kpu+/JgtKIenn9rQKAs3A+oJ40W5XHlqSg77Q7Y=";
+      hash = "sha256-7CL1Kpu+/JgtKIenn9rQKAs3A+oJ40W5XHlqSg77Q7Y=";
     })
     (fetchpatch {
       url = "https://github.com/PCSX2/pcsx2/commit/92b707db994f821bccc35d6eef67727ea3ab496b.patch";
-      sha256 = "sha256-HWJ8KZAY/qBBotAJerZg6zi5QUHuTD51zKH1rAtZ3tc=";
+      hash = "sha256-HWJ8KZAY/qBBotAJerZg6zi5QUHuTD51zKH1rAtZ3tc=";
     })
   ];
 

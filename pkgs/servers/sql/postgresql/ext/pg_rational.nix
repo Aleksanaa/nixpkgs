@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
     owner  = "begriffs";
     repo   = "pg_rational";
     rev    = "v${version}";
-    sha256 = "sha256-Sp5wuX2nP3KGyWw7MFa11rI1CPIKIWBt8nvBSsASIEw=";
+    hash = "sha256-Sp5wuX2nP3KGyWw7MFa11rI1CPIKIWBt8nvBSsASIEw=";
   };
 
   buildInputs = [ postgresql ];

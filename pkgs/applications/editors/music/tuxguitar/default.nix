@@ -2,9 +2,9 @@
 
 let metadata = assert stdenv.hostPlatform.system == "i686-linux" || stdenv.hostPlatform.system == "x86_64-linux";
   if stdenv.hostPlatform.system == "i686-linux" then
-    { arch = "x86"; sha256 = "sha256-k4FQrt72VNb5FdYMzxskcVhKlvx8MZelUlLCItxDB7c="; }
+    { arch = "x86"; hash = "sha256-k4FQrt72VNb5FdYMzxskcVhKlvx8MZelUlLCItxDB7c="; }
   else
-    { arch = "x86_64"; sha256 = "sha256-mj5wVQlY2xFzdulvMdb5Qb5HGwr7RElzIkpOLjaAfGA="; };
+    { arch = "x86_64"; hash = "sha256-mj5wVQlY2xFzdulvMdb5Qb5HGwr7RElzIkpOLjaAfGA="; };
 in stdenv.mkDerivation rec {
   version = "1.5.5";
   pname = "tuxguitar";

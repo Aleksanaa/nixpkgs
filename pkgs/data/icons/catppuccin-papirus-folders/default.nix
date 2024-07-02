@@ -22,7 +22,7 @@ in
       owner = "catppuccin";
       repo = "papirus-folders";
       rev = "fcf96737fffc343a1bf129732c37d19f2d77fa5c";
-      sha256 = "sha256-3yjIGzN+/moP2OVGDIAy4zPqUroSjx3c2mJjdZGhTsY=";
+      hash = "sha256-3yjIGzN+/moP2OVGDIAy4zPqUroSjx3c2mJjdZGhTsY=";
     };
 
     nativeBuildInputs = [ gtk3 ];

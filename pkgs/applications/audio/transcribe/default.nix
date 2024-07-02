@@ -29,7 +29,7 @@ stdenv.mkDerivation rec {
       fetchzip
         {
           url = "https://www.seventhstring.com/xscribe/downlo/xscsetup-${version}.tar.gz";
-          sha256 = "sha256-GHTr1rk7Kh5M0UYnryUlCk/G6pW3p80GJ6Ai0zXdfNs=";
+          hash = "sha256-GHTr1rk7Kh5M0UYnryUlCk/G6pW3p80GJ6Ai0zXdfNs=";
         }
     else throw "Platform not supported";
 

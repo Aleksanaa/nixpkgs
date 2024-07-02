@@ -14,7 +14,7 @@ mkDerivation rec {
     domain = "invent.kde.org";
     owner = "plasma";
     repo = "plasma-pass";
-    sha256 = "sha256-fEYH3cvDZzEKpYqkTVqxxh3rhV75af8dZUHxQq8fPNg=";
+    hash = "sha256-fEYH3cvDZzEKpYqkTVqxxh3rhV75af8dZUHxQq8fPNg=";
     rev = "v${version}";
   };
 

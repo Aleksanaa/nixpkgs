@@ -8,7 +8,7 @@ buildDunePackage rec {
 
   src = fetchurl {
     url = "https://github.com/johnwhitington/${pname}/releases/download/${version}/ppx_blob-${version}.tbz";
-    sha256 = "sha256-drobFwMTKd/a3aP5CX/08WhvgS1CkARH6zo+nSiwl08=";
+    hash = "sha256-drobFwMTKd/a3aP5CX/08WhvgS1CkARH6zo+nSiwl08=";
   };
 
   checkInputs = [ alcotest ];

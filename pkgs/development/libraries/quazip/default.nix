@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
     owner = "stachenov";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-JPpkYvndjDcHVChAyWhpb/XiUPu/qHqDZFh5XmonXMs=";
+    hash = "sha256-JPpkYvndjDcHVChAyWhpb/XiUPu/qHqDZFh5XmonXMs=";
   };
 
   buildInputs = [ zlib qtbase ];

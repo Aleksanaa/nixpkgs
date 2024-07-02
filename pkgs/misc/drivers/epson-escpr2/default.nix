@@ -10,7 +10,7 @@ stdenv.mkDerivation rec {
     # some printer like for instance "WF-7210" to get to the most recent
     # version.
     url = "https://download3.ebz.epson.net/dsc/f/03/00/15/93/07/6926ce2857b2e0f563eecfd6a877b7b71898ad46/epson-inkjet-printer-escpr2-1.2.11-1.src.rpm";
-    sha256 = "sha256-WMjtYYuMGMPf6222rvrP5Ep6fMRwebPTUXeQ6CbwEt4=";
+    hash = "sha256-WMjtYYuMGMPf6222rvrP5Ep6fMRwebPTUXeQ6CbwEt4=";
   };
 
   unpackPhase = ''

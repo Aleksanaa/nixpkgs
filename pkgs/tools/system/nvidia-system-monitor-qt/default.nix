@@ -31,7 +31,7 @@ stdenv.mkDerivation rec {
     owner = "congard";
     repo = "nvidia-system-monitor-qt";
     rev = "v${version}";
-    sha256 = "sha256-VDw5Wp/QFDV1zKF4yz0aR0Hox9KHXZmeAKzKLSlu8Ck=";
+    hash = "sha256-VDw5Wp/QFDV1zKF4yz0aR0Hox9KHXZmeAKzKLSlu8Ck=";
   };
 
   buildInputs = [ qtbase ];

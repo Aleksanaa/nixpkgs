@@ -18,7 +18,7 @@ in melpaBuild {
     owner = "skeeto";
     repo = "elisp-ffi";
     inherit rev;
-    sha256 = "sha256-StOezQEnNTjRmjY02ub5FRh59aL6gWfw+qgboz0wF94=";
+    hash = "sha256-StOezQEnNTjRmjY02ub5FRh59aL6gWfw+qgboz0wF94=";
   };
 
   nativeBuildInputs = [ pkg-config ];

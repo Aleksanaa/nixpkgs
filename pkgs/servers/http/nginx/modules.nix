@@ -88,7 +88,7 @@ let self = {
       owner = "arpa2";
       repo = "nginx-auth-a2aclr";
       rev = "bbabf9480bb2b40ac581551883a18dfa6522dd63";
-      sha256 = "sha256-h2LgMhreCgod+H/bNQzY9BvqG9ezkwikwWB3T6gHH04=";
+      hash = "sha256-h2LgMhreCgod+H/bNQzY9BvqG9ezkwikwWB3T6gHH04=";
     };
 
     inputs = [
@@ -100,7 +100,7 @@ let self = {
             owner = "arpa2";
             repo = "arpa2common";
             rev = "v${version}";
-            sha256 = "sha256-8zVsAlGtmya9EK4OkGUMu2FKJRn2Q3bg2QWGjqcii64=";
+            hash = "sha256-8zVsAlGtmya9EK4OkGUMu2FKJRn2Q3bg2QWGjqcii64=";
           };
         }))
     ];
@@ -138,7 +138,7 @@ let self = {
       owner = "google";
       repo = "ngx_brotli";
       rev = "6e975bcb015f62e1f303054897783355e2a877dc";
-      sha256 = "sha256-G0IDYlvaQzzJ6cNTSGbfuOuSXFp3RsEwIJLGapTbDgo=";
+      hash = "sha256-G0IDYlvaQzzJ6cNTSGbfuOuSXFp3RsEwIJLGapTbDgo=";
     }; in
       runCommand "brotli" { } ''
         cp -a ${src'} $out
@@ -434,7 +434,7 @@ let self = {
       owner = "SpiderLabs";
       repo = "ModSecurity-nginx";
       rev = "v1.0.3";
-      sha256 = "sha256-xp0/eqi5PJlzb9NaUbNnzEqNcxDPyjyNwZOwmlv1+ag=";
+      hash = "sha256-xp0/eqi5PJlzb9NaUbNnzEqNcxDPyjyNwZOwmlv1+ag=";
     };
 
     inputs = [ curl geoip libmodsecurity libxml2 lmdb yajl ];
@@ -455,7 +455,7 @@ let self = {
       owner = "openresty";
       repo = "headers-more-nginx-module";
       rev = "v0.36";
-      sha256 = "sha256-X+ygIesQ9PGm5yM+u1BOLYVpm1172P8jWwXNr3ixFY4=";
+      hash = "sha256-X+ygIesQ9PGm5yM+u1BOLYVpm1172P8jWwXNr3ixFY4=";
     };
 
     meta = with lib; {
@@ -507,7 +507,7 @@ let self = {
     src = fetchhg {
       url = "https://hg.nginx.org/njs";
       rev = "0.8.1";
-      sha256 = "sha256-bFHrcA1ROMwYf+s0EWOXzkru6wvfRLvjvN8BV/r2tMc=";
+      hash = "sha256-bFHrcA1ROMwYf+s0EWOXzkru6wvfRLvjvN8BV/r2tMc=";
       name = "nginx-njs";
     };
 
@@ -1008,7 +1008,7 @@ let self = {
       owner = "vozlt";
       repo = "nginx-module-vts";
       rev = "v0.2.2";
-      sha256 = "sha256-ReTmYGVSOwtnYDMkQDMWwxw09vT4iHYfYZvgd8iBotk=";
+      hash = "sha256-ReTmYGVSOwtnYDMkQDMWwxw09vT4iHYfYZvgd8iBotk=";
     };
 
     meta = with lib; {

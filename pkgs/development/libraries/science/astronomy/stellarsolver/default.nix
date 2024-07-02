@@ -9,7 +9,7 @@ mkDerivation rec {
     owner = "rlancaste";
     repo = pname;
     rev = version;
-    sha256 = "sha256-0bFGHlkZnAZlnxlj8tY3s9yTWgkNtSsPFfudB3uvyOA=";
+    hash = "sha256-0bFGHlkZnAZlnxlj8tY3s9yTWgkNtSsPFfudB3uvyOA=";
   };
 
   nativeBuildInputs = [ cmake ];

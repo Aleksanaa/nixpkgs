@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
     owner = "Jeinzi";
     repo = "thunar-dropbox";
     rev = version;
-    sha256 = "sha256-q7tw/1JgEn9SyjH1KBZl0tintWJjd3ctUs4JUuCWULs=";
+    hash = "sha256-q7tw/1JgEn9SyjH1KBZl0tintWJjd3ctUs4JUuCWULs=";
   };
 
   nativeBuildInputs = [

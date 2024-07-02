@@ -13,7 +13,7 @@ buildLua {
     owner = "joaquintorres";
     repo = "autosubsync-mpv";
     rev = "22cb928ecd94cc8cadaf8c354438123c43e0c70d";
-    sha256 = "sha256-XQPFC7l9MTZAW5FfULRQJfu/7FuGj9bbjQUZhNv0rlc=";
+    hash = "sha256-XQPFC7l9MTZAW5FfULRQJfu/7FuGj9bbjQUZhNv0rlc=";
   };
 
   # While nixpkgs only packages alass, we might as well make that the default

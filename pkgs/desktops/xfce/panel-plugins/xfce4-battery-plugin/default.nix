@@ -14,7 +14,7 @@ mkXfceDerivation {
   version = "1.1.5";
   rev-prefix = "xfce4-battery-plugin-";
   odd-unstable = false;
-  sha256 = "sha256-X5EGDZaPZdTxiLXyeLwnMx97P6wPy+H09hi9+OFYyY0=";
+  hash = "sha256-X5EGDZaPZdTxiLXyeLwnMx97P6wPy+H09hi9+OFYyY0=";
 
   buildInputs = [
     glib

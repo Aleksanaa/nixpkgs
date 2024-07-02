@@ -8,7 +8,7 @@ buildDotnetModule rec {
     owner = "boogie-org";
     repo = "boogie";
     rev = "v${version}";
-    sha256 = "sha256-Bli/vEzzVQTWicQJskK9cQC2XsFRwMxX9cAePXN511c=";
+    hash = "sha256-Bli/vEzzVQTWicQJskK9cQC2XsFRwMxX9cAePXN511c=";
   };
 
   projectFile = [ "Source/Boogie.sln" ];

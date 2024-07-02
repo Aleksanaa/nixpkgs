@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://savannah/libpipeline/libpipeline-${version}.tar.gz";
-    sha256 = "sha256-uLRRlJiQIqeewTF/ZKKnWxVRsqVb6gb2dwTLKi5GkLA=";
+    hash = "sha256-uLRRlJiQIqeewTF/ZKKnWxVRsqVb6gb2dwTLKi5GkLA=";
   };
 
   patches = lib.optionals stdenv.isDarwin [ ./fix-on-osx.patch ];

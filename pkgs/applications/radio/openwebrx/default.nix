@@ -35,7 +35,7 @@ let
       owner = "jketterl";
       repo = pname;
       rev = version;
-      sha256 = "sha256-1H0TJ8QN3b6Lof5TWvyokhCeN+dN7ITwzRvEo2X8OWc=";
+      hash = "sha256-1H0TJ8QN3b6Lof5TWvyokhCeN+dN7ITwzRvEo2X8OWc=";
     };
 
     nativeBuildInputs = [

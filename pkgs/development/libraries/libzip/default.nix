@@ -22,7 +22,7 @@ stdenv.mkDerivation (finalAttrs: {
 
   src = fetchurl {
     url = "https://libzip.org/download/${finalAttrs.pname}-${finalAttrs.version}.tar.gz";
-    sha256 = "sha256-lmmuXf46xbOJdTbchGaodMjPLA47H90I11snOIQpk2M=";
+    hash = "sha256-lmmuXf46xbOJdTbchGaodMjPLA47H90I11snOIQpk2M=";
   };
 
   patches = [

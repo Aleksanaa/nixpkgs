@@ -17,7 +17,7 @@ set the variable LEOCAD_LIB=/path/to/libs/ or use option -l /path/to/libs/
 let
   parts = fetchurl {
     url = "https://web.archive.org/web/20210705153544/https://www.ldraw.org/library/updates/complete.zip";
-    sha256 = "sha256-PW3XCbFwRaNkx4EgCnl2rXH7QgmpNgjTi17kZ5bladA=";
+    hash = "sha256-PW3XCbFwRaNkx4EgCnl2rXH7QgmpNgjTi17kZ5bladA=";
   };
 
 in

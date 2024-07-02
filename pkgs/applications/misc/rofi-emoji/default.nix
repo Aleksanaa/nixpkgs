@@ -28,7 +28,7 @@ stdenv.mkDerivation rec {
     owner = "Mange";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-Y+E5TViKFVtqXMLVEcq1VMLPzG04vfZyThUM7a/fFGM=";
+    hash = "sha256-Y+E5TViKFVtqXMLVEcq1VMLPzG04vfZyThUM7a/fFGM=";
   };
 
   patches = [

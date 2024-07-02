@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
     owner = "rollbear";
     repo = "trompeloeil";
     rev = "v${version}";
-    sha256 = "sha256-eVMlepthJuy9BQnR2u8PFSfuWNg8QxDOJyV5qzcztOE=";
+    hash = "sha256-eVMlepthJuy9BQnR2u8PFSfuWNg8QxDOJyV5qzcztOE=";
   };
 
   nativeBuildInputs = [ cmake ];

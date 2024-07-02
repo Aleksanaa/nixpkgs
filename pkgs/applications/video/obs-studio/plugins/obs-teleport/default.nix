@@ -14,7 +14,7 @@ buildGoModule rec {
     owner = "fzwoch";
     repo = "obs-teleport";
     rev = version;
-    sha256 = "sha256-71fvaqjesLhCdK3dHodAtMNYhU6LGX4wkHSPgQJPYqo=";
+    hash = "sha256-71fvaqjesLhCdK3dHodAtMNYhU6LGX4wkHSPgQJPYqo=";
   };
 
   vendorHash = "sha256-INJvecUwHMauoqqyd6S2JvZ/oqnwonbdbGhV8hdqiH8=";

@@ -18,13 +18,13 @@ rec {
     mltonBootstrap = mlton20180207Binary;
     version = "20210117";
     rev = "on-20210117-release";
-    sha256 = "sha256-rqL8lnzVVR+5Hc7sWXK8dCXN92dU76qSoii3/4StODM=";
+    hash = "sha256-rqL8lnzVVR+5Hc7sWXK8dCXN92dU76qSoii3/4StODM=";
   };
 
   mltonHEAD = callPackage ./from-git-source.nix {
     mltonBootstrap = mlton20180207Binary;
     version = "HEAD";
     rev = "875f7912a0b135a9a7e86a04ecac9cacf0bfe5e5";
-    sha256 = "sha256-/MIoVqqv8qrJPehU7VRFpXtAAo8UUzE3waEvB7WnS9A=";
+    hash = "sha256-/MIoVqqv8qrJPehU7VRFpXtAAo8UUzE3waEvB7WnS9A=";
   };
 }

@@ -15,7 +15,7 @@ stdenv.mkDerivation(finalAttrs: {
     owner = "gerritdevriese";
     repo = "kzones";
     rev = "v${finalAttrs.version}";
-    sha256 = "sha256-OAgzuX05dvotjRWiyPPeUieVJbQoy/opGYu6uVKQM60=";
+    hash = "sha256-OAgzuX05dvotjRWiyPPeUieVJbQoy/opGYu6uVKQM60=";
   };
 
   nativeBuildInputs = [ plasma-framework ];

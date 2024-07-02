@@ -129,6 +129,6 @@ let
 in {
   subversion = common {
     version = "1.14.3";
-    sha256 = "sha256-lJ79RRoJQ19+hXNXTHHHtxsZTYRIkPpJzWHSJi6hpEA=";
+    hash = "sha256-lJ79RRoJQ19+hXNXTHHHtxsZTYRIkPpJzWHSJi6hpEA=";
   };
 }

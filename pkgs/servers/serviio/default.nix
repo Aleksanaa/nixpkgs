@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "http://download.serviio.org/releases/${pname}-${version}-linux.tar.gz";
-    sha256 = "sha256-uRRWKMv4f2b1yIE9OnXDIZAmcoqw/8F0z1LOesQBsyQ=";
+    hash = "sha256-uRRWKMv4f2b1yIE9OnXDIZAmcoqw/8F0z1LOesQBsyQ=";
   };
 
   installPhase = ''

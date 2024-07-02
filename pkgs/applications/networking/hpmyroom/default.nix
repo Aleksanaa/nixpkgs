@@ -8,7 +8,7 @@ mkDerivation rec {
 
   src = fetchurl {
     url = "https://www.myroom.hpe.com/downloadfiles/${pname}-${version}.x86_64.rpm";
-    sha256 = "sha256-Ff3j14rC2ZHhNJLPxvKn9Sxyv351HuHbggclwOuFfX4=";
+    hash = "sha256-Ff3j14rC2ZHhNJLPxvKn9Sxyv351HuHbggclwOuFfX4=";
   };
 
   nativeBuildInputs = [

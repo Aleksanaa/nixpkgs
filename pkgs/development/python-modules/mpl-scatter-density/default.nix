@@ -25,7 +25,7 @@ buildPythonPackage rec {
     owner = "astrofrog";
     repo = pname;
     rev = "refs/tags/v${version}";
-    sha256 = "sha256-MMxM+iv5p9ZLcBpqa3tBBPbsMM/PTg6BXaDpGgSw+DE=";
+    hash = "sha256-MMxM+iv5p9ZLcBpqa3tBBPbsMM/PTg6BXaDpGgSw+DE=";
   };
 
   patches = [
@@ -33,7 +33,7 @@ buildPythonPackage rec {
     (fetchpatch {
       name = "distutils-removal.patch";
       url = "https://github.com/ifurther/mpl-scatter-density/commit/6feedabe1e82da67d8eec46a80eb370d9f334251.patch";
-      sha256 = "sha256-JqWlSm8mIwqjRPa+kMEaKipJyzGEO+gJK+Q045N1MXA=";
+      hash = "sha256-JqWlSm8mIwqjRPa+kMEaKipJyzGEO+gJK+Q045N1MXA=";
     })
   ];
 

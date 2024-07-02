@@ -61,7 +61,7 @@ let
         version = "v20201206-cjk";
       in
       "https://github.com/googlefonts/noto-cjk/raw/${version}/NotoSansCJKsc-Regular.otf";
-    sha256 = "sha256-aJXSVNJ+p6wMAislXUn4JQilLhimNSedbc9nAuPVxo4=";
+    hash = "sha256-aJXSVNJ+p6wMAislXUn4JQilLhimNSedbc9nAuPVxo4=";
   };
 
   runtimeLibs = lib.makeLibraryPath [
@@ -79,7 +79,7 @@ stdenv.mkDerivation rec {
   minor = null;
   src = fetchurl {
     url = "https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v${version}/onlyoffice-desktopeditors_amd64.deb";
-    sha256 = "sha256-O9gC/b5/eZ1YImuXpEZOJhI1rzCNuFrm5IqablnYo9Y=";
+    hash = "sha256-O9gC/b5/eZ1YImuXpEZOJhI1rzCNuFrm5IqablnYo9Y=";
   };
 
   nativeBuildInputs = [

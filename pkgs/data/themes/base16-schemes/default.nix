@@ -8,7 +8,7 @@ stdenv.mkDerivation (finalAttrs: {
     owner = "tinted-theming";
     repo = "schemes";
     rev = "395074124283df993571f2abb9c713f413b76e6e";
-    sha256 = "sha256-9LmwYbtTxNFiP+osqRUbOXghJXpYvyvAwBwW80JMO7s=";
+    hash = "sha256-9LmwYbtTxNFiP+osqRUbOXghJXpYvyvAwBwW80JMO7s=";
   };
 
   installPhase = ''

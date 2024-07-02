@@ -24,7 +24,7 @@ mkDerivation rec {
     owner = "munt";
     repo = "munt";
     rev = "${char2underscore "-" pname}_${char2underscore "." version}";
-    sha256 = "sha256-PqYPYnKPlnU3PByxksBscl4GqDRllQdmD6RWpy/Ura0=";
+    hash = "sha256-PqYPYnKPlnU3PByxksBscl4GqDRllQdmD6RWpy/Ura0=";
   };
 
   postPatch = ''

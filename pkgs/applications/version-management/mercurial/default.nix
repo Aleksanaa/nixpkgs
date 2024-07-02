@@ -37,7 +37,7 @@ let
     cargoDeps = if rustSupport then rustPlatform.fetchCargoTarball {
       inherit src;
       name = "mercurial-${version}";
-      sha256 = "sha256-G5tzwoIGOgpVI35rYXDeelnBgTbAiq7BDcXCHQzqSrs=";
+      hash = "sha256-G5tzwoIGOgpVI35rYXDeelnBgTbAiq7BDcXCHQzqSrs=";
       sourceRoot = "mercurial-${version}/rust";
     } else null;
     cargoRoot = if rustSupport then "rust" else null;

@@ -8,7 +8,7 @@ buildGoModule rec {
     owner = "cloudposse";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-drreGXCYpjF1UD1OUzuGh2rezEhHw7Zq0Y6JujLsMMk=";
+    hash = "sha256-drreGXCYpjF1UD1OUzuGh2rezEhHw7Zq0Y6JujLsMMk=";
   };
 
   vendorHash = "sha256-ojl+dGrj+zmE2lqlclq3jA0K6AXdi9Ofhd4GA6nVrDo=";

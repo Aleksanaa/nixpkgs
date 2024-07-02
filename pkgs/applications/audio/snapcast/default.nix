@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
     owner  = "badaix";
     repo   = "snapcast";
     rev    = "v${version}";
-    sha256 = "sha256-XxpiLojs1TI3qM7yXS+OPcHKo6pLcfJ+Eop7GjQ4HQw=";
+    hash = "sha256-XxpiLojs1TI3qM7yXS+OPcHKo6pLcfJ+Eop7GjQ4HQw=";
   };
 
   nativeBuildInputs = [ cmake pkg-config ];

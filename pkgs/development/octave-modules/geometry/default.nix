@@ -11,7 +11,7 @@ buildOctavePackage rec {
   src = fetchhg {
     url = "http://hg.code.sf.net/p/octave/${pname}";
     rev = "04965cda30b5f9e51774194c67879e7336df1710";
-    sha256 = "sha256-ECysYOJMF4gPiCFung9hFSlyyO60X3MGirQ9FlYDix8=";
+    hash = "sha256-ECysYOJMF4gPiCFung9hFSlyyO60X3MGirQ9FlYDix8=";
   };
 
   requiredOctavePackages = [

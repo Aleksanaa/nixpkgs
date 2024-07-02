@@ -18,7 +18,7 @@ stdenv.mkDerivation (finalAttrs: {
   # NOTE: Only URL tarball has "Have pre-generated man pages: true", which works-around upstream usage of some rare ancient `c2man` fossil application.
   src = fetchurl {
     url = with finalAttrs; "https://github.com/fribidi/fribidi/releases/download/v${version}/${pname}-${version}.tar.xz";
-    sha256 = "sha256-f6FsgMgb1iL3sZjTE1baE5zDGKY/x3YSF69BMJA/VKI=";
+    hash = "sha256-f6FsgMgb1iL3sZjTE1baE5zDGKY/x3YSF69BMJA/VKI=";
   };
 
   postPatch = ''

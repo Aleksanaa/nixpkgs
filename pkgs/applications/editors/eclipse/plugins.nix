@@ -440,7 +440,7 @@ rec {
     src = fetchzip {
       stripRoot = true;
       url = "https://github.com/eclipse-embed-cdt/eclipse-plugins/archive/v${version}.zip";
-      sha256 = "sha256-0wHRIls48NGDQzD+wuX79Thgiax+VVYVPJw2Z6NEzsg=";
+      hash = "sha256-0wHRIls48NGDQzD+wuX79Thgiax+VVYVPJw2Z6NEzsg=";
     };
 
     meta = with lib; {

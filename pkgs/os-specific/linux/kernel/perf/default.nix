@@ -45,7 +45,7 @@ let
 
     src = fetchurl {
       url = "https://registry.npmjs.org/d3-flame-graph/-/d3-flame-graph-${version}.tgz";
-      sha256 = "sha256-W5/Vh5jarXUV224aIiTB2TnBFYT3naEIcG2945QjY8Q=";
+      hash = "sha256-W5/Vh5jarXUV224aIiTB2TnBFYT3naEIcG2945QjY8Q=";
     };
 
     installPhase = ''

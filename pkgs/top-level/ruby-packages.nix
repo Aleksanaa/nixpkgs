@@ -2872,7 +2872,7 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "sha256-On/KnfdO5kHcHom4MCrG0D8iiD3nceeGoOnzCU5apq0=";
+      hash = "sha256-On/KnfdO5kHcHom4MCrG0D8iiD3nceeGoOnzCU5apq0=";
       type = "gem";
     };
     version = "7.1.3.4";

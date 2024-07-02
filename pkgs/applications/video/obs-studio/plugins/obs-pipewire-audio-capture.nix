@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
     owner = "dimtpap";
     repo = pname;
     rev = version;
-    sha256 = "sha256-dL/+Y1uaD+7EY0UNWbxvh1TTLYfgk07qCqLLGvfzWZk=";
+    hash = "sha256-dL/+Y1uaD+7EY0UNWbxvh1TTLYfgk07qCqLLGvfzWZk=";
   };
 
   nativeBuildInputs = [ cmake ninja pkg-config ];

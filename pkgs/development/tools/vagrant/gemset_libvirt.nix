@@ -47,7 +47,7 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "sha256-z0VkRqFk3JU02ULQ+xQbywekzrJgz1YPDul//Ov5ajU=";
+      hash = "sha256-z0VkRqFk3JU02ULQ+xQbywekzrJgz1YPDul//Ov5ajU=";
       type = "gem";
     };
     version = "0.11.0";
@@ -109,7 +109,7 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "sha256-RrLSRMxv8BqJv2EnRpDAn9vcpHqErp6sOQOegSMa7nw=";
+      hash = "sha256-RrLSRMxv8BqJv2EnRpDAn9vcpHqErp6sOQOegSMa7nw=";
       type = "gem";
     };
     version = "2.8.2";
@@ -130,7 +130,7 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "sha256-INyAC4++TE9LWxZOaqOrgqNxvLJ+toXBZpYcNN2KItc=";
+      hash = "sha256-INyAC4++TE9LWxZOaqOrgqNxvLJ+toXBZpYcNN2KItc=";
       type = "gem";
     };
     version = "1.15.2";
@@ -140,7 +140,7 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "sha256-r2QSSDb908AOgwcD1/hz6l3qvekj83AGo59aXg2hY4c=";
+      hash = "sha256-r2QSSDb908AOgwcD1/hz6l3qvekj83AGo59aXg2hY4c=";
       type = "gem";
     };
     version = "1.7.1";
@@ -160,7 +160,7 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "sha256-0hEx5RnIbxpbwrbS1X1G5pmOR/GO0kmyXK2GQz29aV0=";
+      hash = "sha256-0hEx5RnIbxpbwrbS1X1G5pmOR/GO0kmyXK2GQz29aV0=";
       type = "gem";
     };
     version = "1.1.9";
@@ -170,7 +170,7 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "sha256-NrQv++UTjdxWGCEHwkrY1rBm7P0odoKfOR46SZPYmuE=";
+      hash = "sha256-NrQv++UTjdxWGCEHwkrY1rBm7P0odoKfOR46SZPYmuE=";
       type = "gem";
     };
     version = "3.4.2";
@@ -191,7 +191,7 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "sha256-NMiRjrVQo2Ui9nOJwpDmNJUk+95gsT85pwFMIiw3bwQ=";
+      hash = "sha256-NMiRjrVQo2Ui9nOJwpDmNJUk+95gsT85pwFMIiw3bwQ=";
       type = "gem";
     };
     version = "0.12.2";

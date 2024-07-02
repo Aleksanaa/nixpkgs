@@ -9,7 +9,7 @@ stdenv.mkDerivation rec {
     owner = "a";
     repo = "zenpower3";
     rev = "c176fdb0d5bcba6ba2aba99ea36812e40f47751f";
-    sha256 = "sha256-d2WH8Zv7F0phZmEKcDiaak9On+Mo9bAFhMulT/N5FWI=";
+    hash = "sha256-d2WH8Zv7F0phZmEKcDiaak9On+Mo9bAFhMulT/N5FWI=";
   };
 
   hardeningDisable = [ "pic" ];

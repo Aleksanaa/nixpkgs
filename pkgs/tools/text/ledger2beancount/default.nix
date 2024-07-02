@@ -21,7 +21,7 @@ in stdenv.mkDerivation rec {
     owner = "beancount";
     repo = "ledger2beancount";
     rev = version;
-    sha256 = "sha256-2LIP3ljK1HMAwjk2ueIf9pFL+UUnGDgx9GYNtRztdFY=";
+    hash = "sha256-2LIP3ljK1HMAwjk2ueIf9pFL+UUnGDgx9GYNtRztdFY=";
   };
 
   dontBuild = true;

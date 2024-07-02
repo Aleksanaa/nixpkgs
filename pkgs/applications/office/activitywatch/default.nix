@@ -22,7 +22,7 @@ let
     owner = "ActivityWatch";
     repo = "activitywatch";
     rev = "v${version}";
-    sha256 = "sha256-IvRXfxTOSgBVlxy4SVij+POr7KgvXTEjGN3lSozhHkY=";
+    hash = "sha256-IvRXfxTOSgBVlxy4SVij+POr7KgvXTEjGN3lSozhHkY=";
     fetchSubmodules = true;
   };
 in

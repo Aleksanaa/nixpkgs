@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
     owner = "g-truc";
     repo = pname;
     rev = version;
-    sha256 = "sha256-F//+3L5Ozrw6s7t4LrcUmO7sN30ZSESdrPAYX57zgr8=";
+    hash = "sha256-F//+3L5Ozrw6s7t4LrcUmO7sN30ZSESdrPAYX57zgr8=";
   };
 
   # (https://github.com/g-truc/glm/pull/986 wasn't enough, and -Werror is used)

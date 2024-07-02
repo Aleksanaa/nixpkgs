@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
     owner = "vgmstream";
     repo = "vgmstream";
     rev = "refs/tags/r${version}";
-    sha256 = "sha256-9HIa5/whdLouUWNFml7tPfXStIkO76dxUl5S4yiat64=";
+    hash = "sha256-9HIa5/whdLouUWNFml7tPfXStIkO76dxUl5S4yiat64=";
   };
 
   passthru.updateScript = nix-update-script {

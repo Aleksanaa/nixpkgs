@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
     owner = "ipxe";
     repo = "wimboot";
     rev = "v${version}";
-    sha256 = "sha256-AFPuHxcDM/cdEJ5nRJnVbPk7Deg97NeSMsg/qwytZX4=";
+    hash = "sha256-AFPuHxcDM/cdEJ5nRJnVbPk7Deg97NeSMsg/qwytZX4=";
   };
 
   sourceRoot = "${src.name}/src";

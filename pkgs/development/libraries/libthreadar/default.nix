@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://sourceforge/libthreadar/${pname}-${version}.tar.gz";
-    sha256 = "sha256-LkcVF4AnuslzpIg/S8sGNJQye6iGcQRGqCqAhg8aN5E=";
+    hash = "sha256-LkcVF4AnuslzpIg/S8sGNJQye6iGcQRGqCqAhg8aN5E=";
   };
 
   outputs = [ "out" "dev" ];

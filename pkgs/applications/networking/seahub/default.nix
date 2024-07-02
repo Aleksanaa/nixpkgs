@@ -21,14 +21,14 @@ python.pkgs.buildPythonApplication rec {
     owner = "haiwen";
     repo = "seahub";
     rev = "e8c02236c0eaca6dde009872745f089da4b77e6e"; # using a fixed revision because upstream may re-tag releases :/
-    sha256 = "sha256-7JXWKEFqCsC+ZByhvyP8AmDpajT3hpgyYDNUqc3wXyg=";
+    hash = "sha256-7JXWKEFqCsC+ZByhvyP8AmDpajT3hpgyYDNUqc3wXyg=";
   };
 
   patches = [
     (fetchpatch {
       # PIL update fix
       url = "https://patch-diff.githubusercontent.com/raw/haiwen/seahub/pull/5570.patch";
-      sha256 = "sha256-7V2aRlacJ7Qhdi9k4Bs+t/Emx+EAM/NNCI+K40bMwLA=";
+      hash = "sha256-7V2aRlacJ7Qhdi9k4Bs+t/Emx+EAM/NNCI+K40bMwLA=";
     })
   ];
 

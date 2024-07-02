@@ -8,7 +8,7 @@ mkDerivation rec {
     owner = "leo-editor";
     repo = "leo-editor";
     rev = version;
-    sha256 = "sha256-cawcfEz9QpsjfgJzG5oA5TY2EpT8hLDw5QIjwdKPW6Y=";
+    hash = "sha256-cawcfEz9QpsjfgJzG5oA5TY2EpT8hLDw5QIjwdKPW6Y=";
   };
 
   dontBuild = true;

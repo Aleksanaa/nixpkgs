@@ -44,7 +44,7 @@ stdenv.mkDerivation rec {
     # Patch: https://github.com/surge-synthesizer/surge/pull/4845
     (fetchpatch {
       url = "https://github.com/surge-synthesizer/surge/commit/7a552038bab4b000d188ae425aa97963dc91db17.patch";
-      sha256 = "sha256-5Flf0uJqEK6e+sadB+vr6phdvvdZYXcFFfm4ywhAeW0=";
+      hash = "sha256-5Flf0uJqEK6e+sadB+vr6phdvvdZYXcFFfm4ywhAeW0=";
       name = "glibc_build_fix.patch";
     })
   ];

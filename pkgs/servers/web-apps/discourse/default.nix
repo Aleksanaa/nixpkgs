@@ -52,7 +52,7 @@ let
     owner = "discourse";
     repo = "discourse";
     rev = "v${version}";
-    sha256 = "sha256-JUCFtB5BvBytO3flq9o6iI3HPmvLU358HEmE6wbBsSk=";
+    hash = "sha256-JUCFtB5BvBytO3flq9o6iI3HPmvLU358HEmE6wbBsSk=";
   };
 
   ruby = ruby_3_2;

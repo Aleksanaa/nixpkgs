@@ -12,7 +12,7 @@ buildOctavePackage rec {
     owner = "gnu-octave";
     repo = "statistics";
     rev = "refs/tags/release-${version}";
-    sha256 = "sha256-XJXDiVDg3Nw7a/ih49jtkYRmyvAhTfs3LbBQmw+87oc=";
+    hash = "sha256-XJXDiVDg3Nw7a/ih49jtkYRmyvAhTfs3LbBQmw+87oc=";
   };
 
   requiredOctavePackages = [

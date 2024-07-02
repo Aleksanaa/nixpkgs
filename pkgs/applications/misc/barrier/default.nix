@@ -12,7 +12,7 @@ mkDerivation rec {
     owner = "debauchee";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-2tHqLF3zS3C4UnOVIZfpcuzaemC9++nC7lXgFnFSfKU=";
+    hash = "sha256-2tHqLF3zS3C4UnOVIZfpcuzaemC9++nC7lXgFnFSfKU=";
     fetchSubmodules = true;
   };
 
@@ -22,7 +22,7 @@ mkDerivation rec {
     (fetchpatch {
       name = "add-missing-cstddef-header.patch";
       url = "https://github.com/debauchee/barrier/commit/4b12265ae5d324b942698a3177e1d8b1749414d7.patch";
-      sha256 = "sha256-ajMxP7szBFi4h8cMT3qswfa3k/QiJ1FGI3q9fkCFQQk=";
+      hash = "sha256-ajMxP7szBFi4h8cMT3qswfa3k/QiJ1FGI3q9fkCFQQk=";
     })
   ];
 

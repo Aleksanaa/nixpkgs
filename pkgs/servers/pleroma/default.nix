@@ -14,7 +14,7 @@ beamPackages.mixRelease rec {
     owner = "pleroma";
     repo = "pleroma";
     rev = "v${version}";
-    sha256 = "sha256-ZiupcCu6ES/G9rsdNo5+JXOIPhb4CHT2YhKThWiLisw=";
+    hash = "sha256-ZiupcCu6ES/G9rsdNo5+JXOIPhb4CHT2YhKThWiLisw=";
   };
 
   patches = [
@@ -34,7 +34,7 @@ beamPackages.mixRelease rec {
           owner = "lanodan";
           repo = "prometheus.ex";
           rev = "31f7fbe4b71b79ba27efc2a5085746c4011ceb8f";
-          sha256 = "sha256-2PZP+YnwnHt69HtIAQvjMBqBbfdbkRSoMzb1AL2Zsyc=";
+          hash = "sha256-2PZP+YnwnHt69HtIAQvjMBqBbfdbkRSoMzb1AL2Zsyc=";
         };
         beamDeps = with final; [ prometheus ];
       };

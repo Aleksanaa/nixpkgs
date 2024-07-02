@@ -10,7 +10,7 @@ mkDerivation rec {
     owner = "vigri";
     repo = "scantailor-advanced";
     rev = "v${version}";
-    sha256 = "sha256-mvoCoYdRTgXW5t8yd9Y9TOl7D3RDVwcjUv2YDUWrtRI=";
+    hash = "sha256-mvoCoYdRTgXW5t8yd9Y9TOl7D3RDVwcjUv2YDUWrtRI=";
   };
 
   nativeBuildInputs = [ cmake qttools ];

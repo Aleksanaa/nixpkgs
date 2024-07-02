@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://releases.pagure.org/mailcap/mailcap-${version}.tar.xz";
-    sha256 = "sha256-Xuou8XswSXe6PsuHr61DGfoEQPgl5Pb7puj6L/64h4U=";
+    hash = "sha256-Xuou8XswSXe6PsuHr61DGfoEQPgl5Pb7puj6L/64h4U=";
   };
 
   installPhase = ''

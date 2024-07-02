@@ -15,7 +15,7 @@ stdenv.mkDerivation rec {
     owner = "martijnvanbrummelen";
     repo = "nwipe";
     rev = "v${version}";
-    sha256 = "sha256-7WI8AwWkg9rOjAbOyDgCVOpeMxvJ5Bd1yvzfSv6TPLs=";
+    hash = "sha256-7WI8AwWkg9rOjAbOyDgCVOpeMxvJ5Bd1yvzfSv6TPLs=";
   };
 
   nativeBuildInputs = [

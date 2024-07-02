@@ -27,7 +27,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://xfce/src/${category}/${pname}/${lib.versions.majorMinor version}/${pname}-${version}.tar.bz2";
-    sha256 = "sha256-bBYFpzjl30DghNCKyT+WLNRFCTOW3h6b+tx6tFiMNrY=";
+    hash = "sha256-bBYFpzjl30DghNCKyT+WLNRFCTOW3h6b+tx6tFiMNrY=";
   };
 
   nativeBuildInputs = [

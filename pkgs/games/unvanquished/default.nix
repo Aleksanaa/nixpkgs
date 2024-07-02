@@ -40,7 +40,7 @@ let
     repo = "Unvanquished";
     rev = "v${version}";
     fetchSubmodules = true;
-    sha256 = "sha256-F8U9UBFCe0PcFYZ2DThQwhouO22jKyWb0/ABhprHXCU=";
+    hash = "sha256-F8U9UBFCe0PcFYZ2DThQwhouO22jKyWb0/ABhprHXCU=";
   };
 
   unvanquished-binary-deps = stdenv.mkDerivation rec {
@@ -50,7 +50,7 @@ let
 
     src = fetchzip {
       url = "https://dl.unvanquished.net/deps/linux-amd64-default_${version}.tar.xz ";
-      sha256 = "sha256-5n8gRvTuke4e7EaZ/5G+dtCG6qmnawhtA1IXIFQPkzA=";
+      hash = "sha256-5n8gRvTuke4e7EaZ/5G+dtCG6qmnawhtA1IXIFQPkzA=";
     };
 
     dontPatchELF = true;

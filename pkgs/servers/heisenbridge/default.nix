@@ -8,7 +8,7 @@ python3.pkgs.buildPythonApplication rec {
     owner = "hifi";
     repo = pname;
     rev = "refs/tags/v${version}";
-    sha256 = "sha256-1ljRwJYdIKWuTRDnH2EcZ6zQp4o4Rx+/9OqjX6J4gDA=";
+    hash = "sha256-1ljRwJYdIKWuTRDnH2EcZ6zQp4o4Rx+/9OqjX6J4gDA=";
   };
 
   postPatch = ''

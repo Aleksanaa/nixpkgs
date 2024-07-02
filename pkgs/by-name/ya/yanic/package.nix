@@ -12,7 +12,7 @@ buildGoModule rec {
     owner = "FreifunkBremen";
     repo = "yanic";
     rev = "v${version}";
-    sha256 = "sha256-UxTlo8HkC5iTfcfTAlhSkRQo8QJhI03JDSSItuE7BCE=";
+    hash = "sha256-UxTlo8HkC5iTfcfTAlhSkRQo8QJhI03JDSSItuE7BCE=";
   };
 
   vendorHash = "sha256-D9V53/+C/+iv1U4kVrYWzJ8iD0MA1QcR8f5ifejFhLo=";

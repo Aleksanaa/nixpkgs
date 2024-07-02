@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://sourceforge/tboot/${pname}-${version}.tar.gz";
-    sha256 = "sha256-faTdvjjTFXZEoHeVQ1HMTfU+215yruiliFQcQbc/1VA=";
+    hash = "sha256-faTdvjjTFXZEoHeVQ1HMTfU+215yruiliFQcQbc/1VA=";
   };
 
   buildInputs = [ openssl trousers zlib ];

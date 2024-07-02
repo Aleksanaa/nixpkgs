@@ -10,7 +10,7 @@ buildDunePackage rec {
     owner = "briskml";
     repo = "brisk-reconciler";
     rev = "c9d5c4cf5dd17ff2da994de2c3b0f34c72778f70";
-    sha256 = "sha256-AAB4ZzBnwfwFXOAqX/sIT6imOl70F0YNMt96SWOOE9w=";
+    hash = "sha256-AAB4ZzBnwfwFXOAqX/sIT6imOl70F0YNMt96SWOOE9w=";
   };
 
   nativeBuildInputs = [ reason ];

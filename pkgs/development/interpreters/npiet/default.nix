@@ -14,7 +14,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://www.bertnase.de/npiet/npiet-${version}.tar.gz";
-    sha256 = "sha256-Le2FYGKr1zWZ6F4edozmvGC6LbItx9aptidj3KBLhVo=";
+    hash = "sha256-Le2FYGKr1zWZ6F4edozmvGC6LbItx9aptidj3KBLhVo=";
   };
 
   buildInputs = [ gd giflib libpng ];

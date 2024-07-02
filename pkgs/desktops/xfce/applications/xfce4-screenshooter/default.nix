@@ -27,7 +27,7 @@ mkXfceDerivation {
   version = "1.10.6";
   odd-unstable = false;
 
-  sha256 = "sha256-g3wYIyJEnYCFhCs6YXzfEe5lnvIY8ACN/m7He+ww3mA=";
+  hash = "sha256-g3wYIyJEnYCFhCs6YXzfEe5lnvIY8ACN/m7He+ww3mA=";
 
   nativeBuildInputs = [
     wayland-scanner

@@ -69,7 +69,7 @@ in python.pkgs.buildPythonApplication rec {
     (fetchpatch {
       name = "ntfy-Add-compatibility-with-emoji-2.0.patch";
       url = "https://github.com/dschep/ntfy/commit/4128942bb7a706117e7154a50a73b88f531631fe.patch";
-      sha256 = "sha256-V8dIy/K957CPFQQS1trSI3gZOjOcVNQLgdWY7g17bRw=";
+      hash = "sha256-V8dIy/K957CPFQQS1trSI3gZOjOcVNQLgdWY7g17bRw=";
     })
   ];
 

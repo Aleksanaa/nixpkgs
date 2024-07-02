@@ -18,7 +18,7 @@
       owner = "openstenoproject";
       repo = "plover";
       rev = "v${version}";
-      sha256 = "sha256-oJ7+R3ZWhUbNTTAw1AfMg2ur8vW1XEbsa5FgSTam1Ns=";
+      hash = "sha256-oJ7+R3ZWhUbNTTAw1AfMg2ur8vW1XEbsa5FgSTam1Ns=";
     };
 
     # I'm not sure why we don't find PyQt5 here but there's a similar

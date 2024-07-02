@@ -8,7 +8,7 @@ python3Packages.buildPythonPackage rec {
     owner = "nwg-piotr";
     repo = pname;
     rev = "refs/tags/v${version}";
-    sha256 = "sha256-GKDAdjO67aedCEFHKDukQ+oPMomTPwFE/CvJu112fus=";
+    hash = "sha256-GKDAdjO67aedCEFHKDukQ+oPMomTPwFE/CvJu112fus=";
   };
 
   nativeBuildInputs = [ gobject-introspection wrapGAppsHook3 ];

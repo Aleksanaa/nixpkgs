@@ -12,7 +12,7 @@ in stdenv.mkDerivation {
     owner = "Mange";
     repo = "rtl8192eu-linux-driver";
     rev = "27410641da6926eb1ac565068ff89d35f7496328";
-    sha256 = "sha256-/BztTE3yKw35Oo7KkzHMtD+8qpJNXWiSwR3YjrotR0I=";
+    hash = "sha256-/BztTE3yKw35Oo7KkzHMtD+8qpJNXWiSwR3YjrotR0I=";
   };
 
   hardeningDisable = [ "pic" ];

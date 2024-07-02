@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
     owner = "jliljebl";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-WXB071lndw4/APTgwxNVjmYBvzMXZdLn1OaWqBXjW2Q=";
+    hash = "sha256-WXB071lndw4/APTgwxNVjmYBvzMXZdLn1OaWqBXjW2Q=";
   };
 
   buildInputs = [

@@ -9741,7 +9741,7 @@ with self; {
     pname = "File-DirList";
     src = fetchurl {
       url = "mirror://cpan/authors/id/T/TP/TPABA/File-DirList/File-DirList-0.05.tar.gz";
-      sha256 = "sha256-mTt9dmLlV5hEih7azLmr0oHSvSO+fquZ9Wm44pYtO8M=";
+      hash = "sha256-mTt9dmLlV5hEih7azLmr0oHSvSO+fquZ9Wm44pYtO8M=";
     };
     preCheck = ''
       export HOME="$TMPDIR"

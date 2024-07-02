@@ -70,7 +70,7 @@ stdenv.mkDerivation rec {
     # https://github.com/netdata/netdata/pull/17661
     (fetchpatch {
       url = "https://patch-diff.githubusercontent.com/raw/netdata/netdata/pull/17661.patch";
-      sha256 = "sha256-j+mrwkibQio2KO8UnV7sxzCoHmkcsalHNzP+YvrRz74=";
+      hash = "sha256-j+mrwkibQio2KO8UnV7sxzCoHmkcsalHNzP+YvrRz74=";
     })
   ];
 

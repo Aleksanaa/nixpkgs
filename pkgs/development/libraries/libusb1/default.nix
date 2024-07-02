@@ -22,7 +22,7 @@ stdenv.mkDerivation rec {
     owner = "libusb";
     repo = "libusb";
     rev = "v${version}";
-    sha256 = "sha256-OtzYxWwiba0jRK9X+4deWWDDTeZWlysEt0qMyGUarDo=";
+    hash = "sha256-OtzYxWwiba0jRK9X+4deWWDDTeZWlysEt0qMyGUarDo=";
   };
 
   outputs = [ "out" "dev" ] ++ lib.optionals withDocs [ "doc" ];

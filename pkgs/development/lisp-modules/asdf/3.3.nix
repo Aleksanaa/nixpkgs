@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "http://common-lisp.net/project/asdf/archives/asdf-${version}.tar.gz";
-    sha256 = "sha256-NkjvNlLqJnBAfOxC9ECTtmuS5K+0v5ZXOw2xt8l7vgk=";
+    hash = "sha256-NkjvNlLqJnBAfOxC9ECTtmuS5K+0v5ZXOw2xt8l7vgk=";
   };
 
   patches = [

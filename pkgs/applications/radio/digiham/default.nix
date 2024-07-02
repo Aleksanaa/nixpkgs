@@ -10,7 +10,7 @@ stdenv.mkDerivation rec {
     owner = "jketterl";
     repo = pname;
     rev = version;
-    sha256 = "sha256-nKNA5xAhM/lyyvFJnajWwY0hwVZhLApbDkXoUYFjlt0=";
+    hash = "sha256-nKNA5xAhM/lyyvFJnajWwY0hwVZhLApbDkXoUYFjlt0=";
   };
 
   nativeBuildInputs = [

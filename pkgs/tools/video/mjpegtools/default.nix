@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://sourceforge/mjpeg/mjpegtools-${version}.tar.gz";
-    sha256 = "sha256-sYBTbX2ZYLBeACOhl7ANyxAJKaSaq3HRnVX0obIQ9Jo=";
+    hash = "sha256-sYBTbX2ZYLBeACOhl7ANyxAJKaSaq3HRnVX0obIQ9Jo=";
   };
 
   # Clang 16 defaults to C++17. `std::auto_ptr` has been removed from C++17, and the

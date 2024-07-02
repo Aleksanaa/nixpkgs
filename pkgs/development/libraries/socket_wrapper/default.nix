@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://samba/cwrap/socket_wrapper-${version}.tar.gz";
-    sha256 = "sha256-CgjsJJ3Z/7s7FtV3s1LVc1YfV77uw1lhgqxuyORrmrY=";
+    hash = "sha256-CgjsJJ3Z/7s7FtV3s1LVc1YfV77uw1lhgqxuyORrmrY=";
   };
 
   nativeBuildInputs = [ cmake pkg-config ];

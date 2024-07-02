@@ -28,7 +28,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://www.midnight-commander.org/downloads/${pname}-${version}.tar.xz";
-    sha256 = "sha256-JBkc+GZ2dbjjH8Sp0YoKZb3AWYwsXE6gkklM0Tq0qxo=";
+    hash = "sha256-JBkc+GZ2dbjjH8Sp0YoKZb3AWYwsXE6gkklM0Tq0qxo=";
   };
 
   nativeBuildInputs = [ pkg-config unzip ]

@@ -11,7 +11,7 @@ let
     owner = "dotnet";
     repo = "runtime";
     rev = coreclr-version;
-    sha256 = "sha256-n7ySUTB4XOXxeeVomySdZIYepdp0PNNGW9pU/2wwVGM=";
+    hash = "sha256-n7ySUTB4XOXxeeVomySdZIYepdp0PNNGW9pU/2wwVGM=";
   };
 
   dotnet-sdk = dotnetCorePackages.sdk_7_0;

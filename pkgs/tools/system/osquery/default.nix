@@ -24,7 +24,7 @@ buildStdenv.mkDerivation rec {
     repo = "osquery";
     rev = version;
     fetchSubmodules = true;
-    sha256 = "sha256-Q6PQVnBjAjAlR725fyny+RhQFUNwxWGjLDuS5p9JKlU=";
+    hash = "sha256-Q6PQVnBjAjAlR725fyny+RhQFUNwxWGjLDuS5p9JKlU=";
   };
 
   patches = [

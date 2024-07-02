@@ -9,7 +9,7 @@ stdenv.mkDerivation rec {
     owner = "i3";
     repo = "i3lock";
     rev = version;
-    sha256 = "sha256-OyV6GSLnNV3GUqrfs3OBnIaBvicH2PXgeY4acOk5dR4=";
+    hash = "sha256-OyV6GSLnNV3GUqrfs3OBnIaBvicH2PXgeY4acOk5dR4=";
   };
 
   nativeBuildInputs = [ meson ninja pkg-config ];

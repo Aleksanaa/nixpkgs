@@ -14,7 +14,7 @@ stdenv.mkDerivation rec {
     owner = "letoams";
     repo = pname;
     rev = version;
-    sha256 = "sha256-c6IZHUFuhcccUWZYSOUGFbKpTtwMclIvEvDX8gE5d8o=";
+    hash = "sha256-c6IZHUFuhcccUWZYSOUGFbKpTtwMclIvEvDX8gE5d8o=";
   };
 
   pythonPath = with python3.pkgs; [

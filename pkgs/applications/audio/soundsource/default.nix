@@ -9,7 +9,7 @@ stdenvNoCC.mkDerivation (finalAttrs: {
 
   src = fetchurl {
     url = "https://web.archive.org/web/20240505002011/https://rogueamoeba.com/soundsource/download/SoundSource.zip";
-    sha256 = "sha256-uXQw4MEV4hkrd7tjNCxtuXpbfmdW8bilI5ZmXwn9BLM=";
+    hash = "sha256-uXQw4MEV4hkrd7tjNCxtuXpbfmdW8bilI5ZmXwn9BLM=";
   };
   dontUnpack = true;
 

@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
     owner = "dimtpap";
     repo = "obs-scale-to-sound";
     rev = version;
-    sha256 = "sha256-q/zNHPazNwmd7GHXrxNgajtOhcW+oTgH9rkIBzJpdpA=";
+    hash = "sha256-q/zNHPazNwmd7GHXrxNgajtOhcW+oTgH9rkIBzJpdpA=";
   };
 
   nativeBuildInputs = [ cmake ];

@@ -12,7 +12,7 @@ buildDunePackage rec {
     owner = "niols";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-cbguAddSlUxBK7pmT7vNmtJW9TrVZZjdSJRMT3lqxOA=";
+    hash = "sha256-cbguAddSlUxBK7pmT7vNmtJW9TrVZZjdSJRMT3lqxOA=";
   };
 
   propagatedBuildInputs = [

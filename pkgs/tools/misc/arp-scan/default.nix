@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
     owner = "royhills";
     repo = "arp-scan";
     rev = version;
-    sha256 = "sha256-BS+ItZd6cSMX92M6XGYrIeAiCB2iBdvbMvKdLfwawLQ=";
+    hash = "sha256-BS+ItZd6cSMX92M6XGYrIeAiCB2iBdvbMvKdLfwawLQ=";
   };
 
   patches = [

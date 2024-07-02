@@ -5,7 +5,7 @@ let
   inherit (python3Packages) python gyp six;
   utdic = fetchurl {
     url = "https://osdn.net/downloads/users/39/39056/mozcdic-ut-20220904.tar.bz2";
-    sha256 = "sha256-pmLBCcw2Zsirzl1PjYkviRIZoyfUz5rpESeABDxuhtU=";
+    hash = "sha256-pmLBCcw2Zsirzl1PjYkviRIZoyfUz5rpESeABDxuhtU=";
   };
   japanese_usage_dictionary = fetchFromGitHub {
     owner = "hiroyuki-komatsu";

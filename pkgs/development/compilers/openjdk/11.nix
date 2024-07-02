@@ -25,7 +25,7 @@ let
       owner = "openjdk";
       repo = "jdk${major}u";
       rev = "jdk-${version}";
-      sha256 = "sha256-6y6wge8ZuSKBpb5QNihvAlD4Pv/0d3AQCPOkxUm/sJk=";
+      hash = "sha256-6y6wge8ZuSKBpb5QNihvAlD4Pv/0d3AQCPOkxUm/sJk=";
     };
 
     nativeBuildInputs = [ pkg-config autoconf unzip ];

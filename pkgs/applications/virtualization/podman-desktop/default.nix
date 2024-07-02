@@ -20,12 +20,12 @@ stdenv.mkDerivation (finalAttrs: {
     owner = "containers";
     repo = "podman-desktop";
     rev = "v${finalAttrs.version}";
-    sha256 = "sha256-gEjcI+bfETYZB/pHDXRcNxNVDsbwuqQL1E22fMkIJHI=";
+    hash = "sha256-gEjcI+bfETYZB/pHDXRcNxNVDsbwuqQL1E22fMkIJHI=";
   };
 
   offlineCache = fetchYarnDeps {
     yarnLock = "${finalAttrs.src}/yarn.lock";
-    sha256 = "sha256-x0hqNxi6r1i3vBe1tJQl+Oht2St9VIH3Eq27MZLkojA=";
+    hash = "sha256-x0hqNxi6r1i3vBe1tJQl+Oht2St9VIH3Eq27MZLkojA=";
   };
 
   patches = [

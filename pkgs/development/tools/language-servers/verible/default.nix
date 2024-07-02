@@ -39,7 +39,7 @@ buildBazelPackage rec {
   ];
 
   fetchAttrs = {
-    sha256 = "sha256-2YruKvU7OZQ7mKNrqYITat+cmf/DEytDElYw7CvkxJk=";
+    hash = "sha256-2YruKvU7OZQ7mKNrqYITat+cmf/DEytDElYw7CvkxJk=";
   };
 
   nativeBuildInputs = [

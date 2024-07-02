@@ -13,14 +13,14 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://www-fourier.ujf-grenoble.fr/~parisse/debian/dists/stable/main/source/giac_${version}.tar.gz";
-    sha256 = "sha256-466jB8ZRqHkU5XCY+j0Fh7Dq/mMaOu10rHECKbtNGrs=";
+    hash = "sha256-466jB8ZRqHkU5XCY+j0Fh7Dq/mMaOu10rHECKbtNGrs=";
   };
 
   patches = [
     (fetchpatch {
       name = "pari_2_11.patch";
       url = "https://raw.githubusercontent.com/sagemath/sage/21ba7540d385a9864b44850d6987893dfa16bfc0/build/pkgs/giac/patches/pari_2_11.patch";
-      sha256 = "sha256-vEo/5MNzMdYRPWgLFPsDcMT1W80Qzj4EPBjx/B8j68k=";
+      hash = "sha256-vEo/5MNzMdYRPWgLFPsDcMT1W80Qzj4EPBjx/B8j68k=";
     })
 
     # giac calls scanf/printf with non-constant first arguments, which
@@ -28,7 +28,7 @@ stdenv.mkDerivation rec {
     (fetchpatch {
       name = "fix-string-compiler-error.patch";
       url = "https://salsa.debian.org/science-team/giac/-/raw/9ca8dbf4bb16d9d96948aa4024326d32485d7917/debian/patches/fix-string-compiler-error.patch";
-      sha256 = "sha256-r+M+9MRPRqhHcdhYWI6inxyNvWbXUbBcPCeDY7aulvk=";
+      hash = "sha256-r+M+9MRPRqhHcdhYWI6inxyNvWbXUbBcPCeDY7aulvk=";
     })
 
     # increase pari stack size for test chk_fhan{4,6}
@@ -39,7 +39,7 @@ stdenv.mkDerivation rec {
     (fetchpatch {
       name = "nofltk-check.patch";
       url = "https://raw.githubusercontent.com/sagemath/sage/7553a3c8dfa7bcec07241a07e6a4e7dcf5bb4f26/build/pkgs/giac/patches/nofltk-check.patch";
-      sha256 = "sha256-nAl5q3ufLjK3X9s0qMlGNowdRRf3EaC24eVtJABzdXY=";
+      hash = "sha256-nAl5q3ufLjK3X9s0qMlGNowdRRf3EaC24eVtJABzdXY=";
     })
   ];
 

@@ -28,7 +28,7 @@ stdenv.mkDerivation rec {
     owner = "linuxmint";
     repo = "slick-greeter";
     rev = version;
-    sha256 = "sha256-Q37CprukHvDRBcuPbfusKg2DY+JCwmjVX1+KnfSH2iw=";
+    hash = "sha256-Q37CprukHvDRBcuPbfusKg2DY+JCwmjVX1+KnfSH2iw=";
   };
 
   nativeBuildInputs = [

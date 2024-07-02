@@ -224,7 +224,7 @@ stdenv.mkDerivation (rec {
     # fix hyperlinked haddock sources: https://github.com/haskell/haddock/pull/1482
     (fetchpatch {
       url = "https://patch-diff.githubusercontent.com/raw/haskell/haddock/pull/1482.patch";
-      sha256 = "sha256-8w8QUCsODaTvknCDGgTfFNZa8ZmvIKaKS+2ZJZ9foYk=";
+      hash = "sha256-8w8QUCsODaTvknCDGgTfFNZa8ZmvIKaKS+2ZJZ9foYk=";
       extraPrefix = "utils/haddock/";
       stripLen = 1;
     })

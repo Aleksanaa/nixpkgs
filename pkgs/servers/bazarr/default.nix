@@ -14,7 +14,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://github.com/morpheus65535/bazarr/releases/download/v${version}/bazarr.zip";
-    sha256 = "sha256-tmTdmUfRBRlB14juNxUo65Re+9agUBX0BBSuNu3pSC0=";
+    hash = "sha256-tmTdmUfRBRlB14juNxUo65Re+9agUBX0BBSuNu3pSC0=";
   };
 
   nativeBuildInputs = [ unzip makeWrapper ];

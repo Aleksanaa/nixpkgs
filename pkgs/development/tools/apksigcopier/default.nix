@@ -15,7 +15,7 @@ python3.pkgs.buildPythonApplication rec {
     owner = "obfusk";
     repo = "apksigcopier";
     rev = "refs/tags/v${version}";
-    sha256 = "sha256-VuwSaoTv5qq1jKwgBTKd1y9RKUzz89n86Z4UBv7Q51o=";
+    hash = "sha256-VuwSaoTv5qq1jKwgBTKd1y9RKUzz89n86Z4UBv7Q51o=";
   };
 
   nativeBuildInputs = [

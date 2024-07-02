@@ -6,7 +6,7 @@ mkDerivation rec {
 
   src = fetchurl {
     url = "http://www.xm1math.net/texmaker/${pname}-${version}.tar.bz2";
-    sha256 = "sha256-MgUE1itxtZHAa30LEgKsdQoxEv4soyjjBYAFXrMI/qY=";
+    hash = "sha256-MgUE1itxtZHAa30LEgKsdQoxEv4soyjjBYAFXrMI/qY=";
   };
 
   buildInputs = [ qtbase qtscript poppler zlib qtwebengine ];

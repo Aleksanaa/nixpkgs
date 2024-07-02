@@ -22,12 +22,12 @@
       { cases = [ "8.6"                 (range "1.6" "1.7") ];  out = "1.1"; }
     ] null;
   release = {
-    "2.2.0".sha256 = "sha256-Cie6paweITwPZy6ej9+qIvHFWknVR382uJPW927t/fo=";
-    "2.1.0".sha256 = "sha256-QT91SBJ6DXhyg4j/okTvPP6yj2DnnPbnSlJ/p8pvZbY=";
-    "2.0.0".sha256 = "sha256-2zWHzMBsO2j8EjN7CgCmKQcku9Be8aVlme0LD5p4ab8=";
-    "1.6.0".sha256 = "sha256-lEM+sjqajIOm1c3lspHqcSIARgMR9RHbTQH4veHLJfU=";
-    "1.5.6".sha256 = "sha256-cMixgc34T9Ic6v+tYmL49QUNpZpPV5ofaNuHqblX6oY=";
-    "1.5.5".sha256 = "sha256-VdXA51vr7DZl/wT/15YYMywdD7Gh91dMP9t7ij47qNQ=";
+    "2.2.0".hash = "sha256-Cie6paweITwPZy6ej9+qIvHFWknVR382uJPW927t/fo=";
+    "2.1.0".hash = "sha256-QT91SBJ6DXhyg4j/okTvPP6yj2DnnPbnSlJ/p8pvZbY=";
+    "2.0.0".hash = "sha256-2zWHzMBsO2j8EjN7CgCmKQcku9Be8aVlme0LD5p4ab8=";
+    "1.6.0".hash = "sha256-lEM+sjqajIOm1c3lspHqcSIARgMR9RHbTQH4veHLJfU=";
+    "1.5.6".hash = "sha256-cMixgc34T9Ic6v+tYmL49QUNpZpPV5ofaNuHqblX6oY=";
+    "1.5.5".hash = "sha256-VdXA51vr7DZl/wT/15YYMywdD7Gh91dMP9t7ij47qNQ=";
     "1.5.4".sha256 = "0s4sbh4y88l125hdxahr56325hdhxxdmqmrz7vv8524llyv3fciq";
     "1.5.3".sha256 = "1462x40y2qydjd2wcg8r6qr8cx3xv4ixzh2h8vp9h7arylkja1qd";
     "1.5.2".sha256 = "15aspf3jfykp1xgsxf8knqkxv8aav2p39c2fyirw7pwsfbsv2c4s";

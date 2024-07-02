@@ -8,7 +8,7 @@ stdenv.mkDerivation {
     owner = "aircrack-ng";
     repo = "rtl8188eus";
     rev = "3fae7237ba121f1169e9a2ea55040dc123697d3b";
-    sha256 = "sha256-ILSMEt9nMdg1ZbFeatWm8Yxf6a/E7Vm7KtKhN933KTc=";
+    hash = "sha256-ILSMEt9nMdg1ZbFeatWm8Yxf6a/E7Vm7KtKhN933KTc=";
   };
 
   prePatch = ''

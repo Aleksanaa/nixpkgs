@@ -29,7 +29,7 @@ stdenv.mkDerivation rec {
     # see https://github.com/JohnCremona/eclib/issues/64#issuecomment-789788561
     # for upstream's explanation of the above
     url = "https://github.com/JohnCremona/eclib/releases/download/v${version}/eclib-${version}.tar.bz2";
-    sha256 = "sha256-O6kI4gGd5T/LoUFEnKpvqC8DYFv4O/nagJLfU4ravnw=";
+    hash = "sha256-O6kI4gGd5T/LoUFEnKpvqC8DYFv4O/nagJLfU4ravnw=";
   };
   buildInputs = [
     pari

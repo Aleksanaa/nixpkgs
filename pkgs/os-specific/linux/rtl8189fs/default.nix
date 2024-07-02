@@ -9,7 +9,7 @@ rtl8189es.overrideAttrs (drv: rec {
     owner = "jwrdegoede";
     repo = "rtl8189ES_linux";
     rev = "5d523593f41c0b8d723c6aa86b217ee1d0965786";
-    sha256 = "sha256-pziaUM6XfF4Tt9yfWUnLUiTw+sw6uZrr1HcaXdRQ31E=";
+    hash = "sha256-pziaUM6XfF4Tt9yfWUnLUiTw+sw6uZrr1HcaXdRQ31E=";
   };
 
   meta = with lib; {

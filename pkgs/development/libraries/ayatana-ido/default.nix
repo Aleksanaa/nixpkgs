@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
     owner = "AyatanaIndicators";
     repo = pname;
     rev = version;
-    sha256 = "sha256-Y+5fHUe1HAjU/cy7jWKE7zVQUezJNFg4q9tn7H1+NuA=";
+    hash = "sha256-Y+5fHUe1HAjU/cy7jWKE7zVQUezJNFg4q9tn7H1+NuA=";
   };
 
   nativeBuildInputs = [ pkg-config cmake ];

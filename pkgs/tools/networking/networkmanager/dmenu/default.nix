@@ -10,7 +10,7 @@ in stdenv.mkDerivation rec {
     owner = "firecat53";
     repo = "networkmanager-dmenu";
     rev = "v${version}";
-    sha256 = "sha256-RbJE6JCElctBY5HDJa6SIJhm8g9BugncLF5kmambPPc=";
+    hash = "sha256-RbJE6JCElctBY5HDJa6SIJhm8g9BugncLF5kmambPPc=";
   };
 
   nativeBuildInputs = [ gobject-introspection ];

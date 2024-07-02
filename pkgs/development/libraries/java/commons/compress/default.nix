@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url    = "mirror://apache/commons/compress/binaries/${pname}-${version}-bin.tar.gz";
-    sha256 = "sha256-EyGbVhcsuEhLfKh0TPFjySFd9/Z8BEBhkslpfdu4er8=";
+    hash = "sha256-EyGbVhcsuEhLfKh0TPFjySFd9/Z8BEBhkslpfdu4er8=";
   };
 
   installPhase = ''

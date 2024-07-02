@@ -16,7 +16,7 @@ python310Packages.buildPythonApplication rec {
     owner = "rndusr";
     repo = "stig";
     rev = "v${version}";
-    sha256 = "sha256-vfmuA6DqWvAygcS6N+qX1h+Ag+P4eOwm41DhAFZR3r8=";
+    hash = "sha256-vfmuA6DqWvAygcS6N+qX1h+Ag+P4eOwm41DhAFZR3r8=";
   };
 
   propagatedBuildInputs = with python310Packages; [

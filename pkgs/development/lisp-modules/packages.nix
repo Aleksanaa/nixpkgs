@@ -55,7 +55,7 @@ let
       # The update isn't available on quicklisp yet, but we can fetch from upstream directly
       (pkgs.fetchpatch {
         url = "https://github.com/alex-gutev/cl-environments/commit/1bd7ecf68adeaf654616c6fb763c1239e0f2e221.patch";
-        sha256 = "sha256-i6KdthYqPlJPvxM2c2kossHYvXNhpZHl/7NzELNrOHU=";
+        hash = "sha256-i6KdthYqPlJPvxM2c2kossHYvXNhpZHl/7NzELNrOHU=";
       })
     ];
   });
@@ -130,7 +130,7 @@ let
     version = "0.1-632217602";
     src = pkgs.fetchzip {
       url = "https://beta.quicklisp.org/archive/cl-facts/2022-11-06/cl-facts-20221106-git.tgz";
-      sha256 = "sha256-PBpyyJYkq1NjKK9VikSAL4TmrGRwUJlEWRSeKj/f4Sc=";
+      hash = "sha256-PBpyyJYkq1NjKK9VikSAL4TmrGRwUJlEWRSeKj/f4Sc=";
     };
     lispLibs = [ self.lessp self.rollback self.local-time ];
   };
@@ -213,7 +213,7 @@ let
     src = pkgs.fetchgit {
       url = "https://codeberg.org/cage/cl-colors2";
       rev = "v0.5.4";
-      sha256 = "sha256-JbT1BKjaXDwdlzHLPjX1eg0RMIOT86R17SPgbe2h+tA=";
+      hash = "sha256-JbT1BKjaXDwdlzHLPjX1eg0RMIOT86R17SPgbe2h+tA=";
     };
   };
 
@@ -250,7 +250,7 @@ let
       owner = "atlas-engineer";
       repo = "njson";
       rev = version;
-      sha256 = "sha256-kw5DD0GJp/TeCiYATBY8GL8UKqYS6Q4j0a0eQsdcZRc=";
+      hash = "sha256-kw5DD0GJp/TeCiYATBY8GL8UKqYS6Q4j0a0eQsdcZRc=";
     };
     lispLibs = [ self.cl-json self.com_dot_inuoe_dot_jzon];
     systems = [ "njson" "njson/cl-json" "njson/jzon"];
@@ -263,7 +263,7 @@ let
       owner = "atlas-engineer";
       repo = "nsymbols";
       rev = version;
-      sha256 = "sha256-psk29WEA7Hxgp29oUniBNvI+lyZfMkdpa5A7okc6kKs=";
+      hash = "sha256-psk29WEA7Hxgp29oUniBNvI+lyZfMkdpa5A7okc6kKs=";
     };
     lispLibs = [ self.closer-mop ];
     systems = [ "nsymbols" "nsymbols/star" ];
@@ -277,7 +277,7 @@ let
       owner = "atlas-engineer";
       repo = "nclasses";
       rev = version;
-      sha256 = "sha256-foXmaLxMYMFieB2Yd2iPsU4EX5kLXq7kyElqGZ47OgI=";
+      hash = "sha256-foXmaLxMYMFieB2Yd2iPsU4EX5kLXq7kyElqGZ47OgI=";
     };
     lispLibs = [ self.moptilities ];
   };
@@ -289,7 +289,7 @@ let
       owner = "atlas-engineer";
       repo = "nfiles";
       rev = version;
-      sha256 = "sha256-4rhpBErQgZHcwZRblxgiYaUmKalvllSbJjnRteDVH6k=";
+      hash = "sha256-4rhpBErQgZHcwZRblxgiYaUmKalvllSbJjnRteDVH6k=";
     };
     lispLibs = [
       self.nclasses
@@ -727,7 +727,7 @@ let
     src = pkgs.fetchfossil {
       url = "https://fossil.turtleware.eu/polyclot";
       rev = "e678b3c3e002f53b446780406c9ed13f8451309d22a1dc50ced4dbeedf08a1ec";
-      sha256 = "sha256-J08bU9HSVbzEivYtQsyIYPZJTrugj+jJSa4LglS0Olg=";
+      hash = "sha256-J08bU9HSVbzEivYtQsyIYPZJTrugj+jJSa4LglS0Olg=";
     };
     systems = [ "eu.turtleware.polyclot" "eu.turtleware.polyclot/demo" ];
     lispLibs = with self; [ clim mcclim mcclim-layouts ];
@@ -757,7 +757,7 @@ let
       owner = "nikodemus";
       repo = "sb-cga";
       rev = "9a554ea1c01cac998ff7eaa5f767bc5bcdc4c094";
-      sha256 = "sha256-iBM+VXu6JRqGmeIFzfXbGot+elvangmfSpDB7DjFpPg";
+      hash = "sha256-iBM+VXu6JRqGmeIFzfXbGot+elvangmfSpDB7DjFpPg";
     };
     lispLibs = [ self.alexandria ];
   };

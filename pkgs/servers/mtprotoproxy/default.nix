@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
     owner = "alexbers";
     repo = "mtprotoproxy";
     rev = "v${version}";
-    sha256 = "sha256-tQ6e1Y25V4qAqBvhhKdirSCYzeALfH+PhNtcHTuBurs=";
+    hash = "sha256-tQ6e1Y25V4qAqBvhhKdirSCYzeALfH+PhNtcHTuBurs=";
   };
 
   nativeBuildInputs = [ wrapPython ];

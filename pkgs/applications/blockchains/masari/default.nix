@@ -9,7 +9,7 @@ stdenv.mkDerivation rec {
     owner = "masari-project";
     repo = "masari";
     rev = "ff71f52220858b84a4403dab9a14339bcad57826";
-    sha256 = "sha256-GunNFqZNgpLfyAA9BiBC98axgTQuK76z3BUl5T0iJqs=";
+    hash = "sha256-GunNFqZNgpLfyAA9BiBC98axgTQuK76z3BUl5T0iJqs=";
   };
 
   postPatch = ''

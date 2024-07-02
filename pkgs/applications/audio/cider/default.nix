@@ -6,7 +6,7 @@ appimageTools.wrapType2 rec {
 
   src = fetchurl {
     url = "https://github.com/ciderapp/Cider/releases/download/v${version}/Cider-${version}.AppImage";
-    sha256 = "sha256-NwoV1eeAN0u9VXWpu5mANXhmgqe8u3h7BlsREP1f/pI=";
+    hash = "sha256-NwoV1eeAN0u9VXWpu5mANXhmgqe8u3h7BlsREP1f/pI=";
   };
 
   extraInstallCommands =

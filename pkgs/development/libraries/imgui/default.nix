@@ -67,7 +67,7 @@ stdenv.mkDerivation rec {
     owner = "ocornut";
     repo = "imgui";
     rev = "v${version}";
-    sha256 = "sha256-FSob6FPfg0tF0n72twA5/moLvEaB251BPkIDJUXhYbg=";
+    hash = "sha256-FSob6FPfg0tF0n72twA5/moLvEaB251BPkIDJUXhYbg=";
   };
 
   cmakeRules = "${vcpkgSource}/ports/imgui";

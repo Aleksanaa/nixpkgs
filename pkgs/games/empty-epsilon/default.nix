@@ -15,7 +15,7 @@ let
     owner = "BinomialLLC";
     repo = "basis_universal";
     rev = version.basis-universal;
-    sha256 = "sha256-2snzq/SnhWHIgSbUUgh24B6tka7EfkGO+nwKEObRkU4=";
+    hash = "sha256-2snzq/SnhWHIgSbUUgh24B6tka7EfkGO+nwKEObRkU4=";
   };
 
   serious-proton = stdenv.mkDerivation {
@@ -26,7 +26,7 @@ let
       owner = "daid";
       repo = "SeriousProton";
       rev = "EE-${version.seriousproton}";
-      sha256 = "sha256-0gCwWvx7ceJG3VmVVufRkwreuHn41pl7jHsJXzNwqaE=";
+      hash = "sha256-0gCwWvx7ceJG3VmVVufRkwreuHn41pl7jHsJXzNwqaE=";
     };
 
     nativeBuildInputs = [ cmake ];
@@ -56,7 +56,7 @@ stdenv.mkDerivation {
     owner = "daid";
     repo = "EmptyEpsilon";
     rev = "EE-${version.emptyepsilon}";
-    sha256 = "sha256-pLnyzahGEPb2cEwH89RE5Jq8UHIoDWXatmDWdeZ+rqo=";
+    hash = "sha256-pLnyzahGEPb2cEwH89RE5Jq8UHIoDWXatmDWdeZ+rqo=";
   };
 
   nativeBuildInputs = [ cmake ];

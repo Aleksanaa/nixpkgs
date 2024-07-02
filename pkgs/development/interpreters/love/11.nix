@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
     owner = "love2d";
     repo = "love";
     rev = version;
-    sha256 = "sha256-wZktNh4UB3QH2wAIIlnYUlNoXbjEDwUmPnT4vesZNm0=";
+    hash = "sha256-wZktNh4UB3QH2wAIIlnYUlNoXbjEDwUmPnT4vesZNm0=";
   };
 
   nativeBuildInputs = [ pkg-config autoconf automake ];

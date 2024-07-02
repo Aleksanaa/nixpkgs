@@ -9,7 +9,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://download.osgeo.org/shapelib/shapelib-${version}.tar.gz";
-    sha256 = "sha256-GVKLJDdyQXBWNzIMNnlDAxrVCIZl0fsOHqpSpxJkpsQ=";
+    hash = "sha256-GVKLJDdyQXBWNzIMNnlDAxrVCIZl0fsOHqpSpxJkpsQ=";
   };
 
   doCheck = true;

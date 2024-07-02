@@ -43,7 +43,7 @@ in rustPlatform.buildRustPackage rec {
     owner = "casperstorm";
     repo = "ajour";
     rev = version;
-    sha256 = "sha256-oVaNLclU0EVNtxAASE8plXcC+clkwhBeb9pz1vXufV0=";
+    hash = "sha256-oVaNLclU0EVNtxAASE8plXcC+clkwhBeb9pz1vXufV0=";
   };
 
   cargoLock = {

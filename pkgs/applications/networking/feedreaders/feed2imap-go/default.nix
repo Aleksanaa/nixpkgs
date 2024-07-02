@@ -8,7 +8,7 @@ buildGoModule rec {
     owner = "Necoro";
     repo = "feed2imap-go";
     rev = "v${version}";
-    sha256 = "sha256-Qtpg8DvIFkba+Do8IwemBF0rt85wS4Tq7yOLsdpQFCs=";
+    hash = "sha256-Qtpg8DvIFkba+Do8IwemBF0rt85wS4Tq7yOLsdpQFCs=";
   };
 
   ldflags = [

@@ -91,19 +91,19 @@ in
 {
   z3_4_12 = common {
     version = "4.12.5";
-    sha256 = "sha256-Qj9w5s02OSMQ2qA7HG7xNqQGaUacA1d4zbOHynq5k+A=";
+    hash = "sha256-Qj9w5s02OSMQ2qA7HG7xNqQGaUacA1d4zbOHynq5k+A=";
   };
   z3_4_11 = common {
     version = "4.11.2";
-    sha256 = "sha256-OO0wtCvSKwGxnKvu+AfXe4mEzv4nofa7A00BjX+KVjc=";
+    hash = "sha256-OO0wtCvSKwGxnKvu+AfXe4mEzv4nofa7A00BjX+KVjc=";
   };
   z3_4_8 = common {
     version = "4.8.17";
-    sha256 = "sha256-BSwjgOU9EgCcm18Zx0P9mnoPc9ZeYsJwEu0ffnACa+8=";
+    hash = "sha256-BSwjgOU9EgCcm18Zx0P9mnoPc9ZeYsJwEu0ffnACa+8=";
   };
   z3_4_8_5 = common {
     tag = "Z3";
     version = "4.8.5";
-    sha256 = "sha256-ytG5O9HczbIVJAiIGZfUXC/MuYH7d7yLApaeTRlKXoc=";
+    hash = "sha256-ytG5O9HczbIVJAiIGZfUXC/MuYH7d7yLApaeTRlKXoc=";
   };
 }

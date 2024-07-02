@@ -12,7 +12,7 @@ python3Packages.buildPythonApplication rec {
     owner = "gauteh";
     repo = "lieer";
     rev = "refs/tags/v${version}";
-    sha256 = "sha256-z3OGCjLsOi6K1udChlSih8X6e2qvT8kNhh2PWBGB9zU=";
+    hash = "sha256-z3OGCjLsOi6K1udChlSih8X6e2qvT8kNhh2PWBGB9zU=";
   };
 
   propagatedBuildInputs = with python3Packages; [

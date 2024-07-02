@@ -20,7 +20,7 @@ mkDerivation rec {
     owner = "Brewtarget";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-PqaiZ2eLH8+qRRkIolnQClTL9O9EgHMqFH/nUffosV8=";
+    hash = "sha256-PqaiZ2eLH8+qRRkIolnQClTL9O9EgHMqFH/nUffosV8=";
   };
 
   nativeBuildInputs = [ cmake boost xercesc xalanc ];

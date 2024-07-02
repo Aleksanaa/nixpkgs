@@ -23,7 +23,7 @@ buildPythonApplication rec {
     repo = "linux-cli-community";
     # There is a tag and branch with the same name
     rev = "refs/tags/v${version}";
-    sha256 = "sha256-vNbqjdkIRK+MkYRKUUe7W5Ytc1PU1t5ZLr9fPDOZXUs=";
+    hash = "sha256-vNbqjdkIRK+MkYRKUUe7W5Ytc1PU1t5ZLr9fPDOZXUs=";
   };
 
   propagatedBuildInputs = [

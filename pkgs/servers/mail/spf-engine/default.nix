@@ -7,7 +7,7 @@ buildPythonApplication rec {
 
   src = fetchurl {
     url = "https://launchpad.net/${pname}/${lib.versions.majorMinor version}/${version}/+download/${pname}-${version}.tar.gz";
-    sha256 = "sha256-Gcw7enNIb/TrZEYa0Z04ezHUmfMmc1J+aEH6FlXbhTo=";
+    hash = "sha256-Gcw7enNIb/TrZEYa0Z04ezHUmfMmc1J+aEH6FlXbhTo=";
   };
 
   nativeBuildInputs = [ flit-core ];

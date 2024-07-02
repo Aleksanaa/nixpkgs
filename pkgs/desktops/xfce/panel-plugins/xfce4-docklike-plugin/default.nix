@@ -14,7 +14,7 @@ mkXfceDerivation {
   category = "panel-plugins";
   pname = "xfce4-docklike-plugin";
   version = "0.4.2";
-  sha256 = "sha256-M/V8cnEU/nSEDjQ3k8fWiklF5OuNg3uzzJMHBSZBiLU=";
+  hash = "sha256-M/V8cnEU/nSEDjQ3k8fWiklF5OuNg3uzzJMHBSZBiLU=";
 
   buildInputs = [
     cairo

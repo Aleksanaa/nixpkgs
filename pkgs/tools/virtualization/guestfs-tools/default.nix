@@ -33,7 +33,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://download.libguestfs.org/guestfs-tools/${lib.versions.majorMinor version}-stable/guestfs-tools-${version}.tar.gz";
-    sha256 = "sha256-Iv0TIpcEX5CmdAbw/w7uDyoBBqXxyNz8XDlqYl/3g3Y=";
+    hash = "sha256-Iv0TIpcEX5CmdAbw/w7uDyoBBqXxyNz8XDlqYl/3g3Y=";
   };
 
   nativeBuildInputs = [

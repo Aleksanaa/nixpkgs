@@ -39,7 +39,7 @@ stdenv.mkDerivation rec {
     # data/appdata/meson.build:3:5: ERROR: Function does not take positional arguments.
     (fetchpatch {
       url = "https://gitlab.gnome.org/GNOME/gnome-notes/-/commit/994af76ce5144062d55d141129bf6bf5fab002ee.patch";
-      sha256 = "sha256-z7dPOLZzaqvdqUIDy6+V3dKossRbG0EDjBu2oJCF6b4=";
+      hash = "sha256-z7dPOLZzaqvdqUIDy6+V3dKossRbG0EDjBu2oJCF6b4=";
     })
   ];
 

@@ -10,7 +10,7 @@ stdenv.mkDerivation rec {
 
   src = fetchzip {
     url = "https://gist.github.com/glandium/01d54cefdb70561b5f6675e08f2990f2/archive/f9d2070a7d87388da39acd157e0e53666a7d6ee0.zip";
-    sha256 = "sha256-VqqKYjd8J7Uh5ea+PjLT93cNdQFvGIwGu4bzx+weSvo=";
+    hash = "sha256-VqqKYjd8J7Uh5ea+PjLT93cNdQFvGIwGu4bzx+weSvo=";
   };
 
   hardeningDisable = [ "pic" ];

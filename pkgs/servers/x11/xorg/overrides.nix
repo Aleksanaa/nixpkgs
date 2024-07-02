@@ -731,7 +731,7 @@ self: super:
     patches = [
       (fetchpatch {
         url = "https://aur.archlinux.org/cgit/aur.git/plain/meson.patch?h=mingw-w64-xorgproto&id=7b817efc3144a50e6766817c4ca7242f8ce49307";
-        sha256 = "sha256-Izzz9In53W7CC++k1bLr78iSrmxpFm1cH8qcSpptoUQ=";
+        hash = "sha256-Izzz9In53W7CC++k1bLr78iSrmxpFm1cH8qcSpptoUQ=";
       })
     ];
     meta = attrs.meta // { platforms = lib.platforms.unix ++ lib.platforms.windows; };
@@ -984,7 +984,7 @@ self: super:
       owner = "driver";
       repo = "xf86-video-intel";
       rev = "31486f40f8e8f8923ca0799aea84b58799754564";
-      sha256 = "sha256-nqT9VZDb2kAC72ot9UCdwEkM1uuP9NriJePulzrdZlM=";
+      hash = "sha256-nqT9VZDb2kAC72ot9UCdwEkM1uuP9NriJePulzrdZlM=";
     };
     buildInputs = attrs.buildInputs ++ [ xorg.libXScrnSaver xorg.libXv xorg.pixman xorg.utilmacros ];
     nativeBuildInputs = attrs.nativeBuildInputs ++ [autoreconfHook ];

@@ -14,7 +14,7 @@ stdenv.mkDerivation {
   src = fetchgit {
     url = "https://git.code.sf.net/p/qrc/gitcode";
     rev = "8f1c55eac10ac8af974c3c20157d90ef57f7308a";
-    sha256 = "sha256-AfFScec5/emG/f+yc5Zn37USIEWzGP/sBifE6Kx8d0E=";
+    hash = "sha256-AfFScec5/emG/f+yc5Zn37USIEWzGP/sBifE6Kx8d0E=";
   };
 
   patches = [

@@ -24,7 +24,7 @@ stdenv.mkDerivation rec {
     owner = "mesa";
     repo = "waffle";
     rev = "v${version}";
-    sha256 = "sha256-GVULv/TkCS9CgSFWlskIamw5Z402n684G6jeTLMCPNc=";
+    hash = "sha256-GVULv/TkCS9CgSFWlskIamw5Z402n684G6jeTLMCPNc=";
   };
 
   buildInputs = [

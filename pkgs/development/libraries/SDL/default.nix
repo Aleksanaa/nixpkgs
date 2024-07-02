@@ -102,7 +102,7 @@ stdenv.mkDerivation rec {
     (fetchpatch {
       name = "CVE-2022-34568.patch";
       url = "https://github.com/libsdl-org/SDL-1.2/commit/d7e00208738a0bc6af302723fe64908ac35b777b.patch";
-      sha256 = "sha256-fuxXsqZW94/C8CKu9LakppCU4zHupj66O2MngQ4BO9o=";
+      hash = "sha256-fuxXsqZW94/C8CKu9LakppCU4zHupj66O2MngQ4BO9o=";
     })
   ];
 

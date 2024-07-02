@@ -20,7 +20,7 @@ stdenv.mkDerivation rec {
     owner = "Waqar144";
     repo = pname;
     rev = "9431ac603cef23d6f29e51e18f1eeee156f5bfb3";
-    sha256 = "sha256-w/D4C2ZYgI/7ZCDamTQlhrJ9vtvAMThgM/fopkdKWYc";
+    hash = "sha256-w/D4C2ZYgI/7ZCDamTQlhrJ9vtvAMThgM/fopkdKWYc";
   };
 
   patches = [

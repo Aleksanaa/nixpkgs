@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
     owner = "slirp";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-avUbgXPPV3IhUwZyARxCvctbVlLqDKWmMhAjdVBA3jY=";
+    hash = "sha256-avUbgXPPV3IhUwZyARxCvctbVlLqDKWmMhAjdVBA3jY=";
   };
 
   separateDebugInfo = true;

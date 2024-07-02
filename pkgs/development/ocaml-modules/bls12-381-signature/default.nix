@@ -13,7 +13,7 @@ buildDunePackage rec {
   version = "1.0.0";
   src = fetchzip {
     url = "https://gitlab.com/nomadic-labs/cryptography/ocaml-${pname}/-/archive/${version}/ocaml-bls12-381-signature-${version}.tar.bz2";
-    sha256 = "sha256-KaUpAT+BWxmUP5obi4loR9vVUeQmz3p3zG3CBolUuL4=";
+    hash = "sha256-KaUpAT+BWxmUP5obi4loR9vVUeQmz3p3zG3CBolUuL4=";
   };
 
   duneVersion = "3";

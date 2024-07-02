@@ -17,7 +17,7 @@ python3.pkgs.buildPythonApplication rec {
     owner = "tails";
     repo = "onioncircuits";
     rev = version;
-    sha256 = "sha256-O4tSbKBTmve4u8bXVg128RLyuxvTbU224JV8tQ+aDAQ=";
+    hash = "sha256-O4tSbKBTmve4u8bXVg128RLyuxvTbU224JV8tQ+aDAQ=";
   };
 
   nativeBuildInputs = [
@@ -37,7 +37,7 @@ python3.pkgs.buildPythonApplication rec {
     (fetchpatch {
       name = "fix-setuptool-package-discovery.patch";
       url = "https://gitlab.tails.boum.org/tails/onioncircuits/-/commit/4c620c77f36f540fa27041fcbdeaf05c9f57826c.patch";
-      sha256 = "sha256-WXqyDa2meRMMHkHLO5Xl7x43KUGtlsai+eOVzUGUPpo=";
+      hash = "sha256-WXqyDa2meRMMHkHLO5Xl7x43KUGtlsai+eOVzUGUPpo=";
     })
   ];
 

@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://www.fefe.de/libowfat/${pname}-${version}.tar.xz";
-    sha256 = "sha256-MR7Is/S3K7RC4yP7ATqY+Vb6dFVH8ryUVih7INAnzX0=";
+    hash = "sha256-MR7Is/S3K7RC4yP7ATqY+Vb6dFVH8ryUVih7INAnzX0=";
   };
 
   # Fix for glibc 2.34 from Gentoo

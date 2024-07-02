@@ -22,7 +22,7 @@ stdenv.mkDerivation rec {
     owner = "rpm-software-management";
     repo = "librepo";
     rev = version;
-    sha256 = "sha256-XVjVu+UTIDbrKHmfJ2zZBLp/h0cLCZFxv/XZ0Iy8VPI=";
+    hash = "sha256-XVjVu+UTIDbrKHmfJ2zZBLp/h0cLCZFxv/XZ0Iy8VPI=";
   };
 
   nativeBuildInputs = [

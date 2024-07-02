@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchzip {
     url = "https://github.com/jbangdev/jbang/releases/download/v${version}/${pname}-${version}.tar";
-    sha256 = "sha256-EyyTokVvhIMWOq4dLCi2wynoX++5DoJP20irPdfD58A=";
+    hash = "sha256-EyyTokVvhIMWOq4dLCi2wynoX++5DoJP20irPdfD58A=";
   };
 
   nativeBuildInputs = [ makeWrapper ];

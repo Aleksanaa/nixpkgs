@@ -16,7 +16,7 @@ let
   # Also don’t forget to run `nix-build -A lorri.tests`
   version = "1.6.0";
   gitRev = "1.6.0";
-  sha256 = "sha256-peelMKv9GOTPdyb1iifzlFikeayTchqaYCgeXyR5EgM=";
+  hash = "sha256-peelMKv9GOTPdyb1iifzlFikeayTchqaYCgeXyR5EgM=";
   cargoSha256 = "sha256-UFAmTYnCqsQxBnCm1zMu+BcWIZMuuxvpF7poLlzC6Kg=";
 
 in (rustPlatform.buildRustPackage rec {

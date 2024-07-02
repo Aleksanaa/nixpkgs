@@ -21,7 +21,7 @@ python3Packages.buildPythonPackage rec {
     owner = "AcademySoftwareFoundation";
     repo = "MaterialX";
     rev = "v${version}";
-    sha256 = "sha256-/kMHmW2dptZNtjuhE5s+jvPRIdtY+FRiVtMU+tiBgQo=";
+    hash = "sha256-/kMHmW2dptZNtjuhE5s+jvPRIdtY+FRiVtMU+tiBgQo=";
   };
 
   format = "other";

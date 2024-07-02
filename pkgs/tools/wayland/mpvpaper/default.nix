@@ -22,7 +22,7 @@ stdenv.mkDerivation rec {
     owner = "GhostNaN";
     repo = pname;
     rev = version;
-    sha256 = "sha256-/A2C6T7gP+VGON3Peaz2Y4rNC63UT+zYr4RNM2gdLUY=";
+    hash = "sha256-/A2C6T7gP+VGON3Peaz2Y4rNC63UT+zYr4RNM2gdLUY=";
   };
 
   strictDeps = true;

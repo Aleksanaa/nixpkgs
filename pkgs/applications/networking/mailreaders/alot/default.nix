@@ -25,7 +25,7 @@ with python3.pkgs; buildPythonApplication rec {
     owner = "pazz";
     repo = "alot";
     rev = version;
-    sha256 = "sha256-1reAq8X9VwaaZDY5UfvcFzHDKd71J88CqJgH3+ANjis=";
+    hash = "sha256-1reAq8X9VwaaZDY5UfvcFzHDKd71J88CqJgH3+ANjis=";
   };
 
   postPatch = ''

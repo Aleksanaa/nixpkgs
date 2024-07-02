@@ -31,7 +31,7 @@ let
       owner = "openjdk";
       repo = "jfx${major}u";
       rev = repover;
-      sha256 = "sha256-WV8NHlYlt7buGbirLSorLnS2TnyBD17zUquFfwSL3xE=";
+      hash = "sha256-WV8NHlYlt7buGbirLSorLnS2TnyBD17zUquFfwSL3xE=";
     };
 
     buildInputs = [ gtk2 gtk3 libXtst libXxf86vm glib alsa-lib ffmpeg_4-headless ];

@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url    = "mirror://apache/commons/logging/binaries/commons-logging-${version}-bin.tar.gz";
-    sha256 = "sha256-mM85vfWDc88fNwwflvnRvoh/tb+jDH3o+96RZa9Sp7w=";
+    hash = "sha256-mM85vfWDc88fNwwflvnRvoh/tb+jDH3o+96RZa9Sp7w=";
   };
 
   installPhase = ''

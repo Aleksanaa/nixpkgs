@@ -18,7 +18,7 @@ in {
 
   src = fetchurl {
     url = "https://sourceware.org/pub/bzip2/bzip2-${version}.tar.gz";
-    sha256 = "sha256-q1oDF27hBtPw+pDjgdpHjdrkBZGBU8yiSOaCzQxKImk=";
+    hash = "sha256-q1oDF27hBtPw+pDjgdpHjdrkBZGBU8yiSOaCzQxKImk=";
   };
 
   patchFlags = ["-p0"];
@@ -26,7 +26,7 @@ in {
   patches = [
     (fetchurl {
       url = "ftp://ftp.suse.com/pub/people/sbrabec/bzip2/for_downstream/bzip2-1.0.6.2-autoconfiscated.patch";
-      sha256 = "sha256-QMufl6ffJVVVVZespvkCbFpB6++R1lnq1687jEsUjr0=";
+      hash = "sha256-QMufl6ffJVVVVZespvkCbFpB6++R1lnq1687jEsUjr0=";
     })
   ];
   # Fix up hardcoded version from the above patch, e.g. seen in bzip2.pc or libbz2.so.1.0.N

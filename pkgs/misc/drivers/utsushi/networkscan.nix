@@ -10,7 +10,7 @@ stdenv.mkDerivation rec {
       "https://buzo.eu/mirror/epson/imagescan-bundle-fedora-32-${imagescanVersion}.x64.rpm.tar.gz"
       "https://web.archive.org/web/20221027001620if_/https://download2.ebz.epson.net/imagescanv3/fedora/latest1/rpm/x64/imagescan-bundle-fedora-32-${imagescanVersion}.x64.rpm.tar.gz"
     ];
-    sha256 = "sha256-fxi63sV+YJOlv1aVTfCPIXOPfNAo+R7zNPvA11sFmMk=";
+    hash = "sha256-fxi63sV+YJOlv1aVTfCPIXOPfNAo+R7zNPvA11sFmMk=";
   };
 
   nativeBuildInputs = [ rpmextract ];

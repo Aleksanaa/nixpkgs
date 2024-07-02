@@ -15,7 +15,7 @@ mkDerivation rec {
   version = "8.0";
   src = fetchurl {
     url = "https://tibleiz.net/download/code-browser-${version}-src.tar.gz";
-    sha256 = "sha256-beCp4lx4MI1+hVgWp2h3piE/zu51zfwQdB5g7ImgmwY=";
+    hash = "sha256-beCp4lx4MI1+hVgWp2h3piE/zu51zfwQdB5g7ImgmwY=";
   };
   postPatch = ''
     substituteInPlace Makefile --replace "LFLAGS=-no-pie" "LFLAGS=-no-pie -L."

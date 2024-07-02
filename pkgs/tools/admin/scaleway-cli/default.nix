@@ -8,7 +8,7 @@ buildGoModule rec {
     owner = "scaleway";
     repo = "scaleway-cli";
     rev = "v${version}";
-    sha256 = "sha256-v8KkF5GShMDVjeAoe/bvoqHIBKDJ1hd6RIpu9Zugc6w=";
+    hash = "sha256-v8KkF5GShMDVjeAoe/bvoqHIBKDJ1hd6RIpu9Zugc6w=";
   };
 
   vendorHash = "sha256-Oprca0JX8SmrEGrnalzKt89qrXa5UEbErl8BOFJlHGI=";

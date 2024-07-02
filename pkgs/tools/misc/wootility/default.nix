@@ -13,7 +13,7 @@ appimageTools.wrapType2 rec {
 
   src = fetchurl {
     url = "https://s3.eu-west-2.amazonaws.com/wooting-update/wootility-lekker-linux-latest/wootility-lekker-${version}.AppImage";
-    sha256 = "sha256-JodmF3TThPpXXx1eOnYmYAJ4x5Ylcf35bw3R++5/Buk=";
+    hash = "sha256-JodmF3TThPpXXx1eOnYmYAJ4x5Ylcf35bw3R++5/Buk=";
   };
 
   extraInstallCommands =

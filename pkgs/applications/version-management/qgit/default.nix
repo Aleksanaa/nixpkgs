@@ -8,7 +8,7 @@ mkDerivation rec {
     owner = "tibirna";
     repo = "qgit";
     rev = "${pname}-${version}";
-    sha256 = "sha256-xM0nroWs4WByc2O469zVeAlzKn6LLr+8WDlEdSjtRYI=";
+    hash = "sha256-xM0nroWs4WByc2O469zVeAlzKn6LLr+8WDlEdSjtRYI=";
   };
 
   buildInputs = [ qtbase ];

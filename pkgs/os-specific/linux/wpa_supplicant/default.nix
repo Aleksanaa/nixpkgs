@@ -14,7 +14,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://w1.fi/releases/${pname}-${version}.tar.gz";
-    sha256 = "sha256-IN965RVLODA1X4q0JpEjqHr/3qWf50/pKSqR0Nfhey8=";
+    hash = "sha256-IN965RVLODA1X4q0JpEjqHr/3qWf50/pKSqR0Nfhey8=";
   };
 
   patches = [

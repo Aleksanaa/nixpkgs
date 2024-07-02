@@ -6,7 +6,7 @@ stdenv.mkDerivation (finalAttrs: {
 
   src = fetchurl {
     url = "http://krusty.dt.e-technik.tu-dortmund.de/~ma/leafnode/beta/leafnode-${finalAttrs.version}.tar.bz2";
-    sha256 = "sha256-NOuiy7uHG3JMjV3UAtHDWK6yG6QmvrVljhVe0NdGEHU=";
+    hash = "sha256-NOuiy7uHG3JMjV3UAtHDWK6yG6QmvrVljhVe0NdGEHU=";
   };
 
   configureFlags = [ "--enable-runas-user=nobody" ];

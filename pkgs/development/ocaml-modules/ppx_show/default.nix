@@ -10,7 +10,7 @@ buildDunePackage rec {
     owner = "thierry-martinez";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-YwWAdOtb0zg2hqNkGRiigz/Pci8Jy/QD+WyUEohEsns=";
+    hash = "sha256-YwWAdOtb0zg2hqNkGRiigz/Pci8Jy/QD+WyUEohEsns=";
   };
 
   buildInputs = [

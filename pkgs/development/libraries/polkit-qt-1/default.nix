@@ -18,7 +18,7 @@ mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://kde/stable/${pname}/${pname}-${version}.tar.xz";
-    sha256 = "sha256-LrDyJEWIgpX/or+8DDaThHoPlzu2sMPkzOAhi+fjkH4=";
+    hash = "sha256-LrDyJEWIgpX/or+8DDaThHoPlzu2sMPkzOAhi+fjkH4=";
   };
 
   nativeBuildInputs = [ cmake pkg-config ];

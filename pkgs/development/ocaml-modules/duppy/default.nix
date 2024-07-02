@@ -10,7 +10,7 @@ buildDunePackage rec {
     owner = "savonet";
     repo = "ocaml-duppy";
     rev = "v${version}";
-    sha256 = "sha256-rVdfAMu26YgS/TZk2XPqaR6KTDLbh9Elkf8rjhSnNO4=";
+    hash = "sha256-rVdfAMu26YgS/TZk2XPqaR6KTDLbh9Elkf8rjhSnNO4=";
   };
 
   propagatedBuildInputs = [ re ];

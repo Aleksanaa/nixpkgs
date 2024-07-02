@@ -6,7 +6,7 @@ stdenv.mkDerivation (finalAttrs: {
 
   src = fetchurl {
     url = "https://s3-eu-west-1.amazonaws.com/softwaremill-public/${finalAttrs.pname}-${finalAttrs.version}.jar";
-    sha256 = "sha256-HAxZaZofO24baPTNFqSltNgZekjOLRuCprcAksTSYiY=";
+    hash = "sha256-HAxZaZofO24baPTNFqSltNgZekjOLRuCprcAksTSYiY=";
   };
 
   # don't do anything?

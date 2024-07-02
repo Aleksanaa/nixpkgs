@@ -57,7 +57,7 @@ callPackage (import ./generic.nix (rec {
         # rev = "refs/tags/qemu-xen-${version}";
         # use revision hash - reproducible but must be updated with each new version
         rev = "e2af2d050338c99e8436e251ad67aafb3ebbd501";
-        sha256 = "sha256-gVykPtzAA7tmpe6iVvnulaW+b0jD3gwL1JXC5yeIA7M=";
+        hash = "sha256-gVykPtzAA7tmpe6iVvnulaW+b0jD3gwL1JXC5yeIA7M=";
       };
       buildInputs = qemuDeps;
       postPatch = ''
@@ -91,7 +91,7 @@ callPackage (import ./generic.nix (rec {
       src = fetchgit {
         url = "https://xenbits.xen.org/git-http/seabios.git";
         rev = "155821a1990b6de78dde5f98fa5ab90e802021e0";
-        sha256 = "sha256-F3lzr00CMAObJtpz0eZFT/rwjFx+bvlI37/JtHXP5Eo=";
+        hash = "sha256-F3lzr00CMAObJtpz0eZFT/rwjFx+bvlI37/JtHXP5Eo=";
       };
       patches = [ ./0000-qemu-seabios-enable-ATA_DMA.patch ];
       meta.description = "Xen's fork of Seabios";

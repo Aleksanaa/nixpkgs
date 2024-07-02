@@ -32,7 +32,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://miniupnp.tuxfamily.org/files/miniupnpd-${version}.tar.gz";
-    sha256 = "sha256-Ecp79NS6bGuhLHDDBBgH9Rb02fa2aXvqBOg3YmudZ5w=";
+    hash = "sha256-Ecp79NS6bGuhLHDDBBgH9Rb02fa2aXvqBOg3YmudZ5w=";
   };
 
   buildInputs = [ iptables-legacy libuuid openssl ]

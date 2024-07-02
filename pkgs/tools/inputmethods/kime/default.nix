@@ -24,12 +24,12 @@ stdenv.mkDerivation rec {
     owner = "Riey";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-qLQ6DmV7KHhdXWR5KtO52cmXBm818zKJVj4nxsR14dc=";
+    hash = "sha256-qLQ6DmV7KHhdXWR5KtO52cmXBm818zKJVj4nxsR14dc=";
   };
 
   cargoDeps = rustPlatform.fetchCargoTarball {
     inherit src;
-    sha256 = "sha256-/o9b7YvrpV+IujkllFWAz6Mg4CbS9BInF8antfZ0Vsw=";
+    hash = "sha256-/o9b7YvrpV+IujkllFWAz6Mg4CbS9BInF8antfZ0Vsw=";
   };
 
   # Replace autostart path

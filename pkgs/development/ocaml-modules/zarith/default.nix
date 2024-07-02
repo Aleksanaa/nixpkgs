@@ -14,7 +14,7 @@ stdenv.mkDerivation rec {
     owner = "ocaml";
     repo = "Zarith";
     rev = "release-${version}";
-    sha256 = "sha256-CNVKoJeO3fsmWaV/dwnUA8lgI4ZlxR/LKCXpCXUrpSg=";
+    hash = "sha256-CNVKoJeO3fsmWaV/dwnUA8lgI4ZlxR/LKCXpCXUrpSg=";
   };
 
   nativeBuildInputs = [ pkg-config ocaml findlib ];

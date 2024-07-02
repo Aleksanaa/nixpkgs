@@ -35,7 +35,7 @@ in stdenv.mkDerivation rec {
     owner = "nginx";
     repo = pname;
     rev = version;
-    sha256 = "sha256-YqejETJTbnmXoPsYITJ6hSnd1fIWUc1p5FldYkw2HQI=";
+    hash = "sha256-YqejETJTbnmXoPsYITJ6hSnd1fIWUc1p5FldYkw2HQI=";
   };
 
   nativeBuildInputs = [ which ];

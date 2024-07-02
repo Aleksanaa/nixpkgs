@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
     rev    = version;
     owner  = "clibs";
     repo   = "clib";
-    sha256 = "sha256-znvqxZWkQndxE6s36c77whUPc1UokrofTApFSIKFOtM=";
+    hash = "sha256-znvqxZWkQndxE6s36c77whUPc1UokrofTApFSIKFOtM=";
   };
 
   makeFlags = [ "PREFIX=$(out)" ];

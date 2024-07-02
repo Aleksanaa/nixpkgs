@@ -26,7 +26,7 @@ stdenv.mkDerivation rec {
   src = fetchzip {
     url = "https://www.xp-pen.com/download/file/id/1936/pid/440/ext/gz.html#.tar.gz";
     name = "xp-pen-deco-01-v2-driver-${version}.tar.gz";
-    sha256 = "sha256-A/dv6DpelH0NHjlGj32tKv37S+9q3F8cYByiYlMuqLg=";
+    hash = "sha256-A/dv6DpelH0NHjlGj32tKv37S+9q3F8cYByiYlMuqLg=";
   };
 
   nativeBuildInputs = [

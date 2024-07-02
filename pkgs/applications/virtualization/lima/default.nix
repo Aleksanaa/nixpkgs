@@ -17,7 +17,7 @@ buildGoModule rec {
     owner = "lima-vm";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-ZX2FSZz9q56zWPSHPvXUOf2lzBupjgdTXgWpH1SBJY8=";
+    hash = "sha256-ZX2FSZz9q56zWPSHPvXUOf2lzBupjgdTXgWpH1SBJY8=";
   };
 
   vendorHash = "sha256-P0Qnfu/cqLveAwz9jf/wTXxkoh0jvazlE5C/PcUrWsA=";

@@ -363,7 +363,7 @@ in with passthru; stdenv.mkDerivation (finalAttrs: {
       name = "mingw-python-patches";
       url = "https://src.fedoraproject.org/rpms/mingw-python3.git";
       rev = "45c45833ab9e5480ad0ae00778a05ebf35812ed4"; # for python 3.11.5 at the time of writing.
-      sha256 = "sha256-KIyNvO6MlYTrmSy9V/DbzXm5OsIuyT/BEpuo7Umm9DI=";
+      hash = "sha256-KIyNvO6MlYTrmSy9V/DbzXm5OsIuyT/BEpuo7Umm9DI=";
     };
   in [
     "${mingw-patch}/*.patch"

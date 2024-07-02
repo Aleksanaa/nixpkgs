@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
     owner = "eulerto";
     repo = "wal2json";
     rev = "wal2json_${builtins.replaceStrings ["."] ["_"] version}";
-    sha256 = "sha256-Gpc9uDKrs/dmVSFgdgHM453+TaEnhRh9t0gDbSn8FUI=";
+    hash = "sha256-Gpc9uDKrs/dmVSFgdgHM453+TaEnhRh9t0gDbSn8FUI=";
   };
 
   buildInputs = [ postgresql ];

@@ -20,7 +20,7 @@ stdenv.mkDerivation rec {
     owner = "CCExtractor";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-usVAKBkdd8uz9cD5eLd0hnwGonOJLscRdc+iWDlNXVc=";
+    hash = "sha256-usVAKBkdd8uz9cD5eLd0hnwGonOJLscRdc+iWDlNXVc=";
   };
 
   postPatch = ''

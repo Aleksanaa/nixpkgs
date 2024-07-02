@@ -18,7 +18,7 @@ stdenv.mkDerivation {
   src = fetchgit {
     url = "https://git.code.sf.net/p/c64-debugger/code";
     rev = "f97772e3f5c8b4fa99e8ed212ed1c4cb1e2389f1";
-    sha256 = "sha256-3SR73AHQlYSEYpJLtQ/aJ1UITZGq7aA9tQKxBsn/yuc=";
+    hash = "sha256-3SR73AHQlYSEYpJLtQ/aJ1UITZGq7aA9tQKxBsn/yuc=";
   };
 
   buildInputs = [

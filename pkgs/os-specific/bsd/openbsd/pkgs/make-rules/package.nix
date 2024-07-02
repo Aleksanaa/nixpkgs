@@ -16,7 +16,7 @@ mkDerivation {
   patches = [
     (fetchpatch {
       url = "https://marc.info/?l=openbsd-tech&m=171575284906018&q=raw";
-      sha256 = "sha256-bigxJGbaf9mCmFXxLVzQpnUUaEMMDfF3eZkTXVzd6B8=";
+      hash = "sha256-bigxJGbaf9mCmFXxLVzQpnUUaEMMDfF3eZkTXVzd6B8=";
     })
     ./netbsd-make-sinclude.patch
   ];

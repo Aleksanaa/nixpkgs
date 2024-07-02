@@ -8,7 +8,7 @@ buildGoModule rec {
     owner = "google";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-VAXDkD4JLoiTomCNtuex/ZEAZtWDEEg5cxETYemvQW8=";
+    hash = "sha256-VAXDkD4JLoiTomCNtuex/ZEAZtWDEEg5cxETYemvQW8=";
   };
 
   vendorHash = "sha256-UfULQw7wAEJjTFp6+ACF5Ki04eFKeUEgmbt1c8pUolA=";

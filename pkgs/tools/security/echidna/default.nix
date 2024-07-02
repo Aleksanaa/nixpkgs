@@ -13,7 +13,7 @@ mkDerivation rec {
     owner = "crytic";
     repo = "echidna";
     rev = "v${version}";
-    sha256 = "sha256-l1ILdO+xb0zx/TFM6Am9j5hq1RnIMNf2HU6YvslAj0w=";
+    hash = "sha256-l1ILdO+xb0zx/TFM6Am9j5hq1RnIMNf2HU6YvslAj0w=";
   };
 
   isLibrary = true;

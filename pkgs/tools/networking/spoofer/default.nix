@@ -10,7 +10,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://www.caida.org/projects/spoofer/downloads/${pname}-${version}.tar.gz";
-    sha256 = "sha256-3ljCPmazKz0fHer2yN6baFLu425Dsr9ppdjr2Iv5YJ8=";
+    hash = "sha256-3ljCPmazKz0fHer2yN6baFLu425Dsr9ppdjr2Iv5YJ8=";
   };
 
   nativeBuildInputs = [ pkg-config ];

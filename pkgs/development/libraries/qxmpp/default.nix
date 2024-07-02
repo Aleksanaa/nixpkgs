@@ -18,7 +18,7 @@ mkDerivation rec {
     owner = "qxmpp-project";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-8AF+deDRxipN+YMHE9vUyTaUbSJIckMkB7t3YVtupQs=";
+    hash = "sha256-8AF+deDRxipN+YMHE9vUyTaUbSJIckMkB7t3YVtupQs=";
   };
 
   nativeBuildInputs = [

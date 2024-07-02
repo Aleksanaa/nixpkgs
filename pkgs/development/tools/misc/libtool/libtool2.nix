@@ -15,7 +15,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://gnu/libtool/${pname}-${version}.tar.gz";
-    sha256 = "sha256-BOlsJATqcMWQxUbrpCAqThJyLGQAFsErmy8c49SB6ag=";
+    hash = "sha256-BOlsJATqcMWQxUbrpCAqThJyLGQAFsErmy8c49SB6ag=";
   };
 
   outputs = [ "out" "lib" ];

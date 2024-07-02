@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://gnupg/npth/npth-${version}.tar.bz2";
-    sha256 = "sha256-hYn1aTe3XOM7KNMS/MvzArO3HsPzlF/eaqp0AnkUrQU=";
+    hash = "sha256-hYn1aTe3XOM7KNMS/MvzArO3HsPzlF/eaqp0AnkUrQU=";
   };
 
   patches = [

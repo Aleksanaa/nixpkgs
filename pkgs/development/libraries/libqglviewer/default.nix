@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "http://www.libqglviewer.com/src/libQGLViewer-${version}.tar.gz";
-    sha256 = "sha256-J4+DKgstPvvg1pUhGd+8YFh5C3oPGHaQmDfLZzzkP/M=";
+    hash = "sha256-J4+DKgstPvvg1pUhGd+8YFh5C3oPGHaQmDfLZzzkP/M=";
   };
 
   nativeBuildInputs = [ qmake ];

@@ -26,7 +26,7 @@ let
     owner = "M0rf30";
     repo = pname;
     rev = version;
-    sha256 = "sha256-M3Xwg3G2ZZhPRV7uhFVXQPyvuuY4zI5Z+D/Dt26KVM0=";
+    hash = "sha256-M3Xwg3G2ZZhPRV7uhFVXQPyvuuY4zI5Z+D/Dt26KVM0=";
   };
 
   gradle = gradle_8;

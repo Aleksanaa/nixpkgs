@@ -18,7 +18,7 @@ let
       owner = "martinus";
       repo = pname;
       rev = "v${version}";
-      sha256 = "sha256-9zlWYAY4lOQsL9+MYukqavBi5k96FvglRgznLIwwRyw=";
+      hash = "sha256-9zlWYAY4lOQsL9+MYukqavBi5k96FvglRgznLIwwRyw=";
     };
     nativeBuildInputs = [
       cmake
@@ -34,7 +34,7 @@ stdenv.mkDerivation rec {
     owner = "MikePopoloski";
     repo = "slang";
     rev = "v${version}";
-    sha256 = "sha256-v2sStvukLFMRXGeATxvizmnwEPDE4kwnS06n+37OrJA=";
+    hash = "sha256-v2sStvukLFMRXGeATxvizmnwEPDE4kwnS06n+37OrJA=";
   };
 
   cmakeFlags = [

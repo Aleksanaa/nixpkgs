@@ -6,7 +6,7 @@ mkDerivation rec {
 
   src = fetchurl {
     url = "https://www.toastfreeware.priv.at/tarballs/confclerk/confclerk-${version}.tar.gz";
-    sha256 = "sha256-GgWvPHcQnQrK9SOC8U9F2P8kuPCn8I2EhoWEEMtKBww=";
+    hash = "sha256-GgWvPHcQnQrK9SOC8U9F2P8kuPCn8I2EhoWEEMtKBww=";
   };
 
   buildInputs = [ qtbase ];

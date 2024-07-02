@@ -7,7 +7,7 @@ let
   };
   owdtest = fetchurl {
     url = "https://github.com/NixOS/nixpkgs/files/10099048/owdtest.AppImage.gz";
-    sha256 = "sha256-EEp9dxz/+l5XkNaVBFgv5v64sizQILnljRAzwXv/yV8=";
+    hash = "sha256-EEp9dxz/+l5XkNaVBFgv5v64sizQILnljRAzwXv/yV8=";
   };
 in
   runCommand "appimage-run-tests" {

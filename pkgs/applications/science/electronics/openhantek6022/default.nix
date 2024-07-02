@@ -8,7 +8,7 @@ mkDerivation rec {
     owner = "OpenHantek";
     repo = "OpenHantek6022";
     rev = version;
-    sha256 = "sha256-y2pNLAa0P/r0YEdKjQ3iP66cqtTWERG8lTOZDR64WTk=";
+    hash = "sha256-y2pNLAa0P/r0YEdKjQ3iP66cqtTWERG8lTOZDR64WTk=";
   };
 
   nativeBuildInputs = [ cmake makeWrapper ];

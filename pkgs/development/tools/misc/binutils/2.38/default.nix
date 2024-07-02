@@ -33,7 +33,7 @@ let
   srcs = {
     normal = fetchurl {
       url = "mirror://gnu/binutils/binutils-${version}.tar.bz2";
-      sha256 = "sha256-Bw7HHPB3pqWOC5WfBaCaNQFTeMLYpR6Q866r/jBZDvg=";
+      hash = "sha256-Bw7HHPB3pqWOC5WfBaCaNQFTeMLYpR6Q866r/jBZDvg=";
     };
     vc4-none = fetchFromGitHub {
       owner = "itszor";

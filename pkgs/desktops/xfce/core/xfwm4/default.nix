@@ -7,7 +7,7 @@ mkXfceDerivation {
   pname = "xfwm4";
   version = "4.18.0";
 
-  sha256 = "sha256-nTPgxC0XMBJ48lPCeQgCvWWK1/2ZIoQOYsMeaxDpE1c=";
+  hash = "sha256-nTPgxC0XMBJ48lPCeQgCvWWK1/2ZIoQOYsMeaxDpE1c=";
 
   nativeBuildInputs = [ exo librsvg ];
 

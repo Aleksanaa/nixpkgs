@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://mirrors.kernel.org/sourceware/${pname}/${pname}-${version}.tar.gz";
-    sha256 = "sha256-SmKX1B0V0ZNiVhFxFr1hKW5rm+4j1UoMr40/WrjdzEw=";
+    hash = "sha256-SmKX1B0V0ZNiVhFxFr1hKW5rm+4j1UoMr40/WrjdzEw=";
   };
 
   nativeBuildInputs = [

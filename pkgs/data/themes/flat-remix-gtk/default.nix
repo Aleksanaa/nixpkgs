@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
     owner = "daniruiz";
     repo = pname;
     rev = version;
-    sha256 = "sha256-z/ILu8UPbyEN/ejsxZ3CII3y3dI04ZNa1i6nyjKFis8=";
+    hash = "sha256-z/ILu8UPbyEN/ejsxZ3CII3y3dI04ZNa1i6nyjKFis8=";
   };
 
   dontBuild = true;

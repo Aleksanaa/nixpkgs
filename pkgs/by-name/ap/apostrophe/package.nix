@@ -25,7 +25,7 @@ let
     repo = "apostrophe";
     domain = "gitlab.gnome.org";
     rev = "v${version}";
-    sha256 = "sha256-wKxRCU00nSk7F8IZNWoLRtGs3m6ol3UBnArtppUOz/g=";
+    hash = "sha256-wKxRCU00nSk7F8IZNWoLRtGs3m6ol3UBnArtppUOz/g=";
   };
 
   # Patches are required by upstream. Without the patches

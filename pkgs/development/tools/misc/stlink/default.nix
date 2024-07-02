@@ -24,7 +24,7 @@ in stdenv.mkDerivation rec {
     owner = "stlink-org";
     repo = "stlink";
     rev = "v${version}";
-    sha256 = "sha256-hlFI2xpZ4ldMcxZbg/T5/4JuFFdO9THLcU0DQKSFqrw=";
+    hash = "sha256-hlFI2xpZ4ldMcxZbg/T5/4JuFFdO9THLcU0DQKSFqrw=";
   };
 
   buildInputs = [

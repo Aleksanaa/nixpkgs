@@ -64,11 +64,11 @@ buildDubPackage (
       dependencies = {
         gitver = {
           version = "1.6.1";
-          sha256 = "sha256-NCyFik4FbD7yMLd5zwf/w4cHwhzLhIRSVw1bWo/CZB4=";
+          hash = "sha256-NCyFik4FbD7yMLd5zwf/w4cHwhzLhIRSVw1bWo/CZB4=";
         };
         semver = {
           version = "0.3.2";
-          sha256 = "sha256-l6c9hniUd5xNsJepq8x30e0JTjmXs4pYUmv4ws+Nrn4=";
+          hash = "sha256-l6c9hniUd5xNsJepq8x30e0JTjmXs4pYUmv4ws+Nrn4=";
         };
       };
     };

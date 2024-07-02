@@ -25,7 +25,7 @@ stdenv.mkDerivation rec {
     owner = "intel";
     repo = "libva";
     rev = version;
-    sha256 = "sha256-ur59cqdZqXIY2dDUSie9XsxyRomVBxIW2IVKAgWYC38=";
+    hash = "sha256-ur59cqdZqXIY2dDUSie9XsxyRomVBxIW2IVKAgWYC38=";
   };
 
   outputs = [ "dev" "out" ];

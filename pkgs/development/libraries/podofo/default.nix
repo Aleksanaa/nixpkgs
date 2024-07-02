@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://sourceforge/podofo/${pname}-${version}.tar.gz";
-    sha256 = "sha256-XeYH4V8ZK4rZBzgwB1nYjeoPXM3OO/AASKDJMrxkUVQ=";
+    hash = "sha256-XeYH4V8ZK4rZBzgwB1nYjeoPXM3OO/AASKDJMrxkUVQ=";
   };
 
   outputs = [ "out" "dev" "lib" ];

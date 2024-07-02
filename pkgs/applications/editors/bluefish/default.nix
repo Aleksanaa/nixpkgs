@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://sourceforge/bluefish/bluefish-${version}.tar.bz2";
-    sha256 = "sha256-YUPlHGtVedWW86moXg8NhYDJ9Y+ChXWxGYgODKHZQbw=";
+    hash = "sha256-YUPlHGtVedWW86moXg8NhYDJ9Y+ChXWxGYgODKHZQbw=";
   };
 
   nativeBuildInputs = [ pkg-config wrapGAppsHook3 ];

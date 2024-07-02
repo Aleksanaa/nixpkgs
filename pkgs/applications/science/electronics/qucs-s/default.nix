@@ -24,7 +24,7 @@ stdenv.mkDerivation rec {
     owner = "ra3xdh";
     repo = "qucs_s";
     rev = version;
-    sha256 = "sha256-ei9CPlJg+Kfjh7vu5VnT6DNLmmnA8wZ2A1jXnm//Fgo=";
+    hash = "sha256-ei9CPlJg+Kfjh7vu5VnT6DNLmmnA8wZ2A1jXnm//Fgo=";
   };
 
   nativeBuildInputs = [ flex bison wrapQtAppsHook cmake ];

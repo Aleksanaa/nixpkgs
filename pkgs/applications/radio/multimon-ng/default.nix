@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
     owner = "EliasOenal";
     repo = "multimon-ng";
     rev = version;
-    sha256 = "sha256-irKpVerxzjJIiLofoTdySk/PzojuVLgMq2DYF0qPaAM=";
+    hash = "sha256-irKpVerxzjJIiLofoTdySk/PzojuVLgMq2DYF0qPaAM=";
   };
 
   buildInputs = lib.optionals stdenv.isLinux [ libpulseaudio libX11 ];

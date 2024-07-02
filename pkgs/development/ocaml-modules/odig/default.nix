@@ -6,7 +6,7 @@ buildTopkgPackage rec {
 
   src = fetchurl {
     url = "${meta.homepage}/releases/odig-${version}.tbz";
-    sha256 = "sha256-sYKvGYkxeF5FmrNQdOyMAtlsJqhlmUESi9SkPn/cjM4=";
+    hash = "sha256-sYKvGYkxeF5FmrNQdOyMAtlsJqhlmUESi9SkPn/cjM4=";
   };
 
   buildInputs = [ cmdliner odoc b0 ];

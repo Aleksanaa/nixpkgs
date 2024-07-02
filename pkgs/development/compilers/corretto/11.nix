@@ -24,7 +24,7 @@ let
       owner = "corretto";
       repo = "corretto-11";
       rev = version;
-      sha256 = "sha256-qSx0kgXTgvsvBaEqgy7Jrp/c1Imoi5/IOqEWoLenJYI=";
+      hash = "sha256-qSx0kgXTgvsvBaEqgy7Jrp/c1Imoi5/IOqEWoLenJYI=";
     };
   };
 in

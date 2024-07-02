@@ -9,7 +9,7 @@ mkDerivation rec {
     owner = "kripton";
     repo = pname;
     rev = "fe0c8f69149e30979e067646f80b9d326341c02b";
-    sha256 = "sha256-imvNc498Q2W9RKmiOoNepSoJzIv2tGvFG6hx+seiifw=";
+    hash = "sha256-imvNc498Q2W9RKmiOoNepSoJzIv2tGvFG6hx+seiifw=";
   };
 
   buildInputs = [ qtbase libjack2 ];

@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
     owner = "namecoin";
     repo = "namecoin-core";
     rev = "nc${version}";
-    sha256 = "sha256-2KMK5Vb8osuaKbzI1aaPSYg+te+v9CEcGUkrVI6Fk54=";
+    hash = "sha256-2KMK5Vb8osuaKbzI1aaPSYg+te+v9CEcGUkrVI6Fk54=";
   };
 
   nativeBuildInputs = [

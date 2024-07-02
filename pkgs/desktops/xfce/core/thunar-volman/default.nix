@@ -7,7 +7,7 @@ mkXfceDerivation {
 
   buildInputs = [ exo gtk3 libgudev libxfce4ui libxfce4util xfconf ];
 
-  sha256 = "sha256-NRVoakU8jTCJVe+iyJQwW1xPti2vjd/8n8CYrIYGII0=";
+  hash = "sha256-NRVoakU8jTCJVe+iyJQwW1xPti2vjd/8n8CYrIYGII0=";
 
   odd-unstable = false;
 

@@ -19,7 +19,7 @@ stdenv.mkDerivation rec {
    version = "2.66";
   src = fetchurl {
     url = "mirror://sourceforge/gwyddion/gwyddion-${version}.tar.xz";
-    sha256 = "sha256-N3vtzSsNjRM6MpaG2p9fkYB/8dR5N/mZEZXx6GN5LVI=";
+    hash = "sha256-N3vtzSsNjRM6MpaG2p9fkYB/8dR5N/mZEZXx6GN5LVI=";
   };
 
   nativeBuildInputs = [ pkg-config file ];

@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "http://pyropus.ca/software/memtester/old-versions/memtester-${version}.tar.gz";
-    sha256 = "sha256-yf5Ot+gMjO9SAvkGXEwGgvVhZkfARV6RalcA+Y49uy4=";
+    hash = "sha256-yf5Ot+gMjO9SAvkGXEwGgvVhZkfARV6RalcA+Y49uy4=";
   };
 
   installFlags = [ "INSTALLPATH=$(out)" ];

@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://github.com/FreeTubeApp/FreeTube/releases/download/v${version}-beta/freetube_${version}_amd64.AppImage";
-    sha256 = "sha256-jTDJ0oyDrgOM6T+nwiOakm3QUqKfK2UNY6AfpoaJzd0=";
+    hash = "sha256-jTDJ0oyDrgOM6T+nwiOakm3QUqKfK2UNY6AfpoaJzd0=";
   };
 
   passthru.tests = nixosTests.freetube;

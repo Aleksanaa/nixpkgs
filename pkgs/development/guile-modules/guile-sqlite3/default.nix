@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
     owner = pname;
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-C1a6lMK4O49043coh8EQkTWALrPolitig3eYf+l+HmM=";
+    hash = "sha256-C1a6lMK4O49043coh8EQkTWALrPolitig3eYf+l+HmM=";
   };
 
   strictDeps = true;

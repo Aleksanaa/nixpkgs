@@ -45,7 +45,7 @@ stdenv.mkDerivation (finalAttrs: {
         date = "20240513";
       in
       "https://github.com/Aleph-One-Marathon/alephone/releases/download/release-${date}/AlephOne-${date}.tar.bz2";
-    sha256 = "sha256-IUvMfG4jtN/QXq4DQIDuI0+Bl3MSSwDGKOyjfcRWgvE=";
+    hash = "sha256-IUvMfG4jtN/QXq4DQIDuI0+Bl3MSSwDGKOyjfcRWgvE=";
   };
 
   nativeBuildInputs = [

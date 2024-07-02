@@ -8,7 +8,7 @@ rustPlatform.buildRustPackage rec {
     owner = "cdepillabout";
     repo  = pname;
     rev = "v${version}";
-    sha256 = "sha256-Lc9hfjybnRrkd7PZMa2ojxOM04bP4GJyagkZUX2nVwY=";
+    hash = "sha256-Lc9hfjybnRrkd7PZMa2ojxOM04bP4GJyagkZUX2nVwY=";
   };
 
   nativeBuildInputs = [

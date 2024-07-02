@@ -15,7 +15,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://wpewebkit.org/releases/libwpe-${version}.tar.xz";
-    sha256 = "sha256-x/OjxrPQBnkNSG3HzO2ittLjKd4H8zvEffxT8A8zSyo=";
+    hash = "sha256-x/OjxrPQBnkNSG3HzO2ittLjKd4H8zvEffxT8A8zSyo=";
   };
 
   nativeBuildInputs = [

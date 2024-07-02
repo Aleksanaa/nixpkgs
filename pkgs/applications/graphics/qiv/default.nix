@@ -6,7 +6,7 @@ stdenv.mkDerivation (rec {
 
   src = fetchurl {
     url = "https://spiegl.de/qiv/download/${pname}-${version}.tgz";
-    sha256 = "sha256-7whf/eLUiwWzZlk55a4eNZ06OBAI+4J2hPfW/UxTNwQ=";
+    hash = "sha256-7whf/eLUiwWzZlk55a4eNZ06OBAI+4J2hPfW/UxTNwQ=";
   };
 
   nativeBuildInputs = [ pkg-config ];

@@ -14,7 +14,7 @@ buildGo121Module rec {
     owner = "juicedata";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-Sf68N5ZKveKM6xZEqF7Ah0KGgOx1cGZpJ2lYkUlgpI0=";
+    hash = "sha256-Sf68N5ZKveKM6xZEqF7Ah0KGgOx1cGZpJ2lYkUlgpI0=";
   };
 
   vendorHash = "sha256-ofUo/3EQPhXPNeD/3to5oFir/3eAaf9WBHR4DOzcxBQ=";

@@ -23,7 +23,7 @@ mkDerivation rec {
     owner = "Zren";
     repo = "material-decoration";
     rev = "0e989e5b815b64ee5bca989f983da68fa5556644";
-    sha256 = "sha256-Ncn5jxkuN4ZBWihfycdQwpJ0j4sRpBGMCl6RNiH4mXg=";
+    hash = "sha256-Ncn5jxkuN4ZBWihfycdQwpJ0j4sRpBGMCl6RNiH4mXg=";
   };
 
   # Remove -Werror since it uses deprecated methods

@@ -24,7 +24,7 @@ stdenv.mkDerivation rec {
     owner = "halide";
     repo = "Halide";
     rev = "v${version}";
-    sha256 = "sha256-lJQrXkJgBmGb/QMSxwuPkkHOSgEDowLWzIolp1km2Y8=";
+    hash = "sha256-lJQrXkJgBmGb/QMSxwuPkkHOSgEDowLWzIolp1km2Y8=";
   };
 
   postPatch = ''

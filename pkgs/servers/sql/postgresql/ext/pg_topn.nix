@@ -10,7 +10,7 @@ stdenv.mkDerivation rec {
     owner  = "citusdata";
     repo   = "postgresql-topn";
     rev    = "refs/tags/v${version}";
-    sha256 = "sha256-kq3P+a9NWLKN/CsISGHfInbeL4ex4KIeDhTKyyN7FVE=";
+    hash = "sha256-kq3P+a9NWLKN/CsISGHfInbeL4ex4KIeDhTKyyN7FVE=";
   };
 
   installPhase = ''

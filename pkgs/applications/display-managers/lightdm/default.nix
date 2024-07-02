@@ -40,7 +40,7 @@ stdenv.mkDerivation rec {
     owner = "canonical";
     repo = pname;
     rev = version;
-    sha256 = "sha256-ttNlhWD0Ran4d3QvZ+PxbFbSUGMkfrRm+hJdQxIDJvM=";
+    hash = "sha256-ttNlhWD0Ran4d3QvZ+PxbFbSUGMkfrRm+hJdQxIDJvM=";
   };
 
   nativeBuildInputs = [

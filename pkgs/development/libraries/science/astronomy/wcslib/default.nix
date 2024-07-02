@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "ftp://ftp.atnf.csiro.au/pub/software/wcslib/${pname}-${version}.tar.bz2";
-    sha256 = "sha256-Qx6jQXknu8Arib+jQV3AtGaLDyGjtG+4o1JeL89hRQg=";
+    hash = "sha256-Qx6jQXknu8Arib+jQV3AtGaLDyGjtG+4o1JeL89hRQg=";
   };
 
   nativeBuildInputs = [ flex ];

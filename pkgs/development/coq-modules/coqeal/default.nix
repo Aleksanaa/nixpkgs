@@ -18,10 +18,10 @@
       { cases = [ (isGe "8.7") "1.10.0" ]; out = "1.0.3"; }
     ] null;
 
-  release."2.0.1".sha256 = "sha256-d/IQ4IdS2tpyPewcGobj2S6m2HU+iXQmlvR+ITNIcjI=";
-  release."2.0.0".sha256 = "sha256-SG/KVnRJz2P+ZxkWVp1dDOnc/JVgigoexKfRUh1Y0GM";
-  release."1.1.3".sha256 = "sha256-xhqWpg86xbU1GbDtXXInNCTArjjPnWZctWiiasq1ScU=";
-  release."1.1.1".sha256 = "sha256-ExAdC3WuArNxS+Sa1r4x5aT7ylbCvP/BZXfkdQNAvZ8=";
+  release."2.0.1".hash = "sha256-d/IQ4IdS2tpyPewcGobj2S6m2HU+iXQmlvR+ITNIcjI=";
+  release."2.0.0".hash = "sha256-SG/KVnRJz2P+ZxkWVp1dDOnc/JVgigoexKfRUh1Y0GM";
+  release."1.1.3".hash = "sha256-xhqWpg86xbU1GbDtXXInNCTArjjPnWZctWiiasq1ScU=";
+  release."1.1.1".hash = "sha256-ExAdC3WuArNxS+Sa1r4x5aT7ylbCvP/BZXfkdQNAvZ8=";
   release."1.1.0".sha256 = "1vyhfna5frkkq2fl1fkg2mwzpg09k3sbzxxpyp14fjay81xajrxr";
   release."1.0.6".sha256 = "0lqkyfj4qbq8wr3yk8qgn7mclw582n3fjl9l19yp8cnchspzywx0";
   release."1.0.5".sha256 = "0cmvky8glb5z2dy3q62aln6qbav4lrf2q1589f6h1gn5bgjrbzkm";

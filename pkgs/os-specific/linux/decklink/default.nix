@@ -22,12 +22,12 @@ stdenv.mkDerivation rec {
     (fetchpatch {
       name = "decklink-addMutex.patch";
       url = "https://aur.archlinux.org/cgit/aur.git/plain/01-addMutex.patch?h=decklink&id=132ce45a76e230cbfec4a3daac237ffe9b8a377a";
-      sha256 = "sha256-YLIjO3wMrMoEZwMX5Fs9W4uRu9Xo8klzsjfhxS2wRfQ=";
+      hash = "sha256-YLIjO3wMrMoEZwMX5Fs9W4uRu9Xo8klzsjfhxS2wRfQ=";
     })
     (fetchpatch {
       name = "decklink-changeMaxOrder.patch";
       url = "https://aur.archlinux.org/cgit/aur.git/plain/02-changeMaxOrder.patch?h=decklink&id=132ce45a76e230cbfec4a3daac237ffe9b8a377a";
-      sha256 = "sha256-/erUVYjpTuyaQaCSzSxwKgNocxijc1uNaUjnrJEMa6g=";
+      hash = "sha256-/erUVYjpTuyaQaCSzSxwKgNocxijc1uNaUjnrJEMa6g=";
     })
   ];
 

@@ -13,7 +13,7 @@ mkXfceDerivation {
   version = "1.4.1";
   rev-prefix = "xfce4-netload-plugin-";
   odd-unstable = false;
-  sha256 = "sha256-PwbyYi9EeSTKilVXlbseY2zkabcL7o2CGnk2DFFVI94=";
+  hash = "sha256-PwbyYi9EeSTKilVXlbseY2zkabcL7o2CGnk2DFFVI94=";
 
   buildInputs = [
     glib

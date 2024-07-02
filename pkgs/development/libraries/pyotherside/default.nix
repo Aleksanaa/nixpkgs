@@ -9,7 +9,7 @@ stdenv.mkDerivation rec {
     owner = "thp";
     repo = "pyotherside";
     rev = version;
-    sha256 = "sha256-Fh0gtbBi391ZgwS68FX1zUzeuz8ayEjlwnEM8LjaB8k=";
+    hash = "sha256-Fh0gtbBi391ZgwS68FX1zUzeuz8ayEjlwnEM8LjaB8k=";
   };
 
   nativeBuildInputs = [ qmake ];

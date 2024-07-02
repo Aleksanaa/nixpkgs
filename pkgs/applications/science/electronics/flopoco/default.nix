@@ -25,7 +25,7 @@ stdenv.mkDerivation rec {
     repo = pname;
     # flopoco-4.1.3 is not tagged on GitLab
     rev = "67598298207c9f3261c35679c8a5966480c4343c";
-    sha256 = "sha256-0jRjg4/qciqBcjsi6BTbKO4VJkcoEzpC98wFkUOIGbI=";
+    hash = "sha256-0jRjg4/qciqBcjsi6BTbKO4VJkcoEzpC98wFkUOIGbI=";
   };
 
   patches = [
@@ -36,12 +36,12 @@ stdenv.mkDerivation rec {
         substituteInPlace $out \
           --replace 'FixSinCosCORDIC.hpp' 'CordicSinCos.hpp'
       '';
-      sha256 = "sha256-BlamA/MZuuqqvGYto+jPeQPop6gwva0y394Odw8pdwg=";
+      hash = "sha256-BlamA/MZuuqqvGYto+jPeQPop6gwva0y394Odw8pdwg=";
     })
     (fetchpatch {
       name = "fix-clang-error-atan2.patch";
       url = "https://gitlab.com/flopoco/flopoco/-/commit/a3ffe2436c1b59ee0809b3772b74f2d43c6edb99.patch";
-      sha256 = "sha256-dSYcufLHDL0p1V1ghmy6X6xse5f6mjUqckaVqLZnTaA=";
+      hash = "sha256-dSYcufLHDL0p1V1ghmy6X6xse5f6mjUqckaVqLZnTaA=";
     })
   ];
 

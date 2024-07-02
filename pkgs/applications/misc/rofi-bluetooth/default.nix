@@ -14,7 +14,7 @@ stdenv.mkDerivation (finalAttrs: {
     repo = finalAttrs.pname;
     # https://github.com/nickclyde/rofi-bluetooth/issues/19
     rev = "9d91c048ff129819f4c6e9e48a17bd54343bbffb";
-    sha256 = "sha256-1Xe3QFThIvJDCUznDP5ZBzwZEMuqmxpDIV+BcVvQDG8=";
+    hash = "sha256-1Xe3QFThIvJDCUznDP5ZBzwZEMuqmxpDIV+BcVvQDG8=";
   };
 
   nativeBuildInputs = [ makeWrapper ];

@@ -45,7 +45,7 @@
 let
   version = "2.39";
   patchSuffix = "-52";
-  sha256 = "sha256-93vUfPgXDFc2Wue/hmlsEYrbOxINMlnGTFAtPcHi2SY=";
+  hash = "sha256-93vUfPgXDFc2Wue/hmlsEYrbOxINMlnGTFAtPcHi2SY=";
 in
 
 assert withLinuxHeaders -> linuxHeaders != null;

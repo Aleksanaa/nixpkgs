@@ -17,7 +17,7 @@ mkDerivation rec {
     owner = "litecoin-project";
     repo = "litecoin";
     rev = "v${version}";
-    sha256 = "sha256-TuDc47TZOEQA5Lr4DQkEhnO/Szp9h71xPjaBL3jFWuM=";
+    hash = "sha256-TuDc47TZOEQA5Lr4DQkEhnO/Szp9h71xPjaBL3jFWuM=";
   };
 
   patches = [

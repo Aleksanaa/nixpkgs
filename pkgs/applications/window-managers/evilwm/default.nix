@@ -15,7 +15,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "http://www.6809.org.uk/evilwm/evilwm-${version}.tar.gz";
-    sha256 = "sha256-1ZRbILEskdskEvrA29o/ucPsjeu44bEJg4mSsrG75dQ=";
+    hash = "sha256-1ZRbILEskdskEvrA29o/ucPsjeu44bEJg4mSsrG75dQ=";
   };
 
   buildInputs = [

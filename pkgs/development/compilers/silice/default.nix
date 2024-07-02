@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
     owner = "sylefeb";
     repo = pname;
     rev = "e26662ac757151e5dd8c60c45291b44906b1299f";
-    sha256 = "sha256-Q1JdgDlEErutZh0OfxYy5C4aVijFKlf6Hm5Iv+1jsj4=";
+    hash = "sha256-Q1JdgDlEErutZh0OfxYy5C4aVijFKlf6Hm5Iv+1jsj4=";
     fetchSubmodules = true;
   };
 

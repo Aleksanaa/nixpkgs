@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
     owner = "ohmyzsh";
     repo = "ohmyzsh";
     rev = "dd4be1b6fb9973d63eba334d8bd92b3da30b3e72";
-    sha256 = "sha256-d6gqfBxAm4Y1xt204GhPhhEBOwP97K7qCeIf6I6Wbfg=";
+    hash = "sha256-d6gqfBxAm4Y1xt204GhPhhEBOwP97K7qCeIf6I6Wbfg=";
   };
 
   strictDeps = true;

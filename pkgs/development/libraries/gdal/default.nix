@@ -93,7 +93,7 @@ stdenv.mkDerivation (finalAttrs: {
     # HDF5: add support for libhdf5 >= 1.14.4.2 when built with Float16
     (fetchpatch {
       url = "https://github.com/OSGeo/gdal/commit/16ade8253f26200246abb5ab24d17e18216e7a11.patch";
-      sha256 = "sha256-N6YqfcOUWeaJXVE9RUo1dzulxqIY5Q/UygPnZHau3Lc=";
+      hash = "sha256-N6YqfcOUWeaJXVE9RUo1dzulxqIY5Q/UygPnZHau3Lc=";
     })
   ];
 

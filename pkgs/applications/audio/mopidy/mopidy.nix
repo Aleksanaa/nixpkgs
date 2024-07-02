@@ -10,7 +10,7 @@ pythonPackages.buildPythonApplication rec {
     owner = "mopidy";
     repo = "mopidy";
     rev = "refs/tags/v${version}";
-    sha256 = "sha256-2OFav2HaQq/RphmZxLyL1n3suwzt1Y/d4h33EdbStjk=";
+    hash = "sha256-2OFav2HaQq/RphmZxLyL1n3suwzt1Y/d4h33EdbStjk=";
   };
 
   nativeBuildInputs = [ wrapGAppsNoGuiHook ];

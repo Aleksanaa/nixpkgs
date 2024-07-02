@@ -26,7 +26,7 @@ python3Packages.buildPythonApplication rec {
     owner = pname;
     repo = pname;
     rev = version;
-    sha256 = "sha256-/dFvhiK3nCOOmAtrYkQEB8Ge8Rf1ea5cDO7puTwS5bI=";
+    hash = "sha256-/dFvhiK3nCOOmAtrYkQEB8Ge8Rf1ea5cDO7puTwS5bI=";
   };
 
   patches = [

@@ -78,7 +78,7 @@ stdenv.mkDerivation (finalAttrs: {
     inherit (finalAttrs) version;
   in fetchurl {
     url = "mirror://gnome/sources/gtk+/${lib.versions.majorMinor version}/gtk+-${version}.tar.xz";
-    sha256 = "sha256-UPifYVCS1N0Bu9dZcZ+L04Dl8Un2/XipRyXi3hEjd+I=";
+    hash = "sha256-UPifYVCS1N0Bu9dZcZ+L04Dl8Un2/XipRyXi3hEjd+I=";
   };
 
   patches = [

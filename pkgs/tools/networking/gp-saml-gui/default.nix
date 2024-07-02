@@ -18,7 +18,7 @@ buildPythonPackage rec {
     owner = "dlenski";
     repo = "gp-saml-gui";
     rev = "258f47cdc4a8ed57a1eef16667f6cad0d1cb49b1";
-    sha256 = "sha256-g10S8C32mnOymCmGNdM8gmGpYn5/ObMJK3g6amKtQmI=";
+    hash = "sha256-g10S8C32mnOymCmGNdM8gmGpYn5/ObMJK3g6amKtQmI=";
   };
 
   buildInputs = lib.optional stdenv.isLinux glib-networking;

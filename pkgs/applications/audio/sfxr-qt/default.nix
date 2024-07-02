@@ -21,7 +21,7 @@ mkDerivation rec {
     owner = "agateau";
     repo = "sfxr-qt";
     rev = version;
-    sha256 = "sha256-Ce5NJe1f+C4pPmtenHYvtkxste+nPuxJoB+N7K2nyRo=";
+    hash = "sha256-Ce5NJe1f+C4pPmtenHYvtkxste+nPuxJoB+N7K2nyRo=";
     fetchSubmodules = true;
   };
 
@@ -33,7 +33,7 @@ mkDerivation rec {
   patches = [(fetchpatch {
     name = "sfxr-qr-missing-qpainterpath-include";
     url = "https://github.com/agateau/sfxr-qt/commit/ef051f473654052112b647df987eb263e38faf47.patch";
-    sha256 = "sha256-bqMnxHUzdS5oG/2hfr5MvkpwrtZW+GTN5fS2WpV2W2c=";
+    hash = "sha256-bqMnxHUzdS5oG/2hfr5MvkpwrtZW+GTN5fS2WpV2W2c=";
   })];
 
   nativeBuildInputs = [

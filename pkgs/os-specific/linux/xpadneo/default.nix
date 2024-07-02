@@ -15,7 +15,7 @@ stdenv.mkDerivation (finalAttrs: {
     owner = "atar-axis";
     repo = "xpadneo";
     rev = "refs/tags/v${finalAttrs.version}";
-    sha256 = "sha256-pX9zpAGnhDLKUAKOQ5iqtK8cKEkjCqDa5v3MwYViWX4=";
+    hash = "sha256-pX9zpAGnhDLKUAKOQ5iqtK8cKEkjCqDa5v3MwYViWX4=";
   };
 
   setSourceRoot = ''

@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
     owner = "zackw";
     repo = pname;
     rev = "eb3bd42098cba42b65f499c9d8c73d890861b94f";
-    sha256 = "sha256-S6jS0cg9tHSfmP6VHyISkXJxczhPx3HDdxT46c+YmE8=";
+    hash = "sha256-S6jS0cg9tHSfmP6VHyISkXJxczhPx3HDdxT46c+YmE8=";
   };
 
   buildInputs = [ openssl libpcap libxcrypt ];

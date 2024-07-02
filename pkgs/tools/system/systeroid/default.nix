@@ -13,7 +13,7 @@ rustPlatform.buildRustPackage rec {
     owner = "orhun";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-FnUXf2Ia/XIu9ESs71p0UrXC7y7n7SYpfU0+Es7KYqM=";
+    hash = "sha256-FnUXf2Ia/XIu9ESs71p0UrXC7y7n7SYpfU0+Es7KYqM=";
   };
 
   postPatch = ''

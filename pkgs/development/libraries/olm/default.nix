@@ -9,7 +9,7 @@ stdenv.mkDerivation rec {
     owner = "matrix-org";
     repo = pname;
     rev = version;
-    sha256 = "sha256-JX20mpuLO+UoNc8iQlXEHAbH9sfblkBbM1gE27Ve0ac=";
+    hash = "sha256-JX20mpuLO+UoNc8iQlXEHAbH9sfblkBbM1gE27Ve0ac=";
   };
 
   nativeBuildInputs = [ cmake ];

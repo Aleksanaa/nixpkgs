@@ -23,7 +23,7 @@ stdenv.mkDerivation rec {
     owner = "elementary";
     repo = "iconbrowser";
     rev = version;
-    sha256 = "sha256-F0HxwyXAMAQyGRMhtsuKdmyyrCweM+ImJokN/KN3Kiw=";
+    hash = "sha256-F0HxwyXAMAQyGRMhtsuKdmyyrCweM+ImJokN/KN3Kiw=";
   };
 
   nativeBuildInputs = [

@@ -62,7 +62,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "http://download.enlightenment.org/rel/libs/${pname}/${pname}-${version}.tar.xz";
-    sha256 = "sha256-PfuZ+8wmjAvHl+L4PoxQPvneZihPQLOBu1l6CBhcAPQ=";
+    hash = "sha256-PfuZ+8wmjAvHl+L4PoxQPvneZihPQLOBu1l6CBhcAPQ=";
   };
 
   nativeBuildInputs = [

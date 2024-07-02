@@ -20,7 +20,7 @@ stdenv.mkDerivation (finalAttrs: {
     owner = "rncbc";
     repo = "qpwgraph";
     rev = "v${finalAttrs.version}";
-    sha256 = "sha256-aXZsAOsdp0x7J0T9B9C1Qm2qDkhRNHRWUmPafdHRrOQ=";
+    hash = "sha256-aXZsAOsdp0x7J0T9B9C1Qm2qDkhRNHRWUmPafdHRrOQ=";
   };
 
   nativeBuildInputs = [ cmake pkg-config wrapQtAppsHook ];

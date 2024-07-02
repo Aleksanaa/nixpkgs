@@ -13,7 +13,7 @@ stdenv.mkDerivation (
     version = "0.20.0";
     src = fetchurl {
       url = "mirror://maven/io/prometheus/jmx/jmx_prometheus_javaagent/${finalAttrs.version}/${jarName}";
-      sha256 = "sha256-i2ftQEhdR1ZIw20R0hRktIRAb4X6+RKzNj9xpqeGEyA=";
+      hash = "sha256-i2ftQEhdR1ZIw20R0hRktIRAb4X6+RKzNj9xpqeGEyA=";
     };
 
     dontUnpack = true;

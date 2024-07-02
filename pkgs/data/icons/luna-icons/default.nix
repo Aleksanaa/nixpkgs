@@ -16,7 +16,7 @@ stdenvNoCC.mkDerivation rec {
     owner = "darkomarko42";
     repo = pname;
     rev = version;
-    sha256 = "sha256-zxaay4hwKgb9WWhPNG/s9JekltAvRNYmObeoTJi6Po0=";
+    hash = "sha256-zxaay4hwKgb9WWhPNG/s9JekltAvRNYmObeoTJi6Po0=";
   };
 
   nativeBuildInputs = [

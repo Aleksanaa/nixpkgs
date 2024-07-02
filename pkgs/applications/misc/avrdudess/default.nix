@@ -6,7 +6,7 @@ stdenv.mkDerivation {
 
   src = fetchurl {
     url = "https://github.com/ZakKemble/AVRDUDESS/releases/download/v2.17/AVRDUDESS-2.17-portable.zip";
-    sha256 = "sha256-TcXXGDs75Q2ew+m2B/p00Y24O5aJQlp+3FcAn7GSVyI=";
+    hash = "sha256-TcXXGDs75Q2ew+m2B/p00Y24O5aJQlp+3FcAn7GSVyI=";
   };
 
   nativeBuildInputs = [ unzip ];

@@ -19,7 +19,7 @@ stdenv.mkDerivation rec {
     owner = "jjsullivan5196";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-9gDxMH1hghqjcXlbda7CHjDdjcjApjjie7caihKIg9M=";
+    hash = "sha256-9gDxMH1hghqjcXlbda7CHjDdjcjApjjie7caihKIg9M=";
   };
 
   postPatch = ''

@@ -18,7 +18,7 @@ buildPythonApplication rec {
     owner = "protonvpn";
     repo = "linux-cli";
     rev = "refs/tags/${version}";
-    sha256 = "sha256-KhfogC23i7THe6YZJ6Sy1+q83vZupHsS69NurHCeo8I=";
+    hash = "sha256-KhfogC23i7THe6YZJ6Sy1+q83vZupHsS69NurHCeo8I=";
   };
 
   propagatedBuildInputs = [

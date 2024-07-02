@@ -21,7 +21,7 @@ mkDerivation rec {
     owner = "easymodo";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-fHMSo8zlOl9Lt8nYwClUzON4TPB9Ogwven+TidsesxY=";
+    hash = "sha256-fHMSo8zlOl9Lt8nYwClUzON4TPB9Ogwven+TidsesxY=";
   };
 
   nativeBuildInputs = [

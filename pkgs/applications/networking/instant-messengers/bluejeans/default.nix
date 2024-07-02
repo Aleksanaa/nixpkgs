@@ -48,7 +48,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://swdl.bluejeans.com/desktop-app/linux/${getFirst 3 version}/BlueJeans_${version}.rpm";
-    sha256 = "sha256-lsUS7JymCMOa5wlWJOwLFm4KRnAYixi9Kk5CYHB17Ac=";
+    hash = "sha256-lsUS7JymCMOa5wlWJOwLFm4KRnAYixi9Kk5CYHB17Ac=";
   };
 
   nativeBuildInputs = [ rpmextract makeWrapper ];

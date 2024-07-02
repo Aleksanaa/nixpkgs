@@ -12,7 +12,7 @@ mkDerivation rec {
     owner = "graphics";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-Se131GZE12wqdfN/V4id1pphUvteSrmMaKZ0+lqg1z8=";
+    hash = "sha256-Se131GZE12wqdfN/V4id1pphUvteSrmMaKZ0+lqg1z8=";
   };
   nativeBuildInputs = [ extra-cmake-modules qttools ];
   propagatedBuildInputs = [ qtbase qtsvg ];

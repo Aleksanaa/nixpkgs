@@ -9,7 +9,7 @@ python3Packages.buildPythonApplication rec {
   src = fetchPypi {
     inherit version;
     pname = "twspace_dl";
-    sha256 = "sha256-Oq9k5Nfixf1vihhna7g3ZkqCwEtCdnvlbxIuOnGVoKE=";
+    hash = "sha256-Oq9k5Nfixf1vihhna7g3ZkqCwEtCdnvlbxIuOnGVoKE=";
   };
 
   nativeBuildInputs = with python3Packages; [ poetry-core ];

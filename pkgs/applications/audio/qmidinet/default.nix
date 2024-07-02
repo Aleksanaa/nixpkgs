@@ -6,7 +6,7 @@ mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://sourceforge/qmidinet/${pname}-${version}.tar.gz";
-    sha256 = "sha256-7Ui4kUgYgpPVAaaINrd6WGZoYon5UuHszGVaHafb/p0=";
+    hash = "sha256-7Ui4kUgYgpPVAaaINrd6WGZoYon5UuHszGVaHafb/p0=";
   };
 
   hardeningDisable = [ "format" ];

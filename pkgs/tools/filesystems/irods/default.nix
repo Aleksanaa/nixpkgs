@@ -26,7 +26,7 @@ rec {
       owner = "irods";
       repo = "irods";
       rev = finalAttrs.version;
-      sha256 = "sha256-gWgNY8+zD2lRCV5ydOTF0qAgZ1dlQSQKxtdw+U235vg=";
+      hash = "sha256-gWgNY8+zD2lRCV5ydOTF0qAgZ1dlQSQKxtdw+U235vg=";
       fetchSubmodules = true;
     };
 
@@ -64,7 +64,7 @@ rec {
       owner = "irods";
       repo = "irods_client_icommands";
       rev = finalAttrs.version;
-      sha256 = "sha256-BjBg13KrCGRLOtGnp23qXOLudLctvu2gJ7wxHFjM5Ug=";
+      hash = "sha256-BjBg13KrCGRLOtGnp23qXOLudLctvu2gJ7wxHFjM5Ug=";
     };
 
     buildInputs = common.buildInputs ++ [ irods ];

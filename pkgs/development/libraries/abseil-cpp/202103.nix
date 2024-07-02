@@ -15,7 +15,7 @@ stdenv.mkDerivation rec {
     owner = "abseil";
     repo = "abseil-cpp";
     rev = version;
-    sha256 = "sha256-fcxPhuI2eL/fnd6nT11p8DpUNwGNaXZmd03yOiZcOT0=";
+    hash = "sha256-fcxPhuI2eL/fnd6nT11p8DpUNwGNaXZmd03yOiZcOT0=";
   };
 
   patches = [
@@ -37,7 +37,7 @@ stdenv.mkDerivation rec {
     # https://github.com/abseil/abseil-cpp/pull/1110
     (fetchpatch {
       url = "https://github.com/abseil/abseil-cpp/commit/808bc202fc13e85a7948db0d7fb58f0f051200b1.patch";
-      sha256 = "sha256-ayY/aV/xWOdEyFSDqV7B5WDGvZ0ASr/aeBeYwP5RZVc=";
+      hash = "sha256-ayY/aV/xWOdEyFSDqV7B5WDGvZ0ASr/aeBeYwP5RZVc=";
     })
   ] ++ lib.optionals stdenv.isDarwin [
     # Don’t propagate the path to CoreFoundation. Otherwise, it’s impossible to build packages

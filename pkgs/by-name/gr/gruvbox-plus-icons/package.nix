@@ -16,7 +16,7 @@ stdenvNoCC.mkDerivation (finalAttrs: {
     owner = "SylEleuth";
     repo = "gruvbox-plus-icon-pack";
     rev = "v${finalAttrs.version}";
-    sha256 = "sha256-mtOYoaejK6ZGPcM4IxXs6l6oXGP9WSMw5N7JIF3n67s=";
+    hash = "sha256-mtOYoaejK6ZGPcM4IxXs6l6oXGP9WSMw5N7JIF3n67s=";
   };
 
   nativeBuildInputs = [ gtk3 ];

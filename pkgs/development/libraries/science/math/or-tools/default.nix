@@ -27,7 +27,7 @@ stdenv.mkDerivation rec {
     owner = "google";
     repo = "or-tools";
     rev = "v${version}";
-    sha256 = "sha256-joWonJGuxlgHhXLznRhC1MDltQulXzpo4Do9dec1bLY=";
+    hash = "sha256-joWonJGuxlgHhXLznRhC1MDltQulXzpo4Do9dec1bLY=";
   };
   patches = [
     # Disable test that requires external input: https://github.com/google/or-tools/issues/3429

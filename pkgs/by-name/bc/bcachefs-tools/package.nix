@@ -88,7 +88,7 @@ stdenv.mkDerivation (finalAttrs: {
     (fetchpatch {
       name = "use-ar-var-in-makefile.patch";
       url = "https://github.com/koverstreet/bcachefs-tools/commit/91e67ab2bd48fa135a1f5109b23899a4f1019a03.patch";
-      sha256 = "sha256-nB4Tgcwa8eeasIDQ4rrYORie/X8LMuCSRi+WJNw+R/U=";
+      hash = "sha256-nB4Tgcwa8eeasIDQ4rrYORie/X8LMuCSRi+WJNw+R/U=";
     })
   ];
 

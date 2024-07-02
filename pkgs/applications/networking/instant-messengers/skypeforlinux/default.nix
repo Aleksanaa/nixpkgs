@@ -68,7 +68,7 @@ let
           "https://mirror.cs.uchicago.edu/skype/pool/main/s/skypeforlinux/skypeforlinux_${version}_amd64.deb"
           "https://web.archive.org/web/https://repo.skype.com/deb/pool/main/s/skypeforlinux/skypeforlinux_${version}_amd64.deb"
         ];
-        sha256 = "sha256-ocXhISwEtwzPd1dOPjgIj5UQ/8sqq2gUtmZ8KZBAxKM=";
+        hash = "sha256-ocXhISwEtwzPd1dOPjgIj5UQ/8sqq2gUtmZ8KZBAxKM=";
       }
     else
       throw "Skype for linux is not supported on ${stdenv.hostPlatform.system}";

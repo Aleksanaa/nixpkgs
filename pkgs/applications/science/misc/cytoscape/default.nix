@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://github.com/cytoscape/cytoscape/releases/download/${version}/${pname}-unix-${version}.tar.gz";
-    sha256 = "sha256-ArT+g3GbtSxq3FvRi1H4z/kpsmcFCmKhzEJI4bCK44E=";
+    hash = "sha256-ArT+g3GbtSxq3FvRi1H4z/kpsmcFCmKhzEJI4bCK44E=";
   };
 
   patches = [

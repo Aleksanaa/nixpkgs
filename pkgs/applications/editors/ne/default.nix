@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
     owner = "vigna";
     repo = pname;
     rev = version;
-    sha256 = "sha256-lbXb/ZY0+vkOB8mXkHDaehXZMzrpx3A0jWnLpCjhMDE=";
+    hash = "sha256-lbXb/ZY0+vkOB8mXkHDaehXZMzrpx3A0jWnLpCjhMDE=";
   };
 
   postPatch = ''

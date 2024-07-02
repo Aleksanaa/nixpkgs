@@ -5,7 +5,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://download.savannah.gnu.org/releases/xlog/${pname}-${version}.tar.gz";
-    sha256 = "sha256-jUU6xt3H9bY9CAQRTFQjprlsC77VwjIB/6sSRNzE+Lw=";
+    hash = "sha256-jUU6xt3H9bY9CAQRTFQjprlsC77VwjIB/6sSRNzE+Lw=";
   };
 
   # glib-2.62 deprecations

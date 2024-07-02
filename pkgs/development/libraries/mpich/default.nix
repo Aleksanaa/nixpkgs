@@ -25,7 +25,7 @@ stdenv.mkDerivation  rec {
 
   src = fetchurl {
     url = "https://www.mpich.org/static/downloads/${version}/mpich-${version}.tar.gz";
-    sha256 = "sha256-IzMbIpnyh8NBlyftwt+JItfnq7uf0Kx04DuZZvmtQtc=";
+    hash = "sha256-IzMbIpnyh8NBlyftwt+JItfnq7uf0Kx04DuZZvmtQtc=";
   };
 
   outputs = [ "out" "doc" "man" ];

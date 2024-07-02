@@ -14,7 +14,7 @@ stdenv.mkDerivation rec {
     owner = "kgshank";
     repo = "gse-sound-output-device-chooser";
     rev = "76f7f59d23f5ffcd66555c7662f43c9cc1ce4742";
-    sha256 = "sha256-iPc95LmDsYizLg45wpU+vFx/N6MR2hewSHqoRsePC/4=";
+    hash = "sha256-iPc95LmDsYizLg45wpU+vFx/N6MR2hewSHqoRsePC/4=";
   };
 
   patches = [

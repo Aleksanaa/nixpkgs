@@ -25,7 +25,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://sourceforge/pcmanfm/pcmanfm-${version}.tar.xz";
-    sha256 = "sha256-FMt7JHSTxMzmX7tZAmEeOtAKeocPvB5QrcUEKMUUDPc=";
+    hash = "sha256-FMt7JHSTxMzmX7tZAmEeOtAKeocPvB5QrcUEKMUUDPc=";
   };
 
   buildInputs = [ glib gtk libfm' libX11 pango gnome.adwaita-icon-theme ];

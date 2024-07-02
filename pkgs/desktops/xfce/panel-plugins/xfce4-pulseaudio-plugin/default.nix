@@ -17,7 +17,7 @@ mkXfceDerivation {
   category = "panel-plugins";
   pname = "xfce4-pulseaudio-plugin";
   version = "0.4.8";
-  sha256 = "sha256-7vcjARm0O+/hVNFzOpxcgAnqD+wRNg5/eqXLcq4t/iU=";
+  hash = "sha256-7vcjARm0O+/hVNFzOpxcgAnqD+wRNg5/eqXLcq4t/iU=";
 
   postPatch = ''
     substituteInPlace configure.ac.in --replace gio-2.0 gio-unix-2.0

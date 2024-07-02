@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchzip {
     url = "https://www.languagetool.org/download/${pname}-${version}.zip";
-    sha256 = "sha256-MIP7+K3kmzrqXWcR23Rn+gMYR0zrGnnCYGhv81P2Pc4=";
+    hash = "sha256-MIP7+K3kmzrqXWcR23Rn+gMYR0zrGnnCYGhv81P2Pc4=";
   };
   nativeBuildInputs = [ makeWrapper ];
   buildInputs = [ jre ];

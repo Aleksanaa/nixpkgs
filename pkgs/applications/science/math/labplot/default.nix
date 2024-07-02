@@ -47,7 +47,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://kde/stable/labplot/labplot-${version}.tar.xz";
-    sha256 = "sha256-K24YFRfPtuDf/3uJXz6yDHzjWeZzLThUXgdXya6i2u8=";
+    hash = "sha256-K24YFRfPtuDf/3uJXz6yDHzjWeZzLThUXgdXya6i2u8=";
   };
 
   cmakeFlags = [

@@ -25,7 +25,7 @@ buildPythonPackage rec {
     owner = "SasoPavlic";
     repo = "nianet";
     rev = "refs/tags/version_${version}";
-    sha256 = "sha256-FZipl6Z9AfiL6WH0kvUn8bVxt8JLdDVlmTSqnyxe0nY=";
+    hash = "sha256-FZipl6Z9AfiL6WH0kvUn8bVxt8JLdDVlmTSqnyxe0nY=";
   };
 
   nativeBuildInputs = [

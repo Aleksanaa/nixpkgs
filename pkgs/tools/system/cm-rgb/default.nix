@@ -18,7 +18,7 @@ buildPythonApplication rec {
     owner = "gfduszynski";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-m0ZAjSLRzcjzygLEbvCiDd7krc1gRqTg1ZV4H/o2c68=";
+    hash = "sha256-m0ZAjSLRzcjzygLEbvCiDd7krc1gRqTg1ZV4H/o2c68=";
   };
 
   nativeBuildInputs = [

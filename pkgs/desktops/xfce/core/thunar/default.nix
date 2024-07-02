@@ -23,7 +23,7 @@ let unwrapped = mkXfceDerivation {
   pname = "thunar";
   version = "4.18.10";
 
-  sha256 = "sha256-jne+jETPmM6VksdwJAxruji/GKH42iftWm74Ok9qX44=";
+  hash = "sha256-jne+jETPmM6VksdwJAxruji/GKH42iftWm74Ok9qX44=";
 
   nativeBuildInputs = [
     docbook_xsl

@@ -29,7 +29,7 @@ stdenv.mkDerivation {
     owner = "smcameron";
     repo = "space-nerds-in-space";
     rev = "e70d3c63e33c940feb53c8d818ce2d8ea2aadf00";
-    sha256 = "sha256-HVCb1iFn7GWNpedtFCgLyd0It8s4PEmUwDfb8ap1TDc=";
+    hash = "sha256-HVCb1iFn7GWNpedtFCgLyd0It8s4PEmUwDfb8ap1TDc=";
   };
 
   postPatch = ''

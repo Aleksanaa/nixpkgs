@@ -10,7 +10,7 @@ stdenv.mkDerivation rec {
     owner = "markummitchell";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-Wj9o3wWbtHsEi6LFH4xDpwVR9BwcWc472jJ/QFDQZvY=";
+    hash = "sha256-Wj9o3wWbtHsEi6LFH4xDpwVR9BwcWc472jJ/QFDQZvY=";
   };
 
   nativeBuildInputs = [ qmake wrapQtAppsHook ];

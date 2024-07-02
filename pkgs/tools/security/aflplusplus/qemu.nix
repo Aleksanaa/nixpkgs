@@ -25,7 +25,7 @@ stdenv.mkDerivation {
     owner = "AFLplusplus";
     repo = "qemuafl";
     rev = "a1321713c7502c152dd7527555e0f8a800d55225";
-    sha256 = "sha256-HLlOHqT2vrHjHyu4n83IzVzKv9ErinephLLev1E10nM=";
+    hash = "sha256-HLlOHqT2vrHjHyu4n83IzVzKv9ErinephLLev1E10nM=";
     fetchSubmodules = true;
   };
 

@@ -15,7 +15,7 @@ mkDerivation rec {
     owner = "dangvd";
     repo = "ksmoothdock";
     rev = "v${version}";
-    sha256 = "sha256-hO7xgjFMFrEhQs3oc2peFTjSVEDsl7Ma/TeVybEZMEk=";
+    hash = "sha256-hO7xgjFMFrEhQs3oc2peFTjSVEDsl7Ma/TeVybEZMEk=";
   };
 
   # Upstream seems dead and there are new deprecation warnings in KF5.100

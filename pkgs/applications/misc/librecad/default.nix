@@ -20,7 +20,7 @@ mkDerivation rec {
     owner = "LibreCAD";
     repo = "LibreCAD";
     rev = version;
-    sha256 = "sha256-Vj6nvOfmhzou2hhmujm47a7aKBzmgchDb/BbwCb3/hI=";
+    hash = "sha256-Vj6nvOfmhzou2hhmujm47a7aKBzmgchDb/BbwCb3/hI=";
   };
 
   buildInputs = [

@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
     owner = "dlfcn-win32";
     repo = "dlfcn-win32";
     rev = "v${version}";
-    sha256 = "sha256-ljVTMBiGp8TPufrQcK4zQtcVH1To4zcfBAbUOb+v910=";
+    hash = "sha256-ljVTMBiGp8TPufrQcK4zQtcVH1To4zcfBAbUOb+v910=";
   };
 
   nativeBuildInputs = [ cmake ];

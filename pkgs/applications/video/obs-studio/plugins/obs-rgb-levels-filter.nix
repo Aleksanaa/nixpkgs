@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
     owner = "wimpysworld";
     repo = "obs-rgb-levels-filter";
     rev = version;
-    sha256 = "sha256-QREwK9nBhjCBFslXUj9bGUGPgfEns8QqlgP5e2O/0oU=";
+    hash = "sha256-QREwK9nBhjCBFslXUj9bGUGPgfEns8QqlgP5e2O/0oU=";
   };
 
   nativeBuildInputs = [ cmake ];

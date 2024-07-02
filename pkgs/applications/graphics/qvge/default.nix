@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
     owner = "ArsMasiuk";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-rtbUAp3l0VZsu+D9HCHM3q0UkDLflw50rYRq/LP4Wu4=";
+    hash = "sha256-rtbUAp3l0VZsu+D9HCHM3q0UkDLflw50rYRq/LP4Wu4=";
   };
 
   sourceRoot = "${src.name}/src";

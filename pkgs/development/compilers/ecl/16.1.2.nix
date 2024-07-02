@@ -22,7 +22,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://common-lisp.net/project/ecl/static/files/release/ecl-${version}.tgz";
-    sha256 = "sha256-LUgrGgpPvV2IFDRRcDInnYCMtkBeIt2R721zNTRGS5k=";
+    hash = "sha256-LUgrGgpPvV2IFDRRcDInnYCMtkBeIt2R721zNTRGS5k=";
   };
 
   nativeBuildInputs = [ autoconf automake makeWrapper libtool ];

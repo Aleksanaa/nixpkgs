@@ -7,7 +7,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://github.com/detekt/detekt/releases/download/v${version}/detekt-cli-${version}-all.jar";
-    sha256 = "sha256-iY3PgQ6JH0SeTj+fSk4tx1rs+OEInfQaQqaa2yy7z/o=";
+    hash = "sha256-iY3PgQ6JH0SeTj+fSk4tx1rs+OEInfQaQqaa2yy7z/o=";
   };
 
   dontUnpack = true;

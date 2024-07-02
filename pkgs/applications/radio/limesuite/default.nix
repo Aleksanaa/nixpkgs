@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
     owner = "myriadrf";
     repo = "LimeSuite";
     rev = "v${version}";
-    sha256 = "sha256-f1cXrkVCIc1MqTvlCUBFqzHLhIVueybVxipNZRlF2gE=";
+    hash = "sha256-f1cXrkVCIc1MqTvlCUBFqzHLhIVueybVxipNZRlF2gE=";
   };
 
   nativeBuildInputs = [ cmake ];

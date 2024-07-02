@@ -18,7 +18,7 @@ mkXfceDerivation {
   pname = "tumbler";
   version = "4.18.2";
 
-  sha256 = "sha256-thioE0q2qnV4weJFPz8OWoHIRuUcXnQEviwBtCWsSV4=";
+  hash = "sha256-thioE0q2qnV4weJFPz8OWoHIRuUcXnQEviwBtCWsSV4=";
 
   buildInputs = [
     libxfce4util

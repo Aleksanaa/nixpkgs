@@ -8,7 +8,7 @@ buildGoModule rec {
     owner = "jenkins-x";
     repo = "jx";
     rev = "v${version}";
-    sha256 = "sha256-Zck06wbe+hLbecFnfY/udi1s712ilt7j0EdoumohOEI=";
+    hash = "sha256-Zck06wbe+hLbecFnfY/udi1s712ilt7j0EdoumohOEI=";
   };
 
   vendorHash = "sha256-AIaZVkWdNj1Vsrv2k4B5lLE0lOFuiTD7lwS/DikmC14=";

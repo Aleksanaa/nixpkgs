@@ -19,7 +19,7 @@ buildPythonPackage rec {
     owner = "scikit-learn-contrib";
     repo = pname;
     rev = "refs/tags/v${version}";
-    sha256 = "sha256-dHOwo6NIuhcvIehpuJQ621JEg5O3mnXycAhpTZKaxns=";
+    hash = "sha256-dHOwo6NIuhcvIehpuJQ621JEg5O3mnXycAhpTZKaxns=";
   };
 
   nativeBuildInputs = [

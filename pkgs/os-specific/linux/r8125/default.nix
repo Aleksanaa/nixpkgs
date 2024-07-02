@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
     owner = "louistakepillz";
     repo = "r8125";
     rev = version;
-    sha256 = "sha256-i45xKF5WVN+nNhpD6HWZHvGgxuaD/YhMHERqW8/bC5Y=";
+    hash = "sha256-i45xKF5WVN+nNhpD6HWZHvGgxuaD/YhMHERqW8/bC5Y=";
   };
 
   hardeningDisable = [ "pic" ];

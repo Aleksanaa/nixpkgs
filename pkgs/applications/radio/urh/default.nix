@@ -12,7 +12,7 @@ python3Packages.buildPythonApplication rec {
     owner = "jopohl";
     repo = pname;
     rev = "refs/tags/v${version}";
-    sha256 = "sha256-4Fe2+BUdnVdNQHqZeftXLabn/vTzgyynOtqy0rAb0Rk=";
+    hash = "sha256-4Fe2+BUdnVdNQHqZeftXLabn/vTzgyynOtqy0rAb0Rk=";
   };
 
   nativeBuildInputs = [ qt5.wrapQtAppsHook ];

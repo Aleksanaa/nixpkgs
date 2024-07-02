@@ -19,7 +19,7 @@ stdenv.mkDerivation rec {
     owner = "minicom-team";
     repo = pname;
     rev = version;
-    sha256 = "sha256-+fKvHrApDXm94LItXv+xSDIE5zD7rTY5IeNSuzQglpg=";
+    hash = "sha256-+fKvHrApDXm94LItXv+xSDIE5zD7rTY5IeNSuzQglpg=";
   };
 
   buildInputs = [ ncurses ] ++ lib.optionals stdenv.isDarwin [ libiconv IOKit ];

@@ -21,7 +21,7 @@ buildPythonApplication rec {
     owner = "Syncplay";
     repo = "syncplay";
     rev = "refs/tags/v${version}";
-    sha256 = "sha256-ipo027XyN4BpMkxzXznbnaufsaG/YkHxFJYo+XWzbyE=";
+    hash = "sha256-ipo027XyN4BpMkxzXznbnaufsaG/YkHxFJYo+XWzbyE=";
   };
 
   patches = [

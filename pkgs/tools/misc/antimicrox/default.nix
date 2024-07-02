@@ -18,7 +18,7 @@ mkDerivation rec {
     owner = "AntiMicroX";
     repo = pname;
     rev = version;
-    sha256 = "sha256-zBIEuZdmcyA99YdwC6tn0I3Ori8VyBOw50ablb/Lmvs=";
+    hash = "sha256-zBIEuZdmcyA99YdwC6tn0I3Ori8VyBOw50ablb/Lmvs=";
   };
 
   nativeBuildInputs = [ cmake extra-cmake-modules pkg-config itstool ];

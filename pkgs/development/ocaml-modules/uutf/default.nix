@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://erratique.ch/software/${pname}/releases/${pname}-${version}.tbz";
-    sha256 = "sha256-h3KlYT0ecCmM4U3zMkGjaF8h5O9r20zwP+mF+x7KBWg=";
+    hash = "sha256-h3KlYT0ecCmM4U3zMkGjaF8h5O9r20zwP+mF+x7KBWg=";
   };
 
   nativeBuildInputs = [ ocaml ocamlbuild findlib topkg ];

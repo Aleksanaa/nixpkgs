@@ -14,7 +14,7 @@ stdenv.mkDerivation rec {
   src = fetchurl {
     # Upstream does not provide versioned download links
     url = "https://web.archive.org/web/20240605193919/https://frinklang.org/frinkjar/frink-tng.jar";
-    sha256 = "sha256-ceV1p9wsXprcNLhol79evswVZ1SpH5IzfSbl8st4cmU=";
+    hash = "sha256-ceV1p9wsXprcNLhol79evswVZ1SpH5IzfSbl8st4cmU=";
   };
 
   dontUnpack = true;

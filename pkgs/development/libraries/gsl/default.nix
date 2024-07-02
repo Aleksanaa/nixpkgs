@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://gnu/gsl/${pname}-${version}.tar.gz";
-    sha256 = "sha256-3LD71DBIgyt1f/mUJpGo3XACbV2g/4VgHlJof23us0s=";
+    hash = "sha256-3LD71DBIgyt1f/mUJpGo3XACbV2g/4VgHlJof23us0s=";
   };
 
   preConfigure = if (lib.versionAtLeast stdenv.hostPlatform.darwinMinVersion "11" && stdenv.isDarwin) then ''

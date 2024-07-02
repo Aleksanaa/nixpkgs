@@ -27,7 +27,7 @@ stdenv.mkDerivation rec {
     owner = "csound";
     repo = "csound";
     rev = version;
-    sha256 = "sha256-O7s92N54+zIl07eIdK/puoSve/qJ3O01fTh0TP+VdZA=";
+    hash = "sha256-O7s92N54+zIl07eIdK/puoSve/qJ3O01fTh0TP+VdZA=";
   };
 
   cmakeFlags = [ "-DBUILD_CSOUND_AC=0" ] # fails to find Score.hpp

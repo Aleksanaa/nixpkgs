@@ -31,7 +31,7 @@ stdenv.mkDerivation rec {
     owner = "lenmus";
     repo = "lenmus";
     rev = "Release_${version}";
-    sha256 = "sha256-qegOAc6vs2+6VViDHVjv0q+qjLZyTT7yPF3hFpTt5zE=";
+    hash = "sha256-qegOAc6vs2+6VViDHVjv0q+qjLZyTT7yPF3hFpTt5zE=";
   };
 
   postPatch = ''

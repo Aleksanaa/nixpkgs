@@ -22,7 +22,7 @@ rustPlatform.buildRustPackage rec {
     owner = "maximbaz";
     repo = "wluma";
     rev = version;
-    sha256 = "sha256-Ow3SjeulYiHY9foXrmTtLK3F+B3+DrtDjBUke3bJeDw=";
+    hash = "sha256-Ow3SjeulYiHY9foXrmTtLK3F+B3+DrtDjBUke3bJeDw=";
   };
 
   postPatch = ''

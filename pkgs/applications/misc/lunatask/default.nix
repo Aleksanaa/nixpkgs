@@ -6,7 +6,7 @@ let
 
   src = fetchurl {
     url = "https://lunatask.app/download/Lunatask-${version}.AppImage";
-    sha256 = "sha256-rRE7VE6Fugqbbv/fTIZGuWDQmTP1tRDiKrb6VcpsBjk=";
+    hash = "sha256-rRE7VE6Fugqbbv/fTIZGuWDQmTP1tRDiKrb6VcpsBjk=";
   };
 
   appimageContents = appimageTools.extractType2 {

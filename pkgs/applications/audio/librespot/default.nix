@@ -23,7 +23,7 @@ rustPlatform.buildRustPackage rec {
     owner = "librespot-org";
     repo = "librespot";
     rev = "v${version}";
-    sha256 = "sha256-DtF6asSlLdC2m/0JTBo4YUx9HgsojpfiqVdqaIwniKA=";
+    hash = "sha256-DtF6asSlLdC2m/0JTBo4YUx9HgsojpfiqVdqaIwniKA=";
   };
 
   cargoSha256 = "sha256-tbDlWP0sUIa0W9HhdYNOvo9cGeqFemclhA7quh7f/Rw=";

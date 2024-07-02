@@ -7,7 +7,7 @@ stdenv.mkDerivation rec {
     owner = "SFML";
     repo  = "CSFML";
     rev   = version;
-    sha256 = "sha256-A5C/4SnxUX7mW1wkPWJWX3dwMhrJ79DkBuZ7UYzTOqE=";
+    hash = "sha256-A5C/4SnxUX7mW1wkPWJWX3dwMhrJ79DkBuZ7UYzTOqE=";
   };
   nativeBuildInputs = [ cmake ];
   buildInputs = [ sfml ];

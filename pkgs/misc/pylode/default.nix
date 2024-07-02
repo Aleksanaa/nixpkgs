@@ -14,7 +14,7 @@ python3.pkgs.buildPythonApplication rec {
     owner = "RDFLib";
     repo = pname;
     rev = "refs/tags/${version}";
-    sha256 = "sha256-AtqkxnpEL+580S/iKCaRcsQO6LLYhkJxyNx6fi3atbE=";
+    hash = "sha256-AtqkxnpEL+580S/iKCaRcsQO6LLYhkJxyNx6fi3atbE=";
   };
 
   propagatedBuildInputs = with python3.pkgs; [

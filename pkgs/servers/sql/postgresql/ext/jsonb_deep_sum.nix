@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
     owner = "furstenheim";
     repo = "jsonb_deep_sum";
     rev = "d9c69aa6b7da860e5522a9426467e67cb787980c";
-    sha256 = "sha256-W1wNILAwTAjFPezq+grdRMA59KEnMZDz69n9xQUqdc0=";
+    hash = "sha256-W1wNILAwTAjFPezq+grdRMA59KEnMZDz69n9xQUqdc0=";
   };
 
   buildInputs = [ postgresql ];

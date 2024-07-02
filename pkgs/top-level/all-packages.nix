@@ -4559,7 +4559,7 @@ with pkgs;
           owner = "cloudflare";
           repo = "go";
           rev = "34129e47042e214121b6bbff0ded4712debed18e";
-          sha256 = "sha256-RA9KTY4cSxIt7dyJgAFQPemc6YBgcSwc/hqB4JHPxng=";
+          hash = "sha256-RA9KTY4cSxIt7dyJgAFQPemc6YBgcSwc/hqB4JHPxng=";
         };
       };
     };

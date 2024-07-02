@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
     owner = "martinrotter";
     repo = pname;
     rev = "refs/tags/${version}";
-    sha256 = "sha256-eF0jPT0gQnnBWu9IKfY0DwMwotL3IEjovqnQqx9v2NA=";
+    hash = "sha256-eF0jPT0gQnnBWu9IKfY0DwMwotL3IEjovqnQqx9v2NA=";
   };
 
   buildInputs =  [ qtwebengine qttools ];

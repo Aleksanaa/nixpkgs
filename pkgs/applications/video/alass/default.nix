@@ -13,7 +13,7 @@ rustPlatform.buildRustPackage rec {
     owner = "kaegi";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-q1IV9TtmznpR7RO75iN0p16nmTja5ADWqFj58EOPWvU=";
+    hash = "sha256-q1IV9TtmznpR7RO75iN0p16nmTja5ADWqFj58EOPWvU=";
   };
 
   cargoSha256 = "sha256-6swIoVp1B4CMvaGvq868LTKkzpI6zFKJNgUVqjdyH20=";

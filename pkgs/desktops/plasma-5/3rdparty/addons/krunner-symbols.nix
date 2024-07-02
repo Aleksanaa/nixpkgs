@@ -18,7 +18,7 @@ stdenv.mkDerivation rec {
     owner = "domschrei";
     repo = "krunner-symbols";
     rev = version;
-    sha256 = "sha256-YsoZdPTWpk3/YERwerrVEcaf2IfGVJwpq32onhP8Exo=";
+    hash = "sha256-YsoZdPTWpk3/YERwerrVEcaf2IfGVJwpq32onhP8Exo=";
   };
 
   buildInputs = [ qtbase ki18n kdelibs4support krunner ];

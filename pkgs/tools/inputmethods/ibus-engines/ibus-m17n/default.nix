@@ -19,7 +19,7 @@ stdenv.mkDerivation rec {
     owner = "ibus";
     repo = "ibus-m17n";
     rev = version;
-    sha256 = "sha256-KHAdGTlRdTNpSuYbT6rocbT9rSNhxCdt4Z6QSLlbBsg=";
+    hash = "sha256-KHAdGTlRdTNpSuYbT6rocbT9rSNhxCdt4Z6QSLlbBsg=";
   };
 
   nativeBuildInputs = [

@@ -6,7 +6,7 @@ mkDerivation rec {
 
   src = fetchurl {
     url = "https://bino3d.org/releases/${pname}-${version}.tar.xz";
-    sha256 = "sha256-8sIdX+qm7CGPHIziFBHHIe+KEbhbwDY6w/iRm1V+so4=";
+    hash = "sha256-8sIdX+qm7CGPHIziFBHHIe+KEbhbwDY6w/iRm1V+so4=";
   };
 
   nativeBuildInputs = [ pkg-config ];

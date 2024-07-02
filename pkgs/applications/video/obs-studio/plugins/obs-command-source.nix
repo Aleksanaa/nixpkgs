@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
     owner = "norihiro";
     repo = "obs-command-source";
     rev = version;
-    sha256 = "sha256-yrzY4pHSupkkdRlx725oSVtQTH1Ci9zFolHN3i2Vm28=";
+    hash = "sha256-yrzY4pHSupkkdRlx725oSVtQTH1Ci9zFolHN3i2Vm28=";
   };
 
   nativeBuildInputs = [ cmake ];

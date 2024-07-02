@@ -46,7 +46,7 @@ let
     owner = "spesmilo";
     repo = "electrum";
     rev = version;
-    sha256 = "sha256-CbhI/q+zjk9odxuvdzpogi046FqkedJooiQwS+WAkJ8=";
+    hash = "sha256-CbhI/q+zjk9odxuvdzpogi046FqkedJooiQwS+WAkJ8=";
 
     postFetch = ''
       mv $out ./all

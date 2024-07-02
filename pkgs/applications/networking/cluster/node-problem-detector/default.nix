@@ -8,7 +8,7 @@ buildGoModule rec {
     owner = "kubernetes";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-foVMmRgxy0A62EzmDiGUd2/x5zOpMAMUzXitpxuSIU0=";
+    hash = "sha256-foVMmRgxy0A62EzmDiGUd2/x5zOpMAMUzXitpxuSIU0=";
   };
 
   vendorHash = null;

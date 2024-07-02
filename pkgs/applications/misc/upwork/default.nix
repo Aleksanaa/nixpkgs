@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
   src = requireFile {
     name = "${pname}_${version}_amd64.deb";
     url = "https://www.upwork.com/ab/downloads/os/linux/";
-    sha256 = "sha256-MU0usTAfNNMN8OYmS6dWU6Xk2o5dg5J0V7OQiv3dLug=";
+    hash = "sha256-MU0usTAfNNMN8OYmS6dWU6Xk2o5dg5J0V7OQiv3dLug=";
   };
 
   nativeBuildInputs = [

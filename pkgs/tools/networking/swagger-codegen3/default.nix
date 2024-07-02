@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://maven/io/swagger/codegen/v3/${pname}-cli/${version}/${jarfilename}";
-    sha256 = "sha256-KwygxRjw6NE/swVjDYQAkwfO/OnLiIGhsKCJbXM0VYQ=";
+    hash = "sha256-KwygxRjw6NE/swVjDYQAkwfO/OnLiIGhsKCJbXM0VYQ=";
   };
 
   dontUnpack = true;

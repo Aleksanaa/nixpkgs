@@ -104,7 +104,7 @@ let
         # and hope it doesn't change
         (fetchpatch {
           url = "https://github.com/crystal-lang/crystal/pull/11399.patch";
-          sha256 = "sha256-CjNpkQQ2UREADmlyLUt7zbhjXf0rTjFhNbFYLwJKkc8=";
+          hash = "sha256-CjNpkQQ2UREADmlyLUt7zbhjXf0rTjFhNbFYLwJKkc8=";
         })
       ];
 
@@ -280,7 +280,7 @@ rec {
 
   crystal_1_2 = generic {
     version = "1.2.2";
-    sha256 = "sha256-nyOXhsutVBRdtJlJHe2dALl//BUXD1JeeQPgHU4SwiU=";
+    hash = "sha256-nyOXhsutVBRdtJlJHe2dALl//BUXD1JeeQPgHU4SwiU=";
     binary = binaryCrystal_1_2;
     llvmPackages = llvmPackages_13;
     extraBuildInputs = [ libatomic_ops ];
@@ -288,28 +288,28 @@ rec {
 
   crystal_1_7 = generic {
     version = "1.7.3";
-    sha256 = "sha256-ULhLGHRIZbsKhaMvNhc+W74BwNgfEjHcMnVNApWY+EE=";
+    hash = "sha256-ULhLGHRIZbsKhaMvNhc+W74BwNgfEjHcMnVNApWY+EE=";
     binary = binaryCrystal_1_2;
     llvmPackages = llvmPackages_13;
   };
 
   crystal_1_8 = generic {
     version = "1.8.2";
-    sha256 = "sha256-YAORdipzpC9CrFgZUFlFfjzlJQ6ZeA2ekVu8IfPOxR8=";
+    hash = "sha256-YAORdipzpC9CrFgZUFlFfjzlJQ6ZeA2ekVu8IfPOxR8=";
     binary = binaryCrystal_1_2;
     llvmPackages = llvmPackages_15;
   };
 
   crystal_1_9 = generic {
     version = "1.9.2";
-    sha256 = "sha256-M1oUFs7/8ljszga3StzLOLM1aA4fSfVPQlsbuDHGd84=";
+    hash = "sha256-M1oUFs7/8ljszga3StzLOLM1aA4fSfVPQlsbuDHGd84=";
     binary = binaryCrystal_1_2;
     llvmPackages = llvmPackages_15;
   };
 
   crystal_1_11 = generic {
     version = "1.11.2";
-    sha256 = "sha256-BBEDWqFtmFUNj0kuGBzv71YHO3KjxV4d2ySTCD4HhLc=";
+    hash = "sha256-BBEDWqFtmFUNj0kuGBzv71YHO3KjxV4d2ySTCD4HhLc=";
     binary = binaryCrystal_1_10;
     llvmPackages = llvmPackages_15;
   };

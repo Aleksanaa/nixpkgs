@@ -11,7 +11,7 @@ python3.pkgs.buildPythonApplication rec {
     owner = "VCTLabs";
     repo = "cp210x-program";
     rev = "refs/tags/${version}";
-    sha256 = "sha256-IjKshP12WfFly9cPm6svD4qZW6cT8C7lOVrGenSqbfY=";
+    hash = "sha256-IjKshP12WfFly9cPm6svD4qZW6cT8C7lOVrGenSqbfY=";
   };
 
   propagatedBuildInputs = with python3.pkgs; [

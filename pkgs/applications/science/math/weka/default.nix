@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://sourceforge/weka/${lib.replaceStrings ["."]["-"] "${pname}-${version}"}.zip";
-    sha256 = "sha256-8fVN4MXYqXNEmyVtXh1IrauHTBZWgWG8AvsGI5Y9Aj0=";
+    hash = "sha256-8fVN4MXYqXNEmyVtXh1IrauHTBZWgWG8AvsGI5Y9Aj0=";
   };
 
   nativeBuildInputs = [ makeWrapper unzip ];

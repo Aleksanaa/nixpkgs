@@ -23,7 +23,7 @@ stdenv.mkDerivation rec {
     owner = "pktgen";
     repo = "Pktgen-DPDK";
     rev = "pktgen-${version}";
-    sha256 = "sha256-eujVEU+XkxF1kIGQJoBW3oXXNSqBEzx6mwR2XYoHinM=";
+    hash = "sha256-eujVEU+XkxF1kIGQJoBW3oXXNSqBEzx6mwR2XYoHinM=";
   };
 
   nativeBuildInputs = [ meson ninja pkg-config ];

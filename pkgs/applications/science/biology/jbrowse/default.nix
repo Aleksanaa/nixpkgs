@@ -6,7 +6,7 @@ let
 
   src = fetchurl {
     url = "https://github.com/GMOD/jbrowse-components/releases/download/v${version}/jbrowse-desktop-v${version}-linux.AppImage";
-    sha256 = "sha256-dnvs+niNo8VPuOk9uODezLxdghwutLuhgG5Jyxi8mW0=";
+    hash = "sha256-dnvs+niNo8VPuOk9uODezLxdghwutLuhgG5Jyxi8mW0=";
   };
 
   appimageContents = appimageTools.extractType2 {

@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
     owner = "vslavik";
     repo = "diff-pdf";
     rev = "v${version}";
-    sha256 = "sha256-6aKF3Xqp/1BoHEiZVZJSemTjn5Qwwr3QyhsXOIjTr08=";
+    hash = "sha256-6aKF3Xqp/1BoHEiZVZJSemTjn5Qwwr3QyhsXOIjTr08=";
   };
 
   nativeBuildInputs = [ autoconf automake pkg-config ];

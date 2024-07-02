@@ -18,7 +18,7 @@ stdenv.mkDerivation rec {
     group = "BC";
     repo = pname;
     rev = "5603a432be2ed10f5d5a5ce068ef83ab2a996d6b";
-    sha256 = "sha256-AqZ7tsNZw2Djgyo1JBJbT/c3eQVyEn6r3CT6DQLD/B8=";
+    hash = "sha256-AqZ7tsNZw2Djgyo1JBJbT/c3eQVyEn6r3CT6DQLD/B8=";
   };
 
   nativeBuildInputs = [ cmake ];

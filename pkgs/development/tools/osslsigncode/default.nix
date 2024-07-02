@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
     owner = "mtrojnar";
     repo = pname;
     rev = version;
-    sha256 = "sha256-FcrymV0n/Bv0cS9Dx6sG+ifilBiPfaG+xpQvH9mvylQ=";
+    hash = "sha256-FcrymV0n/Bv0cS9Dx6sG+ifilBiPfaG+xpQvH9mvylQ=";
   };
 
   nativeBuildInputs = [ cmake pkg-config python3 ];

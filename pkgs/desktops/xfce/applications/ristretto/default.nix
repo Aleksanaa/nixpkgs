@@ -14,7 +14,7 @@ mkXfceDerivation {
   version = "0.13.2";
   odd-unstable = false;
 
-  sha256 = "sha256-FKgNKQ2l4FGvEvmppf+RTxMXU6TfsZVFBVii4zr4ASc=";
+  hash = "sha256-FKgNKQ2l4FGvEvmppf+RTxMXU6TfsZVFBVii4zr4ASc=";
 
   buildInputs = [
     glib

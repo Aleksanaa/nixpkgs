@@ -26,7 +26,7 @@ stdenv.mkDerivation rec {
     owner = "elementary";
     repo = "shortcut-overlay";
     rev = version;
-    sha256 = "sha256-HqF2eSNwAzgzwyfNQIeumaGkPYiSc+2OfaD3JRQp4/4=";
+    hash = "sha256-HqF2eSNwAzgzwyfNQIeumaGkPYiSc+2OfaD3JRQp4/4=";
   };
 
   nativeBuildInputs = [

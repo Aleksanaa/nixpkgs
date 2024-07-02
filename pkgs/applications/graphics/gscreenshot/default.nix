@@ -24,7 +24,7 @@ python3Packages.buildPythonApplication rec {
     owner = "thenaterhood";
     repo = "${pname}";
     rev = "refs/tags/v${version}";
-    sha256 = "sha256-BA118PwMslqvnlRES2fEgTjzfNvKNVae7GzWSyuaqYM=";
+    hash = "sha256-BA118PwMslqvnlRES2fEgTjzfNvKNVae7GzWSyuaqYM=";
   };
 
   # needed for wrapGAppsHook3 to function

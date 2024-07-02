@@ -25,7 +25,7 @@ stdenv.mkDerivation (finalAttrs: {
     owner = "ROCm";
     repo = "rocminfo";
     rev = "rocm-${finalAttrs.version}";
-    sha256 = "sha256-UzOo2qDT/uM+vdGdBM4pV5e143mfa+/6sZLBExOO26g=";
+    hash = "sha256-UzOo2qDT/uM+vdGdBM4pV5e143mfa+/6sZLBExOO26g=";
   };
 
   nativeBuildInputs = [

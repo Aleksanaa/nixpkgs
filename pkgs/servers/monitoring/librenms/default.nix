@@ -30,7 +30,7 @@ in phpPackage.buildComposerProject rec {
     owner = "librenms";
     repo = pname;
     rev = "${version}";
-    sha256 = "sha256-glcD9AhxkvMmGo/7/RhQFeOtvHJ4pSiEFxaAjeVrTaI=";
+    hash = "sha256-glcD9AhxkvMmGo/7/RhQFeOtvHJ4pSiEFxaAjeVrTaI=";
   };
 
   vendorHash = "sha256-s6vdGfM7Ehy1bbkB44EQaHBBvTkpVw9yxhVsc/O8dHc=";

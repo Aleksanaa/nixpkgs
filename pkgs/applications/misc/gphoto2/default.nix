@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
     owner = "gphoto";
     repo = "gphoto2";
     rev = "v${version}";
-    sha256 = "sha256-t5EnM4WaDbOTPM+rJW+hQxBgNErnnZEN9lZvxTKoDhA=";
+    hash = "sha256-t5EnM4WaDbOTPM+rJW+hQxBgNErnnZEN9lZvxTKoDhA=";
   };
 
   nativeBuildInputs = [

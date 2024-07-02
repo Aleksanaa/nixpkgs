@@ -9,7 +9,7 @@ stdenv.mkDerivation rec {
       "https://invisible-mirror.net/archives/${pname}/${pname}-${version}.tgz"
       "ftp://ftp.invisible-island.net/${pname}/${pname}-${version}.tgz"
     ];
-    sha256 = "sha256-YlspL4BS/7vv59nW+9+cjR/Bi1yFVo8lRwl9l8VAvXU=";
+    hash = "sha256-YlspL4BS/7vv59nW+9+cjR/Bi1yFVo8lRwl9l8VAvXU=";
   };
 
   meta = with lib; {

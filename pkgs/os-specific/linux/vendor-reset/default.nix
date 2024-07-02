@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
     owner = "gnif";
     repo = "vendor-reset";
     rev = "225a49a40941e350899e456366265cf82b87ad25";
-    sha256 = "sha256-xa7P7+mRk4FVgi+YYCcsFLfyNqPmXvy3xhGoTDVqPxw=";
+    hash = "sha256-xa7P7+mRk4FVgi+YYCcsFLfyNqPmXvy3xhGoTDVqPxw=";
   };
 
   patches = [
@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
     # https://github.com/gnif/vendor-reset/pull/58
     (fetchpatch {
       url = "https://github.com/gnif/vendor-reset/commit/5bbffcd6fee5348e8808bdbfcb5b21d455b02f55.patch";
-      sha256 = "sha256-L1QxVpcZAVYiaMFCBfL2EJgeMyOR8sDa1UqF1QB3bns=";
+      hash = "sha256-L1QxVpcZAVYiaMFCBfL2EJgeMyOR8sDa1UqF1QB3bns=";
     })
   ];
 

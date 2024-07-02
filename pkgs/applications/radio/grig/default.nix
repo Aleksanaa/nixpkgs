@@ -15,7 +15,7 @@ stdenv.mkDerivation rec {
     owner = "fillods";
     repo = "grig";
     rev = "GRIG-${lib.replaceStrings ["."] ["_"] version}";
-    sha256 = "sha256-OgIgHW9NMW/xSSti3naIR8AQWUtNSv5bYdOcObStBlM=";
+    hash = "sha256-OgIgHW9NMW/xSSti3naIR8AQWUtNSv5bYdOcObStBlM=";
   };
 
   nativeBuildInputs = [ autoreconfHook pkg-config wrapGAppsHook3 ];

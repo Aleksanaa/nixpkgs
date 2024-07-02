@@ -8,7 +8,7 @@ buildGoModule rec {
     rev = "v${version}";
     owner = "prometheus";
     repo = "prom2json";
-    sha256 = "sha256-VwJv2Y+YrlhLRx0lRPtHTzjvSz7GPfADCZibkQU6S1Y=";
+    hash = "sha256-VwJv2Y+YrlhLRx0lRPtHTzjvSz7GPfADCZibkQU6S1Y=";
   };
 
   vendorHash = "sha256-m9f3tCX21CMdcXcUcLFOxgs9oDR2Uaj5u22eJPDmpeE=";

@@ -42,7 +42,7 @@ let
     owner = "installer-team";
     repo = "busybox";
     rev = "debian/1%${debianVersion}";
-    sha256 = "sha256-6r0RXtmqGXtJbvLSD1Ma1xpqR8oXL2bBKaUE/cSENL8=";
+    hash = "sha256-6r0RXtmqGXtJbvLSD1Ma1xpqR8oXL2bBKaUE/cSENL8=";
   };
   debianDispatcherScript = "${debianSource}/debian/tree/udhcpc/etc/udhcpc/default.script";
   outDispatchPath = "$out/default.script";
@@ -57,7 +57,7 @@ stdenv.mkDerivation rec {
   # still builds after the update.
   src = fetchurl {
     url = "https://busybox.net/downloads/${pname}-${version}.tar.bz2";
-    sha256 = "sha256-uMwkyVdNgJ5yecO+NJeVxdXOtv3xnKcJ+AzeUOR94xQ=";
+    hash = "sha256-uMwkyVdNgJ5yecO+NJeVxdXOtv3xnKcJ+AzeUOR94xQ=";
   };
 
   hardeningDisable = [ "format" "pie" ]
@@ -68,12 +68,12 @@ stdenv.mkDerivation rec {
     (fetchurl {
       name = "CVE-2022-28391.patch";
       url = "https://git.alpinelinux.org/aports/plain/main/busybox/0001-libbb-sockaddr2str-ensure-only-printable-characters-.patch?id=ed92963eb55bbc8d938097b9ccb3e221a94653f4";
-      sha256 = "sha256-yviw1GV+t9tbHbY7YNxEqPi7xEreiXVqbeRyf8c6Awo=";
+      hash = "sha256-yviw1GV+t9tbHbY7YNxEqPi7xEreiXVqbeRyf8c6Awo=";
     })
     (fetchurl {
       name = "CVE-2022-28391.patch";
       url = "https://git.alpinelinux.org/aports/plain/main/busybox/0002-nslookup-sanitize-all-printed-strings-with-printable.patch?id=ed92963eb55bbc8d938097b9ccb3e221a94653f4";
-      sha256 = "sha256-vl1wPbsHtXY9naajjnTicQ7Uj3N+EQ8pRNnrdsiow+w=";
+      hash = "sha256-vl1wPbsHtXY9naajjnTicQ7Uj3N+EQ8pRNnrdsiow+w=";
     })
   ] ++ lib.optional (stdenv.hostPlatform != stdenv.buildPlatform) ./clang-cross.patch;
 

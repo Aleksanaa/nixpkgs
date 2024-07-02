@@ -21,7 +21,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://kernel/linux/utils/kbd/${pname}-${version}.tar.xz";
-    sha256 = "sha256-UZ+NCHrsyn4KM80IS++SwGbrGXMWZmU9zHDJ1xqkCSY=";
+    hash = "sha256-UZ+NCHrsyn4KM80IS++SwGbrGXMWZmU9zHDJ1xqkCSY=";
   };
 
   # vlock is moved into its own output, since it depends on pam. This

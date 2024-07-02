@@ -20,7 +20,7 @@ mkXfceDerivation {
   version = "0.9.4";
   odd-unstable = false;
 
-  sha256 = "sha256-oDvP2xE/KvIKl7D5hAwROxhqpli7G/UNd51YCdT7Dv4=";
+  hash = "sha256-oDvP2xE/KvIKl7D5hAwROxhqpli7G/UNd51YCdT7Dv4=";
 
   buildInputs = [
     dbus

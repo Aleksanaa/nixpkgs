@@ -18,6 +18,6 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://sourceforge/xmp/libxmp/${pname}-${version}.tar.gz";
-    sha256 = "sha256-LTxF/lI7UJB+ieYPmjt/TMmquD7J27p3Q+r/vNyzXqY=";
+    hash = "sha256-LTxF/lI7UJB+ieYPmjt/TMmquD7J27p3Q+r/vNyzXqY=";
   };
 }

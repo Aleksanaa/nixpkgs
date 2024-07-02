@@ -21,7 +21,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "http://fox-toolkit.org/ftp/${pname}-${version}.tar.gz";
-    sha256 = "sha256-bu+IEqNkv9OAf96dPYre3CP759pjalVIbYyc3QSQW2w=";
+    hash = "sha256-bu+IEqNkv9OAf96dPYre3CP759pjalVIbYyc3QSQW2w=";
   };
 
   buildInputs = [ libpng libjpeg libtiff zlib bzip2 libGL libGLU libXcursor libXext libXrandr libXft ]

@@ -18,7 +18,7 @@ stdenv.mkDerivation rec {
     owner = "Rabbit-Company";
     repo = "Passky-Desktop";
     rev = "refs/tags/v${version}";
-    sha256 = "sha256-QQ0+qIkDPNCHeWmcF6FkbDrrt/r3fIkNi0dv6XlV1rc=";
+    hash = "sha256-QQ0+qIkDPNCHeWmcF6FkbDrrt/r3fIkNi0dv6XlV1rc=";
   };
 
   nativeBuildInputs = [

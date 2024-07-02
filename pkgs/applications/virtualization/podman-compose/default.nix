@@ -9,7 +9,7 @@ buildPythonApplication rec {
     repo = "podman-compose";
     owner = "containers";
     rev = "v${version}";
-    sha256 = "sha256-uNgzdLrnDIABtt0L2pvsil14esRzl0XcWohgf7Oksr8=";
+    hash = "sha256-uNgzdLrnDIABtt0L2pvsil14esRzl0XcWohgf7Oksr8=";
   };
 
 

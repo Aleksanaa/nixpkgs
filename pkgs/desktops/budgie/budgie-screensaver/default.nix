@@ -25,7 +25,7 @@ stdenv.mkDerivation (finalAttrs: {
     owner = "BuddiesOfBudgie";
     repo = "budgie-screensaver";
     rev = "v${finalAttrs.version}";
-    sha256 = "sha256-N8x9hdbaMDisTbQPJedNO4UMLnCn+Q2hhm4udJZgQlc=";
+    hash = "sha256-N8x9hdbaMDisTbQPJedNO4UMLnCn+Q2hhm4udJZgQlc=";
   };
 
   nativeBuildInputs = [

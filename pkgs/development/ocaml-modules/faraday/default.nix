@@ -11,7 +11,7 @@ buildDunePackage rec {
     owner = "inhabitedtype";
     repo = pname;
     rev = version;
-    sha256 = "sha256-wR4kDocR1t3OLRuudXH8IccYde552O6Gvo5BHNxRbAI=";
+    hash = "sha256-wR4kDocR1t3OLRuudXH8IccYde552O6Gvo5BHNxRbAI=";
   };
 
   checkInputs = [ alcotest ];

@@ -8,7 +8,7 @@ mkDerivation rec {
     repo = "cmst";
     owner = "andrew-bibb";
     rev = "${pname}-${version}";
-    sha256 = "sha256-yTqPxywPbtxTy1PPG+Mq64u8MrB27fEdmt1B0pn0BVk=";
+    hash = "sha256-yTqPxywPbtxTy1PPG+Mq64u8MrB27fEdmt1B0pn0BVk=";
   };
 
   nativeBuildInputs = [ qmake qttools ];

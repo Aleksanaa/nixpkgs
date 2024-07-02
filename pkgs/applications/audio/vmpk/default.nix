@@ -9,7 +9,7 @@ mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://sourceforge/${pname}/${version}/${pname}-${version}.tar.bz2";
-    sha256 = "sha256-+NjTcszb1KXGynIcCf4IEDvN4f8pgXtR1TksxGR5ZHQ=";
+    hash = "sha256-+NjTcszb1KXGynIcCf4IEDvN4f8pgXtR1TksxGR5ZHQ=";
   };
 
   nativeBuildInputs = [ cmake pkg-config qttools docbook-xsl-nons ];

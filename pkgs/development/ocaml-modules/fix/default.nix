@@ -9,7 +9,7 @@ buildDunePackage rec {
     owner = "fpottier";
     repo = "fix";
     rev = version;
-    sha256 = "sha256-Xuw4pEPqAbQjSHrpMCNE7Th0mpbNMSxdEdwvH4hu2SM=";
+    hash = "sha256-Xuw4pEPqAbQjSHrpMCNE7Th0mpbNMSxdEdwvH4hu2SM=";
   };
 
   minimalOCamlVersion = "4.03";

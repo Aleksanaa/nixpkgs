@@ -18,7 +18,7 @@ mkDerivation rec {
     owner = "Bismuth-Forge";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-c13OFEw6E/I8j/mqeLnuc9Chi6pc3+AgwAMPpCzh974=";
+    hash = "sha256-c13OFEw6E/I8j/mqeLnuc9Chi6pc3+AgwAMPpCzh974=";
   };
 
   patches = [

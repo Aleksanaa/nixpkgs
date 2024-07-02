@@ -8,7 +8,7 @@ crystal.buildCrystalPackage rec {
     owner = "crystal-lang-tools";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-hqyG1aKY3M8q8lZEKzpUUKl9jS7NF+VMsma6+C0sCbg=";
+    hash = "sha256-hqyG1aKY3M8q8lZEKzpUUKl9jS7NF+VMsma6+C0sCbg=";
   };
 
   # a bunch of tests fail when built in the sandbox while perfectly fine outside

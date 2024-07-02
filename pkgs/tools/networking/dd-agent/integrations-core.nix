@@ -42,7 +42,7 @@ let
     owner = "DataDog";
     repo = "integrations-core";
     rev = version;
-    sha256 = "sha256-CIzuJ97KwsG1k65Y+8IUSka/3JX1pmQKN3hPHzZnGhQ=";
+    hash = "sha256-CIzuJ97KwsG1k65Y+8IUSka/3JX1pmQKN3hPHzZnGhQ=";
   };
   version = "7.38.0";
 

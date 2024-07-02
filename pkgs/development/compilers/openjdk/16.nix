@@ -27,7 +27,7 @@ let
       repo = "jdk${version.feature}u";
       rev = "jdk-${version.feature}${version.interim}";
       # rev = "jdk-${version.feature}${version.interim}+${version.build}";
-      sha256 = "sha256-/8XHNrf9joCCXMCyPncT54JhqlF+KBL7eAf8hUW/BxU=";
+      hash = "sha256-/8XHNrf9joCCXMCyPncT54JhqlF+KBL7eAf8hUW/BxU=";
     };
 
     nativeBuildInputs = [ pkg-config autoconf unzip ];

@@ -27,7 +27,7 @@ stdenv.mkDerivation rec {
     owner = "World";
     repo = "gnome-firmware";
     rev = version;
-    sha256 = "sha256-tEMSlKsqqPMZA0Gr89+u3dmAmZ7ffQm/2i1AB93y05E=";
+    hash = "sha256-tEMSlKsqqPMZA0Gr89+u3dmAmZ7ffQm/2i1AB93y05E=";
   };
 
   nativeBuildInputs = [

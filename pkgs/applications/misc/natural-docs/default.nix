@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchzip {
     url = "https://naturaldocs.org/download/natural_docs/${version}/Natural_Docs_${version}.zip";
-    sha256 = "sha256-yk9PxrZ6+ocqGLB+xCBGiQKnHLMdp2r+NuoMhWsr0GM=";
+    hash = "sha256-yk9PxrZ6+ocqGLB+xCBGiQKnHLMdp2r+NuoMhWsr0GM=";
   };
 
   dontPatch = true;

@@ -22,7 +22,7 @@ stdenv.mkDerivation (finalAttrs: {
     owner = "flatpak";
     repo = "xdg-desktop-portal-gtk";
     rev = finalAttrs.version;
-    sha256 = "sha256-uXVjKsqoIjqJilJq8ERRzEqGKbkzc+Zl6y+37CAcYro=";
+    hash = "sha256-uXVjKsqoIjqJilJq8ERRzEqGKbkzc+Zl6y+37CAcYro=";
   };
 
   nativeBuildInputs = [

@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "http://www.maier-komor.de/software/mbuffer/mbuffer-${version}.tgz";
-    sha256 = "sha256-14YG4X3ZAmpTI21ezAenAgLSZC0X49kHRxzbWKBFiBQ=";
+    hash = "sha256-14YG4X3ZAmpTI21ezAenAgLSZC0X49kHRxzbWKBFiBQ=";
   };
 
   buildInputs = [

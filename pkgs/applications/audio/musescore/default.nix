@@ -56,7 +56,7 @@ in stdenv'.mkDerivation (finalAttrs: {
     owner = "musescore";
     repo = "MuseScore";
     rev = "v${finalAttrs.version}";
-    sha256 = "sha256-QjvY8R2nq/DeFDikHn9qr4aCEwzAcogQXM5vdZqhoMM=";
+    hash = "sha256-QjvY8R2nq/DeFDikHn9qr4aCEwzAcogQXM5vdZqhoMM=";
   };
 
   cmakeFlags = [

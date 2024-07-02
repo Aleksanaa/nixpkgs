@@ -19,7 +19,7 @@ stdenv.mkDerivation rec {
     owner = "graphia-app";
     repo = "graphia";
     rev = version;
-    sha256 = "sha256-8+tlQbTr6BGx+/gjviuNrQQWcxC/j6dJ+PxwB4fYmqQ=";
+    hash = "sha256-8+tlQbTr6BGx+/gjviuNrQQWcxC/j6dJ+PxwB4fYmqQ=";
   };
 
   patches = [

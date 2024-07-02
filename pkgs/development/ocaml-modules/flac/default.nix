@@ -8,7 +8,7 @@ buildDunePackage rec {
     owner = "savonet";
     repo = "ocaml-flac";
     rev = "v${version}";
-    sha256 = "sha256-HRRQd//e6Eh2HuyO+U00ILu5FoBT9jf/nRJzDOie70A=";
+    hash = "sha256-HRRQd//e6Eh2HuyO+U00ILu5FoBT9jf/nRJzDOie70A=";
   };
 
   nativeBuildInputs = [ pkg-config ];

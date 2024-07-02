@@ -74,7 +74,7 @@ stdenv.mkDerivation rec {
     };
     powerpc64le-linux = {
       url = "https://downloads.haskell.org/~ghc/${version}/ghc-${version}-powerpc64le-fedora29-linux.tar.xz";
-      sha256 = "sha256-tWSsJdPVrCiqDyIKzpBt5DaXb3b6j951tCya584kWs4=";
+      hash = "sha256-tWSsJdPVrCiqDyIKzpBt5DaXb3b6j951tCya584kWs4=";
     };
   }.${stdenv.hostPlatform.system}
     or (throw "cannot bootstrap GHC on this platform"));

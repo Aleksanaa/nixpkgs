@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
     # source code of the previous release to a different directory
     urls = [ "http://www.iram.fr/~gildas/dist/gildas-src-${srcVersion}.tar.xz"
       "http://www.iram.fr/~gildas/dist/archive/gildas/gildas-src-${srcVersion}.tar.xz" ];
-    sha256 = "sha256-Eq6S5S8xrhkCo6O2wUaHnoMDVG9WeiSurGvOc+2JKbM=";
+    hash = "sha256-Eq6S5S8xrhkCo6O2wUaHnoMDVG9WeiSurGvOc+2JKbM=";
   };
 
   nativeBuildInputs = [ pkg-config groff perl getopt gfortran which ];

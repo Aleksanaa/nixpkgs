@@ -23,7 +23,7 @@ buildPythonApplication rec {
     owner = "FPGAwars";
     repo = "apio";
     rev = "v${version}";
-    sha256 = "sha256-04qAGTzusMT3GsaRxDoXNJK1Mslzxu+ugQclBJx8xzE=";
+    hash = "sha256-04qAGTzusMT3GsaRxDoXNJK1Mslzxu+ugQclBJx8xzE=";
   };
 
   postPatch = ''

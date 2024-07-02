@@ -22,7 +22,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://launchpad.net/${pname}/trunk/${lib.toLower version}/+download/VeraCrypt_${version}_Source.tar.bz2";
-    sha256 = "sha256-920nsYJBTg1P2ba1n76iiyXbb6afK7z/ouwmmxqGX2U=";
+    hash = "sha256-920nsYJBTg1P2ba1n76iiyXbb6afK7z/ouwmmxqGX2U=";
   };
 
   patches = [

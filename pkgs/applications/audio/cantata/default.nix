@@ -84,7 +84,7 @@ mkDerivation rec {
     owner = "CDrummond";
     repo = "cantata";
     rev = "v${version}";
-    sha256 = "sha256-UaZEKZvCA50WsdQSSJQQ11KTK6rM4ouCHDX7pn3NlQw=";
+    hash = "sha256-UaZEKZvCA50WsdQSSJQQ11KTK6rM4ouCHDX7pn3NlQw=";
   };
 
   patches = [

@@ -26,7 +26,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://gnu/xboard/xboard-${version}.tar.gz";
-    sha256 = "sha256-Ky5T6EKK2bbo3IpVs6UYM4GRGk2uLABy+pYpa7sZcNY=";
+    hash = "sha256-Ky5T6EKK2bbo3IpVs6UYM4GRGk2uLABy+pYpa7sZcNY=";
   };
 
   patches = [
@@ -35,7 +35,7 @@ stdenv.mkDerivation rec {
     (fetchpatch {
       name = "fno-common.patch";
       url = "https://savannah.gnu.org/patch/download.php?file_id=53275";
-      sha256 = "sha256-ZOo9jAy1plFjhC5HXJQvXL+Zf7FL14asV3G4AwfgqTY=";
+      hash = "sha256-ZOo9jAy1plFjhC5HXJQvXL+Zf7FL14asV3G4AwfgqTY=";
     })
   ];
 

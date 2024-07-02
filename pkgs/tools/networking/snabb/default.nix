@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
     owner = "snabbco";
     repo = "snabb";
     rev = "v${version}";
-    sha256 = "sha256-oCHPRqJ1zm2Ple3Ck9nMyRC7PgKaF1RuswzdGBVU2C8=";
+    hash = "sha256-oCHPRqJ1zm2Ple3Ck9nMyRC7PgKaF1RuswzdGBVU2C8=";
   };
 
   installPhase = ''

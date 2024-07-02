@@ -19,7 +19,7 @@ stdenv.mkDerivation rec {
       url = "https://github.com/sonic-visualiser/svcore/commit/5a7b517e43b7f0b3f03b7fc3145102cf4e5b0ffc.patch";
       stripLen = 1;
       extraPrefix = "svcore/";
-      sha256 = "sha256-DOCdQqCihkR0g/6m90DbJxw00QTpyVmFzCxagrVWKiI=";
+      hash = "sha256-DOCdQqCihkR0g/6m90DbJxw00QTpyVmFzCxagrVWKiI=";
     })
     ./match-vamp.patch
   ];

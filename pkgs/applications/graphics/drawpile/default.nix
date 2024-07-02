@@ -74,7 +74,7 @@ in mkDerivation rec {
     owner = "drawpile";
     repo = "drawpile";
     rev = version;
-    sha256 = "sha256-HjGsaa2BYRNxaQP9e8Z7BkVlIKByC/ta92boGbYHRWQ=";
+    hash = "sha256-HjGsaa2BYRNxaQP9e8Z7BkVlIKByC/ta92boGbYHRWQ=";
   };
 
   nativeBuildInputs = [ extra-cmake-modules ];

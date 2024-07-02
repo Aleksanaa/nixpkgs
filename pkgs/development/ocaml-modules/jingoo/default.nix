@@ -12,7 +12,7 @@ buildDunePackage rec {
     owner = "tategakibunko";
     repo = "jingoo";
     rev = "v${version}";
-    sha256 = "sha256-qIw69OE7wYyZYKnIc9QrmF8MzY5Fg5pBFyIpexmaYxA=";
+    hash = "sha256-qIw69OE7wYyZYKnIc9QrmF8MzY5Fg5pBFyIpexmaYxA=";
   };
 
   nativeBuildInputs = [ menhir ];

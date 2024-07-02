@@ -33,7 +33,7 @@ stdenv.mkDerivation rec {
   src = fetchurl {
     url = "https://dl.genymotion.com/releases/genymotion-${version}/genymotion-${version}-linux_x64.bin";
     name = "genymotion-${version}-linux_x64.bin";
-    sha256 = "sha256-nWQZcYN2rxmN7J1OYkM+Oa2UIHztdAJ/eGY5MxNDX90=";
+    hash = "sha256-nWQZcYN2rxmN7J1OYkM+Oa2UIHztdAJ/eGY5MxNDX90=";
   };
 
   nativeBuildInputs = [ makeWrapper which xdg-utils ];

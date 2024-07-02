@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
     owner = "clutter-project";
     repo = "mx";
     rev = version;
-    sha256 = "sha256-+heIPSkg3d22xsU48UOTJ9FPLXC7zLivcnabQOM9aEk=";
+    hash = "sha256-+heIPSkg3d22xsU48UOTJ9FPLXC7zLivcnabQOM9aEk=";
   };
 
   # remove the following superfluous checks

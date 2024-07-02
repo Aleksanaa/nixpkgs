@@ -15,7 +15,7 @@ stdenv.mkDerivation rec {
     owner = "libraries";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-+BByt07HMb4u6j9bVZqkUPvyRaElKvJ2MjKlPakL87E=";
+    hash = "sha256-+BByt07HMb4u6j9bVZqkUPvyRaElKvJ2MjKlPakL87E=";
   };
 
   nativeBuildInputs = [ extra-cmake-modules ];

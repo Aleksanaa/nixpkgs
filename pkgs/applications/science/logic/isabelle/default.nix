@@ -26,7 +26,7 @@ let
     src = fetchhg {
       url = "https://isabelle.sketis.net/repos/sha1";
       rev = "e0239faa6f42";
-      sha256 = "sha256-4sxHzU/ixMAkSo67FiE6/ZqWJq9Nb9OMNhMoXH2bEy4=";
+      hash = "sha256-4sxHzU/ixMAkSo67FiE6/ZqWJq9Nb9OMNhMoXH2bEy4=";
     };
 
     buildPhase = (if stdenv.isDarwin then ''
@@ -56,13 +56,13 @@ in stdenv.mkDerivation (finalAttrs: rec {
       fetchurl
         {
           url = "https://isabelle.in.tum.de/website-${dirname}/dist/${dirname}_macos.tar.gz";
-          sha256 = "sha256-0VSW2SrHNI3/k4cCCZ724ruXaq7W1NCPsLrXFZ9l1/Q=";
+          hash = "sha256-0VSW2SrHNI3/k4cCCZ724ruXaq7W1NCPsLrXFZ9l1/Q=";
         }
     else if stdenv.hostPlatform.isx86
     then
       fetchurl {
         url = "https://isabelle.in.tum.de/website-${dirname}/dist/${dirname}_linux.tar.gz";
-        sha256 = "sha256-Go4ZCsDz5gJ7uWG5VLrNJOddMPX18G99FAadpX53Rqg=";
+        hash = "sha256-Go4ZCsDz5gJ7uWG5VLrNJOddMPX18G99FAadpX53Rqg=";
       }
     else
       fetchurl {

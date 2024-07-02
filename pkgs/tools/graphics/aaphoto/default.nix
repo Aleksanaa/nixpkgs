@@ -14,7 +14,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "http://log69.com/downloads/aaphoto_sources_${version}.tar.gz";
-    sha256 = "sha256-06koJM7jNVFqVgqg6BmOZ74foqk6yjUIFnwULzPZ4go=";
+    hash = "sha256-06koJM7jNVFqVgqg6BmOZ74foqk6yjUIFnwULzPZ4go=";
   };
 
   nativeBuildInputs = lib.optionals stdenv.cc.isClang [

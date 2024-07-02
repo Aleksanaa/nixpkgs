@@ -25,7 +25,7 @@ with python3.pkgs; buildPythonApplication rec {
     owner = "jarun";
     repo = "buku";
     rev = "v${version}";
-    sha256 = "sha256-kPVlfTYUusf5CZnKB53WZcCHo3MEnA2bLUHTRPGPn+8=";
+    hash = "sha256-kPVlfTYUusf5CZnKB53WZcCHo3MEnA2bLUHTRPGPn+8=";
   };
 
   nativeBuildInputs = [

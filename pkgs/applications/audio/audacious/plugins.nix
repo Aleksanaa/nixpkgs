@@ -51,7 +51,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "http://distfiles.audacious-media-player.org/audacious-plugins-${version}.tar.bz2";
-    sha256 = "sha256-Leom469YOi1oTfJAsnsrKTK81lPfTbUAqF9P5dX9yKY=";
+    hash = "sha256-Leom469YOi1oTfJAsnsrKTK81lPfTbUAqF9P5dX9yKY=";
   };
 
   patches = [ ./0001-Set-plugindir-to-PREFIX-lib-audacious.patch ];

@@ -7,7 +7,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://samba/pub/linux-cifs/cifs-utils/${pname}-${version}.tar.bz2";
-    sha256 = "sha256-De+quFvT6kb/xFq0H7DQrVTQWuLPqn5QPehtTxK8gWE=";
+    hash = "sha256-De+quFvT6kb/xFq0H7DQrVTQWuLPqn5QPehtTxK8gWE=";
   };
 
   nativeBuildInputs = [ autoreconfHook docutils pkg-config ];

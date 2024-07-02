@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
     owner = "exeldro";
     repo = "obs-move-transition";
     rev = version;
-    sha256 = "sha256-LZL9f/pX74rKW+wnNHGKwGuuISOTcFVr6W9h/JEK0U4=";
+    hash = "sha256-LZL9f/pX74rKW+wnNHGKwGuuISOTcFVr6W9h/JEK0U4=";
   };
 
   nativeBuildInputs = [ cmake ];

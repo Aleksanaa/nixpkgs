@@ -7,7 +7,7 @@ stdenv.mkDerivation rec {
   src = fetchFromGitiles {
     url = "https://chromium.googlesource.com/chromiumos/platform/minijail";
     rev = "linux-v${version}";
-    sha256 = "sha256-1NNjNEC0pNb0WW0PG5smltT1/dGYNRfhNxJtW0hngI8=";
+    hash = "sha256-1NNjNEC0pNb0WW0PG5smltT1/dGYNRfhNxJtW0hngI8=";
   };
 
   buildInputs = [ libcap ];

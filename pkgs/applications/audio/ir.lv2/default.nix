@@ -7,7 +7,7 @@ stdenv.mkDerivation rec {
   src = fetchgit {
     url = "https://git.hq.sig7.se/ir.lv2.git";
     rev = "38bf3ec7d370d8234dd55be99c14cf9533b43c60";
-    sha256 = "sha256-5toZYQX2oIAfQ5XPMMN+HGNE4FOE/t6mciih/OpU1dw=";
+    hash = "sha256-5toZYQX2oIAfQ5XPMMN+HGNE4FOE/t6mciih/OpU1dw=";
   };
 
   buildInputs = [ fftw gtk2 lv2 libsamplerate libsndfile zita-convolver ];

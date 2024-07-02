@@ -14,7 +14,7 @@ python3.pkgs.buildPythonApplication rec {
     owner = "karlch";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-28sk5qDVmrgXYX2wm5G8zv564vG6GwxNp+gjrFHCRfU=";
+    hash = "sha256-28sk5qDVmrgXYX2wm5G8zv564vG6GwxNp+gjrFHCRfU=";
   };
 
   nativeBuildInputs = [ installShellFiles qt5.wrapQtAppsHook python3.pkgs.setuptools ];

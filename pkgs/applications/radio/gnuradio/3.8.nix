@@ -253,7 +253,7 @@ stdenv.mkDerivation (finalAttrs: (shared // {
     # Fix compilation with boost 177
     (fetchpatch {
       url = "https://github.com/gnuradio/gnuradio/commit/2c767bb260a25b415e8c9c4b3ea37280b2127cec.patch";
-      sha256 = "sha256-l4dSzkXb5s3vcCeuKMMwiKfv83hFI9Yg+EMEX+sl+Uo=";
+      hash = "sha256-l4dSzkXb5s3vcCeuKMMwiKfv83hFI9Yg+EMEX+sl+Uo=";
     })
   ];
   passthru = shared.passthru // {

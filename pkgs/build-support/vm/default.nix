@@ -956,11 +956,11 @@ rec {
       packagesLists =
         [ (fetchurl {
             url = "mirror://ubuntu/dists/focal/main/binary-i386/Packages.xz";
-            sha256 = "sha256-7RAYURoN3RKYQAHpwBS9TIV6vCmpURpphyMJQmV4wLc=";
+            hash = "sha256-7RAYURoN3RKYQAHpwBS9TIV6vCmpURpphyMJQmV4wLc=";
           })
           (fetchurl {
             url = "mirror://ubuntu/dists/focal/universe/binary-i386/Packages.xz";
-            sha256 = "sha256-oA551xVE80volUPgkMyvzpQ1d+GhuZd4DAe7dXZnULM=";
+            hash = "sha256-oA551xVE80volUPgkMyvzpQ1d+GhuZd4DAe7dXZnULM=";
           })
         ];
       urlPrefix = "mirror://ubuntu";
@@ -973,11 +973,11 @@ rec {
       packagesLists =
         [ (fetchurl {
             url = "mirror://ubuntu/dists/focal/main/binary-amd64/Packages.xz";
-            sha256 = "sha256-d1eSH/j+7Zw5NKDJk21EG6SiOL7j6myMHfXLzUP8mGE=";
+            hash = "sha256-d1eSH/j+7Zw5NKDJk21EG6SiOL7j6myMHfXLzUP8mGE=";
           })
           (fetchurl {
             url = "mirror://ubuntu/dists/focal/universe/binary-amd64/Packages.xz";
-            sha256 = "sha256-RqdG2seJvZU3rKVNsWgLnf9RwkgVMRE1A4IZnX2WudE=";
+            hash = "sha256-RqdG2seJvZU3rKVNsWgLnf9RwkgVMRE1A4IZnX2WudE=";
           })
         ];
       urlPrefix = "mirror://ubuntu";
@@ -990,11 +990,11 @@ rec {
       packagesLists =
         [ (fetchurl {
             url = "mirror://ubuntu/dists/jammy/main/binary-i386/Packages.xz";
-            sha256 = "sha256-iZBmwT0ep4v+V3sayybbOgZBOFFZwPGpOKtmuLMMVPQ=";
+            hash = "sha256-iZBmwT0ep4v+V3sayybbOgZBOFFZwPGpOKtmuLMMVPQ=";
           })
           (fetchurl {
             url = "mirror://ubuntu/dists/jammy/universe/binary-i386/Packages.xz";
-            sha256 = "sha256-DO2LdpZ9rDDBhWj2gvDWd0TJJVZHxKsYTKTi6GXjm1E=";
+            hash = "sha256-DO2LdpZ9rDDBhWj2gvDWd0TJJVZHxKsYTKTi6GXjm1E=";
           })
         ];
       urlPrefix = "mirror://ubuntu";
@@ -1007,11 +1007,11 @@ rec {
       packagesLists =
         [ (fetchurl {
             url = "mirror://ubuntu/dists/jammy/main/binary-amd64/Packages.xz";
-            sha256 = "sha256-N8tX8VVMv6ccWinun/7hipqMF4K7BWjgh0t/9M6PnBE=";
+            hash = "sha256-N8tX8VVMv6ccWinun/7hipqMF4K7BWjgh0t/9M6PnBE=";
           })
           (fetchurl {
             url = "mirror://ubuntu/dists/jammy/universe/binary-amd64/Packages.xz";
-            sha256 = "sha256-0pyyTJP+xfQyVXBrzn60bUd5lSA52MaKwbsUpvNlXOI=";
+            hash = "sha256-0pyyTJP+xfQyVXBrzn60bUd5lSA52MaKwbsUpvNlXOI=";
           })
         ];
       urlPrefix = "mirror://ubuntu";

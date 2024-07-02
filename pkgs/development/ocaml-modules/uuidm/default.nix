@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
   pname = "uuidm";
   src = fetchurl {
     url = "https://erratique.ch/software/uuidm/releases/uuidm-${version}.tbz";
-    sha256 = "sha256-/GZbkJVDQu1UY8SliK282kUWAVMfOnpQadUlRT/tJrM=";
+    hash = "sha256-/GZbkJVDQu1UY8SliK282kUWAVMfOnpQadUlRT/tJrM=";
   };
 
   postPatch = ''

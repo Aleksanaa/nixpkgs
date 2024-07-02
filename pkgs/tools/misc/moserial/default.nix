@@ -22,7 +22,7 @@ stdenv.mkDerivation rec {
     owner = "GNOME";
     repo = pname;
     rev = "moserial_${lib.replaceStrings [ "." ] [ "_" ] version}";
-    sha256 = "sha256-wfdI51ECqVNcUrIVjYBijf/yqpiwSQeMiKaVJSSma3k=";
+    hash = "sha256-wfdI51ECqVNcUrIVjYBijf/yqpiwSQeMiKaVJSSma3k=";
   };
 
   nativeBuildInputs = [

@@ -9,7 +9,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://sourceforge/traceroute/${pname}-${version}.tar.gz";
-    sha256 = "sha256-nGwmDZbqq1HjzkYbCoT+hxI+vG3WyaWfq4A/lbNahZ4=";
+    hash = "sha256-nGwmDZbqq1HjzkYbCoT+hxI+vG3WyaWfq4A/lbNahZ4=";
   };
 
   makeFlags = [

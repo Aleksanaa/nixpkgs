@@ -20,7 +20,7 @@ mkDerivation rec {
     owner = "notepadqq";
     repo = "notepadqq";
     rev = "v${version}";
-    sha256 = "sha256-XA9Ay9kJApY+bDeOf0iPv+BWYFuTmIuqsLEPgRTCZCE=";
+    hash = "sha256-XA9Ay9kJApY+bDeOf0iPv+BWYFuTmIuqsLEPgRTCZCE=";
   };
 
   nativeBuildInputs = [

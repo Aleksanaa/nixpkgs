@@ -62,7 +62,7 @@ in rec {
 
   alloy6 = generic rec {
     version = "6.0.0";
-    sha256 = "sha256-rA7mNxcu0DWkykMyfV4JwFmQqg0HOIcwjjD4jCRxNww=";
+    hash = "sha256-rA7mNxcu0DWkykMyfV4JwFmQqg0HOIcwjjD4jCRxNww=";
   };
 
   alloy = alloy5;

@@ -13,7 +13,7 @@ buildGoModule rec {
     owner = "~anjan";
     repo = "mnc";
     rev = version;
-    sha256 = "sha256-S7MBIxuYI+cc8OMQULt7VS7ouPqhq0Jk+rz6E5GyKac=";
+    hash = "sha256-S7MBIxuYI+cc8OMQULt7VS7ouPqhq0Jk+rz6E5GyKac=";
   };
 
   meta = with lib; {

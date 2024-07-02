@@ -20,7 +20,7 @@ stdenv.mkDerivation rec {
     owner = "dajobe";
     repo = "raptor";
     rev = "3cca62a33da68143b687c9e486eefc7c7cbb4586";
-    sha256 = "sha256-h03IyFH1GHPqajfHBBTb19lCEu+VXzQLGC1wiEGVvgY=";
+    hash = "sha256-h03IyFH1GHPqajfHBBTb19lCEu+VXzQLGC1wiEGVvgY=";
   };
 
   cmakeFlags = [
@@ -33,7 +33,7 @@ stdenv.mkDerivation rec {
     (fetchpatch {
       name = "fix-cmake-generated-pc-file";
       url = "https://github.com/dajobe/raptor/commit/fa1ef9a27d8762f5588ac2e92554a188e73dee9f.diff";
-      sha256 = "sha256-zXIbrYGgC9oTpiD0WUikT4vRdc9b6bsyfnDkwUSlqao=";
+      hash = "sha256-zXIbrYGgC9oTpiD0WUikT4vRdc9b6bsyfnDkwUSlqao=";
     })
     # pull upstream fix for libxml2-2.11 API compatibility:
     #   https://github.com/dajobe/raptor/pull/58

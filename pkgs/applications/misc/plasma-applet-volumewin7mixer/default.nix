@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
     owner = "Zren";
     repo = "plasma-applet-volumewin7mixer";
     rev = "v${version}";
-    sha256 = "sha256-VMOUNtAURTHDuJBOGz2N0+3VzxBmVNC1O8dVuyUZAa4=";
+    hash = "sha256-VMOUNtAURTHDuJBOGz2N0+3VzxBmVNC1O8dVuyUZAa4=";
   };
 
   # Adds the CMakeLists.txt not provided by upstream

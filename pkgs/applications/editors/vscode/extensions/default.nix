@@ -523,7 +523,7 @@ let
           name = "vscode-bazel";
           publisher = "bazelbuild";
           version = "0.10.0";
-          sha256 = "sha256-8SUOzsUmfgt9fAy037qLVNrGJPvTnIeMNz2tbN5psbs=";
+          hash = "sha256-8SUOzsUmfgt9fAy037qLVNrGJPvTnIeMNz2tbN5psbs=";
         };
         meta = {
           description = "Bazel support for Visual Studio Code";
@@ -4487,7 +4487,7 @@ let
           name = "ayu";
           publisher = "teabyii";
           version = "1.0.5";
-          sha256 = "sha256-+IFqgWliKr+qjBLmQlzF44XNbN7Br5a119v9WAnZOu4=";
+          hash = "sha256-+IFqgWliKr+qjBLmQlzF44XNbN7Br5a119v9WAnZOu4=";
         };
         meta = {
           description = "Simple theme with bright colors and comes in three versions — dark, light and mirage for all day long comfortable work";

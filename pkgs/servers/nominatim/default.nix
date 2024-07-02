@@ -9,7 +9,7 @@ let
   countryGrid = fetchurl {
     # Nominatim docs mention https://www.nominatim.org/data/country_grid.sql.gz but it's not a very good URL for pinning
     url = "https://web.archive.org/web/20220323041006/https://nominatim.org/data/country_grid.sql.gz";
-    sha256 = "sha256-/mY5Oq9WF0klXOv0xh0TqEJeMmuM5QQJ2IxANRZd4Ek=";
+    hash = "sha256-/mY5Oq9WF0klXOv0xh0TqEJeMmuM5QQJ2IxANRZd4Ek=";
   };
 in
 stdenv.mkDerivation rec {
@@ -21,7 +21,7 @@ stdenv.mkDerivation rec {
     repo = "Nominatim";
     rev = "v${version}";
     fetchSubmodules = true;
-    sha256 = "sha256-GPMDbvTPl9SLpZi5gyRAPQ84NSTIRoSfGJeqWs1e9Oo=";
+    hash = "sha256-GPMDbvTPl9SLpZi5gyRAPQ84NSTIRoSfGJeqWs1e9Oo=";
   };
 
   nativeBuildInputs = [

@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
     owner = "postgres-plr";
     repo = "plr";
     rev = "REL${builtins.replaceStrings ["."] ["_"] version}";
-    sha256 = "sha256-c+wKWL66pulihVQnhdbzivrZOMD1/FfOpb+vFoHgqVg=";
+    hash = "sha256-c+wKWL66pulihVQnhdbzivrZOMD1/FfOpb+vFoHgqVg=";
   };
 
   nativeBuildInputs = [ pkg-config ];

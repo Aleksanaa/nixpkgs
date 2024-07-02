@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://netfilter.org/projects/libnetfilter_conntrack/files/${pname}-${version}.tar.bz2";
-    sha256 = "sha256-Z72d9J/jTouCFE9t+5OzIPOEqOpZcn6S/40YtfS1eag=";
+    hash = "sha256-Z72d9J/jTouCFE9t+5OzIPOEqOpZcn6S/40YtfS1eag=";
   };
 
   patches = [

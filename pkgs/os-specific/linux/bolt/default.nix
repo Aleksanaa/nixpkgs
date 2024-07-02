@@ -28,7 +28,7 @@ stdenv.mkDerivation rec {
     owner = "bolt";
     repo = "bolt";
     rev = version;
-    sha256 = "sha256-6m4Yrev9W5WV4/pptc8tJ4hc6QSC+eJ7BSt2mx33s9U=";
+    hash = "sha256-6m4Yrev9W5WV4/pptc8tJ4hc6QSC+eJ7BSt2mx33s9U=";
   };
 
   patches = [

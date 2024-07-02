@@ -23,7 +23,7 @@ python3.pkgs.buildPythonApplication rec {
     owner = "~martijnbraam";
     repo = pname;
     rev = version;
-    sha256 = "sha256-CPZKswbvsG61A6J512FOCKAntoJ0sUb2s+MKb0rO+Xw=";
+    hash = "sha256-CPZKswbvsG61A6J512FOCKAntoJ0sUb2s+MKb0rO+Xw=";
   };
 
   postPatch = ''

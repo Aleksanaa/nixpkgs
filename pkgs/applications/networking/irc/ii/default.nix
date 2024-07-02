@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://dl.suckless.org/tools/${pname}-${version}.tar.gz";
-    sha256 = "sha256-T2evzSCMB5ObiKrb8hSXpwKtCgf5tabOhh+fOf/lQls=";
+    hash = "sha256-T2evzSCMB5ObiKrb8hSXpwKtCgf5tabOhh+fOf/lQls=";
   };
 
   makeFlags = [ "CC:=$(CC)" ];

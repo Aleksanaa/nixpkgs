@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://savannah/lzip/lziprecover/${pname}-${version}.tar.gz";
-    sha256 = "sha256-HWmc+u/pLrJiSjZSWAvK/gu7mP54GMJebegjvN0NRY8=";
+    hash = "sha256-HWmc+u/pLrJiSjZSWAvK/gu7mP54GMJebegjvN0NRY8=";
   };
 
   configureFlags = [

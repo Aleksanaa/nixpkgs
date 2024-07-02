@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://support.hdfgroup.org/ftp/HDF5/releases/HDF-JAVA/${pname}-${version}/src/${pname}-${version}.tar.gz";
-    sha256 = "sha256-WcGYceMOB8gCycJSW4KdApy2gIBgTnE/d0PxGZClUqg=";
+    hash = "sha256-WcGYceMOB8gCycJSW4KdApy2gIBgTnE/d0PxGZClUqg=";
   };
 
   patches = [

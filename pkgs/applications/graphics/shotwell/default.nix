@@ -41,7 +41,7 @@ stdenv.mkDerivation (finalAttrs: {
 
   src = fetchurl {
     url = "mirror://gnome/sources/shotwell/${lib.versions.majorMinor finalAttrs.version}/shotwell-${finalAttrs.version}.tar.xz";
-    sha256 = "sha256-dZek/6yR4YzYFEsS8tCDE6P0Bbs2gkOnMmgm99kqcLY=";
+    hash = "sha256-dZek/6yR4YzYFEsS8tCDE6P0Bbs2gkOnMmgm99kqcLY=";
   };
 
   nativeBuildInputs = [

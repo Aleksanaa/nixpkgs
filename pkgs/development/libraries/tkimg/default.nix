@@ -7,7 +7,7 @@ tcl.mkTclDerivation rec {
   src = fetchsvn {
     url = "svn://svn.code.sf.net/p/tkimg/code/trunk";
     rev = version;
-    sha256 = "sha256-6GlkqYxXmMGjiJTZS2fQNVSimcKc1BZ/lvzvtkhty+o=";
+    hash = "sha256-6GlkqYxXmMGjiJTZS2fQNVSimcKc1BZ/lvzvtkhty+o=";
   };
 
   configureFlags = [

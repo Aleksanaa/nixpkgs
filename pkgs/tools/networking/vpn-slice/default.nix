@@ -17,7 +17,7 @@ buildPythonApplication rec {
     owner = "dlenski";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-T6VULLNRLWO4OcAsuTmhty6H4EhinyxQSg0dfv2DUJs=";
+    hash = "sha256-T6VULLNRLWO4OcAsuTmhty6H4EhinyxQSg0dfv2DUJs=";
   };
 
   postPatch = lib.optionalString stdenv.isDarwin ''

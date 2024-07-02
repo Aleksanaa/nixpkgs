@@ -82,10 +82,10 @@ let
 in {
   ammonite_2_12 = common {
     scalaVersion = "2.12";
-    sha256 = "sha256-SlweOVHudknbInM4rfEPJ9bLd3Z/EImLhVLzeKfjfMQ=";
+    hash = "sha256-SlweOVHudknbInM4rfEPJ9bLd3Z/EImLhVLzeKfjfMQ=";
   };
   ammonite_2_13 = common {
     scalaVersion = "2.13";
-    sha256 = "sha256-2BydXmF6AkWDdG5rbRLD2I/6z3w3UD0dCd5Tp+3lU7c=";
+    hash = "sha256-2BydXmF6AkWDdG5rbRLD2I/6z3w3UD0dCd5Tp+3lU7c=";
   };
 }

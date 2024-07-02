@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
     owner = "tj";
     repo = "git-extras";
     rev = version;
-    sha256 = "sha256-Zzk133ZJv91zbFz0U9tiv8pb0pAIBt9Y/8PYIaABMGc=";
+    hash = "sha256-Zzk133ZJv91zbFz0U9tiv8pb0pAIBt9Y/8PYIaABMGc=";
   };
 
   postPatch = ''

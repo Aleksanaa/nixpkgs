@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://birdfont.org/${pname}-releases/lib${pname}-${version}.tar.xz";
-    sha256 = "sha256-8GX4ijF+AxaGGFlSxRPOAoUezRG6592jOrifz/mWTRM=";
+    hash = "sha256-8GX4ijF+AxaGGFlSxRPOAoUezRG6592jOrifz/mWTRM=";
   };
 
   nativeBuildInputs = [ python3 pkg-config vala gobject-introspection ];

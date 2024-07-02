@@ -14,7 +14,7 @@ stdenv.mkDerivation rec {
     owner = "tomac";
     repo = pname;
     rev = "867b309eced9e02b63412855440cd4f5f7727431";
-    sha256 = "sha256-VShg9Nzd8dzUNiqYnKcDzRgqjwar/8XRGEJCJL25aR0=";
+    hash = "sha256-VShg9Nzd8dzUNiqYnKcDzRgqjwar/8XRGEJCJL25aR0=";
   };
 
   nativeBuildInputs = [ autoreconfHook pkg-config ];

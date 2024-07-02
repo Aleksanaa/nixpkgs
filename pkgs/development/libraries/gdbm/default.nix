@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://gnu/gdbm/${pname}-${version}.tar.gz";
-    sha256 = "sha256-dLEIHSH/8TrkvXwW5dblBKTCb3zeHcoNljpIQXS7ys0=";
+    hash = "sha256-dLEIHSH/8TrkvXwW5dblBKTCb3zeHcoNljpIQXS7ys0=";
   };
 
   nativeBuildInputs = [ updateAutotoolsGnuConfigScriptsHook ];

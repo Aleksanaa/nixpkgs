@@ -12,7 +12,7 @@ buildDunePackage rec {
 
   src = fetchurl {
     url = "https://github.com/aantron/luv/releases/download/${version}/luv-${version}.tar.gz";
-    sha256 = "sha256-dp9qCIYqSdROIAQ+Jw73F3vMe7hnkDe8BgZWImNMVsA=";
+    hash = "sha256-dp9qCIYqSdROIAQ+Jw73F3vMe7hnkDe8BgZWImNMVsA=";
   };
 
   postConfigure = ''

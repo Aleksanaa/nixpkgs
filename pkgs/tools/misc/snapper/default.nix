@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
     owner = "openSUSE";
     repo = "snapper";
     rev = "v${version}";
-    sha256 = "sha256-7FwjVk3kkC/suJ13BIEEfIswsPBYhdQI1IuPvNcXi4A=";
+    hash = "sha256-7FwjVk3kkC/suJ13BIEEfIswsPBYhdQI1IuPvNcXi4A=";
   };
 
   strictDeps = true;

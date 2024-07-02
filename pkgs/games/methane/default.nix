@@ -27,7 +27,7 @@ stdenv.mkDerivation rec {
     repo = "methane";
     owner = "rombust";
     rev = "v${version}";
-    sha256 = "sha256-STS2+wfZ8E1jpr0PYQOBQsztxhJU0Dt3IhWBE3sjdWE=";
+    hash = "sha256-STS2+wfZ8E1jpr0PYQOBQsztxhJU0Dt3IhWBE3sjdWE=";
   };
 
   nativeBuildInputs = [

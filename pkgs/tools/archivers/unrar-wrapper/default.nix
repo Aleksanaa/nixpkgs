@@ -8,7 +8,7 @@ buildPythonApplication rec {
     owner = "openSUSE";
     repo = "unrar_wrapper";
     rev = "unrar_wrapper-${version}";
-    sha256 = "sha256-HjrUif8MrbtLjRQMAPZ/Y2o43rGSDj0HHY4fZQfKz5w=";
+    hash = "sha256-HjrUif8MrbtLjRQMAPZ/Y2o43rGSDj0HHY4fZQfKz5w=";
   };
 
   makeWrapperArgs = [

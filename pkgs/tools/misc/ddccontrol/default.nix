@@ -19,7 +19,7 @@ stdenv.mkDerivation rec {
     owner = "ddccontrol";
     repo = "ddccontrol";
     rev = version;
-    sha256 = "sha256-100SITpGbui/gRhFjVZxn6lZRB0najtGHd18oUpByJo=";
+    hash = "sha256-100SITpGbui/gRhFjVZxn6lZRB0najtGHd18oUpByJo=";
   };
 
   nativeBuildInputs = [

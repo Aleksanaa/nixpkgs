@@ -11,7 +11,7 @@ let
   satlib-bmc = fetchzip {
     url = "https://www.cs.ubc.ca/~hoos/SATLIB/Benchmarks/SAT/BMC/bmc.tar.gz";
     stripRoot = false;
-    sha256 = "sha256-F1Jfrj4iMMf/3LFCShIDMs4JfLkJ51Z4wkL1FDT9b/A=";
+    hash = "sha256-F1Jfrj4iMMf/3LFCShIDMs4JfLkJ51Z4wkL1FDT9b/A=";
   };
 
   # needed for mpfr 4.2.0+ support
@@ -19,7 +19,7 @@ let
     owner = "advanpix";
     repo = "mpreal";
     rev = "mpfrc++-3.6.9";
-    sha256 = "sha256-l61SKEx4pBocADrEGPVacQ6F2ep9IuvNZ8W08dKeZKg=";
+    hash = "sha256-l61SKEx4pBocADrEGPVacQ6F2ep9IuvNZ8W08dKeZKg=";
   };
 
 in stdenv.mkDerivation rec {
@@ -30,7 +30,7 @@ in stdenv.mkDerivation rec {
     owner = "Laakeri";
     repo = pname;
     rev = "b9bb015305ea5d4e1ac7141691d0fe55ca983d31";
-    sha256 = "sha256-FE+DUd58eRr5w9RFw0fMHfjIiNDWIcG7XbyWJ/pI28U=";
+    hash = "sha256-FE+DUd58eRr5w9RFw0fMHfjIiNDWIcG7XbyWJ/pI28U=";
   };
 
   postPatch = ''

@@ -34,7 +34,7 @@ stdenv.mkDerivation rec {
     owner = "just-buildsystem";
     repo = "justbuild";
     rev = "v${version}";
-    sha256 = "sha256-kv7HpDEYZml5uk06s8Cxt5rEpxaJBz9s+or6Od1q4Io=";
+    hash = "sha256-kv7HpDEYZml5uk06s8Cxt5rEpxaJBz9s+or6Od1q4Io=";
   };
 
   bazelapi = fetchurl {

@@ -9,7 +9,7 @@ buildKodiBinaryAddon rec {
     owner = "xbmc";
     repo = "inputstream.ffmpegdirect";
     rev = "${version}-${rel}";
-    sha256 = "sha256-pPufkDPHq5EsvC6YTsRX9TjqjIczOL/6Vc5HGDIe9Gk=";
+    hash = "sha256-pPufkDPHq5EsvC6YTsRX9TjqjIczOL/6Vc5HGDIe9Gk=";
   };
 
   extraBuildInputs = [ bzip2 zlib kodi.ffmpeg ];

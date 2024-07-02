@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
     owner = "aslafy-z";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-/kUKi2BI6LMMUiy6AaYhpPIXU428Or352xYoDYdym8A=";
+    hash = "sha256-/kUKi2BI6LMMUiy6AaYhpPIXU428Or352xYoDYdym8A=";
   };
 
   nativeBuildInputs = [ makeWrapper ];

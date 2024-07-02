@@ -21,7 +21,7 @@ stdenv.mkDerivation rec {
     owner = "meetecho";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-3o9XxxTlWppq1mFgIUjstUFz6bT44mvBJa4FBgcc4Pc=";
+    hash = "sha256-3o9XxxTlWppq1mFgIUjstUFz6bT44mvBJa4FBgcc4Pc=";
   };
 
   nativeBuildInputs = [ autoreconfHook pkg-config gengetopt ];

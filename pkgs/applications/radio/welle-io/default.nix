@@ -11,7 +11,7 @@ mkDerivation rec {
     owner = "AlbrechtL";
     repo = "welle.io";
     rev = "v${version}";
-    sha256 = "sha256-xXiCL/A2SwCSr5SA4AQQEdieRzBksXx9Z78bHtlFiW4=";
+    hash = "sha256-xXiCL/A2SwCSr5SA4AQQEdieRzBksXx9Z78bHtlFiW4=";
   };
 
   nativeBuildInputs = [ cmake pkg-config ];

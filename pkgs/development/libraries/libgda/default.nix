@@ -40,7 +40,7 @@ stdenv.mkDerivation rec {
     (fetchpatch {
       name = "CVE-2021-39359.patch";
       url = "https://src.fedoraproject.org/rpms/libgda5/raw/72bb769f12e861e27e883dac5fab34f1ba4bd97e/f/bebdffb4de586fb43fd07ac549121f4b22f6812d.patch";
-      sha256 = "sha256-hIKuY5NEqOzntdlLb541bA4xZU5ypTRmV1u765K6KbM=";
+      hash = "sha256-hIKuY5NEqOzntdlLb541bA4xZU5ypTRmV1u765K6KbM=";
     })
   ];
 

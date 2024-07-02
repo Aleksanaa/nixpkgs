@@ -12,7 +12,7 @@ mkDerivation rec {
     owner  = "pstavirs";
     repo   = "ostinato";
     rev    = "v${version}";
-    sha256 = "sha256-/fPUxGeh5Cc3rb+1mR0chkiFPw5m+O6KtWDvzLn0iYo=";
+    hash = "sha256-/fPUxGeh5Cc3rb+1mR0chkiFPw5m+O6KtWDvzLn0iYo=";
   };
 
   ostinatoIcon = fetchurl {

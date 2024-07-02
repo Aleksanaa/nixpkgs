@@ -5,7 +5,7 @@ stdenv.mkDerivation rec {
   version = "2.21";
   src = fetchurl {
     url = "http://www.catb.org/~esr/${pname}/${pname}-${version}.tar.gz";
-    sha256 = "sha256-3zb+H/rRmU87LWh0+kQtiRMZ4JwJ3tVrt8vQ/EeKx8Q=";
+    hash = "sha256-3zb+H/rRmU87LWh0+kQtiRMZ4JwJ3tVrt8vQ/EeKx8Q=";
   };
   buildInputs = [ python3 ];
   nativeBuildInputs = [ python3 makeWrapper ];

@@ -24,7 +24,7 @@ stdenvNoCC.mkDerivation rec {
     owner = "kylon";
     repo = pname;
     rev = version;
-    sha256 = "sha256-llQt3m/qu7v5uQIfA1yxl2JZiFafk6sPgcvrIpQy/DI=";
+    hash = "sha256-llQt3m/qu7v5uQIfA1yxl2JZiFafk6sPgcvrIpQy/DI=";
   };
 
   nativeBuildInputs = [

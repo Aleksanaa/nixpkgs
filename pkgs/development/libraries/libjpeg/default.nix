@@ -9,7 +9,7 @@ stdenv.mkDerivation (finalAttrs: {
 
   src = fetchurl {
     url = "http://www.ijg.org/files/jpegsrc.v${finalAttrs.version}.tar.gz";
-    sha256 = "sha256-BHBcEQyyRpyqeftx+6PXv4NJFHBulkGkWJSFwfgyVls=";
+    hash = "sha256-BHBcEQyyRpyqeftx+6PXv4NJFHBulkGkWJSFwfgyVls=";
   };
 
   configureFlags = lib.optional static "--enable-static --disable-shared";

@@ -13,7 +13,7 @@ python3Packages.buildPythonApplication rec {
     owner = "tahoe-lafs";
     repo = "tahoe-lafs";
     rev = "8e28a9d0e02fde2388aca549da2b5c452ac4337f";
-    sha256 = "sha256-MuD/ZY+die7RCsuVdcePSD0DdwatXRi7CxW2iFt22L0=";
+    hash = "sha256-MuD/ZY+die7RCsuVdcePSD0DdwatXRi7CxW2iFt22L0=";
   };
 
   outputs = [ "out" "doc" "info" ];

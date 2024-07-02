@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
     owner  = "pmem";
     repo   = "ndctl";
     rev    = "v${version}";
-    sha256 = "sha256-osux3DiKRh8ftHwyfFI+WSFx20+yJsg1nVx5nuoKJu4=";
+    hash = "sha256-osux3DiKRh8ftHwyfFI+WSFx20+yJsg1nVx5nuoKJu4=";
   };
 
   outputs = [ "out" "lib" "man" "dev" ];

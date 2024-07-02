@@ -4,7 +4,7 @@ buildPecl rec {
   version = "2.2.0";
   pname = "msgpack";
 
-  sha256 = "sha256-gqoeQExf9U7EHSogEwXNZZTtFKdSnpEZ+nykV+S70So=";
+  hash = "sha256-gqoeQExf9U7EHSogEwXNZZTtFKdSnpEZ+nykV+S70So=";
 
   meta = {
     changelog = "https://pecl.php.net/package-info.php?package=msgpack&version=${version}";

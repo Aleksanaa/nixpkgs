@@ -87,7 +87,7 @@ stdenv.mkDerivation rec {
     (fetchpatch {
       name = "singular-4.3.2p14-upgrade.patch";
       url = "https://github.com/sagemath/sage/commit/a0c56816b051e97da44ac0a4e4d4f6915cf7fa0f.diff";
-      sha256 = "sha256-WGMmPeBoj2LUC+2qxWuaJL89QUuGt6axGvxWkpM9LYg=";
+      hash = "sha256-WGMmPeBoj2LUC+2qxWuaJL89QUuGt6axGvxWkpM9LYg=";
     })
   ];
 

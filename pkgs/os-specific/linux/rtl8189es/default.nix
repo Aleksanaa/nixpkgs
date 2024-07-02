@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
     owner = "jwrdegoede";
     repo = "rtl8189ES_linux";
     rev = "eb51e021b0e1b6f94a4b49da3f4ee5c5fb20b715";
-    sha256 = "sha256-n7Bsstr1H1RvguAyJnVqk/JgEx8WEZWaVg7ZfEYykR0=";
+    hash = "sha256-n7Bsstr1H1RvguAyJnVqk/JgEx8WEZWaVg7ZfEYykR0=";
   };
 
   nativeBuildInputs = [ bc nukeReferences ] ++ kernel.moduleBuildDependencies;

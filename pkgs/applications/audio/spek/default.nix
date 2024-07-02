@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
     owner = "alexkay";
     repo = "spek";
     rev = "v${version}";
-    sha256 = "sha256-VYt2so2k3Rk3sLSV1Tf1G2pESYiXygrKr9Koop8ChCg=";
+    hash = "sha256-VYt2so2k3Rk3sLSV1Tf1G2pESYiXygrKr9Koop8ChCg=";
   };
 
   nativeBuildInputs = [ autoreconfHook intltool pkg-config wrapGAppsHook3 ];

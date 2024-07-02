@@ -11,12 +11,12 @@ let
   srcs = {
     x86_64-linux = fetchurl {
       url = "https://www.scootersoftware.com/${pname}-${version}_amd64.deb";
-      sha256 = "sha256-1+f/AfyJ8Z80WR4cs1JDjTquTR1mGAUOd27vniSeA0k=";
+      hash = "sha256-1+f/AfyJ8Z80WR4cs1JDjTquTR1mGAUOd27vniSeA0k=";
     };
 
     x86_64-darwin = fetchurl {
       url = "https://www.scootersoftware.com/BCompareOSX-${version}.zip";
-      sha256 = "sha256-hUzJfUgfCuvB6ADHbsgmEXXgntm01hPnfSjwl7jI70c=";
+      hash = "sha256-hUzJfUgfCuvB6ADHbsgmEXXgntm01hPnfSjwl7jI70c=";
     };
 
     aarch64-darwin = srcs.x86_64-darwin;

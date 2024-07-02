@@ -15,7 +15,7 @@ mkDerivation rec {
     owner = "ilia3101";
     repo = "MLV-App";
     rev = "QTv${version}";
-    sha256 = "sha256-RfZXHmWSjZBxNFwQ/bzHppsLS0LauURIdnkAzxAIBcU=";
+    hash = "sha256-RfZXHmWSjZBxNFwQ/bzHppsLS0LauURIdnkAzxAIBcU=";
   };
 
   patches = if stdenv.isAarch64 then ./aarch64-flags.patch else null;

@@ -16,7 +16,7 @@ buildPecl {
     owner = "krakjoe";
     repo = "apcu";
     rev = "v${version}";
-    sha256 = "sha256-UDKLLCCnYJj/lCD8ZkkDf2WYZMoIbcP75+0/IXo4vdQ=";
+    hash = "sha256-UDKLLCCnYJj/lCD8ZkkDf2WYZMoIbcP75+0/IXo4vdQ=";
   };
 
   buildInputs = [ pcre2 ];

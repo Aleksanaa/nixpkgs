@@ -49,7 +49,7 @@ let
   icon = fetchurl {
     name = "winbox.png";
     url = "https://aur.archlinux.org/cgit/aur.git/plain/winbox.png?h=winbox";
-    sha256 = "sha256-YD6u2N+1thRnEsXO6AHm138fRda9XEtUX5+EGTg004A=";
+    hash = "sha256-YD6u2N+1thRnEsXO6AHm138fRda9XEtUX5+EGTg004A=";
   };
 in
 symlinkJoin {

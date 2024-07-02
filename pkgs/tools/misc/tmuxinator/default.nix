@@ -24,7 +24,7 @@ buildRubyGem rec {
     name = "ruby${ruby.version}-${gemName}-${version}";
     gemName = "thor";
     version = "1.3.0";
-    source.sha256 = "sha256-Gtx/nls2VaaMcTk/7ovQrQiNFO6Og6C3NybyPLs8p8M=";
+    source.hash = "sha256-Gtx/nls2VaaMcTk/7ovQrQiNFO6Og6C3NybyPLs8p8M=";
   };
 
   xdg = buildRubyGem rec {

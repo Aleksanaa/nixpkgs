@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://mcfm.fnal.gov/downloads/${pname}-${version}.tar.gz";
-    sha256 = "sha256-3Dg4KoILb0XhgGkzItDh/1opCtYrrIvtbuALYqPUvE8=";
+    hash = "sha256-3Dg4KoILb0XhgGkzItDh/1opCtYrrIvtbuALYqPUvE8=";
   };
 
   postPatch = ''

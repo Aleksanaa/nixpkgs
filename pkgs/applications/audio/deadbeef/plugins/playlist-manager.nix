@@ -14,7 +14,7 @@ stdenv.mkDerivation {
     owner = "kpcee";
     repo = "deadbeef-playlist-manager";
     rev = "b1393022b2d9ea0a19b845420146e0fc56cd9c0a";
-    sha256 = "sha256-dsKthlQ0EuX4VhO8K9VTyX3zN8ytzDUbSi/xSMB4xRw=";
+    hash = "sha256-dsKthlQ0EuX4VhO8K9VTyX3zN8ytzDUbSi/xSMB4xRw=";
   };
 
   nativeBuildInputs = [

@@ -32,7 +32,7 @@ let
       owner = "p-ranav";
       repo = "argparse";
       rev = "v2.9";
-      sha256 = "sha256-vbf4kePi5gfg9ub4aP1cCK1jtiA65bUS9+5Ghgvxt/E=";
+      hash = "sha256-vbf4kePi5gfg9ub4aP1cCK1jtiA65bUS9+5Ghgvxt/E=";
     };
   });
 

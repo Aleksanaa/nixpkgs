@@ -18,7 +18,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://download.lighttpd.net/lighttpd/releases-${lib.versions.majorMinor version}.x/${pname}-${version}.tar.xz";
-    sha256 = "sha256-i3IcqTnTEq+qbvMdy9avtRYe04Wsgo5vzNTFt2vhidY=";
+    hash = "sha256-i3IcqTnTEq+qbvMdy9avtRYe04Wsgo5vzNTFt2vhidY=";
   };
 
   separateDebugInfo = true;

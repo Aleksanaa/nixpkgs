@@ -6,7 +6,7 @@ stdenvNoCC.mkDerivation rec {
 
   src = fetchzip {
     url = "https://cancel.fm/dl/Ripcord_Mac_${version}.zip";
-    sha256 = "sha256-v8iydjLBjFN5LuctpcBpEkhSICxPhLKzLjSASWtsQok=";
+    hash = "sha256-v8iydjLBjFN5LuctpcBpEkhSICxPhLKzLjSASWtsQok=";
     stripRoot = false;
   };
 

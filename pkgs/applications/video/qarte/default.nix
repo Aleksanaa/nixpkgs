@@ -9,7 +9,7 @@ in mkDerivation {
   src = fetchbzr {
     url = "http://bazaar.launchpad.net/~vincent-vandevyvre/qarte/qarte-5";
     rev = "88";
-    sha256 = "sha256-+Ixe4bWKubH/XBESwmP2NWS8bH0jq611c3MZn7W87Jw=";
+    hash = "sha256-+Ixe4bWKubH/XBESwmP2NWS8bH0jq611c3MZn7W87Jw=";
   };
 
   buildInputs = [ pythonEnv ];

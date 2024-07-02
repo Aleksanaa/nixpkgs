@@ -6,7 +6,7 @@ tcl.mkTclDerivation rec {
 
   src = fetchurl {
     url = "https://core.tcl-lang.org/tcltls/uv/tcltls-${version}.tar.gz";
-    sha256 = "sha256-6E4reideyCxKqp0bH5eG2+Q1jIFekXU5/+f2Z/9Lw7Q=";
+    hash = "sha256-6E4reideyCxKqp0bH5eG2+Q1jIFekXU5/+f2Z/9Lw7Q=";
   };
 
   buildInputs = [ openssl ];

@@ -8,7 +8,7 @@ buildGoModule rec {
     owner = "ergochat";
     repo = "ergo";
     rev = "v${version}";
-    sha256 = "sha256-WQvXrG82hcPd4viA1cyIsTd5HbR0KD1b5r2me8MKoR8=";
+    hash = "sha256-WQvXrG82hcPd4viA1cyIsTd5HbR0KD1b5r2me8MKoR8=";
   };
 
   vendorHash = null;

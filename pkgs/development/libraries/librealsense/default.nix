@@ -31,7 +31,7 @@ stdenv.mkDerivation rec {
     owner = "IntelRealSense";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-EbnIHnsUgsqN/SVv4m9H7K8gfwni+u82+M55QBstAGI=";
+    hash = "sha256-EbnIHnsUgsqN/SVv4m9H7K8gfwni+u82+M55QBstAGI=";
   };
 
   buildInputs = [

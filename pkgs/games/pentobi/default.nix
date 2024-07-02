@@ -10,7 +10,7 @@ mkDerivation rec {
     owner = "enz";
     repo = "pentobi";
     rev = "v${version}";
-    sha256 = "sha256-DQM3IJ0pRkX4OsrjZGROg50LfKb621UnpvtqSjxchz8=";
+    hash = "sha256-DQM3IJ0pRkX4OsrjZGROg50LfKb621UnpvtqSjxchz8=";
   };
 
   nativeBuildInputs = [ cmake docbook_xsl qttools ];

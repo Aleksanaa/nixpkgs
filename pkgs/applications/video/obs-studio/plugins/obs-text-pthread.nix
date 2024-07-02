@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
     owner = "norihiro";
     repo = "obs-text-pthread";
     rev = version;
-    sha256 = "sha256-3Y++zpy5TEp8AtyRw+1fZDEFY9AuN7JpUNqUhM7h04U=";
+    hash = "sha256-3Y++zpy5TEp8AtyRw+1fZDEFY9AuN7JpUNqUhM7h04U=";
   };
 
   nativeBuildInputs = [ cmake pkg-config ];

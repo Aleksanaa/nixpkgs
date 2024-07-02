@@ -19,7 +19,7 @@ let
       owner = "yquake2";
       repo = "yquake2";
       rev = "QUAKE2_${builtins.replaceStrings ["."] ["_"] version}";
-      sha256 = "sha256-2x/qxrhvy+An/HitmWAhmwuDJ2djMeTsLhAtijuvbzE=";
+      hash = "sha256-2x/qxrhvy+An/HitmWAhmwuDJ2djMeTsLhAtijuvbzE=";
     };
 
     postPatch = ''

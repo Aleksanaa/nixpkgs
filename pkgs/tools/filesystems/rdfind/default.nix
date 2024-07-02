@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://rdfind.pauldreik.se/${pname}-${version}.tar.gz";
-    sha256 = "sha256-ekBujvGIalhpZVYEYY3Zj2cvEsamvkkm0FO+ZQcPMnk=";
+    hash = "sha256-ekBujvGIalhpZVYEYY3Zj2cvEsamvkkm0FO+ZQcPMnk=";
   };
 
   buildInputs = [ nettle ];

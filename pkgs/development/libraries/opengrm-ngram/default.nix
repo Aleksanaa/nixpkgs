@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "http://www.openfst.org/twiki/pub/GRM/NGramDownload/ngram-${version}.tar.gz";
-    sha256 = "sha256-ivMPDy6CPM17hWCToLOVzUgcWZiEt2pjYeizeBLYnYc=";
+    hash = "sha256-ivMPDy6CPM17hWCToLOVzUgcWZiEt2pjYeizeBLYnYc=";
   };
 
   nativeBuildInputs = [ autoreconfHook ];

@@ -21,7 +21,7 @@ stdenv.mkDerivation rec {
     owner = "UnknownShadow200";
     repo = "ClassiCube";
     rev = version;
-    sha256 = "sha256-7VPn5YXNoAR3ftYMDQuQRqeMCrbyB56ir1sQWBiPWAI=";
+    hash = "sha256-7VPn5YXNoAR3ftYMDQuQRqeMCrbyB56ir1sQWBiPWAI=";
   };
 
   nativeBuildInputs = [ dos2unix makeWrapper copyDesktopItems ];

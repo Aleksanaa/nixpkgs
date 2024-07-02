@@ -19,7 +19,7 @@ stdenv.mkDerivation rec {
     owner = "cifsd-team";
     repo = pname;
     rev = version;
-    sha256 = "sha256-QE/Pnba4zgeInlVqOEjT3EqV6NPkQTp6xeYU3dsIl4M=";
+    hash = "sha256-QE/Pnba4zgeInlVqOEjT3EqV6NPkQTp6xeYU3dsIl4M=";
   };
 
   buildInputs = [ glib libnl ] ++ lib.optional withKerberos libkrb5;

@@ -39,37 +39,37 @@ in
 {
   Mono = maple-font {
     pname = "MapleMono-ttf";
-    sha256 = "sha256-a06JLIP5aVb9SeEz6kw+LqKy0ydCgaUlPDFWA2Y0G8Q=";
+    hash = "sha256-a06JLIP5aVb9SeEz6kw+LqKy0ydCgaUlPDFWA2Y0G8Q=";
     desc = "monospace TrueType";
   };
 
   NF = maple-font {
     pname = "MapleMono-NF";
-    sha256 = "sha256-fy+hdUYZDW5nkMVirhkmys3tIkWezPDrlpNxnRMl4WU=";
+    hash = "sha256-fy+hdUYZDW5nkMVirhkmys3tIkWezPDrlpNxnRMl4WU=";
     desc = "Nerd Font";
   };
 
   SC-NF = maple-font {
     pname = "MapleMono-SC-NF";
-    sha256 = "sha256-SbXWkrpLJUrq+Jt1h3GBP9md5TbYpPchdiR0oEDMAgY=";
+    hash = "sha256-SbXWkrpLJUrq+Jt1h3GBP9md5TbYpPchdiR0oEDMAgY=";
     desc = "Nerd Font SC";
   };
 
   opentype = maple-font {
     pname = "MapleMono-otf";
-    sha256 = "sha256-fwfFlNbaWXFCjcno7NK3dZqAzsHLh9rdGkSq26xc9qw=";
+    hash = "sha256-fwfFlNbaWXFCjcno7NK3dZqAzsHLh9rdGkSq26xc9qw=";
     desc = "OpenType";
   };
 
   woff2 = maple-font {
     pname = "MapleMono-woff2";
-    sha256 = "sha256-4akpZGGth4yZjI5wjO3ZXrXcWNxb7/6YChU7T5fNVKs=";
+    hash = "sha256-4akpZGGth4yZjI5wjO3ZXrXcWNxb7/6YChU7T5fNVKs=";
     desc = "WOFF2.0";
   };
 
   autohint = maple-font {
     pname = "MapleMono-ttf-autohint";
-    sha256 = "sha256-rSYIC42Bt+KFgxhwRhXS4sbh4etKYkCOo5nP2J2BHt4=";
+    hash = "sha256-rSYIC42Bt+KFgxhwRhXS4sbh4etKYkCOo5nP2J2BHt4=";
     desc = "ttf autohint";
   };
 }

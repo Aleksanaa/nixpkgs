@@ -9,7 +9,7 @@ stdenv.mkDerivation rec {
     owner = "stevenhoneyman";
     repo = pname;
     rev = "16f22222116b78b7f6a6fd83289937cdaabed624";
-    sha256 = "sha256-ly2w9jmRlprm/PnyC0LYjrxBVK+J0DLiSpzuTUMZpWA=";
+    hash = "sha256-ly2w9jmRlprm/PnyC0LYjrxBVK+J0DLiSpzuTUMZpWA=";
   };
 
   nativeBuildInputs = [ pkg-config autoreconfHook wrapGAppsHook3 intltool ];

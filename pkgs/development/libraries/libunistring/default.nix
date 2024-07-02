@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://gnu/libunistring/${pname}-${version}.tar.gz";
-    sha256 = "sha256-oiUr7uyDCsREufaNazitiD2xmRnbNbUiIs+CfDhb22o=";
+    hash = "sha256-oiUr7uyDCsREufaNazitiD2xmRnbNbUiIs+CfDhb22o=";
   };
 
   outputs = [ "out" "dev" "info" "doc" ];

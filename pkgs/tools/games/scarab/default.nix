@@ -22,7 +22,7 @@ buildDotnetModule rec {
     owner = "fifty-six";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-z1hmMrfeoYyjVEPPjWvUfKUKsOS7UsocSWMYrFY+/kI=";
+    hash = "sha256-z1hmMrfeoYyjVEPPjWvUfKUKsOS7UsocSWMYrFY+/kI=";
   };
 
   nugetDeps = ./deps.nix;

@@ -20,7 +20,7 @@ stdenv.mkDerivation rec {
     owner = "libmtp";
     repo = "libmtp";
     rev = "libmtp-${builtins.replaceStrings [ "." ] [ "-" ] version}";
-    sha256 = "sha256-m9QFVD8udQ3SdGwn276BnIKqGeATA5QuokOK29Ykc1k=";
+    hash = "sha256-m9QFVD8udQ3SdGwn276BnIKqGeATA5QuokOK29Ykc1k=";
   };
 
   patches = [

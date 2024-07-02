@@ -32,7 +32,7 @@ stdenv.mkDerivation rec {
     owner = "pavanjadhaw";
     repo = "betterlockscreen";
     rev = "v${version}";
-    sha256 = "sha256-e/NyUxrN18+x2zt+JzqVA00P8VdHo8oj9Bx09XKI+Eg=";
+    hash = "sha256-e/NyUxrN18+x2zt+JzqVA00P8VdHo8oj9Bx09XKI+Eg=";
   };
 
   nativeBuildInputs = [ makeWrapper ];

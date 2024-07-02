@@ -18,7 +18,7 @@ stdenvNoCC.mkDerivation rec {
     owner = "elementary";
     repo = "icons";
     rev = version;
-    sha256 = "sha256-EPmQgE33+HBI78SlCBV3WlyLCP6AggvqsQa7gZuOMRM=";
+    hash = "sha256-EPmQgE33+HBI78SlCBV3WlyLCP6AggvqsQa7gZuOMRM=";
   };
 
   nativeBuildInputs = [

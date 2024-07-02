@@ -25,7 +25,7 @@ in
 
   src = fetchurl {
     url = "mirror://sourceforge/gnuplot/${pname}-${version}.tar.gz";
-    sha256 = "sha256-6FpmDBoqGAj/JPfmmYH/y6xmpFydz3EbZWELJupxN5o=";
+    hash = "sha256-6FpmDBoqGAj/JPfmmYH/y6xmpFydz3EbZWELJupxN5o=";
   };
 
   nativeBuildInputs = [ makeWrapper pkg-config texinfo ] ++ lib.optional withQt qttools;

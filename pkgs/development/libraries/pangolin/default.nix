@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
     owner = "stevenlovegrove";
     repo = "Pangolin";
     rev = "v${version}";
-    sha256 = "sha256-B5YuNcJZHjR3dlVs66rySi68j29O3iMtlQvCjTUZBeY=";
+    hash = "sha256-B5YuNcJZHjR3dlVs66rySi68j29O3iMtlQvCjTUZBeY=";
   };
 
   nativeBuildInputs = [ cmake pkg-config doxygen ];

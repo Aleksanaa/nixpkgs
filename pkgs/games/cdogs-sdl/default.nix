@@ -19,7 +19,7 @@ stdenv.mkDerivation rec {
     repo = pname;
     owner = "cxong";
     rev = version;
-    sha256 = "sha256-bFHygaL0UrrprSZRPTdYIzO78IhMjiqhLCGr7TTajqc=";
+    hash = "sha256-bFHygaL0UrrprSZRPTdYIzO78IhMjiqhLCGr7TTajqc=";
   };
 
   postPatch = ''

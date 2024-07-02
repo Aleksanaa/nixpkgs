@@ -31,7 +31,7 @@ stdenv.mkDerivation rec {
     owner = "dino";
     repo = "dino";
     rev = "v${version}";
-    sha256 = "sha256-smy/t6wTCnG0kuRFKwyeLENKqOQDhL0fZTtj3BHo6kw=";
+    hash = "sha256-smy/t6wTCnG0kuRFKwyeLENKqOQDhL0fZTtj3BHo6kw=";
   };
 
   patches = [

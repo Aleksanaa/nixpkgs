@@ -20,7 +20,7 @@ in stdenv.mkDerivation rec {
     owner = "sm0svx";
     repo = pname;
     rev = version;
-    sha256 = "sha256-riyFEuEmJ7+jYT3UoTTsMUwFdO3y5mjo4z0fcC3O8gY=";
+    hash = "sha256-riyFEuEmJ7+jYT3UoTTsMUwFdO3y5mjo4z0fcC3O8gY=";
   };
 
   cmakeFlags = [

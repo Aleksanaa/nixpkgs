@@ -243,7 +243,7 @@ in {
       owner = "LibreELEC";
       repo = "amlogic-boot-fip";
       rev = "4369a138ca24c5ab932b8cbd1af4504570b709df";
-      sha256 = "sha256-mGRUwdh3nW4gBwWIYHJGjzkezHxABwcwk/1gVRis7Tc=";
+      hash = "sha256-mGRUwdh3nW4gBwWIYHJGjzkezHxABwcwk/1gVRis7Tc=";
       meta.license = lib.licenses.unfreeRedistributableFirmware;
     };
   in

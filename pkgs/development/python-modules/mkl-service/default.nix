@@ -17,7 +17,7 @@ buildPythonPackage rec {
     owner = "IntelPython";
     repo = "mkl-service";
     rev = "refs/tags/v${version}";
-    sha256 = "sha256-4UPiQt1hVVlPFZnuKlMK3FLv2cIEXToHKxnyYLXR/sY=";
+    hash = "sha256-4UPiQt1hVVlPFZnuKlMK3FLv2cIEXToHKxnyYLXR/sY=";
   };
 
   MKLROOT = mkl;

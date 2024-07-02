@@ -12,7 +12,7 @@ python3Packages.buildPythonApplication rec {
     owner = "kusti8";
     repo = pname;
     rev = "7ce7c4603c6d0ab1da29b0d4080aa05f57bd1760";
-    sha256 = "sha256-dDIJXhB3rmKnawOYJHE7WK38b0M5722zA+yLgpEjDyI=";
+    hash = "sha256-dDIJXhB3rmKnawOYJHE7WK38b0M5722zA+yLgpEjDyI=";
   };
 
   buildInputs = [ qtbase ];

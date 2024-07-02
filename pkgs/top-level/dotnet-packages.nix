@@ -61,7 +61,7 @@ let self = dotnetPackages // overrides; dotnetPackages = with self; {
   SharpZipLib = fetchNuGet {
     pname = "SharpZipLib";
     version = "1.3.3";
-    sha256 = "sha256-HWEQTKh9Ktwg/zIl079dAiH+ob2ShWFAqLgG6XgIMr4=";
+    hash = "sha256-HWEQTKh9Ktwg/zIl079dAiH+ob2ShWFAqLgG6XgIMr4=";
     outputFiles = [ "lib/*" ];
   };
 
@@ -83,7 +83,7 @@ let self = dotnetPackages // overrides; dotnetPackages = with self; {
   RestSharp = fetchNuGet {
     pname = "RestSharp";
     version = "106.12.0";
-    sha256 = "sha256-NGzveByJvCRtHlI2C8d/mLs3akyMm77NER8TUG6HiD4=";
+    hash = "sha256-NGzveByJvCRtHlI2C8d/mLs3akyMm77NER8TUG6HiD4=";
     outputFiles = [ "lib/*" ];
   };
 

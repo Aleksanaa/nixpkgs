@@ -12,7 +12,7 @@ python3.pkgs.buildPythonPackage rec {
     owner = "EugeneLoy";
     repo = "coq_jupyter";
     rev = "v${version}";
-    sha256 = "sha256-+Pp51cxeqjg5MW4CEccNWVjNcY9iyFNATIEage9RWJ0=";
+    hash = "sha256-+Pp51cxeqjg5MW4CEccNWVjNcY9iyFNATIEage9RWJ0=";
   };
 
   propagatedBuildInputs = (with python3.pkgs; [ ipykernel future ]) ++ [ coq ];

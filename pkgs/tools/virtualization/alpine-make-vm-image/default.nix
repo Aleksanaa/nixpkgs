@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
     owner = "alpinelinux";
     repo = "alpine-make-vm-image";
     rev = "v${version}";
-    sha256 = "sha256-ilXoee19Wp/tB4f/0c7vWki+dnEPYp4f/IKzkGwxdbU=";
+    hash = "sha256-ilXoee19Wp/tB4f/0c7vWki+dnEPYp4f/IKzkGwxdbU=";
   };
 
   nativeBuildInputs = [ makeWrapper ];

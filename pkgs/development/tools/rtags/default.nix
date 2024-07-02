@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
     owner = "andersbakken";
     repo = "rtags";
     rev = "v${version}";
-    sha256 = "sha256-EJ5pC53S36Uu7lM6KuLvLN6MAyrQW/Yk5kPqZNS5m8c=";
+    hash = "sha256-EJ5pC53S36Uu7lM6KuLvLN6MAyrQW/Yk5kPqZNS5m8c=";
     fetchSubmodules = true;
     # unicode file names lead to different checksums on HFS+ vs. other
     # filesystems because of unicode normalisation
@@ -26,7 +26,7 @@ stdenv.mkDerivation rec {
   patches = [(fetchpatch {
     name = "define-obsolete-function-alias.patch";
     url = "https://github.com/Andersbakken/rtags/commit/63f18acb21e664fd92fbc19465f0b5df085b5e93.patch";
-    sha256 = "sha256-dmEPtnk8Pylmf5479ovHKItRZ+tJuOWuYOQbWB/si/Y=";
+    hash = "sha256-dmEPtnk8Pylmf5479ovHKItRZ+tJuOWuYOQbWB/si/Y=";
   })];
 
   preConfigure = ''

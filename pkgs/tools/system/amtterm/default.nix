@@ -10,7 +10,7 @@ stdenv.mkDerivation (finalAttrs: {
 
   src = fetchurl {
     url = "https://www.kraxel.org/cgit/amtterm/snapshot/amtterm-${finalAttrs.version}.tar.gz";
-    sha256 = "sha256-WrYWAXLW74hb/DfSiPyiFIGAUfDQFdNEPx+XevZYcyk=";
+    hash = "sha256-WrYWAXLW74hb/DfSiPyiFIGAUfDQFdNEPx+XevZYcyk=";
   };
 
   makeFlags = [ "prefix=$(out)" "STRIP=" ];

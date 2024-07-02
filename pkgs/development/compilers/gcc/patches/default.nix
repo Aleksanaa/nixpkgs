@@ -148,17 +148,17 @@ in
   "14" = [ (fetchpatch {
     name = "gcc-14-darwin-aarch64-support.patch";
     url = "https://raw.githubusercontent.com/Homebrew/formula-patches/82b5c1cd38826ab67ac7fc498a8fe74376a40f4a/gcc/gcc-14.1.0.diff";
-    sha256 = "sha256-jCY65l1DGdESNyzEmD8FFC/xMmqeqBIQF+BhT4uTBBU=";
+    hash = "sha256-jCY65l1DGdESNyzEmD8FFC/xMmqeqBIQF+BhT4uTBBU=";
   }) ];
   "13" = [ (fetchpatch {
     name = "gcc-13-darwin-aarch64-support.patch";
     url = "https://raw.githubusercontent.com/Homebrew/formula-patches/bda0faddfbfb392e7b9c9101056b2c5ab2500508/gcc/gcc-13.3.0.diff";
-    sha256 = "sha256-RBTCBXIveGwuQGJLzMW/UexpUZdDgdXprp/G2NHkmQo=";
+    hash = "sha256-RBTCBXIveGwuQGJLzMW/UexpUZdDgdXprp/G2NHkmQo=";
   }) ];
   "12" = [ (fetchurl {
     name = "gcc-12-darwin-aarch64-support.patch";
     url = "https://raw.githubusercontent.com/Homebrew/formula-patches/f1188b90d610e2ed170b22512ff7435ba5c891e2/gcc/gcc-12.3.0.diff";
-    sha256 = "sha256-naL5ZNiurqfDBiPSU8PTbTmLqj25B+vjjiqc4fAFgYs=";
+    hash = "sha256-naL5ZNiurqfDBiPSU8PTbTmLqj25B+vjjiqc4fAFgYs=";
   }) ];
   "11" = [ (fetchpatch {
     # There are no upstream release tags in https://github.com/iains/gcc-11-branch.
@@ -206,7 +206,7 @@ in
 ++ optional (langAda && (is9 || is10)) ./gnat-cflags.patch
 ++ optional (is10 && buildPlatform.system == "aarch64-darwin" && targetPlatform != buildPlatform) (fetchpatch {
   url = "https://raw.githubusercontent.com/richard-vd/musl-cross-make/5e9e87f06fc3220e102c29d3413fbbffa456fcd6/patches/gcc-${version}/0008-darwin-aarch64-self-host-driver.patch";
-  sha256 = "sha256-XtykrPd5h/tsnjY1wGjzSOJ+AyyNLsfnjuOZ5Ryq9vA=";
+  hash = "sha256-XtykrPd5h/tsnjY1wGjzSOJ+AyyNLsfnjuOZ5Ryq9vA=";
 })
 
 # Fix undefined symbol errors when building older versions with clang
@@ -323,7 +323,7 @@ in
     name = "gcc4-char-reload.patch";
     url = "https://gcc.gnu.org/git/?p=gcc.git;a=commitdiff_plain;h=d57c99458933a21fdf94f508191f145ad8d5ec58";
     includes = [ "gcc/reload.h" ];
-    sha256 = "sha256-66AMP7/ajunGKAN5WJz/yPn42URZ2KN51yPrFdsxEuM=";
+    hash = "sha256-66AMP7/ajunGKAN5WJz/yPn42URZ2KN51yPrFdsxEuM=";
   })
 ]
 
@@ -347,6 +347,6 @@ in
     name = "gcc4-char-reload.patch";
     url = "https://gcc.gnu.org/git/?p=gcc.git;a=commitdiff_plain;h=d57c99458933a21fdf94f508191f145ad8d5ec58";
     includes = [ "gcc/reload.h" ];
-    sha256 = "sha256-66AMP7/ajunGKAN5WJz/yPn42URZ2KN51yPrFdsxEuM=";
+    hash = "sha256-66AMP7/ajunGKAN5WJz/yPn42URZ2KN51yPrFdsxEuM=";
   })
 ]

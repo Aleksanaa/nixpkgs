@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://www.open-mpi.org/software/hwloc/v${lib.versions.majorMinor version}/downloads/hwloc-${version}.tar.bz2";
-    sha256 = "sha256-A5A7h8rV23K9APeSbWpTdEsQxcaiOMa2hRDn3BVg5Pk=";
+    hash = "sha256-A5A7h8rV23K9APeSbWpTdEsQxcaiOMa2hRDn3BVg5Pk=";
   };
 
   configureFlags = [

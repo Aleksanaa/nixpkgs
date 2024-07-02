@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://www.sonarnerd.net/src/focal/src/${pname}_${version}.tar.gz";
-    sha256 = "sha256-iyKNmg6sf+mxlY/4vt5lKdrKfJzkoCYU2j1O8uwk8K4=";
+    hash = "sha256-iyKNmg6sf+mxlY/4vt5lKdrKfJzkoCYU2j1O8uwk8K4=";
   };
 
   nativeBuildInputs = [ pkg-config gobject-introspection ];

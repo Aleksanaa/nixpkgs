@@ -83,7 +83,7 @@ stdenv.mkDerivation (finalAttrs: {
 
   src = fetchzip {
     url = "https://www.zrythm.org/releases/${finalAttrs.pname}-${finalAttrs.version}.tar.xz";
-    sha256 = "sha256-Ljbw7bjGI6js4OP9KEXCkhC9AMbInSz0nn+pROm4vXw=";
+    hash = "sha256-Ljbw7bjGI6js4OP9KEXCkhC9AMbInSz0nn+pROm4vXw=";
   };
 
   passthru.updateScript = writeScript "update-zrythm" ''

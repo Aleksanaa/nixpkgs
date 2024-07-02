@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://www.freedesktop.org/software/${pname}/${pname}-${version}.tar.xz";
-    sha256 = "sha256-Bqd78qxcmTMFiCvBZBAX9b7BWS1tG2R4e61JKrNPLzY=";
+    hash = "sha256-Bqd78qxcmTMFiCvBZBAX9b7BWS1tG2R4e61JKrNPLzY=";
   };
 
   nativeBuildInputs = [ python3 ];

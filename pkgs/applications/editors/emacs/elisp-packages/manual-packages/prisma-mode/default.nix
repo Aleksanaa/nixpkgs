@@ -19,7 +19,7 @@ in melpaBuild {
     owner = "pimeys";
     repo = "emacs-prisma-mode";
     inherit rev;
-    sha256 = "sha256-DJJfjbu27Gi7Nzsa1cdi8nIQowKH8ZxgQBwfXLB0Q/I=";
+    hash = "sha256-DJJfjbu27Gi7Nzsa1cdi8nIQowKH8ZxgQBwfXLB0Q/I=";
   };
 
   recipe = writeText "recipe" ''

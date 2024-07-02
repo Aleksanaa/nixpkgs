@@ -14,7 +14,7 @@ buildGoModule rec {
     owner = "open-telemetry";
     repo = "opentelemetry-collector-contrib";
     rev = "v${version}";
-    sha256 = "sha256-gunTgELRqPxlywQzI/+0UbXkLeCFAYIf+Mc3vN0Z/6U=";
+    hash = "sha256-gunTgELRqPxlywQzI/+0UbXkLeCFAYIf+Mc3vN0Z/6U=";
   };
 
   # proxy vendor to avoid hash missmatches between linux and macOS

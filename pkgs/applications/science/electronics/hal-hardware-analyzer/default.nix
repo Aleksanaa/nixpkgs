@@ -62,7 +62,7 @@ in stdenv.mkDerivation rec {
     owner = "emsec";
     repo = "hal";
     rev = "v${version}";
-    sha256 = "sha256-Yl86AClE3vWygqj1omCOXX8koJK2SjTkMZFReRThez0=";
+    hash = "sha256-Yl86AClE3vWygqj1omCOXX8koJK2SjTkMZFReRThez0=";
   };
 
   patches = [

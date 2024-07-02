@@ -16,7 +16,7 @@ mkDerivation rec {
     owner = "rockowitz";
     repo = "ddcui";
     rev = "v${version}";
-    sha256 = "sha256-/20gPMUTRhC58YFlblahOEdDHLVhbzwpU3n55NtLAcM=";
+    hash = "sha256-/20gPMUTRhC58YFlblahOEdDHLVhbzwpU3n55NtLAcM=";
   };
 
   nativeBuildInputs = [

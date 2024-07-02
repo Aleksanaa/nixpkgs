@@ -20,7 +20,7 @@ stdenv.mkDerivation {
     owner = "facebook";
     repo = "wdt";
     rev = "aab22d7284dbc470df36146a8885335760b47b0c";
-    sha256 = "sha256-nWdZfbwAIwyaOMsAE94MrkHHRmwrFyFZRmYno+2/5mQ=";
+    hash = "sha256-nWdZfbwAIwyaOMsAE94MrkHHRmwrFyFZRmYno+2/5mQ=";
   };
 
   nativeBuildInputs = [ cmake ];

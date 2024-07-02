@@ -13,7 +13,7 @@ buildGoModule rec {
     owner = "livepeer";
     repo = "go-livepeer";
     rev = "v${version}";
-    sha256 = "sha256-cOxIL093Mi+g9Al/SQJ6vdaeBAXUN6ZGsSaVvEIiJpU=";
+    hash = "sha256-cOxIL093Mi+g9Al/SQJ6vdaeBAXUN6ZGsSaVvEIiJpU=";
   };
 
   # livepeer_cli has a vendoring problem

@@ -18,7 +18,7 @@ stdenv.mkDerivation rec {
     owner = "KomputeProject";
     repo = "kompute";
     rev = "v${version}";
-    sha256 = "sha256-OkVGYh8QrD7JNqWFBLrDTYlk6IYHdvt4i7UtC4sQTzo=";
+    hash = "sha256-OkVGYh8QrD7JNqWFBLrDTYlk6IYHdvt4i7UtC4sQTzo=";
   };
 
   patches = [
@@ -29,7 +29,7 @@ stdenv.mkDerivation rec {
     (fetchpatch {
       name = "enum-class-fix-for-fmt-8-x.patch";
       url = "https://github.com/KomputeProject/kompute/commit/f731f2e55c7aaaa804111106c3e469f9a642d4eb.patch";
-      sha256 = "sha256-scTCYqkgKQnH27xzuY4FVbiwRuwBvChmLPPU7ZUrrL0=";
+      hash = "sha256-scTCYqkgKQnH27xzuY4FVbiwRuwBvChmLPPU7ZUrrL0=";
     })
   ];
 

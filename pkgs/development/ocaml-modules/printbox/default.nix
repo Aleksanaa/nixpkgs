@@ -12,7 +12,7 @@ buildDunePackage rec {
     owner = "c-cube";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-7u2ThRhM3vW4ItcFsK4ycgcaW0JcQOFoZZRq2kqbl+k=";
+    hash = "sha256-7u2ThRhM3vW4ItcFsK4ycgcaW0JcQOFoZZRq2kqbl+k=";
   };
 
   nativeCheckInputs = [ mdx.bin ];

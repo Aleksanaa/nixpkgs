@@ -16,7 +16,7 @@ rustPlatform.buildRustPackage rec {
     owner = "veilid";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-iaWdI6lhxX3xdpd5caPl5cWXrBkWiMc7T/dMXp2hqNM=";
+    hash = "sha256-iaWdI6lhxX3xdpd5caPl5cWXrBkWiMc7T/dMXp2hqNM=";
   };
 
   cargoLock = {

@@ -17,7 +17,7 @@ buildPythonPackage rec {
     owner = "acsone";
     repo = pname;
     rev = version;
-    sha256 = "sha256-+KM3tpeQ4e53bVhUeWUSfyuIzPRvWkjZi4S/gH4UHVY=";
+    hash = "sha256-+KM3tpeQ4e53bVhUeWUSfyuIzPRvWkjZi4S/gH4UHVY=";
   };
 
   buildInputs = [hatch-vcs];

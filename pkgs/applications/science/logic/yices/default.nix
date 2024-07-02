@@ -9,7 +9,7 @@ stdenv.mkDerivation rec {
     owner  = "SRI-CSL";
     repo   = "yices2";
     rev    = "Yices-${version}";
-    sha256 = "sha256-qdxh86CkKdm65oHcRgaafTG9GUOoIgTDjeWmRofIpNE=";
+    hash = "sha256-qdxh86CkKdm65oHcRgaafTG9GUOoIgTDjeWmRofIpNE=";
   };
 
   patches = [

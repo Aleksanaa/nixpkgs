@@ -44,7 +44,7 @@ stdenv.mkDerivation (finalAttrs: {
     owner = "ximion";
     repo = "appstream";
     rev = "v${finalAttrs.version}";
-    sha256 = "sha256-0NzZku6TQyyaTOAMWZD459RayhsH8cotlOaSKkVY/EQ=";
+    hash = "sha256-0NzZku6TQyyaTOAMWZD459RayhsH8cotlOaSKkVY/EQ=";
   };
 
   patches = [

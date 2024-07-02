@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "http://faculty.missouri.edu/~stephen/software/xkbset/xkbset-${version}.tar.gz";
-    sha256 = "sha256-rAMv7EnExPDyMY0/RhiXDFFBkbFC4GxRpmH+I0KlNaU=";
+    hash = "sha256-rAMv7EnExPDyMY0/RhiXDFFBkbFC4GxRpmH+I0KlNaU=";
   };
 
   buildInputs = [ perl libX11 ];

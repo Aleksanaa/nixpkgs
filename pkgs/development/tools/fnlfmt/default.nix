@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
     owner = "~technomancy";
     repo = pname;
     rev = version;
-    sha256 = "sha256-rhbYG0TpqAZnbLaZOG739/pDA61Dwb4Y1HhBxWLtOus=";
+    hash = "sha256-rhbYG0TpqAZnbLaZOG739/pDA61Dwb4Y1HhBxWLtOus=";
   };
 
   nativeBuildInputs = [ luaPackages.fennel ];

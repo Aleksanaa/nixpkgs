@@ -325,7 +325,7 @@ let plugins = {
         "https://download2.ebz.epson.net/iscan/plugin/gt-x750/rpm/x64/iscan-gt-x750-bundle-${version}.x64.rpm.tar.gz"
         "https://web.archive.org/web/https://download2.ebz.epson.net/iscan/plugin/gt-x750/rpm/x64/iscan-gt-x750-bundle-${version}.x64.rpm.tar.gz"
       ];
-      sha256 = "sha256-9EeBHmh1nwSxnTnevPP8RZ4WBdyY+itR3VXo2I7f5N0=";
+      hash = "sha256-9EeBHmh1nwSxnTnevPP8RZ4WBdyY+itR3VXo2I7f5N0=";
     };
 
     nativeBuildInputs = [ autoPatchelfHook rpm ];
@@ -357,7 +357,7 @@ let plugins = {
         "https://download2.ebz.epson.net/iscan/plugin/gt-1500/rpm/x64/iscan-gt-1500-bundle-${version}.x64.rpm.tar.gz"
         "https://web.archive.org/web/https://download2.ebz.epson.net/iscan/plugin/gt-1500/rpm/x64/iscan-gt-1500-bundle-${version}.x64.rpm.tar.gz"
       ];
-      sha256 = "sha256-1rVsbBsb+QtCOT1FsyhgvCbZIN6IeQH7rZXNmsD7cl8=";
+      hash = "sha256-1rVsbBsb+QtCOT1FsyhgvCbZIN6IeQH7rZXNmsD7cl8=";
     };
 
     nativeBuildInputs = [ autoPatchelfHook rpm ];

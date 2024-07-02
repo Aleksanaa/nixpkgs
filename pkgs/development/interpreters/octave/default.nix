@@ -98,7 +98,7 @@ in stdenv.mkDerivation (finalAttrs: {
 
     src = fetchurl {
       url = "mirror://gnu/octave/octave-${finalAttrs.version}.tar.gz";
-      sha256 = "sha256-azjdl1FnhCSus6nWZkMrHzeOs5caISkKkM09NRGdVq0=";
+      hash = "sha256-azjdl1FnhCSus6nWZkMrHzeOs5caISkKkM09NRGdVq0=";
     };
 
     buildInputs = [

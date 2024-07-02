@@ -47,7 +47,7 @@ stdenv.mkDerivation rec {
     owner = "ebruck";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-/0GlQdSsIPKGrDT9CgxvaH8TpAbqxFduwL2A2+BSrEI=";
+    hash = "sha256-/0GlQdSsIPKGrDT9CgxvaH8TpAbqxFduwL2A2+BSrEI=";
   };
 
   nativeBuildInputs = [ cmake pkg-config wrapGAppsHook3 makeWrapper ];

@@ -9,7 +9,7 @@ stdenvNoCC.mkDerivation rec {
 
   src = fetchzip {
     url = "https://tmc.castleparadox.com/temp/fbc-${version}.tar.bz2";
-    sha256 = "sha256-hD3SRUkk50sf0MhhgHNMvBoJHTKz/71lyFxaAXM4/qI=";
+    hash = "sha256-hD3SRUkk50sf0MhhgHNMvBoJHTKz/71lyFxaAXM4/qI=";
   };
 
   dontConfigure = true;

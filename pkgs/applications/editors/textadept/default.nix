@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
     owner = "orbitalquark";
     repo = "textadept";
     rev = "textadept_${version}";
-    sha256 = "sha256-nPgpQeBq5Stv2o0Ke4W2Ltnx6qLe5TIC5a8HSYVkmfI=";
+    hash = "sha256-nPgpQeBq5Stv2o0Ke4W2Ltnx6qLe5TIC5a8HSYVkmfI=";
   };
 
   nativeBuildInputs = [ cmake ]

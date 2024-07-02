@@ -30,7 +30,7 @@ stdenv.mkDerivation rec {
     owner = "ElementsProject";
     repo = "elements";
     rev = "elements-${version}";
-    sha256 = "sha256-qHtSgfZGZ4Beu5fsJAOZm8ejj7wfHBbOS6WAjOrCuw4=";
+    hash = "sha256-qHtSgfZGZ4Beu5fsJAOZm8ejj7wfHBbOS6WAjOrCuw4=";
   };
 
   nativeBuildInputs =

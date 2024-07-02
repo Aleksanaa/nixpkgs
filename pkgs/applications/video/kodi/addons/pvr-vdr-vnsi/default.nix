@@ -8,7 +8,7 @@ buildKodiBinaryAddon rec {
     owner = "kodi-pvr";
     repo = "pvr.vdr.vnsi";
     rev = "${version}-${rel}";
-    sha256 = "sha256-Bd/21y3oAhQMmvrZzrN5Z6jLHySBd2LXNbLt/Me4jSw=";
+    hash = "sha256-Bd/21y3oAhQMmvrZzrN5Z6jLHySBd2LXNbLt/Me4jSw=";
   };
 
   extraBuildInputs = [ libGL ];

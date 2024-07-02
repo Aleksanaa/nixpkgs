@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
     owner = "Reference-ScaLAPACK";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-GNVGWrIWdfyTfbz7c31Vjt9eDlVzCd/aLHoWq2DMyX4=";
+    hash = "sha256-GNVGWrIWdfyTfbz7c31Vjt9eDlVzCd/aLHoWq2DMyX4=";
   };
 
   passthru = { inherit (blas) isILP64; };

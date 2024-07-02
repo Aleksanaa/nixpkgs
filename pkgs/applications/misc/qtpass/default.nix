@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
     owner = "IJHack";
     repo = "QtPass";
     rev = "v${version}";
-    sha256 = "sha256-oKLLmsuXD2Hb2LQ4tcJP2gpR6eLaM/JzDhRcRSpUPYI=";
+    hash = "sha256-oKLLmsuXD2Hb2LQ4tcJP2gpR6eLaM/JzDhRcRSpUPYI=";
   };
 
   postPatch = ''

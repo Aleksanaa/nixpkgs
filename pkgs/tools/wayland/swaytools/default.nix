@@ -8,7 +8,7 @@ buildPythonApplication rec {
     owner = "tmccombs";
     repo = "swaytools";
     rev = version;
-    sha256 = "sha256-6Ec7MPqBia0PW+pBTAItLusWMg1wlFfEaxoh20/2uHg=";
+    hash = "sha256-6Ec7MPqBia0PW+pBTAItLusWMg1wlFfEaxoh20/2uHg=";
   };
 
   propagatedBuildInputs = [ slurp ];

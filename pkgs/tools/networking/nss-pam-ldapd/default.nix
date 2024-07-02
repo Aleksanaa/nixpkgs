@@ -9,7 +9,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://arthurdejong.org/nss-pam-ldapd/${pname}-${version}.tar.gz";
-    sha256 = "sha256-xtZh50aTy/Uxp5BjHKk7c/KR+yPMOUZbCd642iv7DhQ=";
+    hash = "sha256-xtZh50aTy/Uxp5BjHKk7c/KR+yPMOUZbCd642iv7DhQ=";
   };
 
   nativeBuildInputs = [ pkg-config makeWrapper autoreconfHook ];

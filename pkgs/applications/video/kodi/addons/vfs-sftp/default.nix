@@ -8,7 +8,7 @@ buildKodiBinaryAddon rec {
     owner = "xbmc";
     repo = namespace;
     rev = "${version}-${rel}";
-    sha256 = "sha256-Dv/C8PHaSx13JoGp77rQPtp5G5EH5tqKqzjwZZA7+80=";
+    hash = "sha256-Dv/C8PHaSx13JoGp77rQPtp5G5EH5tqKqzjwZZA7+80=";
   };
 
   extraBuildInputs = [ openssl libssh zlib ];

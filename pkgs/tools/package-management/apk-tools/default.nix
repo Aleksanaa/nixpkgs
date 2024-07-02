@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
     owner = "alpine";
     repo = "apk-tools";
     rev = "v${version}";
-    sha256 = "sha256-NaLa975AJrfvxxUkPTGLno/BoMQKBGaMIJjSbs+63NA=";
+    hash = "sha256-NaLa975AJrfvxxUkPTGLno/BoMQKBGaMIJjSbs+63NA=";
   };
 
   nativeBuildInputs = [ pkg-config scdoc ]

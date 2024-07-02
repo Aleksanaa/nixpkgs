@@ -13,7 +13,7 @@ let param =
   if lib.versionAtLeast ppxlib.version "0.26.0" then
     {
       version = "3.2";
-      sha256 = "sha256-5Vf1LRhSotNpTPzHmRgCMRYtrpgaspLlyzv1XdGt+u8=";
+      hash = "sha256-5Vf1LRhSotNpTPzHmRgCMRYtrpgaspLlyzv1XdGt+u8=";
     }
   else {
     version = "2.5";
@@ -27,15 +27,15 @@ let
 
   DerivedCoreProperties = fetchurl {
     url = "${baseUrl}/ucd/DerivedCoreProperties.txt";
-    sha256 = "sha256-02cpC8CGfmtITGg3BTC90aCLazJARgG4x6zK+D4FYo0=";
+    hash = "sha256-02cpC8CGfmtITGg3BTC90aCLazJARgG4x6zK+D4FYo0=";
   };
   DerivedGeneralCategory = fetchurl {
     url = "${baseUrl}/ucd/extracted/DerivedGeneralCategory.txt";
-    sha256 = "sha256-/imkXAiCUA5ZEUCqpcT1Bn5qXXRoBhSK80QAxIucBvk=";
+    hash = "sha256-/imkXAiCUA5ZEUCqpcT1Bn5qXXRoBhSK80QAxIucBvk=";
   };
   PropList = fetchurl {
     url = "${baseUrl}/ucd/PropList.txt";
-    sha256 = "sha256-4FwKKBHRE9rkq9gyiEGZo+qNGH7huHLYJAp4ipZUC/0=";
+    hash = "sha256-4FwKKBHRE9rkq9gyiEGZo+qNGH7huHLYJAp4ipZUC/0=";
   };
   atLeast31 = lib.versionAtLeast param.version "3.1";
 in

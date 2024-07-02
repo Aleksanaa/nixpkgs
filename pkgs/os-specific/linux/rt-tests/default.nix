@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://git.kernel.org/pub/scm/utils/rt-tests/rt-tests.git/snapshot/${pname}-${version}.tar.gz";
-    sha256 = "sha256-1kfLmB1RPO8Hd7o8tROSyVBWchchc+AGPuOUlM2hR8g=";
+    hash = "sha256-1kfLmB1RPO8Hd7o8tROSyVBWchchc+AGPuOUlM2hR8g=";
   };
 
   nativeBuildInputs = [ makeWrapper ];

@@ -27,7 +27,7 @@ buildPythonPackage rec {
   src = fetchPypi {
     pname = "zope.testbrowser";
     inherit version;
-    sha256 = "sha256-RLd6XpA3q+3DZHai6j3H6XTWE85Sk913zAL4iO4x+ho=";
+    hash = "sha256-RLd6XpA3q+3DZHai6j3H6XTWE85Sk913zAL4iO4x+ho=";
   };
 
   postPatch = ''

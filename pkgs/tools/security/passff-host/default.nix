@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
     owner = "passff";
     repo = pname;
     rev = version;
-    sha256 = "sha256-P5h0B5ilwp3OVyDHIOQ23Zv4eLjN4jFkdZF293FQnNE=";
+    hash = "sha256-P5h0B5ilwp3OVyDHIOQ23Zv4eLjN4jFkdZF293FQnNE=";
   };
 
   buildInputs = [ python3 ];

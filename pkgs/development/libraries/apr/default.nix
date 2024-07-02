@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://apache/apr/${pname}-${version}.tar.bz2";
-    sha256 = "sha256-/GSN6YPzoqbJ543qHxgGOb0vrWwG1VbUNnpwH+XDVXc=";
+    hash = "sha256-/GSN6YPzoqbJ543qHxgGOb0vrWwG1VbUNnpwH+XDVXc=";
   };
 
   patches = [

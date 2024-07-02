@@ -39,7 +39,7 @@ buildPythonPackage rec {
     owner = "glue-viz";
     repo = "glue";
     rev = "refs/tags/v${version}";
-    sha256 = "sha256-nr84GJAGnpKzjZEFNsQujPysSQENwGxdNfPIYUCJkK4=";
+    hash = "sha256-nr84GJAGnpKzjZEFNsQujPysSQENwGxdNfPIYUCJkK4=";
   };
 
   buildInputs = [ pyqt-builder ];

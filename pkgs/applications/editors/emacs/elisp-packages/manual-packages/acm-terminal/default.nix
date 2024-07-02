@@ -18,7 +18,7 @@ melpaBuild {
     owner = "twlz0ne";
     repo = "acm-terminal";
     inherit rev;
-    sha256 = "sha256-EYhFrOo0j0JSNTdcZCbyM0iLxaymUXi1u6jZy8lTOaY=";
+    hash = "sha256-EYhFrOo0j0JSNTdcZCbyM0iLxaymUXi1u6jZy8lTOaY=";
   };
 
   commit = rev;

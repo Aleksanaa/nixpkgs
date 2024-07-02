@@ -30,7 +30,7 @@ stdenv.mkDerivation rec {
     owner = "TigerVNC";
     repo = "tigervnc";
     rev = "v${version}";
-    sha256 = "sha256-YSkgkk87bbHg7lJGoPBs7bfjvd1hvUeOZulFHYpXvvo=";
+    hash = "sha256-YSkgkk87bbHg7lJGoPBs7bfjvd1hvUeOZulFHYpXvvo=";
   };
 
   postPatch = lib.optionalString stdenv.isLinux ''

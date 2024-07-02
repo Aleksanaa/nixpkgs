@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://www.aleksey.com/xmlsec/download/xmlsec1-${version}.tar.gz";
-    sha256 = "sha256-Us7UlD81vX0IGKOCmMFSjKSsilRED9cRNKB9LRNwomI=";
+    hash = "sha256-Us7UlD81vX0IGKOCmMFSjKSsilRED9cRNKB9LRNwomI=";
   };
 
   patches = [

@@ -8,7 +8,7 @@ pythonPackages.buildPythonApplication rec {
     owner = "mopidy";
     repo = "mopidy-soundcloud";
     rev = "v${version}";
-    sha256 = "sha256-1Qqbfw6NZ+2K1w+abMBfWo0RAmIRbNyIErEmalmWJ0s=";
+    hash = "sha256-1Qqbfw6NZ+2K1w+abMBfWo0RAmIRbNyIErEmalmWJ0s=";
   };
 
   propagatedBuildInputs = [

@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "http://git.linux-nfs.org/?p=steved/libtirpc.git;a=snapshot;h=refs/tags/libtirpc-${lib.replaceStrings ["."] ["-"] version};sf=tgz";
-    sha256 = "sha256-fmZxpdyl98z+QBHpEccGB8A+YktuWONw6k0p06AImDw=";
+    hash = "sha256-fmZxpdyl98z+QBHpEccGB8A+YktuWONw6k0p06AImDw=";
     name = "${pname}-${version}.tar.gz";
   };
 

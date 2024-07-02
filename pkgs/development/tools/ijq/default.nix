@@ -8,7 +8,7 @@ buildGoModule rec {
     owner = "~gpanders";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-KtWJwIofMKW+03DFY4UWf3ni1DKuH289svh8iOPo1so=";
+    hash = "sha256-KtWJwIofMKW+03DFY4UWf3ni1DKuH289svh8iOPo1so=";
   };
 
   vendorHash = "sha256-oMkL4qZUS47h9izDad7Ar0Npd6toIZQuy1YIdEoJ2AM=";

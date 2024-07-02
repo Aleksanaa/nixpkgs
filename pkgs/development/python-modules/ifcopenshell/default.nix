@@ -26,7 +26,7 @@ buildPythonPackage rec {
     repo = "IfcOpenShell";
     rev = "refs/tags/blenderbim-${version}";
     fetchSubmodules = true;
-    sha256 = "sha256-DtA8KeWipPfOnztKG/lrgLZeOCUG3nWR9oW7OST7koc=";
+    hash = "sha256-DtA8KeWipPfOnztKG/lrgLZeOCUG3nWR9oW7OST7koc=";
   };
 
   nativeBuildInputs = [

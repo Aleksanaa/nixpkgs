@@ -14,7 +14,7 @@ buildPythonApplication rec {
     owner  = "Ryochan7";
     repo   = pname;
     rev = "refs/tags/v${version}";
-    sha256 = "sha256-vK/5S+GyqVfKTqn5PaPmOV/tXE9PIW57gqYxvhGaJSg=";
+    hash = "sha256-vK/5S+GyqVfKTqn5PaPmOV/tXE9PIW57gqYxvhGaJSg=";
   };
 
   nativeBuildInputs = [ wrapGAppsHook3 gobject-introspection ];

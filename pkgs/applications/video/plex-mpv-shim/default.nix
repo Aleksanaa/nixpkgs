@@ -9,7 +9,7 @@ buildPythonApplication rec {
     owner = "iwalton3";
     repo = pname;
     rev = "refs/tags/v${version}";
-    sha256 = "sha256-hUGKOJEDZMK5uhHoevFt1ay6QQEcoN4F8cPxln5uMRo=";
+    hash = "sha256-hUGKOJEDZMK5uhHoevFt1ay6QQEcoN4F8cPxln5uMRo=";
   };
 
   patches = [

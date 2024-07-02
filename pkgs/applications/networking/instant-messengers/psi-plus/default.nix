@@ -49,7 +49,7 @@ mkDerivation rec {
     owner = "psi-plus";
     repo = "psi-plus-snapshots";
     rev = version;
-    sha256 = "sha256-9WT2S6ZgIsrHoEAvlWUB078gzCdrPylvSjkkogU5tsU=";
+    hash = "sha256-9WT2S6ZgIsrHoEAvlWUB078gzCdrPylvSjkkogU5tsU=";
   };
 
   cmakeFlags = [

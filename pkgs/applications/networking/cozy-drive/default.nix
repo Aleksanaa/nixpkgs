@@ -9,7 +9,7 @@ let
 
   src = fetchurl {
     url = "https://github.com/cozy-labs/cozy-desktop/releases/download/v${version}/Cozy-Drive-${version}-x86_64.AppImage";
-    sha256 = "sha256-mTRg8KQm7BJil81TClyzCrXSHTbn+G9pRYMIaeXojzc=";
+    hash = "sha256-mTRg8KQm7BJil81TClyzCrXSHTbn+G9pRYMIaeXojzc=";
   };
   appimageContents = appimageTools.extract { inherit pname version src; };
 

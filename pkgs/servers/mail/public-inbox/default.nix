@@ -89,7 +89,7 @@ buildPerlPackage rec {
 
   src = fetchurl {
     url = "https://public-inbox.org/public-inbox.git/snapshot/public-inbox-${version}.tar.gz";
-    sha256 = "sha256-ENnT2YK7rpODII9TqiEYSCp5mpWOnxskeSuAf8Ilqro=";
+    hash = "sha256-ENnT2YK7rpODII9TqiEYSCp5mpWOnxskeSuAf8Ilqro=";
   };
 
   outputs = [ "out" "devdoc" "sa_config" ];

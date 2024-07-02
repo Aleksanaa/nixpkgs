@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
     owner = pname;
     repo = pname;
     rev = version;
-    sha256 = "sha256-hoP/14lbqsuQ37oJDErPoQWWk04UshImmApCFrf5wno=";
+    hash = "sha256-hoP/14lbqsuQ37oJDErPoQWWk04UshImmApCFrf5wno=";
   };
 
   configureFlags = [ "--enable-dependency-tracking" ]

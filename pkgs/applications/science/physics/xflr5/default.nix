@@ -8,7 +8,7 @@ mkDerivation rec {
   src = fetchsvn {
     url = "https://svn.code.sf.net/p/xflr5/code/trunk";
     rev = "1480";
-    sha256 = "sha256-Uj6R15OT5i5tAJEYWqyFyN5Z51Wz5RjO26mWC3Y6QAI=";
+    hash = "sha256-Uj6R15OT5i5tAJEYWqyFyN5Z51Wz5RjO26mWC3Y6QAI=";
   };
 
   nativeBuildInputs = [ qmake ];

@@ -8,7 +8,7 @@ mkDerivation rec {
 
   src = fetchurl {
     url = "ftp://ftp.lyx.org/pub/lyx/stable/2.3.x/${pname}-${version}.tar.xz";
-    sha256 = "sha256-Ob6IZPuGs06IMQ5w+4Dl6eKWYB8IVs8WGqCUFxcY2O0=";
+    hash = "sha256-Ob6IZPuGs06IMQ5w+4Dl6eKWYB8IVs8WGqCUFxcY2O0=";
   };
 
   # Needed with GCC 12

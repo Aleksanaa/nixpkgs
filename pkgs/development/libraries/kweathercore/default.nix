@@ -16,7 +16,7 @@ mkDerivation rec {
     owner = "libraries";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-CnnoPkgz97SfDG13zfyIWweVnp2oxAChTPKFxJC+L8A=";
+    hash = "sha256-CnnoPkgz97SfDG13zfyIWweVnp2oxAChTPKFxJC+L8A=";
   };
 
   buildInputs = [

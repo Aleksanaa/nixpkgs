@@ -6,7 +6,7 @@ buildPythonApplication rec {
 
   src = fetchurl {
     url = "https://github.com/Houston4444/RaySession/releases/download/v${version}/RaySession-${version}-source.tar.gz";
-    sha256 = "sha256-3+g1zdjGkxNEpyuKuxzhr2p9gkEFjYAso4fPedbjmlY=";
+    hash = "sha256-3+g1zdjGkxNEpyuKuxzhr2p9gkEFjYAso4fPedbjmlY=";
   };
 
   postPatch = ''

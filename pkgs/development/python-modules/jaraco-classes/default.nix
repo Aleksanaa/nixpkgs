@@ -19,7 +19,7 @@ buildPythonPackage rec {
     owner = "jaraco";
     repo = "jaraco.classes";
     rev = "refs/tags/v${version}";
-    sha256 = "sha256-ds84jNEx/2/BnMTbLMvXf/nxKSqyCBM7B7S0NNYagVE=";
+    hash = "sha256-ds84jNEx/2/BnMTbLMvXf/nxKSqyCBM7B7S0NNYagVE=";
   };
 
   pythonNamespaces = [ "jaraco" ];

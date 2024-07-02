@@ -19,7 +19,7 @@ stdenv.mkDerivation rec {
     owner = "linuxdeepin";
     repo = pname;
     rev = version;
-    sha256 = "sha256-/wLaVR31T+EcT6D5Cw0QIjZasioPWC74KNmt1tckwXk=";
+    hash = "sha256-/wLaVR31T+EcT6D5Cw0QIjZasioPWC74KNmt1tckwXk=";
   };
 
   nativeBuildInputs = [

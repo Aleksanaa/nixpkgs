@@ -8,7 +8,7 @@ python3Packages.buildPythonApplication rec {
     owner = "tlecomte";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-xKgyBV/Qc+9PgXyxcT0xG1GXLC6KnjavJ/0SUE+9VSY=";
+    hash = "sha256-xKgyBV/Qc+9PgXyxcT0xG1GXLC6KnjavJ/0SUE+9VSY=";
   };
 
   nativeBuildInputs = (with python3Packages; [ numpy cython scipy ]) ++

@@ -18,7 +18,7 @@ stdenv.mkDerivation rec {
     owner = "spice";
     repo = "usbredir";
     rev = "${pname}-${version}";
-    sha256 = "sha256-zehf0DkqSSvmatbk/UB1oySjyqiFUYTuIhqb5xKeK7I=";
+    hash = "sha256-zehf0DkqSSvmatbk/UB1oySjyqiFUYTuIhqb5xKeK7I=";
   };
 
   nativeBuildInputs = [

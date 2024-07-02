@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
     owner = "wangp";
     repo = "bower";
     rev = version;
-    sha256 = "sha256-BNuJEVuzreI2AK/fqVMRHq8ZhPQjO33Y2FzkrWlfmm0=";
+    hash = "sha256-BNuJEVuzreI2AK/fqVMRHq8ZhPQjO33Y2FzkrWlfmm0=";
   };
 
   nativeBuildInputs = [ mercury pandoc ];

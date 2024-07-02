@@ -12,7 +12,7 @@ in stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://savannah/${pname}/${pname}-${version}.tar.gz";
-    sha256 = "sha256-/FEqSltG9MQ6sFhsMYn+zk1U9+ZJOX1voeI0KEMeLLQ=";
+    hash = "sha256-/FEqSltG9MQ6sFhsMYn+zk1U9+ZJOX1voeI0KEMeLLQ=";
   };
 
   buildInputs = [ securityDependency ];

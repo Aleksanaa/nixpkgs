@@ -32,7 +32,7 @@ stdenv.mkDerivation rec {
     owner = "xournalpp";
     repo = "xournalpp";
     rev = "v${version}";
-    sha256 = "sha256-8UAAX/kixqiY9zEYs5eva0G2K2vlfnYd1yyVHMSfSeY=";
+    hash = "sha256-8UAAX/kixqiY9zEYs5eva0G2K2vlfnYd1yyVHMSfSeY=";
   };
 
   postPatch = ''

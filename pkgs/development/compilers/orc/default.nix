@@ -22,7 +22,7 @@ in stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://gstreamer.freedesktop.org/src/orc/${pname}-${version}.tar.xz";
-    sha256 = "sha256-pVqY1HclZ6o/rtj7hNVAw9t36roW0+LhCwRPvJIoZo0=";
+    hash = "sha256-pVqY1HclZ6o/rtj7hNVAw9t36roW0+LhCwRPvJIoZo0=";
   };
 
   postPatch = lib.optionalString (stdenv.isDarwin && stdenv.isx86_64) ''

@@ -32,7 +32,7 @@ stdenv.mkDerivation rec {
     owner = "World";
     repo = "Shortwave";
     rev = version;
-    sha256 = "sha256-ESZ1yD1IuBar8bv83xMczZbtPtHbWRpe2yMVyr7K5gQ=";
+    hash = "sha256-ESZ1yD1IuBar8bv83xMczZbtPtHbWRpe2yMVyr7K5gQ=";
   };
 
   cargoDeps = rustPlatform.fetchCargoTarball {

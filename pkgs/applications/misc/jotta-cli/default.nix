@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
   version = "0.15.107955";
   src = fetchzip {
       url = "https://repo.jotta.us/archives/linux/${arch}/jotta-cli-${version}_linux_${arch}.tar.gz";
-      sha256 = "sha256-qCG3yi0ACmqOnn+gaCN8GedciUobpOww50Kz5AdknqU=";
+      hash = "sha256-qCG3yi0ACmqOnn+gaCN8GedciUobpOww50Kz5AdknqU=";
       stripRoot = false;
     };
 

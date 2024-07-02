@@ -33,7 +33,7 @@ stdenv.mkDerivation rec {
       url = "https://github.com/AcademySoftwareFoundation/openexr/commit/5db6f7aee79e3e75e8c3780b18b28699614dd08e.patch";
       stripLen = 4;
       extraPrefix = "OpenEXR/IlmImf/";
-      sha256 = "sha256-DrpldpNgN5pWKzIuuPIrynGX3EpP8YhJlu+lLfNFGxQ=";
+      hash = "sha256-DrpldpNgN5pWKzIuuPIrynGX3EpP8YhJlu+lLfNFGxQ=";
     })
 
     # GCC 13 fixes

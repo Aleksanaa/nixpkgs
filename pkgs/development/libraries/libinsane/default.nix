@@ -27,7 +27,7 @@ stdenv.mkDerivation rec {
     group = "World";
     owner = "OpenPaperwork";
     rev = version;
-    sha256 = "sha256-2BLg8zB0InPJqK9JypQIMVXIJndo9ZuNB4OeOAo/Hsc=";
+    hash = "sha256-2BLg8zB0InPJqK9JypQIMVXIJndo9ZuNB4OeOAo/Hsc=";
   };
 
   nativeBuildInputs = [ meson pkg-config ninja doxygen gtk-doc docbook_xsl gobject-introspection vala ];

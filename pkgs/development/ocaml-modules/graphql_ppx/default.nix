@@ -15,7 +15,7 @@ buildDunePackage rec {
     owner = "reasonml-community";
     repo = "graphql-ppx";
     rev = "v${version}";
-    sha256 = "sha256-+WJhA2ixZHiSZBoX14dnQKk7JfVAIME4JooNSnhRp44=";
+    hash = "sha256-+WJhA2ixZHiSZBoX14dnQKk7JfVAIME4JooNSnhRp44=";
   };
 
   nativeBuildInputs = [ reason ];

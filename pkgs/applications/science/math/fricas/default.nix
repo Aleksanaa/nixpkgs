@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
     owner = "fricas";
     repo = "fricas";
     rev = version;
-    sha256 = "sha256-T1xDndDnHq/hmhTWWO3Eu0733u8+C8sJMCF6pbLU2GI=";
+    hash = "sha256-T1xDndDnHq/hmhTWWO3Eu0733u8+C8sJMCF6pbLU2GI=";
   };
 
   buildInputs = [ sbcl libX11 libXpm libICE libSM libXt libXau libXdmcp ];

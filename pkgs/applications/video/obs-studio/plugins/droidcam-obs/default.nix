@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
     owner = "dev47apps";
     repo = "droidcam-obs-plugin";
     rev = version;
-    sha256 = "sha256-YtfWwgBhyQYx6QfrKld7p6qUf8BEV/kkQX4QcdHuaYU=";
+    hash = "sha256-YtfWwgBhyQYx6QfrKld7p6qUf8BEV/kkQX4QcdHuaYU=";
   };
 
   postPatch = ''

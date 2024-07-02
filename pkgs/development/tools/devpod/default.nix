@@ -29,7 +29,7 @@ let
     owner = "loft-sh";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-fGCCPLj7C5yn8DPJdx6ixUFz9KXhBRAUOrFeTsQkXEM=";
+    hash = "sha256-fGCCPLj7C5yn8DPJdx6ixUFz9KXhBRAUOrFeTsQkXEM=";
   };
 
   meta = with lib; {
@@ -80,7 +80,7 @@ rec {
 
         offlineCache = fetchYarnDeps {
           yarnLock = "${src}/desktop/yarn.lock";
-          sha256 = "sha256-I+c0zrybNv3iS+Wy+n+NlBalA6gLYuxBw00mAJbqgfU=";
+          hash = "sha256-I+c0zrybNv3iS+Wy+n+NlBalA6gLYuxBw00mAJbqgfU=";
         };
 
         packageJSON = ./package.json;

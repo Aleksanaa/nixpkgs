@@ -22,7 +22,7 @@ stdenv.mkDerivation rec {
     owner = "LibVNC";
     repo = "libvncserver";
     rev = "LibVNCServer-${version}";
-    sha256 = "sha256-kqVZeCTp+Z6BtB6nzkwmtkJ4wtmjlSQBg05lD02cVvQ=";
+    hash = "sha256-kqVZeCTp+Z6BtB6nzkwmtkJ4wtmjlSQBg05lD02cVvQ=";
   };
 
   nativeBuildInputs = [

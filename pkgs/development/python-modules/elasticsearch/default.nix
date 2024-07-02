@@ -19,7 +19,7 @@ buildPythonPackage rec {
 
   src = fetchPypi {
     inherit pname version;
-    sha256 = "sha256-5Ovrsi0J8O+DnCa2qpjhnM1ja8t38IwStWKwLKzV50Q=";
+    hash = "sha256-5Ovrsi0J8O+DnCa2qpjhnM1ja8t38IwStWKwLKzV50Q=";
   };
 
   nativeBuildInputs = [ elastic-transport ];

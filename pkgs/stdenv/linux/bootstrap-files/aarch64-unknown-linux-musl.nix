@@ -15,7 +15,7 @@
 {
   busybox = import <nix/fetchurl.nix> {
     url = "http://tarballs.nixos.org/stdenv/aarch64-unknown-linux-musl/dd5621df6dcb90122b50da5ec31c411a0de3e538/busybox";
-    sha256 = "sha256-WuOaun7U5enbOy8SuuCo6G1fbGwsO16jhy/oM8K0lAs=";
+    hash = "sha256-WuOaun7U5enbOy8SuuCo6G1fbGwsO16jhy/oM8K0lAs=";
     executable = true;
   };
   bootstrapTools = import <nix/fetchurl.nix> {

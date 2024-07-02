@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
     owner = "mvp";
     repo = "uhubctl";
     rev = "v${version}";
-    sha256 = "sha256-Rt9hTT0Tn8v+J1XqZm8iXTTY4nKow2qjRPNmNCiWNoY=";
+    hash = "sha256-Rt9hTT0Tn8v+J1XqZm8iXTTY4nKow2qjRPNmNCiWNoY=";
   };
 
   buildInputs = [ libusb1 ];

@@ -19,7 +19,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://gnome/sources/gnome-epub-thumbnailer/${lib.versions.majorMinor version}/gnome-epub-thumbnailer-${version}.tar.xz";
-    sha256 = "sha256-S7Ah++RCgNuY3xTBH6XkMgsWe4GpG9e6WGvqDE+il1I=";
+    hash = "sha256-S7Ah++RCgNuY3xTBH6XkMgsWe4GpG9e6WGvqDE+il1I=";
   };
 
   nativeBuildInputs = [

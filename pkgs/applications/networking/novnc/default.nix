@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
     owner = "novnc";
     repo = "noVNC";
     rev = "v${version}";
-    sha256 = "sha256-G7Rtv7pQFR9UrzhYXDyBf+FRqtjo5NAXU7m/HeXhI1k=";
+    hash = "sha256-G7Rtv7pQFR9UrzhYXDyBf+FRqtjo5NAXU7m/HeXhI1k=";
   };
 
   patches = with python3.pkgs; [

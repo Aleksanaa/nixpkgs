@@ -24,7 +24,7 @@ stdenvNoCC.mkDerivation rec {
     owner = "vinceliuice";
     repo = pname;
     rev = version;
-    sha256 = "sha256-qiHmA/K4hdXVSFzergGhgssKR+kXp3X0cqtX1X5ayM4=";
+    hash = "sha256-qiHmA/K4hdXVSFzergGhgssKR+kXp3X0cqtX1X5ayM4=";
   };
 
   nativeBuildInputs = [ gtk3 jdupes ];

@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
     owner = "sorayuki";
     repo = "obs-multi-rtmp";
     rev = version;
-    sha256 = "sha256-1W+c8Y0AmtKQmCIg8IDAaYYStQzDpZRuqw3vZEY5ncU=";
+    hash = "sha256-1W+c8Y0AmtKQmCIg8IDAaYYStQzDpZRuqw3vZEY5ncU=";
   };
 
   nativeBuildInputs = [ cmake ];

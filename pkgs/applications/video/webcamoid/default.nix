@@ -7,7 +7,7 @@ mkDerivation rec {
   version = "9.1.1";
 
   src = fetchFromGitHub {
-    sha256 = "sha256-E2hHFrksJtdDLWiX7wL1z9LBbBKT04a853V8u+WiwbA=";
+    hash = "sha256-E2hHFrksJtdDLWiX7wL1z9LBbBKT04a853V8u+WiwbA=";
     rev = version;
     repo = "webcamoid";
     owner = "webcamoid";

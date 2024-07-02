@@ -34,12 +34,12 @@ in stdenv.mkDerivation rec {
     owner = "B-Lang-org";
     repo = "bsc";
     rev = version;
-    sha256 = "sha256-yqmtydv94p7qhps0t4EdPaSZNh/9XCuUwOzLqz0gjxE=";
+    hash = "sha256-yqmtydv94p7qhps0t4EdPaSZNh/9XCuUwOzLqz0gjxE=";
   };
 
   yices-src = fetchurl {
     url = "https://github.com/B-Lang-org/bsc/releases/download/${version}/yices-src-for-bsc-${version}.tar.gz";
-    sha256 = "sha256-pyEdCJvmgwOYPMZEtw7aro76tSn/Y/2GcKTyARmIh4E=";
+    hash = "sha256-pyEdCJvmgwOYPMZEtw7aro76tSn/Y/2GcKTyARmIh4E=";
   };
 
   enableParallelBuilding = true;

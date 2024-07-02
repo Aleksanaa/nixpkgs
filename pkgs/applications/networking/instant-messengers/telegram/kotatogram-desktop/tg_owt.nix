@@ -52,7 +52,7 @@ let
 
     # https://github.com/desktop-app/tg_owt/commit/6894e86eef8809d42b66eb85e376006f2a816a56
     rev = "a566a9cfcd619e8327784aa7cff4a1276dc1e895";
-    sha256 = "sha256-OvCw7oF1OuamP3qO2BsimeBSHq1rcXFLfK8KnbbgkMU=";
+    hash = "sha256-OvCw7oF1OuamP3qO2BsimeBSHq1rcXFLfK8KnbbgkMU=";
   };
 in
 
@@ -64,7 +64,7 @@ stdenv.mkDerivation {
     owner = "desktop-app";
     repo = "tg_owt";
     rev = "63a934db1ed212ebf8aaaa20f0010dd7b0d7b396";
-    sha256 = "sha256-WddSsQ9KW1zYyYckzdUOvfFZArYAbyvXmABQNMtK6cM=";
+    hash = "sha256-WddSsQ9KW1zYyYckzdUOvfFZArYAbyvXmABQNMtK6cM=";
     fetchSubmodules = true;
   };
 

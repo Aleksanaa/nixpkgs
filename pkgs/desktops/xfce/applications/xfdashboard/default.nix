@@ -21,7 +21,7 @@ mkXfceDerivation {
   version = "1.0.0";
   rev-prefix = "";
 
-  sha256 = "sha256-iC41I0u9id9irUNyjuvRRzSldF3dzRYkaxb/fgptnq4=";
+  hash = "sha256-iC41I0u9id9irUNyjuvRRzSldF3dzRYkaxb/fgptnq4=";
 
   buildInputs = [
     clutter

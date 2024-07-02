@@ -26,7 +26,7 @@ let
       owner = "openjdk";
       repo = "jdk${version.feature}u";
       rev = "jdk-${version.feature}${version.interim}+${version.build}";
-      sha256 = "sha256-aO4iSc9MklW/4q9U86WEfiiWnlq6iZSbxzq2fbsqd0A=";
+      hash = "sha256-aO4iSc9MklW/4q9U86WEfiiWnlq6iZSbxzq2fbsqd0A=";
     };
 
     nativeBuildInputs = [ pkg-config autoconf unzip ];
@@ -59,7 +59,7 @@ let
       # This is applied anywhere to prevent patchrot.
       (fetchurl {
         url = "https://git.alpinelinux.org/aports/plain/community/openjdk17/FixNullPtrCast.patch?id=41e78a067953e0b13d062d632bae6c4f8028d91c";
-        sha256 = "sha256-LzmSew51+DyqqGyyMw2fbXeBluCiCYsS1nCjt9hX6zo=";
+        hash = "sha256-LzmSew51+DyqqGyyMw2fbXeBluCiCYsS1nCjt9hX6zo=";
       })
 
       # Fix build for gnumake-4.4.1:

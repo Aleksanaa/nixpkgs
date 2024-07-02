@@ -8,7 +8,7 @@ mkDerivation rec {
     owner = "xintrea";
     repo = "mytetra_dev";
     rev = "v.${version}";
-    sha256 = "sha256-jQXnDoLkqbDZxfsYKPDsTOE7p/BFeA8wEznpbkRVGdw=";
+    hash = "sha256-jQXnDoLkqbDZxfsYKPDsTOE7p/BFeA8wEznpbkRVGdw=";
   };
 
   nativeBuildInputs = [ qmake makeWrapper ];

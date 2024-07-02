@@ -51,7 +51,7 @@ in stdenv.mkDerivation rec {
     owner = "wwmm";
     repo = "pulseeffects";
     rev = "v${version}";
-    sha256 = "sha256-ldvcA8aTHOgaascH6MF4CzmJ8I2rYOiR0eAkCZzvK/M=";
+    hash = "sha256-ldvcA8aTHOgaascH6MF4CzmJ8I2rYOiR0eAkCZzvK/M=";
   };
 
   nativeBuildInputs = [

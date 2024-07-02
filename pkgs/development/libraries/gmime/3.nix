@@ -20,7 +20,7 @@ stdenv.mkDerivation rec {
   src = fetchurl {
     # https://github.com/jstedfast/gmime/releases
     url = "https://github.com/jstedfast/gmime/releases/download/${version}/gmime-${version}.tar.xz";
-    sha256 = "sha256-pes91nX3LlRci8HNEhB+Sq0ursGQXre0ATzbH75eIxc=";
+    hash = "sha256-pes91nX3LlRci8HNEhB+Sq0ursGQXre0ATzbH75eIxc=";
   };
 
   outputs = [

@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://download.savannah.gnu.org/releases/m17n/m17n-db-${version}.tar.gz";
-    sha256 = "sha256-to//QiwKKGTuVuLEUXOCEzuYG7S6ObU/R4lc2LHApzY=";
+    hash = "sha256-to//QiwKKGTuVuLEUXOCEzuYG7S6ObU/R4lc2LHApzY=";
   };
 
   nativeBuildInputs = [ gettext ];

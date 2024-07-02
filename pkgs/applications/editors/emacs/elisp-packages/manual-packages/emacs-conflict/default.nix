@@ -12,7 +12,7 @@ trivialBuild {
     owner = "ibizaman";
     repo = "emacs-conflict";
     rev = "9f236b93930f3ceb4cb0258cf935c99599191de3";
-    sha256 = "sha256-DIGvnotSQYIgHxGxtyCALHd8ZbrfkmdvjLXlkcqQ6v4=";
+    hash = "sha256-DIGvnotSQYIgHxGxtyCALHd8ZbrfkmdvjLXlkcqQ6v4=";
   };
 
   meta = with lib; {

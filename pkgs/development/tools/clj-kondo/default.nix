@@ -8,7 +8,7 @@ buildGraalvmNativeImage rec {
   src = fetchurl {
     url =
       "https://github.com/clj-kondo/${pname}/releases/download/v${version}/${pname}-${version}-standalone.jar";
-    sha256 = "sha256-vqdTfsIRPi2VlJLcbesRSqa/KFgqbk13vJBbEYd3heM=";
+    hash = "sha256-vqdTfsIRPi2VlJLcbesRSqa/KFgqbk13vJBbEYd3heM=";
   };
 
   graalvmDrv = graalvmCEPackages.graalvm-ce;

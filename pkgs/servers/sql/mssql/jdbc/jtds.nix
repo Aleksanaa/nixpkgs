@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://sourceforge/jtds/${version}/${pname}-${version}-dist.zip";
-    sha256 = "sha256-eV0P8QdjfuHXzYssH8yHhynuH0Clg7MAece2Up3S9M0";
+    hash = "sha256-eV0P8QdjfuHXzYssH8yHhynuH0Clg7MAece2Up3S9M0";
   };
 
   sourceRoot = ".";

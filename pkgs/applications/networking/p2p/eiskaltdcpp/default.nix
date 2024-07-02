@@ -10,7 +10,7 @@ mkDerivation rec {
     owner = "eiskaltdcpp";
     repo = "eiskaltdcpp";
     rev = "v${version}";
-    sha256 = "sha256-JmAopXFS6MkxW0wDQ1bC/ibRmWgOpzU0971hcqAehLU=";
+    hash = "sha256-JmAopXFS6MkxW0wDQ1bC/ibRmWgOpzU0971hcqAehLU=";
   };
 
   nativeBuildInputs = [ cmake pkg-config ];

@@ -8,7 +8,7 @@ in stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://kernel/software/devel/sparse/dist/${pname}-${version}.tar.xz";
-    sha256 = "sha256-arKLSZG8au29c1UCkTYKpqs99B9ZIGqb3paQIIpuOHw=";
+    hash = "sha256-arKLSZG8au29c1UCkTYKpqs99B9ZIGqb3paQIIpuOHw=";
   };
 
   preConfigure = ''

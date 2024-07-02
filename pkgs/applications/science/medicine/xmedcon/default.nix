@@ -15,7 +15,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://sourceforge/${pname}/${pname}-${version}.tar.bz2";
-    sha256 = "sha256-9NAAXGEVgpVPS7MB8FubnYUpkihE3lET/gep8QfPhB0=";
+    hash = "sha256-9NAAXGEVgpVPS7MB8FubnYUpkihE3lET/gep8QfPhB0=";
   };
 
   buildInputs = [

@@ -21,7 +21,7 @@ mkXfceDerivation {
   pname = "xfce4-settings";
   version = "4.18.6";
 
-  sha256 = "sha256-xiu26B3dbWu+/AtF/iUC6Wo2U5ZZyzN9RfdbBaQRJ1M=";
+  hash = "sha256-xiu26B3dbWu+/AtF/iUC6Wo2U5ZZyzN9RfdbBaQRJ1M=";
 
   buildInputs = [
     exo

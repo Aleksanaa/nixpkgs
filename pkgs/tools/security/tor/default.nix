@@ -34,7 +34,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://dist.torproject.org/${pname}-${version}.tar.gz";
-    sha256 = "sha256-ynzHNdmON0e1jy88wU+ATdeJ+g+zM6hNy2vXCtu4yHQ=";
+    hash = "sha256-ynzHNdmON0e1jy88wU+ATdeJ+g+zM6hNy2vXCtu4yHQ=";
   };
 
   outputs = [ "out" "geoip" ];

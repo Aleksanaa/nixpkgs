@@ -7,7 +7,7 @@ stdenv.mkDerivation  rec {
 
   src = fetchurl {
     url = "https://download.drobilla.net/${pname}-${version}.tar.bz2";
-    sha256 = "sha256-ktFBeBtmQ3MgfDQ868XpuM7UYfryb9zLld8AB7BjnhY=";
+    hash = "sha256-ktFBeBtmQ3MgfDQ868XpuM7UYfryb9zLld8AB7BjnhY=";
   };
 
   nativeBuildInputs = [ pkg-config wafHook ];

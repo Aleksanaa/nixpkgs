@@ -9,7 +9,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://dl.suckless.org/tools/dmenu-${version}.tar.gz";
-    sha256 = "sha256-Go9T5v0tdJg57IcMXiez4U2lw+6sv8uUXRWeHVQzeV8=";
+    hash = "sha256-Go9T5v0tdJg57IcMXiez4U2lw+6sv8uUXRWeHVQzeV8=";
   };
 
   buildInputs = [ libX11 libXinerama zlib libXft ];

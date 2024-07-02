@@ -13,7 +13,7 @@ buildDunePackage rec {
     owner = "catalalang";
     repo = "dates-calc";
     rev = version;
-    sha256 = "sha256-tpKOoPVXkg/k+NW5R8A4fGAKhdMn9UcqMogCjafJuw4=";
+    hash = "sha256-tpKOoPVXkg/k+NW5R8A4fGAKhdMn9UcqMogCjafJuw4=";
   };
 
   propagatedBuildInputs = [];

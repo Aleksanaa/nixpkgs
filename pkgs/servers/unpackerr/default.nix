@@ -8,7 +8,7 @@ buildGoModule rec {
     owner = "davidnewhall";
     repo = "unpackerr";
     rev = "v${version}";
-    sha256 = "sha256-K6ZDRDtxeqtjToElix1qVgclHaEeOY0W6hOwehFNIgo=";
+    hash = "sha256-K6ZDRDtxeqtjToElix1qVgclHaEeOY0W6hOwehFNIgo=";
   };
 
   vendorHash = "sha256-1OSZzs/hUvauRIE5lzlXPIS2EkHm4aNK1iddjKCb6zA=";

@@ -21,7 +21,7 @@ stdenv.mkDerivation rec {
   src = fetchsvn {
     url = "https://svn.mkgmap.org.uk/mkgmap/mkgmap/trunk";
     rev = version;
-    sha256 = "sha256-s7EKHXh3UNMDzBmWUTZaLR1P21e27cWJNYRlFcpJu50=";
+    hash = "sha256-s7EKHXh3UNMDzBmWUTZaLR1P21e27cWJNYRlFcpJu50=";
   };
 
   patches = [

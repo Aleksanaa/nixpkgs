@@ -18,7 +18,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://gnupg/libgcrypt/libgcrypt-${version}.tar.bz2";
-    sha256 = "sha256-aJaRVQH5UeI9AtywRTRpwswiqk13oAH/c6JkfC0p590=";
+    hash = "sha256-aJaRVQH5UeI9AtywRTRpwswiqk13oAH/c6JkfC0p590=";
   };
 
   outputs = [ "out" "dev" "info" ];

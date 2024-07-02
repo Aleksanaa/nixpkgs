@@ -30,7 +30,7 @@ mkDerivation rec {
     owner = "maliit";
     repo = "framework";
     rev = "refs/tags/${version}";
-    sha256 = "sha256-q+hiupwlA0PfG+xtomCUp2zv6HQrGgmOd9CU193ucrY=";
+    hash = "sha256-q+hiupwlA0PfG+xtomCUp2zv6HQrGgmOd9CU193ucrY=";
   };
 
   patches = [

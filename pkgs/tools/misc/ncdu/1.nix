@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://dev.yorhel.nl/download/${pname}-${version}.tar.gz";
-    sha256 = "sha256-fA+h6ynYWq7UuhdBZL27jwEbXDkNAXxX1mj8cjEzJAU=";
+    hash = "sha256-fA+h6ynYWq7UuhdBZL27jwEbXDkNAXxX1mj8cjEzJAU=";
   };
 
   buildInputs = [ ncurses ];

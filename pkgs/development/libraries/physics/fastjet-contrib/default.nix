@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://fastjet.hepforge.org/contrib/downloads/fjcontrib-${version}.tar.gz";
-    sha256 = "sha256-sSokjgsUOTTJnjt8jdgyZRIvbGwJUzwqA99E9e/x5vo=";
+    hash = "sha256-sSokjgsUOTTJnjt8jdgyZRIvbGwJUzwqA99E9e/x5vo=";
   };
 
   buildInputs = [ fastjet ];

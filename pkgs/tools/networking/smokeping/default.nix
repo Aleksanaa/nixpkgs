@@ -5,7 +5,7 @@ stdenv.mkDerivation rec {
   version = "2.8.2";
   src = fetchurl {
     url = "https://oss.oetiker.ch/smokeping/pub/smokeping-${version}.tar.gz";
-    sha256 = "sha256-KeYRGLRV4juWmtpfjiq0MtPi74fUr+LIbeSgPXGItuo=";
+    hash = "sha256-KeYRGLRV4juWmtpfjiq0MtPi74fUr+LIbeSgPXGItuo=";
   };
 
   patches = [

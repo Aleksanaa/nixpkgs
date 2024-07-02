@@ -16,7 +16,7 @@ buildPecl {
     owner = "php-amqp";
     repo = "php-amqp";
     rev = "v${version}";
-    sha256 = "sha256-jVD5dq2kgFnprj190W9hnLG+9yPLWm19AjoGBBz6v8c=";
+    hash = "sha256-jVD5dq2kgFnprj190W9hnLG+9yPLWm19AjoGBBz6v8c=";
   };
 
   buildInputs = [ rabbitmq-c ];

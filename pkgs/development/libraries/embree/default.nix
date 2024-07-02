@@ -9,7 +9,7 @@ stdenv.mkDerivation rec {
     owner = "embree";
     repo = "embree";
     rev = "v${version}";
-    sha256 = "sha256-CK7M8DsnY++KId5iyaTRuPtyWJFaMfaYUkIJpklcIeo=";
+    hash = "sha256-CK7M8DsnY++KId5iyaTRuPtyWJFaMfaYUkIJpklcIeo=";
   };
 
   postPatch = ''

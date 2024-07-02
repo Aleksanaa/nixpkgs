@@ -31,7 +31,7 @@ stdenv.mkDerivation rec {
     owner = "moonlight-stream";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-0ONjUqpM1tUnyaEnMgVl7ff6pND7kyqouv2mpgteZP0=";
+    hash = "sha256-0ONjUqpM1tUnyaEnMgVl7ff6pND7kyqouv2mpgteZP0=";
     fetchSubmodules = true;
   };
 

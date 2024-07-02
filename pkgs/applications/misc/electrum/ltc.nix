@@ -28,7 +28,7 @@ let
     owner = "pooler";
     repo = "electrum-ltc";
     rev = version;
-    sha256 = "sha256-qu72LIV07pgHqvKv+Kcw9ZmNk6IBz+4/vdJELlT5tE4=";
+    hash = "sha256-qu72LIV07pgHqvKv+Kcw9ZmNk6IBz+4/vdJELlT5tE4=";
 
     postFetch = ''
       mv $out ./all
@@ -44,7 +44,7 @@ python3.pkgs.buildPythonApplication {
 
   src = fetchurl {
     url = "https://electrum-ltc.org/download/Electrum-LTC-${version}.tar.gz";
-    sha256 = "sha256-7F28cve+HD5JDK5igfkGD/NvTCfA33g+DmQJ5mwPM9Q=";
+    hash = "sha256-7F28cve+HD5JDK5igfkGD/NvTCfA33g+DmQJ5mwPM9Q=";
   };
 
   postUnpack = ''

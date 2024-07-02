@@ -227,7 +227,7 @@ in {
     version = "1.0.1";
     src = fetchurl {
       url = "https://bitbucket.org/proximus/smseagle-graylog/raw/b99cfc349aafc7c94d4c2503f7c3c0bde67684d1/jar/graylog-plugin-smseagle-1.0.1.jar";
-      sha256 = "sha256-rvvftzPskXRGs1Z9dvd/wFbQoIoNtEQIFxMIpSuuvf0=";
+      hash = "sha256-rvvftzPskXRGs1Z9dvd/wFbQoIoNtEQIFxMIpSuuvf0=";
     };
     meta = {
       homepage = "https://bitbucket.org/proximus/smseagle-graylog/";
@@ -267,7 +267,7 @@ in {
     version = "0.5.0-rc.1";
     src = fetchurl {
       url = "https://github.com/graylog-labs/graylog-plugin-splunk/releases/download/0.5.0-rc.1/graylog-plugin-splunk-0.5.0-rc.1.jar";
-      sha256 = "sha256-EwF/Dc8GmMJBTxH9xGZizUIMTGSPedT4bprorN6X9Os=";
+      hash = "sha256-EwF/Dc8GmMJBTxH9xGZizUIMTGSPedT4bprorN6X9Os=";
     };
     meta = {
       homepage = "https://github.com/graylog-labs/graylog-plugin-splunk";

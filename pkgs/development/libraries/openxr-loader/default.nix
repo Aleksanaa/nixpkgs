@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
     owner = "KhronosGroup";
     repo = "OpenXR-SDK-Source";
     rev = "release-${version}";
-    sha256 = "sha256-J9IfhTFFSY+rK0DqFdXtINo7nlGUcy2Lljq81T417qc=";
+    hash = "sha256-J9IfhTFFSY+rK0DqFdXtINo7nlGUcy2Lljq81T417qc=";
   };
 
   nativeBuildInputs = [ cmake python3 pkg-config ];

@@ -8,7 +8,7 @@ in stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "http://ferm.foo-projects.org/download/${majorMinor version}/ferm-${version}.tar.xz";
-    sha256 = "sha256-wA2RDVOU5pZ1YI617g9QTVz9pB6ZCi2akbqsbfk+P5I=";
+    hash = "sha256-wA2RDVOU5pZ1YI617g9QTVz9pB6ZCi2akbqsbfk+P5I=";
   };
 
   patches = [

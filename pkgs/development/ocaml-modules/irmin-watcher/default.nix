@@ -10,7 +10,7 @@ buildDunePackage rec {
 
   src = fetchurl {
     url = "https://github.com/mirage/irmin-watcher/releases/download/${version}/irmin-watcher-${version}.tbz";
-    sha256 = "sha256-vq4kwaz4QUG9x0fGEbQMAuDGjlT3/6lm8xiXTUqJmZM=";
+    hash = "sha256-vq4kwaz4QUG9x0fGEbQMAuDGjlT3/6lm8xiXTUqJmZM=";
   };
 
   propagatedBuildInputs = [ astring fmt logs ocaml_lwt ];

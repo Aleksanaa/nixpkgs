@@ -24,7 +24,7 @@ stdenv.mkDerivation rec {
     owner = "elementary";
     repo = "music";
     rev = version;
-    sha256 = "sha256-L+E5gDtIgVkfmOIhzS7x8vtyMJYqx/UQpYMChrt2Tgo=";
+    hash = "sha256-L+E5gDtIgVkfmOIhzS7x8vtyMJYqx/UQpYMChrt2Tgo=";
   };
 
   nativeBuildInputs = [

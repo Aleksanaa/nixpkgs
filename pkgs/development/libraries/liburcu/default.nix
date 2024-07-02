@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://lttng.org/files/urcu/userspace-rcu-${version}.tar.bz2";
-    sha256 = "sha256-ykO/Jh1NOSz/IN+uRAg2YDvwCfziT9ybJpfYN6IjnU8=";
+    hash = "sha256-ykO/Jh1NOSz/IN+uRAg2YDvwCfziT9ybJpfYN6IjnU8=";
   };
 
   outputs = [ "out" "dev" "doc" ];

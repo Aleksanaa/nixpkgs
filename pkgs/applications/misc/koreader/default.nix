@@ -30,7 +30,7 @@ stdenv.mkDerivation rec {
     owner = "koreader";
     rev = "v${version}";
     fetchSubmodules = true;
-    sha256 = "sha256-gHn1xqBc7M9wkek1Ja1gry8TKIuUxQP8T45x3z2S4uc=";
+    hash = "sha256-gHn1xqBc7M9wkek1Ja1gry8TKIuUxQP8T45x3z2S4uc=";
   };
 
   sourceRoot = ".";

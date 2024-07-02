@@ -15,7 +15,7 @@ python3Packages.buildPythonApplication rec {
     owner = "jelmer";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-iwqcowwJktZQfdxykpsw/MweAPY0KF7ojVwvk1LP8a4=";
+    hash = "sha256-iwqcowwJktZQfdxykpsw/MweAPY0KF7ojVwvk1LP8a4=";
   };
 
   postPatch = ''

@@ -15,7 +15,7 @@ stdenv.mkDerivation rec {
     owner = "jeromerobert";
     repo = "hmat-oss";
     rev = "refs/tags/${version}";
-    sha256 = "sha256-JW6zghoYnF7NcAuAACgTQoxANEnmwjUAB8jCpof7Ums=";
+    hash = "sha256-JW6zghoYnF7NcAuAACgTQoxANEnmwjUAB8jCpof7Ums=";
   };
 
   cmakeFlags = [

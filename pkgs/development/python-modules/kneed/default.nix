@@ -18,7 +18,7 @@ buildPythonPackage rec {
     owner = "arvkevi";
     repo = "kneed";
     rev = "refs/tags/v${version}";
-    sha256 = "sha256-oakP6NkdvTzMZcoXS6cKNsRo//K+CoPLlhvbQLGij00=";
+    hash = "sha256-oakP6NkdvTzMZcoXS6cKNsRo//K+CoPLlhvbQLGij00=";
   };
 
   postPatch = ''

@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
     owner = "~bitfehler";
     repo = "bfcal";
     rev = "v${version}";
-    sha256 = "sha256-5xyBU+0XUNFUGgvw7U8YE64zncw6SvPmbJhc1LY2u/g=";
+    hash = "sha256-5xyBU+0XUNFUGgvw7U8YE64zncw6SvPmbJhc1LY2u/g=";
   };
 
   nativeBuildInputs = [

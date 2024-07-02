@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
     owner = "linux-rdma";
     repo = "opensm";
     rev = version;
-    sha256 = "sha256-/bqo5r9pVt7vg29xaRRO/9k21AMlmoe2327Ot5gVIwc=";
+    hash = "sha256-/bqo5r9pVt7vg29xaRRO/9k21AMlmoe2327Ot5gVIwc=";
   };
 
   nativeBuildInputs = [ autoconf automake libtool bison flex ];

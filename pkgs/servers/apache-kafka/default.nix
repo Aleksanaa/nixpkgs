@@ -5,13 +5,13 @@ let
     "3_7" = {
       kafkaVersion = "3.7.0";
       scalaVersion = "2.13";
-      sha256 = "sha256-ZfJuWTe7t23+eN+0FnMN+n4zeLJ+E/0eIE8aEJm/r5w=";
+      hash = "sha256-ZfJuWTe7t23+eN+0FnMN+n4zeLJ+E/0eIE8aEJm/r5w=";
       jre = jdk17_headless;
     };
     "3_6" = {
       kafkaVersion = "3.6.2";
       scalaVersion = "2.13";
-      sha256 = "sha256-wxfkf3cUHTFG6VY9nLodZIbIHmcLIR7OasRqn3Lkqqw=";
+      hash = "sha256-wxfkf3cUHTFG6VY9nLodZIbIHmcLIR7OasRqn3Lkqqw=";
       jre = jdk17_headless;
     };
   };

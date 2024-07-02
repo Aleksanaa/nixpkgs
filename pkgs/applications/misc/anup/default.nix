@@ -8,7 +8,7 @@ rustPlatform.buildRustPackage rec {
     owner = "Acizza";
     repo = "anup";
     rev = version;
-    sha256 = "sha256-4pXF4p4K8+YihVB9NdgT6bOidmQEgWXUbcbvgXJ0IDA=";
+    hash = "sha256-4pXF4p4K8+YihVB9NdgT6bOidmQEgWXUbcbvgXJ0IDA=";
   };
 
   buildInputs = [

@@ -27,7 +27,7 @@ stdenv.mkDerivation (finalAttrs: {
     in
     fetchurl {
       url = "https://download.raise3d.com/${finalAttrs.pname}/release/${semver}/ideaMaker_${finalAttrs.version}-ubuntu_amd64.deb";
-      sha256 = "sha256-aTVWCTgnVKD16uhJUVz0vR7KPGJqCVj0xoL53Qi3IKM=";
+      hash = "sha256-aTVWCTgnVKD16uhJUVz0vR7KPGJqCVj0xoL53Qi3IKM=";
     };
 
   nativeBuildInputs = [
@@ -72,7 +72,7 @@ stdenv.mkDerivation (finalAttrs: {
             version = "7.47.0";
             src = fetchzip {
               url = "https://curl.se/download/curl-7.47.0.tar.lzma";
-              sha256 = "sha256-XlZk1nJbSmiQp7jMSE2QRCY4C9w2us8BgosBSzlD4dE=";
+              hash = "sha256-XlZk1nJbSmiQp7jMSE2QRCY4C9w2us8BgosBSzlD4dE=";
             };
             configureFlags = previous.configureFlags ++ [
               "--with-ca-bundle=${cacert}/etc/ssl/certs/ca-bundle.crt"

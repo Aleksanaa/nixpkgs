@@ -10,7 +10,7 @@ let
       owner  = "tamarin-prover";
       repo   = "tamarin-prover";
       rev    = version;
-      sha256 = "sha256-ujnaUdbjqajmkphOS4Fs4QBCRGX4JZkQ2p1X2jripww=";
+      hash = "sha256-ujnaUdbjqajmkphOS4Fs4QBCRGX4JZkQ2p1X2jripww=";
     };
     patches = [
       ./tamarin-prover-1.8.0-ghc-9.6.patch

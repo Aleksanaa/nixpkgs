@@ -14,7 +14,7 @@ stdenv.mkDerivation rec {
     owner = "storaged-project";
     repo = "udisks";
     rev = "${pname}-${version}";
-    sha256 = "sha256-L8jr1+SJWsCizkPXC8VKDy2eVa7/FpqdB8SkBYq6vwc=";
+    hash = "sha256-L8jr1+SJWsCizkPXC8VKDy2eVa7/FpqdB8SkBYq6vwc=";
   };
 
   outputs = [ "out" "man" "dev" ] ++ lib.optional (stdenv.hostPlatform == stdenv.buildPlatform) "devdoc";

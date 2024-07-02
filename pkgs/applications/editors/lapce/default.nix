@@ -45,7 +45,7 @@ rustPlatform.buildRustPackage rec {
     owner = "lapce";
     repo = "lapce";
     rev = "refs/tags/v${version}";
-    sha256 = "sha256-x/EObvrMZ3bkdHk5SbfQEarXA7jcQ9rEFZINQrHjcl4=";
+    hash = "sha256-x/EObvrMZ3bkdHk5SbfQEarXA7jcQ9rEFZINQrHjcl4=";
   };
 
   cargoLock = {

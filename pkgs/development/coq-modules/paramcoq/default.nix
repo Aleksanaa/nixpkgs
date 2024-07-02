@@ -8,11 +8,11 @@ mkCoqDerivation {
     { case = range "8.7"  "8.13"; out = "1.1.2+coq${coq.coq-version}"; }
   ] null;
   displayVersion = { paramcoq = "..."; };
-  release."1.1.3+coq8.20".sha256 = "sha256-34xDOz/2xO39fnQW6Zb9CI2EKFuJZjrAdOpMEmwuzY0=";
-  release."1.1.3+coq8.19".sha256 = "sha256-5NVsdLXaoz6qrr5ra5YfoHeuK4pEf8JX/X9+SZA0U+U=";
-  release."1.1.3+coq8.18".sha256 = "sha256-hNBaj9hB+OzwXsOX+TOXtDLjA5oP4EmEgseLwxFxW+I=";
-  release."1.1.3+coq8.17".sha256 = "sha256-m8QGGuwj1lHzDprf4LHgAuzwfoblxtDIHunHBdpmiuM=";
-  release."1.1.3+coq8.16".sha256 = "sha256-K7/8hXH6DwiW7Gw41sgQF8UDAO3c32xBGWQQapzG8Mo=";
+  release."1.1.3+coq8.20".hash = "sha256-34xDOz/2xO39fnQW6Zb9CI2EKFuJZjrAdOpMEmwuzY0=";
+  release."1.1.3+coq8.19".hash = "sha256-5NVsdLXaoz6qrr5ra5YfoHeuK4pEf8JX/X9+SZA0U+U=";
+  release."1.1.3+coq8.18".hash = "sha256-hNBaj9hB+OzwXsOX+TOXtDLjA5oP4EmEgseLwxFxW+I=";
+  release."1.1.3+coq8.17".hash = "sha256-m8QGGuwj1lHzDprf4LHgAuzwfoblxtDIHunHBdpmiuM=";
+  release."1.1.3+coq8.16".hash = "sha256-K7/8hXH6DwiW7Gw41sgQF8UDAO3c32xBGWQQapzG8Mo=";
   release."1.1.3+coq8.15".sha256 = "0sl7ihznwz05d2x2v78w1zd4q55c1sgy06vxasbcls4v2pkw53hl";
   release."1.1.3+coq8.14".sha256 = "00zqq9dc2p5v0ib1jgizl25xkwxrs9mrlylvy0zvb96dpridjc71";
   release."1.1.3+coq8.13".sha256 = "06ndly736k4pmdn4baqa7fblp6lx7a9pxm9gvz1vzd6ic51825wp";

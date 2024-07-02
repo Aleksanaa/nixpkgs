@@ -22,7 +22,7 @@
     version = "19.0.0-git";
     rev = "a9ac31910db3975d5e92a6265ab29dafd6a4691d";
     rev-version = "19.0.0-unstable-2024-06-23";
-    sha256 = "sha256-MTt2FU84rgu6FqB9aCO6M54VZexoogkdx5RKS1NzSkk=";
+    hash = "sha256-MTt2FU84rgu6FqB9aCO6M54VZexoogkdx5RKS1NzSkk=";
 }
   # i.e.:
   # {

@@ -18,13 +18,13 @@ stdenv.mkDerivation rec {
       name = "gcc-12-prereq.patch";
       url = "https://github.com/CGAL/cgal/commit/4581f1b7a8e97d1a136830e64b77cdae3546c4bf.patch";
       relative = "CGAL_Core"; # Upstream slightly reordered directory structure since.
-      sha256 = "sha256-4+7mzGSBwAv5RHBQPAecPPKNN/LQBgvYq5mq+fHAteo=";
+      hash = "sha256-4+7mzGSBwAv5RHBQPAecPPKNN/LQBgvYq5mq+fHAteo=";
     })
     (fetchpatch {
       name = "gcc-12.patch";
       url = "https://github.com/CGAL/cgal/commit/6680a6e6f994b2c5b9f068eb3014d12ee1134d53.patch";
       relative = "CGAL_Core"; # Upstream slightly reordered directory structure since.
-      sha256 = "sha256-8kxJDT47jXI9kQNFI/ARWl9JBNS4AfU57/D0tYlgW0M=";
+      hash = "sha256-8kxJDT47jXI9kQNFI/ARWl9JBNS4AfU57/D0tYlgW0M=";
     })
   ];
 

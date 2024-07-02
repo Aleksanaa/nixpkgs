@@ -22,7 +22,7 @@ buildPythonPackage rec {
     owner = "robotframework";
     repo = "SeleniumLibrary";
     rev = "refs/tags/v${version}";
-    sha256 = "sha256-Rjbdn1WXdXLn//HLtHwVrlLD+3vw9mgre/0wvMb+xbc=";
+    hash = "sha256-Rjbdn1WXdXLn//HLtHwVrlLD+3vw9mgre/0wvMb+xbc=";
   };
 
   nativeBuildInputs = [ setuptools ];

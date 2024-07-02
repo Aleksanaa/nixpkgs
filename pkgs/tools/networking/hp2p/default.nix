@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
     owner = "cea-hpc";
     repo = "hp2p";
     rev = "711f6cc5b4e552d969c2436ad77afd35d31bfd05";
-    sha256 = "sha256-mBTJZb3DPmIlL7N+PfjlWmBw0WfFF2DesImVZlbDQKc=";
+    hash = "sha256-mBTJZb3DPmIlL7N+PfjlWmBw0WfFF2DesImVZlbDQKc=";
   };
 
   enableParallelBuilding = true;

@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
   src = fetchgit {
     url = "git://git.code.sf.net/p/linux-ima/ima-evm-utils";
     rev = "v${version}";
-    sha256 = "sha256-WPBG7v29JHZ+ZGeLgA2gtLzZmaG0Xdvpq+BZ6NriY+A=";
+    hash = "sha256-WPBG7v29JHZ+ZGeLgA2gtLzZmaG0Xdvpq+BZ6NriY+A=";
   };
 
   strictDeps = true;

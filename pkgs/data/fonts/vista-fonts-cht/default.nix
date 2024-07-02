@@ -6,7 +6,7 @@ stdenvNoCC.mkDerivation {
 
   src = fetchurl {
     url = "https://download.microsoft.com/download/7/6/b/76bd7a77-be02-47f3-8472-fa1de7eda62f/VistaFont_CHT.EXE";
-    sha256 = "sha256-fSnbbxlMPzbhFSQyKxQaS5paiWji8njK7tS8Eppsj6g=";
+    hash = "sha256-fSnbbxlMPzbhFSQyKxQaS5paiWji8njK7tS8Eppsj6g=";
   };
 
   nativeBuildInputs = [ cabextract ];

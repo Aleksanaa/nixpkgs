@@ -11,7 +11,7 @@ rustPlatform.buildRustPackage rec {
   src = fetchCrate {
     inherit version;
     pname = "protobuf-codegen";
-    sha256 = "sha256-9Rf7GI/qxoqlISD169TJwUVAdJn8TpxTXDNxiQra2UY=";
+    hash = "sha256-9Rf7GI/qxoqlISD169TJwUVAdJn8TpxTXDNxiQra2UY=";
   };
 
   cargoSha256 = "sha256-i1ZIEbU6tw7xA1w+ffD/h1HIkOwVep9wQJys9Bydvv0=";

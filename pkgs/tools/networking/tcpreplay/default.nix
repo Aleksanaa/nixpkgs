@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://github.com/appneta/tcpreplay/releases/download/v${version}/tcpreplay-${version}.tar.gz";
-    sha256 = "sha256-RPGPttNHDsr3elG5AaEZ2uFtpb5NQUD/uyeF43rW1L8=";
+    hash = "sha256-RPGPttNHDsr3elG5AaEZ2uFtpb5NQUD/uyeF43rW1L8=";
   };
 
   buildInputs = [ libpcap ]

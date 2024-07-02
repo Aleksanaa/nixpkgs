@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://sourceforge/ircd-hybrid/ircd-hybrid-${version}.tgz";
-    sha256 = "sha256-a/DC/1/GQ9wXV6Iyyb1YJdM4kcfMGDfwJK1P/3xhxnk=";
+    hash = "sha256-a/DC/1/GQ9wXV6Iyyb1YJdM4kcfMGDfwJK1P/3xhxnk=";
   };
 
   buildInputs = [ openssl zlib libxcrypt ];

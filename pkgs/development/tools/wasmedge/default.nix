@@ -19,7 +19,7 @@ stdenv.mkDerivation (finalAttrs: {
     owner = "WasmEdge";
     repo = "WasmEdge";
     rev = finalAttrs.version;
-    sha256 = "sha256-JPuJIM5OU1qCvFZEQ3gDNBZsIiJijtWLAVGp54z7lt0=";
+    hash = "sha256-JPuJIM5OU1qCvFZEQ3gDNBZsIiJijtWLAVGp54z7lt0=";
   };
 
   nativeBuildInputs = [

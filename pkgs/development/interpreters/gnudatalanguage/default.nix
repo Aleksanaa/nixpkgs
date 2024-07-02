@@ -114,7 +114,7 @@ stdenv.mkDerivation rec {
     owner = pname;
     repo = "gdl";
     rev = "v${version}";
-    sha256 = "sha256-IrCLL8MQp0SkWj7sbfZlma5FrnMbgdl4E/1nPGy0Y60=";
+    hash = "sha256-IrCLL8MQp0SkWj7sbfZlma5FrnMbgdl4E/1nPGy0Y60=";
   };
 
   buildInputs = [

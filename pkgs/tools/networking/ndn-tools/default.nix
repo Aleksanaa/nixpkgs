@@ -18,7 +18,7 @@ stdenv.mkDerivation rec {
     owner = "named-data";
     repo = pname;
     rev = "ndn-tools-${version}";
-    sha256 = "sha256-28sPgo2nq5AhIzZmvDz38echGPzKDzNm2J6iIao4yL8=";
+    hash = "sha256-28sPgo2nq5AhIzZmvDz38echGPzKDzNm2J6iIao4yL8=";
   };
 
   # Hacky workaround for new pcap-config.

@@ -6,7 +6,7 @@ mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://sourceforge/padthv1/${pname}-${version}.tar.gz";
-    sha256 = "sha256-9yFfvlskOYnGraou2S3Qffl8RoYJqE0wnDlOP8mxQgg=";
+    hash = "sha256-9yFfvlskOYnGraou2S3Qffl8RoYJqE0wnDlOP8mxQgg=";
   };
 
   buildInputs = [ libjack2 alsa-lib libsndfile liblo lv2 qt5.qtbase qt5.qttools fftwFloat ];

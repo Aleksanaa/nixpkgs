@@ -42,10 +42,10 @@ let
     "2.2.0".sha256  = "sha256-SPyWSI5kIP5w7VpgnQ4vnK56yEuWnJylNQOT7M77yoQ=";
     "2.1.0".sha256  = "sha256-XDLx0BIkVRkSJ4sGCIE51j3rtkSGemNTs/cdVmTvxqo=";
     "2.0.0".sha256  = "sha256-dpOmrHYUXBBS9kmmz7puzufxlbNpIZofpcTvJFLG5DI=";
-    "1.19.0".sha256 = "sha256-3kxS3qA+7WwQkXoFC/+kq3OEkv4kMEzQ/G3aXPsp1Q4=";
-    "1.18.0".sha256 = "sha256-mJJ/zvM2WtmBZU3U4oid/zCMvDXei/93v5hwyyqwiiY=";
-    "1.17.0".sha256 = "sha256-bUfoSTMiW/GzC1jKFay6DRqGzKPuLOSUsO6/wPSFwNg=";
-    "1.16.0".sha256 = "sha256-gXTKhRgSGeRBUnwdDezMsMKbOvxdffT+kViZ9e1gEz0=";
+    "1.19.0".hash = "sha256-3kxS3qA+7WwQkXoFC/+kq3OEkv4kMEzQ/G3aXPsp1Q4=";
+    "1.18.0".hash = "sha256-mJJ/zvM2WtmBZU3U4oid/zCMvDXei/93v5hwyyqwiiY=";
+    "1.17.0".hash = "sha256-bUfoSTMiW/GzC1jKFay6DRqGzKPuLOSUsO6/wPSFwNg=";
+    "1.16.0".hash = "sha256-gXTKhRgSGeRBUnwdDezMsMKbOvxdffT+kViZ9e1gEz0=";
     "1.15.0".sha256 = "1bp0jxl35ms54s0mdqky15w9af03f3i0n06qk12k4gw1xzvwqv21";
     "1.14.0".sha256 = "07yamlp1c0g5nahkd2gpfhammcca74ga2s6qr7a3wm6y6j5pivk9";
     "1.13.0".sha256 = "0j4cz2y1r1aw79snkcf1pmicgzf8swbaf9ippz0vg99a572zqzri";

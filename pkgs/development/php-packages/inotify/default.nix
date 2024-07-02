@@ -4,7 +4,7 @@ buildPecl {
   pname = "inotify";
 
   version = "3.0.0";
-  sha256 = "sha256-xxt4ZEwBFVecx5T1jnhEFEF1HXgEC52dGiI9Ppwtcj0=";
+  hash = "sha256-xxt4ZEwBFVecx5T1jnhEFEF1HXgEC52dGiI9Ppwtcj0=";
 
   doCheck = true;
 

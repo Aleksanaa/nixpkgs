@@ -20,7 +20,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://sourceforge/xfe/xfe-${version}.tar.xz";
-    sha256 = "sha256-6hNNda4BKCY9E02uFYJnt0JySNp/is1ZqjFlOwQcRWs=";
+    hash = "sha256-6hNNda4BKCY9E02uFYJnt0JySNp/is1ZqjFlOwQcRWs=";
   };
 
   nativeBuildInputs = [ pkg-config intltool ];

@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
   version = "1.9.4";
 
   src = fetchFromGitHub {
-    sha256 = "sha256-YiMCD3vvrG+oxBUghSrCmP2LAfAGZrEaKz0YoaQJhpI=";
+    hash = "sha256-YiMCD3vvrG+oxBUghSrCmP2LAfAGZrEaKz0YoaQJhpI=";
     rev = "v${version}";
     repo = pname;
     owner = pname;
@@ -18,7 +18,7 @@ stdenv.mkDerivation rec {
     (fetchpatch { # https://github.com/lz4/lz4/pull/1162
       name = "build-shared-no.patch";
       url = "https://github.com/lz4/lz4/commit/851ef4b23c7cbf4ceb2ba1099666a8b5ec4fa195.patch";
-      sha256 = "sha256-P+/uz3m7EAmHgXF/1Vncc0uKKxNVq6HNIsElx0rGxpw=";
+      hash = "sha256-P+/uz3m7EAmHgXF/1Vncc0uKKxNVq6HNIsElx0rGxpw=";
     })
   ];
 

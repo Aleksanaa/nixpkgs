@@ -8,7 +8,7 @@ mkDerivation rec {
     owner = "palinek";
     repo = pname;
     rev = version;
-    sha256 = "sha256-JTH1cmkgdW2aRWMYPRvOAvCJz0ClCIpjUtcWcqJQGSU=";
+    hash = "sha256-JTH1cmkgdW2aRWMYPRvOAvCJz0ClCIpjUtcWcqJQGSU=";
   };
 
   postPatch = ''

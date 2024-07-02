@@ -14,7 +14,7 @@ buildGoModule rec {
     owner = "itchio";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-vciSmXR3wI3KcnC+Uz36AgI/WUfztA05MJv1InuOjJM=";
+    hash = "sha256-vciSmXR3wI3KcnC+Uz36AgI/WUfztA05MJv1InuOjJM=";
   };
 
   buildInputs = lib.optionals stdenv.isDarwin [

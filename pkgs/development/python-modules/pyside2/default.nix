@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://download.qt.io/official_releases/QtForPython/pyside2/PySide2-${version}-src/pyside-setup-opensource-src-${version}.tar.xz";
-    sha256 = "sha256-2lZ807eFTSegtK/j6J3osvmLem1XOTvlbx/BP3cPryk=";
+    hash = "sha256-2lZ807eFTSegtK/j6J3osvmLem1XOTvlbx/BP3cPryk=";
   };
 
   patches = [ ./dont_ignore_optional_modules.patch ];

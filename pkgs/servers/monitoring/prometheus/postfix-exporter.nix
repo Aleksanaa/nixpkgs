@@ -15,7 +15,7 @@ buildGoModule rec {
     owner = "kumina";
     repo = "postfix_exporter";
     rev = version;
-    sha256 = "sha256-63ze51Qbjm+3CV1OFGFa9cS4ucZ+gMKaJyBF2b//CfM=";
+    hash = "sha256-63ze51Qbjm+3CV1OFGFa9cS4ucZ+gMKaJyBF2b//CfM=";
   };
 
   vendorHash = "sha256-a4Lk4wh4mvXEjLgFksZIVVtbp+zTUyjtLVuk7vuot2k=";

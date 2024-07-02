@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
     owner = "lassekongo83";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-YKEDXrOAn7pGWb0VcOx7cKHnuX120yPzqtUVnzyLrDQ=";
+    hash = "sha256-YKEDXrOAn7pGWb0VcOx7cKHnuX120yPzqtUVnzyLrDQ=";
   };
 
   nativeBuildInputs = [ meson ninja sassc ];

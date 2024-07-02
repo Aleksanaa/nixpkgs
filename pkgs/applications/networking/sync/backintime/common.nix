@@ -13,7 +13,7 @@ in stdenv.mkDerivation rec {
     owner = "bit-team";
     repo = "backintime";
     rev = "v${version}";
-    sha256 = "sha256-2q2Q4rnxXwVnfH1YEBwY35B2ctG9+qpOIAHqPOjjArg=";
+    hash = "sha256-2q2Q4rnxXwVnfH1YEBwY35B2ctG9+qpOIAHqPOjjArg=";
   };
 
   nativeBuildInputs = [ makeWrapper gettext ];

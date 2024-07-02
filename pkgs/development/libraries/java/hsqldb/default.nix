@@ -7,7 +7,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://sourceforge/project/hsqldb/hsqldb/hsqldb_${underscoreMajMin}/hsqldb-${version}.zip";
-    sha256 = "sha256-/7NZy+ZroxeTF7av22LNJ0dlMzvTAWfOMypLLYWXWBI=";
+    hash = "sha256-/7NZy+ZroxeTF7av22LNJ0dlMzvTAWfOMypLLYWXWBI=";
   };
 
   nativeBuildInputs = [ unzip makeWrapper ];

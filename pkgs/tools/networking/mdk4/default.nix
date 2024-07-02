@@ -8,7 +8,7 @@ stdenv.mkDerivation {
     owner = "aircrack-ng";
     repo = "mdk4";
     rev = "e94422ce8e4b8dcd132d658345814df7e63bfa41";
-    sha256 = "sha256-pZS7HQBKlSZJGqoZlSyBUzXC3osswcB56cBzgm+Sbwg=";
+    hash = "sha256-pZS7HQBKlSZJGqoZlSyBUzXC3osswcB56cBzgm+Sbwg=";
   };
 
   preBuild = ''

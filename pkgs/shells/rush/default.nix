@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://gnu/${pname}/${pname}-${version}.tar.gz";
-    sha256 = "sha256-57gBYfZsKdK1moXBC52KgxKv/MIeQK6tDu+fznXLZ+Y=";
+    hash = "sha256-57gBYfZsKdK1moXBC52KgxKv/MIeQK6tDu+fznXLZ+Y=";
   };
 
   strictDeps = true;

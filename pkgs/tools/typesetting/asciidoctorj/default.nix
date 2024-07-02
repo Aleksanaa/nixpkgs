@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchzip {
     url = "mirror://maven/org/asciidoctor/${pname}/${version}/${pname}-${version}-bin.zip";
-    sha256 = "sha256-II6R5/7vDONkk/6pL1n/h7Snvu3vaLulIOAw/FjZMBc=";
+    hash = "sha256-II6R5/7vDONkk/6pL1n/h7Snvu3vaLulIOAw/FjZMBc=";
   };
 
   nativeBuildInputs = [ makeWrapper ];

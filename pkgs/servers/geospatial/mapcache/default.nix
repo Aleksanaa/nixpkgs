@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
     owner = "MapServer";
     repo = pname;
     rev = "rel-${lib.replaceStrings [ "." ] [ "-" ] version}";
-    sha256 = "sha256-+QP4xXhP+MNqnhMUtMdtKrcuJ0M2BXWu3mbxXzj5ybc=";
+    hash = "sha256-+QP4xXhP+MNqnhMUtMdtKrcuJ0M2BXWu3mbxXzj5ybc=";
   };
 
   nativeBuildInputs = [

@@ -25,7 +25,7 @@ stdenv.mkDerivation rec {
     owner = "linuxwacom";
     repo = pname;
     rev = "${pname}-${version}";
-    sha256 = "sha256-3w12OjjMdu03BhUVEjkyj1ngDFnp0Cp66L0nn3LuU8Q=";
+    hash = "sha256-3w12OjjMdu03BhUVEjkyj1ngDFnp0Cp66L0nn3LuU8Q=";
   };
 
   nativeBuildInputs = [ autoreconfHook pkg-config ];

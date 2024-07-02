@@ -90,7 +90,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://bin.appgate-sdp.com/${lib.versions.majorMinor version}/client/appgate-sdp_${version}_amd64.deb";
-    sha256 = "sha256-W6P83+DPd2VRz52UKPJp+D1WcjgDwyXYcx6rViHbmlk=";
+    hash = "sha256-W6P83+DPd2VRz52UKPJp+D1WcjgDwyXYcx6rViHbmlk=";
   };
 
   # just patch interpreter

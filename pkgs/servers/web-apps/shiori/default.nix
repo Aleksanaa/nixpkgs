@@ -12,7 +12,7 @@ buildGoModule rec {
     owner = "go-shiori";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-kGPvCYvLLixEH9qih/F3StUyGPqlKukTWLSw41+Mq8E=";
+    hash = "sha256-kGPvCYvLLixEH9qih/F3StUyGPqlKukTWLSw41+Mq8E=";
   };
 
   passthru.tests = {

@@ -15,7 +15,7 @@ buildPythonPackage rec {
   src = fetchgit {
     url = "https://git.launchpad.net/ssh-import-id";
     rev = version;
-    sha256 = "sha256-tYbaJGH59qyvjp4kwo3ZFVs0EaE0Lsd2CQ6iraFkAdI=";
+    hash = "sha256-tYbaJGH59qyvjp4kwo3ZFVs0EaE0Lsd2CQ6iraFkAdI=";
   };
 
   propagatedBuildInputs = [

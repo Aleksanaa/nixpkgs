@@ -67,7 +67,7 @@ let
   # macOS - ISOs
   darwinIsoSrc = fetchzip {
     url = "https://softwareupdate.vmware.com/cds/vmw-desktop/fusion/${fusionVersion}/${fusionBuild}/universal/core/com.vmware.fusion.zip.tar";
-    sha256 = "sha256-DDLRWAVRI3ZeXV5bUXWwput9mEC1qsJUsjojI0CJYMI=";
+    hash = "sha256-DDLRWAVRI3ZeXV5bUXWwput9mEC1qsJUsjojI0CJYMI=";
     stripRoot = false;
   } + "/com.vmware.fusion.zip";
 
@@ -76,7 +76,7 @@ let
     owner = "paolo-projects";
     repo = "unlocker";
     rev = "${unlockerVersion}";
-    sha256 = "sha256-JSEW1gqQuLGRkathlwZU/TnG6dL/xWKW4//SfE+kO0A=";
+    hash = "sha256-JSEW1gqQuLGRkathlwZU/TnG6dL/xWKW4//SfE+kO0A=";
   };
 
   gdbm3 = gdbm.overrideAttrs (old: rec {
@@ -84,7 +84,7 @@ let
 
     src = fetchurl {
       url = "mirror://gnu/gdbm/gdbm-${version}.tar.gz";
-      sha256 = "sha256-zDQDOKLii0AFirnrU1SiHVP4ihWC6iG6C7GFw3ooHck=";
+      hash = "sha256-zDQDOKLii0AFirnrU1SiHVP4ihWC6iG6C7GFw3ooHck=";
     };
 
     installPhase = ''
@@ -137,7 +137,7 @@ stdenv.mkDerivation rec {
 
   src = fetchzip {
     url = "${baseUrl}/core/VMware-Workstation-${version}-${build}.x86_64.bundle.tar";
-    sha256 = "sha256-5PZZpXN/V687TXjqeTm8MEays4/QTf02jVfdpi9C7GI=";
+    hash = "sha256-5PZZpXN/V687TXjqeTm8MEays4/QTf02jVfdpi9C7GI=";
     stripRoot = false;
   } + "/VMware-Workstation-${version}-${build}.x86_64.bundle";
 

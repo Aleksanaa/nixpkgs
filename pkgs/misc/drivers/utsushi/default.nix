@@ -21,25 +21,25 @@ in stdenv.mkDerivation rec {
     owner = "utsushi";
     repo = pname;
     rev = version;
-    sha256 = "sha256-CrN9F/WJKmlDN7eozEHtKgGUQBWVwTqwjnrfiATk7lI=";
+    hash = "sha256-CrN9F/WJKmlDN7eozEHtKgGUQBWVwTqwjnrfiATk7lI=";
   };
 
   patches = [
     (fetchpatch {
       url = "https://gitweb.gentoo.org/repo/gentoo.git/plain/media-gfx/iscan/files/iscan-3.63.0-autoconf-2.70.patch?id=4fe8a9e6c60f9163cadad830ba4935c069c67b10";
-      sha256 = "sha256-2V4cextjcEQrywe4tvvD5KaVYdXnwdNhTiY/aSNx3mM=";
+      hash = "sha256-2V4cextjcEQrywe4tvvD5KaVYdXnwdNhTiY/aSNx3mM=";
     })
     (fetchpatch {
       url = "https://gitweb.gentoo.org/repo/gentoo.git/plain/media-gfx/iscan/files/iscan-3.61.0-imagemagick-7.patch?id=985c92af4730d864e86fa87746185b0246e9db93";
-      sha256 = "sha256-dfdVMp3ZfclYeRxYjMIvl+ZdlLn9S+IwQ+OmlHW8318=";
+      hash = "sha256-dfdVMp3ZfclYeRxYjMIvl+ZdlLn9S+IwQ+OmlHW8318=";
     })
     (fetchpatch {
       url = "https://raw.githubusercontent.com/archlinux/svntogit-community/b3046e0e78b95440f135fcadb19a9eb531729a58/trunk/boost-1.74.patch";
-      sha256 = "sha256-W8R1l7ZPcsfiIy1QBJvh0M8du0w1cnTg3PyAz65v4rE=";
+      hash = "sha256-W8R1l7ZPcsfiIy1QBJvh0M8du0w1cnTg3PyAz65v4rE=";
     })
     (fetchpatch {
       url = "https://gitweb.gentoo.org/repo/gentoo.git/plain/media-gfx/iscan/files/iscan-3.65.0-sane-backends-1.1.patch";
-      sha256 = "sha256-AmMZ+/lrUMR7IU+S8MEn0Ji5pqOiD6izFJBsJ0tCCCw=";
+      hash = "sha256-AmMZ+/lrUMR7IU+S8MEn0Ji5pqOiD6izFJBsJ0tCCCw=";
     })
   ];
 

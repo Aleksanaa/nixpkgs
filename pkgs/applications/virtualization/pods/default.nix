@@ -25,7 +25,7 @@ stdenv.mkDerivation rec {
     owner = "marhkb";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-jSN4WmyzYARhDkwAtTYD4iXNTM1QQbAAwQ/ICHg7k3k=";
+    hash = "sha256-jSN4WmyzYARhDkwAtTYD4iXNTM1QQbAAwQ/ICHg7k3k=";
   };
 
   cargoDeps = rustPlatform.importCargoLock {

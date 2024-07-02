@@ -9,7 +9,7 @@ python3Packages.buildPythonApplication rec {
     owner = "dalibo";
     repo = pname;
     rev = "refs/tags/v${version}";
-    sha256 = "sha256-fqRECReeXjdoCieCYIsIumIjcMGN7UUbWHxxAfzm9co=";
+    hash = "sha256-fqRECReeXjdoCieCYIsIumIjcMGN7UUbWHxxAfzm9co=";
   };
 
   propagatedBuildInputs = with python3Packages; [

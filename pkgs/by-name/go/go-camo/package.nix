@@ -8,7 +8,7 @@ buildGoModule rec {
     owner = "cactus";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-nrkc+uYgPES3CfRjmfH/9eM6NL8Vo3kUBX9JHEw/1C4=";
+    hash = "sha256-nrkc+uYgPES3CfRjmfH/9eM6NL8Vo3kUBX9JHEw/1C4=";
   };
 
   vendorHash = "sha256-iyZNOooPH1jvT+S9/ETRoXsTwXUIUi1UKmDzhB7NRuE=";

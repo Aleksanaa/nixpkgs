@@ -18,7 +18,7 @@ stdenv.mkDerivation (finalAttrs: {
     owner = "libusb";
     repo = "hidapi";
     rev = "${finalAttrs.pname}-${finalAttrs.version}";
-    sha256 = "sha256-p3uzBq5VxxQbVuy1lEHEEQdxXwnhQgJDIyAAWjVWNIg=";
+    hash = "sha256-p3uzBq5VxxQbVuy1lEHEEQdxXwnhQgJDIyAAWjVWNIg=";
   };
 
   nativeBuildInputs = [ cmake pkg-config ];

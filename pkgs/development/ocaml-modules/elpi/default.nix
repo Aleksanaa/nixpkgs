@@ -16,12 +16,12 @@ let p5 = camlp5; in
 let camlp5 = p5.override { legacy = true; }; in
 
 let fetched = coqPackages.metaFetch ({
-    release."1.18.1".sha256 = "sha256-zgBJefQDe3JyCGbC0wvMcx/9iMVbftBJ43NPogkNeHY=";
-    release."1.17.0".sha256 = "sha256-DTxE8CvYl0et20pxueydI+WzraI6UPHMNvxyp2gU/+w=";
-    release."1.16.5".sha256 = "sha256-tKX5/cVPoBeHiUe+qn7c5FIRYCwY0AAukN7vSd/Nz9A=";
-    release."1.15.2".sha256 = "sha256-XgopNP83POFbMNyl2D+gY1rmqGg03o++Ngv3zJfCn2s=";
+    release."1.18.1".hash = "sha256-zgBJefQDe3JyCGbC0wvMcx/9iMVbftBJ43NPogkNeHY=";
+    release."1.17.0".hash = "sha256-DTxE8CvYl0et20pxueydI+WzraI6UPHMNvxyp2gU/+w=";
+    release."1.16.5".hash = "sha256-tKX5/cVPoBeHiUe+qn7c5FIRYCwY0AAukN7vSd/Nz9A=";
+    release."1.15.2".hash = "sha256-XgopNP83POFbMNyl2D+gY1rmqGg03o++Ngv3zJfCn2s=";
     release."1.15.0".sha256 = "sha256:1ngdc41sgyzyz3i3lkzjhnj66gza5h912virkh077dyv17ysb6ar";
-    release."1.14.1".sha256 = "sha256-BZPVL8ymjrE9kVGyf6bpc+GA2spS5JBpkUtZi04nPis=";
+    release."1.14.1".hash = "sha256-BZPVL8ymjrE9kVGyf6bpc+GA2spS5JBpkUtZi04nPis=";
     release."1.13.7".sha256 = "10fnwz30bsvj7ii1vg4l1li5pd7n0qqmwj18snkdr5j9gk0apc1r";
     release."1.13.5".sha256 = "02a6r23mximrdvs6kgv6rp0r2dgk7zynbs99nn7lphw2c4189kka";
     release."1.13.1".sha256 = "12a9nbdvg9gybpw63lx3nw5wnxfznpraprb0wj3l68v1w43xq044";

@@ -8,7 +8,7 @@ buildDunePackage rec {
     owner = "jchavarri";
     repo = "rebez";
     rev = "03fa3b707abb28fdd710eb9e57ba40d9cd6ae163";
-    sha256 = "sha256-khZSwtwW+mP/EvAvIZMQyOb6FgNR+gmzpBZoD9ZPkpY=";
+    hash = "sha256-khZSwtwW+mP/EvAvIZMQyOb6FgNR+gmzpBZoD9ZPkpY=";
   };
 
   nativeBuildInputs = [ reason ];

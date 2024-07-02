@@ -8,7 +8,7 @@ buildGoModule rec {
     owner = "boynux";
     repo = "squid-exporter";
     rev = "v${version}";
-    sha256 = "sha256-43f6952IqUHoB5CN0p5R5J/sMKbTe2msF9FGqykwMBo=";
+    hash = "sha256-43f6952IqUHoB5CN0p5R5J/sMKbTe2msF9FGqykwMBo=";
   };
 
   vendorHash = null;

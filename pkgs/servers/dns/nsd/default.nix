@@ -20,7 +20,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://www.nlnetlabs.nl/downloads/${pname}/${pname}-${version}.tar.gz";
-    sha256 = "sha256-YxfX9ePwHDORLzE9ZqM90azhzffxnVxZCy5DDYykYF8=";
+    hash = "sha256-YxfX9ePwHDORLzE9ZqM90azhzffxnVxZCy5DDYykYF8=";
   };
 
   prePatch = ''

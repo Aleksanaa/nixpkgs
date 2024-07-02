@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://apache/groovy/${version}/distribution/apache-groovy-binary-${version}.zip";
-    sha256 = "sha256-Xvh49w24tkLSBOmkEMUZwRMaPnqd20tpENIUkJyy6Yo=";
+    hash = "sha256-Xvh49w24tkLSBOmkEMUZwRMaPnqd20tpENIUkJyy6Yo=";
   };
 
   nativeBuildInputs = [ makeWrapper unzip ];

@@ -17,7 +17,7 @@ mkDerivation rec {
     owner = "gyunaev";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-rj8tPzZzgW0hXmq8c1LiunIX1tO/tGAaqDGJgCQda5M=";
+    hash = "sha256-rj8tPzZzgW0hXmq8c1LiunIX1tO/tGAaqDGJgCQda5M=";
   };
 
   nativeBuildInputs = [ cmake pkg-config ];

@@ -15,7 +15,7 @@ stdenv.mkDerivation rec {
   src = fetchFromGitHub {
     owner = "laurentj";
     repo = "slimerjs";
-    sha256 = "sha256-RHd9PqcSkO9FYi5x+09TN7c4fKGf5pCPXjoCUXZ2mvA=";
+    hash = "sha256-RHd9PqcSkO9FYi5x+09TN7c4fKGf5pCPXjoCUXZ2mvA=";
     rev = version;
   };
 

@@ -25,7 +25,7 @@ python3Packages.buildPythonApplication rec {
     owner = "razer";
     repo = "bubblemail";
     rev = "v${version}";
-    sha256 = "sha256-MPl4pXvdhwCFWTepn/Mxp8ZMs+HCzXC59qdKZp3mHdw=";
+    hash = "sha256-MPl4pXvdhwCFWTepn/Mxp8ZMs+HCzXC59qdKZp3mHdw=";
   };
 
   buildInputs = [

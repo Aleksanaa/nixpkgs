@@ -35,7 +35,7 @@ mkDerivation rec {
     owner = "cnr-isti-vclab";
     repo = "meshlab";
     rev = "MeshLab-${version}";
-    sha256 = "sha256-AdUAWS741RQclYaSE3Tz1/I0YSinNAnfSaqef+Tib8Y=";
+    hash = "sha256-AdUAWS741RQclYaSE3Tz1/I0YSinNAnfSaqef+Tib8Y=";
   };
 
   buildInputs = [

@@ -5,7 +5,7 @@ mkXfceDerivation {
   pname = "xfce4-volumed-pulse";
   version = "0.2.4";
 
-  sha256 = "sha256-NDIJRjKV5aoM2sLhZ6WmoynOc4yz55KpuiTJDMLMA5Y=";
+  hash = "sha256-NDIJRjKV5aoM2sLhZ6WmoynOc4yz55KpuiTJDMLMA5Y=";
 
   buildInputs = [ gtk3 libnotify libpulseaudio keybinder3 xfconf ];
 

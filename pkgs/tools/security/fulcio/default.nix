@@ -8,7 +8,7 @@ buildGoModule rec {
     owner = "sigstore";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-cuBL+LvUXp4Ke+88jK/0cYaG072CFz3RG/kunXHzkA8=";
+    hash = "sha256-cuBL+LvUXp4Ke+88jK/0cYaG072CFz3RG/kunXHzkA8=";
     # populate values that require us to use git. By doing this in postFetch we
     # can delete .git afterwards and maintain better reproducibility of the src.
     leaveDotGit = true;

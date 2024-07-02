@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://pythia.org/download/pythia83/pythia${builtins.replaceStrings ["."] [""] version}.tgz";
-    sha256 = "sha256-J4LV5CnBVDxnN1r+VH/UxMoHIDCd6wCPfbeGJtx9FGQ=";
+    hash = "sha256-J4LV5CnBVDxnN1r+VH/UxMoHIDCd6wCPfbeGJtx9FGQ=";
   };
 
   nativeBuildInputs = [ rsync ]

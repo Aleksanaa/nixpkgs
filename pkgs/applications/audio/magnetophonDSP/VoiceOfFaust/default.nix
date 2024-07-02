@@ -7,7 +7,7 @@ stdenv.mkDerivation rec {
     owner = "magnetophon";
     repo = "VoiceOfFaust";
     rev = version;
-    sha256 = "sha256-vB8+ymvNuuovFXwOJ3BTIj5mGzCGa1+yhYs4nWMYIxU=";
+    hash = "sha256-vB8+ymvNuuovFXwOJ3BTIj5mGzCGa1+yhYs4nWMYIxU=";
   };
 
   plugins = [ helmholtz mrpeach ];

@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
     owner = "arminbiere";
     repo = "cadical";
     rev = "rel-${version}";
-    sha256 = "sha256-mAKuz8WjX+ywQ7Sw5hRMPftsbbilTlmQ9qZVowXxs28=";
+    hash = "sha256-mAKuz8WjX+ywQ7Sw5hRMPftsbbilTlmQ9qZVowXxs28=";
   };
 
   outputs = [ "out" "dev" "lib" ];

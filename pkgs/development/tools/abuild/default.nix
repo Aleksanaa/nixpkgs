@@ -23,7 +23,7 @@ stdenv.mkDerivation rec {
     owner = "alpine";
     repo = pname;
     rev = version;
-    sha256 = "sha256-xVxgcBchGfeVo1cgP9iVsWjZ6SHVN6R8zWaE1k3DcXQ=";
+    hash = "sha256-xVxgcBchGfeVo1cgP9iVsWjZ6SHVN6R8zWaE1k3DcXQ=";
   };
 
   buildInputs = [

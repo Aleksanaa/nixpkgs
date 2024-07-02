@@ -11,7 +11,7 @@ crystal.buildCrystalPackage rec {
     owner = "taylorthurlow";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-sF+fNKEZEfjpW3buh6kFUpL1P0yO9g4SrTb0rhx1uNc=";
+    hash = "sha256-sF+fNKEZEfjpW3buh6kFUpL1P0yO9g4SrTb0rhx1uNc=";
   };
 
   format = "shards";

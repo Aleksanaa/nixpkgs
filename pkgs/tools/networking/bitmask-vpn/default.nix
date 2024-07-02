@@ -33,7 +33,7 @@ let
     owner = "leap";
     repo = "bitmask-vpn";
     rev = version;
-    sha256 = "sha256-mhmKG6Exxh64oeeeLezJYWEw61iIHLasHjLomd2L8P4=";
+    hash = "sha256-mhmKG6Exxh64oeeeLezJYWEw61iIHLasHjLomd2L8P4=";
   };
 
   # bitmask-root is only used on GNU/Linux

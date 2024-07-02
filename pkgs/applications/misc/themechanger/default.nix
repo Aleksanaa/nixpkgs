@@ -22,7 +22,7 @@ python3Packages.buildPythonApplication rec {
     owner = "ALEX11BR";
     repo = "ThemeChanger";
     rev = "v${version}";
-    sha256 = "sha256-zSbh+mqCKquOyQASwVUW6hghmUc37nTuoa8pWCHM/a8=";
+    hash = "sha256-zSbh+mqCKquOyQASwVUW6hghmUc37nTuoa8pWCHM/a8=";
   };
 
   nativeBuildInputs = [

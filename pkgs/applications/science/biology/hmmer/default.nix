@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "http://eddylab.org/software/hmmer/${pname}-${version}.tar.gz";
-    sha256 = "sha256-ynDZT9DPJxvXBjQjqrsRbULeUzEXNDqbJ6ZcF/8G+/M=";
+    hash = "sha256-ynDZT9DPJxvXBjQjqrsRbULeUzEXNDqbJ6ZcF/8G+/M=";
   };
 
   meta = with lib; {

@@ -7,7 +7,7 @@ buildGoModule rec {
     owner = "openprinting";
     repo = "ipp-usb";
     rev = version;
-    sha256 = "sha256-ryKQDzb31JA192lbCYkwJrXgwErViqIzP4mD2NmWdgA=";
+    hash = "sha256-ryKQDzb31JA192lbCYkwJrXgwErViqIzP4mD2NmWdgA=";
   };
 
   postPatch = ''

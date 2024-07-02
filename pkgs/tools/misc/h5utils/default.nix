@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
   # additional tools to build compared to the tarball release; see the README for details.
   src = fetchurl {
     url = "https://github.com/stevengj/h5utils/releases/download/${version}/h5utils-${version}.tar.gz";
-    sha256 = "sha256-7qeFWoI1+st8RU5hEDCY5VZY2g3fS23luCqZLl8CQ1E=";
+    hash = "sha256-7qeFWoI1+st8RU5hEDCY5VZY2g3fS23luCqZLl8CQ1E=";
   };
 
   # libdf is an alternative name for libhdf (hdf4)

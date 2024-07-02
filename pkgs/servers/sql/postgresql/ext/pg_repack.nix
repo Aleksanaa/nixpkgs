@@ -19,7 +19,7 @@ stdenv.mkDerivation (finalAttrs: {
     owner = "reorg";
     repo = "pg_repack";
     rev = "ver_${finalAttrs.version}";
-    sha256 = "sha256-do80phyMxwcRIkYyUt9z02z7byNQhK+pbSaCUmzG+4c=";
+    hash = "sha256-do80phyMxwcRIkYyUt9z02z7byNQhK+pbSaCUmzG+4c=";
   };
 
   installPhase = ''

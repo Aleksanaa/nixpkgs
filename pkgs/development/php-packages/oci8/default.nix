@@ -15,12 +15,12 @@ let
     else if (lib.versionOlder php.version "8.2") then
       {
         version = "3.2.1";
-        sha256 = "sha256-zyF703DzRZDBhlNFFt/dknmZ7layqhgjG1/ZDN+PEsg=";
+        hash = "sha256-zyF703DzRZDBhlNFFt/dknmZ7layqhgjG1/ZDN+PEsg=";
       }
     else
       {
         version = "3.3.0";
-        sha256 = "sha256-0y5VnRKspJYE6xWeBcX2OG2pJTNbB+27GMywDv4gzwQ=";
+        hash = "sha256-0y5VnRKspJYE6xWeBcX2OG2pJTNbB+27GMywDv4gzwQ=";
       };
 in
 buildPecl {

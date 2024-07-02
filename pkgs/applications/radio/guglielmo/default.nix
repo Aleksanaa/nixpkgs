@@ -19,7 +19,7 @@ mkDerivation rec {
     owner = "marcogrecopriolo";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-W+KTwtxbTDrtONmkw95gXT28n3k9KS364WOzLLJdGLM=";
+    hash = "sha256-W+KTwtxbTDrtONmkw95gXT28n3k9KS364WOzLLJdGLM=";
   };
 
   postInstall = ''

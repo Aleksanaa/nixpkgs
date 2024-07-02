@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
     owner = "citusdata";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-OIWykfFbVskrkPG/zSmZtZjc+W956KSfIzK7f5QOqpI=";
+    hash = "sha256-OIWykfFbVskrkPG/zSmZtZjc+W956KSfIzK7f5QOqpI=";
   };
 
   buildInputs = postgresql.buildInputs ++ [ postgresql ];

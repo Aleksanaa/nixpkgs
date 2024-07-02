@@ -27,7 +27,7 @@ stdenv.mkDerivation rec {
 
   src = fetchzip {
     url = "mirror://sourceforge/dar/${pname}-${version}.tar.gz";
-    sha256 = "sha256-qesq+Rqo/llvQ7JPqYwLhObwZw2GlhXpYyc6NEA9c4M=";
+    hash = "sha256-qesq+Rqo/llvQ7JPqYwLhObwZw2GlhXpYyc6NEA9c4M=";
   };
 
   outputs = [ "out" "dev" ];

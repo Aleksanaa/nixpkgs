@@ -34,7 +34,7 @@ stdenv.mkDerivation (self: {
     owner = "godotengine";
     repo = "godot";
     rev = "${self.version}-stable";
-    sha256 = "sha256-C+1J5N0ETL1qKust+2xP9uB4x9NwrMqIm8aFAivVYQw=";
+    hash = "sha256-C+1J5N0ETL1qKust+2xP9uB4x9NwrMqIm8aFAivVYQw=";
   };
 
   nativeBuildInputs = [

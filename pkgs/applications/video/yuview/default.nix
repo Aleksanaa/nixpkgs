@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
     owner = "IENT";
     repo = "YUView";
     rev = "v.${version}";
-    sha256 = "sha256-2mNIuyY/ni+zkUc8V/iXUEa7JeBJyOnNod7friMYAm8=";
+    hash = "sha256-2mNIuyY/ni+zkUc8V/iXUEa7JeBJyOnNod7friMYAm8=";
   };
 
   nativeBuildInputs = [ qmake wrapQtAppsHook ];

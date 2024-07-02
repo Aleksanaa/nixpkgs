@@ -8,7 +8,7 @@ mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://kde/stable/okteta/${version}/src/${pname}-${version}.tar.xz";
-    sha256 = "sha256-BTNQDvcGjBJG4hj1N69yboNth4/ydeOS7T2KiqbPfGM=";
+    hash = "sha256-BTNQDvcGjBJG4hj1N69yboNth4/ydeOS7T2KiqbPfGM=";
   };
 
   nativeBuildInputs = [ qtscript extra-cmake-modules kdoctools ];

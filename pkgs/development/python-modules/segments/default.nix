@@ -21,7 +21,7 @@ buildPythonPackage rec {
     owner = "cldf";
     repo = "segments";
     rev = "v${version}";
-    sha256 = "sha256-Z9AQnsK/0HUCZDzdpQKNfSBWxfAOjWNBytcfI6yBY84=";
+    hash = "sha256-Z9AQnsK/0HUCZDzdpQKNfSBWxfAOjWNBytcfI6yBY84=";
   };
 
   patchPhase = ''

@@ -49,7 +49,7 @@ stdenv.mkDerivation rec {
     owner = "monitoring-plugins";
     repo = "monitoring-plugins";
     rev = "v${version}";
-    sha256 = "sha256-J9fzlxIpujoG7diSRscFhmEV9HpBOxFTJSmGGFjAzcM=";
+    hash = "sha256-J9fzlxIpujoG7diSRscFhmEV9HpBOxFTJSmGGFjAzcM=";
   };
 
   patches = [

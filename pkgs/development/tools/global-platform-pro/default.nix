@@ -25,7 +25,7 @@ mavenJdk8.buildMavenPackage rec {
     owner = "martinpaljak";
     repo = "GlobalPlatformPro";
     rev = "v${version}";
-    sha256 = "sha256-z38I61JR4oiAkImkbwcvXoK5QsdoR986dDrOzhHsCeY=";
+    hash = "sha256-z38I61JR4oiAkImkbwcvXoK5QsdoR986dDrOzhHsCeY=";
   };
 
   mvnHash = "sha256-Qbx1cNKFtSEnzhFImtCz2psYts2yhTDKzjmBBZavWwU=";

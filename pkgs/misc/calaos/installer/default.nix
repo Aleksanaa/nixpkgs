@@ -8,7 +8,7 @@ mkDerivation rec {
     owner = "calaos";
     repo = "calaos_installer";
     rev = "v${version}";
-    sha256 = "sha256-e/f58VtGmKukdv4rIrGljXhA9d/xUycM5V6I1FT5qeY=";
+    hash = "sha256-e/f58VtGmKukdv4rIrGljXhA9d/xUycM5V6I1FT5qeY=";
   };
 
   nativeBuildInputs = [ qmake qttools ];

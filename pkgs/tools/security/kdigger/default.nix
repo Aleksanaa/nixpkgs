@@ -13,7 +13,7 @@ buildGoModule rec {
     owner = "quarkslab";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-/F1wmP1hfhrAmx2jJtAn02LkTabi0RJu36T/oW3tyZw=";
+    hash = "sha256-/F1wmP1hfhrAmx2jJtAn02LkTabi0RJu36T/oW3tyZw=";
     # populate values that require us to use git. By doing this in postFetch we
     # can delete .git afterwards and maintain better reproducibility of the src.
     leaveDotGit = true;

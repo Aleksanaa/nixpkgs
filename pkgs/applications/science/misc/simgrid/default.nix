@@ -27,7 +27,7 @@ stdenv.mkDerivation rec {
     owner = pname;
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-WaFANZiPfiN/utfNZbwyH5mxgJNWafPMCcL863V8w0g=";
+    hash = "sha256-WaFANZiPfiN/utfNZbwyH5mxgJNWafPMCcL863V8w0g=";
   };
 
   propagatedBuildInputs = [ boost ];

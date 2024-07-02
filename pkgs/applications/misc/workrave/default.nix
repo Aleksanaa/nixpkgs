@@ -42,7 +42,7 @@ stdenv.mkDerivation rec {
     owner = "rcaelers";
     rev = with lib;
       "v" + concatStringsSep "_" (splitVersion version);
-    sha256 = "sha256-U39zr8XGIDbyY480bla2yTaRQLP3wMrL8RLWjlTa5uY=";
+    hash = "sha256-U39zr8XGIDbyY480bla2yTaRQLP3wMrL8RLWjlTa5uY=";
   };
 
   nativeBuildInputs = [

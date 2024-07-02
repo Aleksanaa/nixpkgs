@@ -27,7 +27,7 @@ mkXfceDerivation {
   pname = "xfce4-screensaver";
   version = "4.18.3";
 
-  sha256 = "sha256-hOhWJoiKoeRgkhXaR8rnDpcJpStMD4BBdll4nwSA+EQ=";
+  hash = "sha256-hOhWJoiKoeRgkhXaR8rnDpcJpStMD4BBdll4nwSA+EQ=";
 
   nativeBuildInputs = [
     gobject-introspection

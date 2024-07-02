@@ -25,8 +25,8 @@
 
   releaseRev = v: "v${v}";
 
-  release."0.2.0".sha256 = "sha256-GDkWH0LUsW165vAUoYC5of9ndr0MbfBtmrPhsJVXi3o=";
-  release."0.1.0".sha256 = "sha256-Yj+k+mBsudi3d6bRVlZLyM4UqQnzAX5tHvxtKoIuNTE=";
+  release."0.2.0".hash = "sha256-GDkWH0LUsW165vAUoYC5of9ndr0MbfBtmrPhsJVXi3o=";
+  release."0.1.0".hash = "sha256-Yj+k+mBsudi3d6bRVlZLyM4UqQnzAX5tHvxtKoIuNTE=";
 
   propagatedBuildInputs = [equations
                            mathcomp-ssreflect

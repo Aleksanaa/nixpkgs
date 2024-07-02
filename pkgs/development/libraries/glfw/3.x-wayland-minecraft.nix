@@ -10,7 +10,7 @@ stdenv.mkDerivation {
     owner = "glfw";
     repo = "GLFW";
     rev = "3eaf1255b29fdf5c2895856c7be7d7185ef2b241";
-    sha256 = "sha256-UnwuE/3q6I4dS5syagpnqrDEVDK9XSVdyOg7KNkdUUA=";
+    hash = "sha256-UnwuE/3q6I4dS5syagpnqrDEVDK9XSVdyOg7KNkdUUA=";
   };
 
   patches = [

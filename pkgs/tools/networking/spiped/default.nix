@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url    = "https://www.tarsnap.com/spiped/${pname}-${version}.tgz";
-    sha256 = "sha256-BdRofRLRHX+YiNQ/PYDFQbdyHJhwONCF9xyRuwYgRWc=";
+    hash = "sha256-BdRofRLRHX+YiNQ/PYDFQbdyHJhwONCF9xyRuwYgRWc=";
   };
 
   buildInputs = [ openssl ];

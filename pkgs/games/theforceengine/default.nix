@@ -19,7 +19,7 @@ stdenv.mkDerivation rec {
     owner = "luciusDXL";
     repo = "TheForceEngine";
     rev = "v${version}";
-    sha256 = "sha256-s54X6LZdk7daIlQPHyRBxc8MLS6bzkkypi4m1m+xK80=";
+    hash = "sha256-s54X6LZdk7daIlQPHyRBxc8MLS6bzkkypi4m1m+xK80=";
   };
 
   nativeBuildInputs = [

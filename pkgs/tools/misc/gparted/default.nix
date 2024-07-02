@@ -10,7 +10,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://sourceforge/gparted/${pname}-${version}.tar.gz";
-    sha256 = "sha256-m59Rs85JTdy1mlXhrmZ5wJQ2YE4zHb9aU21g3tbG6ls=";
+    hash = "sha256-m59Rs85JTdy1mlXhrmZ5wJQ2YE4zHb9aU21g3tbG6ls=";
   };
 
   # Tries to run `pkexec --version` to get version.

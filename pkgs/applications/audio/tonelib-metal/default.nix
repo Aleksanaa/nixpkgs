@@ -21,7 +21,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://tonelib.net/download/221222/ToneLib-Metal-amd64.deb";
-    sha256 = "sha256-G80EKAsXomdk8GsnNyvjN8shz3YMKhqdWWYyVB7xTsU=";
+    hash = "sha256-G80EKAsXomdk8GsnNyvjN8shz3YMKhqdWWYyVB7xTsU=";
   };
 
   nativeBuildInputs = [ autoPatchelfHook dpkg ];

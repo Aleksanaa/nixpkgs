@@ -9,7 +9,7 @@ buildDunePackage rec {
     owner  = "stedolan";
     repo   = pname;
     rev    = "v${version}";
-    sha256 = "sha256-0jjwiOZ9Ut+dv5Iw4xNvf396WTehT1VClxY9VHicw4U=";
+    hash = "sha256-0jjwiOZ9Ut+dv5Iw4xNvf396WTehT1VClxY9VHicw4U=";
   };
 
   minimalOCamlVersion = "4.08";

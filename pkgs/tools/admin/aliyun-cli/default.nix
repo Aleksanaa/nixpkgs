@@ -9,7 +9,7 @@ buildGoModule rec {
     owner = "aliyun";
     repo = pname;
     fetchSubmodules = true;
-    sha256 = "sha256-d3HLFyJp++tZLJHjjM2xOcYyUanI9/AlrLt0cTcWO8s=";
+    hash = "sha256-d3HLFyJp++tZLJHjjM2xOcYyUanI9/AlrLt0cTcWO8s=";
   };
 
   vendorHash = "sha256-wHdSDBxDArVbD5+EgGcIpQ+NLg5BKXo2v3WM4ni1efc=";

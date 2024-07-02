@@ -6,7 +6,7 @@ mkDiscoursePlugin {
     owner = "discourse";
     repo = "discourse-voting";
     rev = "ba41633e0abe0535fd358a0809e0b4e0c79be128";
-    sha256 = "sha256-Ni+g9mWftvYsknIoSFBRoq7IMIWPbj4mgGM+k8fjOuI=";
+    hash = "sha256-Ni+g9mWftvYsknIoSFBRoq7IMIWPbj4mgGM+k8fjOuI=";
   };
   meta = with lib; {
     homepage = "https://github.com/discourse/discourse-voting";

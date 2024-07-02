@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
     owner = "adulau";
     repo = "ssldump";
     rev = "v${version}";
-    sha256 = "sha256-BFE42wWqnGGTTjwej3LkH4XW2M4jP7XNSKHLnF2GFJo=";
+    hash = "sha256-BFE42wWqnGGTTjwej3LkH4XW2M4jP7XNSKHLnF2GFJo=";
   };
 
   nativeBuildInputs = [

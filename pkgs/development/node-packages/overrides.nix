@@ -194,7 +194,7 @@ final: prev: {
       owner = "svanderburg";
       repo = "node2nix";
       rev = "315e1b85a6761152f57a41ccea5e2570981ec670";
-      sha256 = "sha256-8OxTOkwBPcnjyhXhxQEDd8tiaQoHt91zUJX5Ka+IXco=";
+      hash = "sha256-8OxTOkwBPcnjyhXhxQEDd8tiaQoHt91zUJX5Ka+IXco=";
     };
     nativeBuildInputs = [ pkgs.buildPackages.makeWrapper ];
     postInstall = let

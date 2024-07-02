@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://www.atoptool.nl/download/atop-${version}.tar.gz";
-    sha256 = "sha256-lwBYoZt5w0RPlx+FRXKg5jiR3C1fcDf/g3VwhUzg2h4=";
+    hash = "sha256-lwBYoZt5w0RPlx+FRXKg5jiR3C1fcDf/g3VwhUzg2h4=";
   };
 
   nativeBuildInputs = lib.optionals withAtopgpu [

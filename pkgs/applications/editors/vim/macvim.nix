@@ -35,7 +35,7 @@ stdenv.mkDerivation {
     owner = "macvim-dev";
     repo = "macvim";
     rev = "snapshot-172";
-    sha256 = "sha256-LLLQ/V1vyKTuSXzHW3SOlOejZD5AV16NthEdMoTnfko=";
+    hash = "sha256-LLLQ/V1vyKTuSXzHW3SOlOejZD5AV16NthEdMoTnfko=";
   };
 
   enableParallelBuilding = true;

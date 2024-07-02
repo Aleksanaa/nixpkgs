@@ -12,7 +12,7 @@ buildKodiBinaryAddon rec {
     owner = "kodi-pvr";
     repo = "pvr.iptvsimple";
     rev = "${version}-${rel}";
-    sha256 = "sha256-uuqk1kJnioCaRWIkC5liPSVRQPpviuaE+wmE4rq6fJw=";
+    hash = "sha256-uuqk1kJnioCaRWIkC5liPSVRQPpviuaE+wmE4rq6fJw=";
   };
 
   extraBuildInputs = [

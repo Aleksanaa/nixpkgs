@@ -19,7 +19,7 @@ buildGoModule rec {
     owner = "tulir";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-gLyjqmGZudj8PmsYUGXHOjetZzi6u5CFI7Y50y2XAzk=";
+    hash = "sha256-gLyjqmGZudj8PmsYUGXHOjetZzi6u5CFI7Y50y2XAzk=";
   };
 
   vendorHash = "sha256-FmQJG6hv0YPyHVjZ/DvkQExrGLc1hjoiPS59MnqG2gU=";

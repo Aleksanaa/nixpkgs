@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "http://static.jonof.id.au/dl/kenutils/kzipmix-${version}-linux.tar.gz";
-    sha256 = "sha256-ePgye0D6/ED53zx6xffLnYhkjed7SPU4BLOZQr9E3yA=";
+    hash = "sha256-ePgye0D6/ED53zx6xffLnYhkjed7SPU4BLOZQr9E3yA=";
   };
 
   installPhase = ''

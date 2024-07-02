@@ -34,7 +34,7 @@ let
       owner = "openjdk";
       repo = "jdk8u";
       rev = "jdk${version}";
-      sha256 = "sha256-o+H5n5p6JG1giJj9OADgMbQPaoKMzLMFquKH536SHhM=";
+      hash = "sha256-o+H5n5p6JG1giJj9OADgMbQPaoKMzLMFquKH536SHhM=";
     };
     outputs = [ "out" "jre" ];
 

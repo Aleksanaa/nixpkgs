@@ -24,7 +24,7 @@ let
       owner = "CleverRaven";
       repo = "Cataclysm-DDA";
       rev = version;
-      sha256 = "sha256-Hda0dVVHNeZ8MV5CaCbSpdOCG2iqQEEmXdh16vwIBXk=";
+      hash = "sha256-Hda0dVVHNeZ8MV5CaCbSpdOCG2iqQEEmXdh16vwIBXk=";
     };
 
     patches = [

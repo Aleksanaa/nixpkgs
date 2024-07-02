@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
     owner = "intel";
     repo = "vpl-gpu-rt";
     rev = "intel-onevpl-${version}";
-    sha256 = "sha256-n2lkt7zRlpbPedNxa21EQvFdYyOAPF//TsY4srbGHQE=";
+    hash = "sha256-n2lkt7zRlpbPedNxa21EQvFdYyOAPF//TsY4srbGHQE=";
   };
 
   nativeBuildInputs = [ cmake pkg-config ];

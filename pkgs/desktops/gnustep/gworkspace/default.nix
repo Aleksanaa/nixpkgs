@@ -15,7 +15,7 @@ stdenv.mkDerivation (finalAttrs: {
 
   src = fetchurl {
     url = "ftp://ftp.gnustep.org/pub/gnustep/usr-apps/gworkspace-${finalAttrs.version}.tar.gz";
-    sha256 = "sha256-M7dV7RVatw8gdYHQlRi5wNBd6MGT9GqW04R/DoKNu6I=";
+    hash = "sha256-M7dV7RVatw8gdYHQlRi5wNBd6MGT9GqW04R/DoKNu6I=";
   };
 
   # additional dependencies:

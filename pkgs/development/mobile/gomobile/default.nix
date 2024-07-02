@@ -17,7 +17,7 @@ buildGoModule {
     rev = "8578da9835fd365e78a6e63048c103b27a53a82c";
     name = "gomobile";
     url = "https://go.googlesource.com/mobile";
-    sha256 = "sha256-AOR/p+DW83f2+BOxm2rFXBCrotcIyunK3UzQ/dnauWY=";
+    hash = "sha256-AOR/p+DW83f2+BOxm2rFXBCrotcIyunK3UzQ/dnauWY=";
   };
 
   subPackages = [ "bind" "cmd/gobind" "cmd/gomobile" ];

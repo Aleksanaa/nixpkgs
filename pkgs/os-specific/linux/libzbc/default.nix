@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
     owner = "westerndigitalcorporation";
     repo = "libzbc";
     rev = "v${version}";
-    sha256 = "sha256-+MBk2ZUr3Vt6pZFb4gTXMOzKBlf1EXMF8y/c1iDrIZM=";
+    hash = "sha256-+MBk2ZUr3Vt6pZFb4gTXMOzKBlf1EXMF8y/c1iDrIZM=";
   };
 
   nativeBuildInputs = [

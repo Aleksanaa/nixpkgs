@@ -15,7 +15,7 @@ rustPlatform.buildRustPackage {
     owner = "Kingtous";
     repo = "RustPlayer";
     rev = "a369bc19ab4a8c568c73be25c5e6117e1ee5d848";
-    sha256 = "sha256-x82EdA7ezCzux1C85IcI2ZQ3M95sH6/k97Rv6lqc5eo=";
+    hash = "sha256-x82EdA7ezCzux1C85IcI2ZQ3M95sH6/k97Rv6lqc5eo=";
   };
 
   # This patch is from the source

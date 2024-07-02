@@ -100,7 +100,7 @@ stdenv.mkDerivation rec {
     # https://github.com/NixOS/nixpkgs/issues/228946
     # nixpkgs-update: no auto update
     rev = "53bf57e5b32936befc3003a0f99c5b3a69349c76";
-    sha256 = "sha256-TX9V6gZiuPEKSHQoSD4+5QptuqEvuErCJ8OF2KFRf9k=";
+    hash = "sha256-TX9V6gZiuPEKSHQoSD4+5QptuqEvuErCJ8OF2KFRf9k=";
   };
 
   nativeBuildInputs = [

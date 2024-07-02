@@ -23,7 +23,7 @@ trivialBuild {
     owner = "jcaw";
     repo = "voicemacs";
     rev = "d91de2a31c68ab083172ade2451419d6bd7bb389";
-    sha256 = "sha256-/MBB2R9/V0aYZp15e0vx+67ijCPp2iPlgxe262ldmtc=";
+    hash = "sha256-/MBB2R9/V0aYZp15e0vx+67ijCPp2iPlgxe262ldmtc=";
   };
 
   patches = [ ./add-missing-require.patch ];

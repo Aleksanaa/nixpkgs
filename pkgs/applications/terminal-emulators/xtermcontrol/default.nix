@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://thrysoee.dk/xtermcontrol/xtermcontrol-${version}.tar.gz";
-    sha256 = "sha256-Vh6GNiDkjNhaD9U/3fG2LpMLN39L3jRUgG/FQeG1z40=";
+    hash = "sha256-Vh6GNiDkjNhaD9U/3fG2LpMLN39L3jRUgG/FQeG1z40=";
   };
 
   meta = {

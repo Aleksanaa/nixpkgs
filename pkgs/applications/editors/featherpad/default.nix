@@ -9,7 +9,7 @@ mkDerivation rec {
     owner = "tsujan";
     repo = "FeatherPad";
     rev = "V${version}";
-    sha256 = "sha256-8IT/PxLz6BsLHzY5pM0bTlAO0xvfC7/aI7+Gbw2LyME=";
+    hash = "sha256-8IT/PxLz6BsLHzY5pM0bTlAO0xvfC7/aI7+Gbw2LyME=";
   };
 
   nativeBuildInputs = [ cmake pkg-config qttools ];

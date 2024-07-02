@@ -62,10 +62,10 @@
 in {
   rainloop-community = common {
     edition = "community";
-    sha256 = "sha256-25ScQ2OwSKAuqg8GomqDhpebhzQZjCk57h6MxUNiymc=";
+    hash = "sha256-25ScQ2OwSKAuqg8GomqDhpebhzQZjCk57h6MxUNiymc=";
   };
   rainloop-standard = common {
     edition = "";
-    sha256 = "sha256-aYCwqFqhJEeakn4R0MUDGcSp+M47JbbCrbYaML8aeSs=";
+    hash = "sha256-aYCwqFqhJEeakn4R0MUDGcSp+M47JbbCrbYaML8aeSs=";
   };
 }

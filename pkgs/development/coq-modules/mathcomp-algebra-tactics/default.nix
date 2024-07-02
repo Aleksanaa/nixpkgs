@@ -15,10 +15,10 @@ mkCoqDerivation {
        { cases = [ (range "8.13" "8.16") (isGe "1.12") ]; out = "1.0.0"; }
      ] null;
 
-  release."1.0.0".sha256 = "sha256-kszARPBizWbxSQ/Iqpf2vLbxYc6AjpUCLnSNlPcNfls=";
-  release."1.1.1".sha256 = "sha256-5wItMeeTRoJlRBH3zBNc2VUZn6pkDde60YAvXTx+J3U=";
-  release."1.2.2".sha256 = "sha256-EU9RJGV3BvnmsX+mGH+6+MDXiGHgDI7aP5sIYiMUXTs=";
-  release."1.2.3".sha256 = "sha256-6uc1VEfDv+fExEfBR2c0/Q/KjrkX0TbEMCLgeYcpkls=";
+  release."1.0.0".hash = "sha256-kszARPBizWbxSQ/Iqpf2vLbxYc6AjpUCLnSNlPcNfls=";
+  release."1.1.1".hash = "sha256-5wItMeeTRoJlRBH3zBNc2VUZn6pkDde60YAvXTx+J3U=";
+  release."1.2.2".hash = "sha256-EU9RJGV3BvnmsX+mGH+6+MDXiGHgDI7aP5sIYiMUXTs=";
+  release."1.2.3".hash = "sha256-6uc1VEfDv+fExEfBR2c0/Q/KjrkX0TbEMCLgeYcpkls=";
 
   propagatedBuildInputs = [ mathcomp-algebra coq-elpi mathcomp-zify ];
 

@@ -20,7 +20,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://sourceforge/xml-copy-editor/${pname}-${version}.tar.gz";
-    sha256 = "sha256-6HHKl7hqyvF3gJ9vmjLjTT49prJ8KhEEV0qPsJfQfJE=";
+    hash = "sha256-6HHKl7hqyvF3gJ9vmjLjTT49prJ8KhEEV0qPsJfQfJE=";
   };
 
   patches = [ ./xmlcopyeditor.patch ];

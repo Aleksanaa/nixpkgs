@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
     owner = "core";
     repo = "torsocks";
     rev = "v${version}";
-    sha256 = "sha256-ocJkoF9LMLC84ukFrm5pzjp/1gaXqDz8lzr9TdG+f88=";
+    hash = "sha256-ocJkoF9LMLC84ukFrm5pzjp/1gaXqDz8lzr9TdG+f88=";
   };
 
   patches = [

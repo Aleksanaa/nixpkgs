@@ -26,7 +26,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "http://ftp.mcs.anl.gov/pub/petsc/release-snapshots/petsc-${version}.tar.gz";
-    sha256 = "sha256-fJQbcb5Sw7dkIU5JLfYBCdEvl/fYVMl6RN8MTZWLOQY=";
+    hash = "sha256-fJQbcb5Sw7dkIU5JLfYBCdEvl/fYVMl6RN8MTZWLOQY=";
   };
 
   inherit mpiSupport;

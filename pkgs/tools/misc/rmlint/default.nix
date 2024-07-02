@@ -27,7 +27,7 @@ stdenv.mkDerivation rec {
     owner = "sahib";
     repo = "rmlint";
     rev = "v${version}";
-    sha256 = "sha256-pOo1YfeqHUU6xyBRFbcj2lX1MHJ+a5Hi31BMC1nYZGo=";
+    hash = "sha256-pOo1YfeqHUU6xyBRFbcj2lX1MHJ+a5Hi31BMC1nYZGo=";
   };
 
   patches = [

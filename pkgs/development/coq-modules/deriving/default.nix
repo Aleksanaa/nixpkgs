@@ -14,8 +14,8 @@ mkCoqDerivation {
 
   releaseRev = v: "v${v}";
 
-  release."0.2.0".sha256 = "sha256-xPsuEayHstjF0PGFJZJ+5cm0oMUrpoGLXN23op97vjM=";
-  release."0.1.1".sha256 = "sha256-Gu8aInLxTXfAFE0/gWRYI046Dx3Gv1j1+gx92v/UnPI=";
+  release."0.2.0".hash = "sha256-xPsuEayHstjF0PGFJZJ+5cm0oMUrpoGLXN23op97vjM=";
+  release."0.1.1".hash = "sha256-Gu8aInLxTXfAFE0/gWRYI046Dx3Gv1j1+gx92v/UnPI=";
   release."0.1.0".sha256 = "sha256:11crnjm8hyis1qllkks3d7r07s1rfzwvyvpijya3s6iqfh8c7xwh";
 
   propagatedBuildInputs = [ ssreflect ];

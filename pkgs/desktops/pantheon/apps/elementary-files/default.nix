@@ -33,7 +33,7 @@ stdenv.mkDerivation rec {
     owner = "elementary";
     repo = "files";
     rev = version;
-    sha256 = "sha256-geJLHRo1Bd2oFT+UtirHj9FVSFTFMK/v/5h+NF9woFo=";
+    hash = "sha256-geJLHRo1Bd2oFT+UtirHj9FVSFTFMK/v/5h+NF9woFo=";
   };
 
   nativeBuildInputs = [

@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
     owner = "plattfot";
     repo = pname;
     rev = version;
-    sha256 = "sha256-J6aQTIFHlg21M9niBYdVih11heIPCLsGv0HOPaeguew=";
+    hash = "sha256-J6aQTIFHlg21M9niBYdVih11heIPCLsGv0HOPaeguew=";
   };
 
   nativeBuildInputs = [

@@ -15,7 +15,7 @@ buildPythonPackage rec {
     owner = "pallets";
     repo = "pallets-sphinx-themes";
     rev = "refs/tags/${version}";
-    sha256 = "sha256-Z03rsqkwF2rYaqRZflf5qc5EdHPIEcEcB1ftYIm5DQs=";
+    hash = "sha256-Z03rsqkwF2rYaqRZflf5qc5EdHPIEcEcB1ftYIm5DQs=";
   };
 
   propagatedBuildInputs = [

@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
     owner = "ib-controller";
     repo = "ib-controller";
     rev = version;
-    sha256 = "sha256-R175CKb3uErjBNe73HEFMI+bNmmuH2nWGraCSh5bXwc=";
+    hash = "sha256-R175CKb3uErjBNe73HEFMI+bNmmuH2nWGraCSh5bXwc=";
   };
 
   nativeBuildInputs = [ unzip ];

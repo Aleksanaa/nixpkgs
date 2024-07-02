@@ -13,7 +13,7 @@ mkXfceDerivation {
   pname = "orage";
   version = "4.18.0";
 
-  sha256 = "sha256-vL9zexPbQKPqIzK5UqUIxkE9I7hEupkDOJehMgj2Leo=";
+  hash = "sha256-vL9zexPbQKPqIzK5UqUIxkE9I7hEupkDOJehMgj2Leo=";
 
   buildInputs = [
     gtk3

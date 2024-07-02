@@ -7,7 +7,7 @@ rec {
     group = "World";
     owner = "OpenPaperwork";
     rev = version;
-    sha256 = "sha256-xQN1IUbTQEHtyW5F8Zbg2EUN5K87oYqnSdzo0gEeOfI=";
+    hash = "sha256-xQN1IUbTQEHtyW5F8Zbg2EUN5K87oYqnSdzo0gEeOfI=";
   };
   sample_documents = fetchFromGitLab {
     domain = "gitlab.gnome.org";

@@ -9,7 +9,7 @@ stdenv.mkDerivation rec {
     owner = "zenorogue";
     repo = "hyperrogue";
     rev = "v${version}";
-    sha256 = "sha256-a7Ykm+Z7MXfO+eZJjZ+TMuOe6Q+QmjOwcMORI9bZGeM=";
+    hash = "sha256-a7Ykm+Z7MXfO+eZJjZ+TMuOe6Q+QmjOwcMORI9bZGeM=";
   };
 
   CXXFLAGS = [

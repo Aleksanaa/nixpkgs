@@ -8,7 +8,7 @@ buildGoModule rec {
     rev = "v${version}";
     owner = "candid82";
     repo = "joker";
-    sha256 = "sha256-aBZ0KlXWKAF70xFxc+WWXucLPnxyaCxu97IYkPuKcCA=";
+    hash = "sha256-aBZ0KlXWKAF70xFxc+WWXucLPnxyaCxu97IYkPuKcCA=";
   };
 
   vendorHash = "sha256-k17BthjOjZs0WB88AVVIM00HcSZl2S5u8n9eB2NFdrk=";

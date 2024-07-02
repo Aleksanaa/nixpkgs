@@ -12,7 +12,7 @@ stdenv.mkDerivation (finalAttrs: {
 
   src = fetchurl {
     url = "mirror://kde/stable/amarok/${finalAttrs.version}/amarok-${finalAttrs.version}.tar.xz";
-    sha256 = "sha256-S+zyrp3cvoYRA+ZCFDaireIvU4yxw2ANTmZ/cb6ljys=";
+    hash = "sha256-S+zyrp3cvoYRA+ZCFDaireIvU4yxw2ANTmZ/cb6ljys=";
   };
 
   outputs = [ "out" "doc" ];

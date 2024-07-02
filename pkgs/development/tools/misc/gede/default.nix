@@ -6,7 +6,7 @@ mkDerivation rec {
 
   src = fetchurl {
     url = "http://gede.dexar.se/uploads/source/${pname}-${version}.tar.xz";
-    sha256 = "sha256-RUl60iPa4XSlUilpYKaYQbRmLqthKHAvYonnhufjPsE=";
+    hash = "sha256-RUl60iPa4XSlUilpYKaYQbRmLqthKHAvYonnhufjPsE=";
   };
 
   nativeBuildInputs = [ qmake makeWrapper python3 ];

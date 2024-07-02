@@ -91,7 +91,7 @@ stdenv.mkDerivation(finalAttrs: {
     owner = "pipewire";
     repo = "pipewire";
     rev = finalAttrs.version;
-    sha256 = "sha256-YzI+hkX1ZdeTfxuKaw5P9OYPtkWtUg9cNo32wLCgjNU=";
+    hash = "sha256-YzI+hkX1ZdeTfxuKaw5P9OYPtkWtUg9cNo32wLCgjNU=";
   };
 
   patches = [

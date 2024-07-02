@@ -56,7 +56,7 @@ let
   # Fetches the Yarn modules in Nix to to be used as an offline cache
   yarnOfflineCache = fetchYarnDeps {
     yarnLock = "${addonsSrc}/yarn.lock";
-    sha256 = "sha256-3JFrVk78EiNVLLXkCFbuRnXwYHNfVv1pBPBS1yCHtPU";
+    hash = "sha256-3JFrVk78EiNVLLXkCFbuRnXwYHNfVv1pBPBS1yCHtPU";
   };
 
   # Builds the NodeJS server that runs with `sl web`

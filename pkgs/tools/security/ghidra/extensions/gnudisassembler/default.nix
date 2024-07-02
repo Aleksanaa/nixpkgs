@@ -17,7 +17,7 @@ let
   binutils-version = "2.41";
   binutils-src = fetchurl {
     url = "mirror://gnu/binutils/binutils-${binutils-version}.tar.bz2";
-    sha256 = "sha256-pMS+wFL3uDcAJOYDieGUN38/SLVmGEGOpRBn9nqqsws=";
+    hash = "sha256-pMS+wFL3uDcAJOYDieGUN38/SLVmGEGOpRBn9nqqsws=";
   };
 in
 buildGhidraExtension {

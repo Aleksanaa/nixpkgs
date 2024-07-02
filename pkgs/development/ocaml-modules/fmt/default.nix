@@ -10,7 +10,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://erratique.ch/software/fmt/releases/fmt-${version}.tbz";
-    sha256 = "sha256-8fsggFoi3XWhN9cnBKNw53ic9r32OUjmgX0cImwUEmE=";
+    hash = "sha256-8fsggFoi3XWhN9cnBKNw53ic9r32OUjmgX0cImwUEmE=";
   };
 
   nativeBuildInputs = [ ocaml findlib ocamlbuild topkg ];

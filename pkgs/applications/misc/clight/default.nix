@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
     owner = "FedeDP";
     repo = "Clight";
     rev = version;
-    sha256 = "sha256-Fu38HRP83Yn2jsq9xnCWOXNlV/0hJKD1/cOOp3EV45Q=";
+    hash = "sha256-Fu38HRP83Yn2jsq9xnCWOXNlV/0hJKD1/cOOp3EV45Q=";
   };
 
   nativeBuildInputs = [

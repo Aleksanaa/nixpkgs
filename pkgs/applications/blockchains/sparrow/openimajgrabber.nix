@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
     owner = "openimaj";
     repo = "openimaj";
     rev = "openimaj-${version}";
-    sha256 = "sha256-Y8707ovE7f6Fk3cJ+PtwvzNpopgH5vlF55m2Xm4hjYM=";
+    hash = "sha256-Y8707ovE7f6Fk3cJ+PtwvzNpopgH5vlF55m2Xm4hjYM=";
   };
 
   buildInputs = [ libv4l ];

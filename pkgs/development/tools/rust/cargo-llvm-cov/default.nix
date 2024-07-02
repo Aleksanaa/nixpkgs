@@ -37,7 +37,7 @@ let
   cargoLock = fetchurl {
     name = "Cargo.lock";
     url = "https://crates.io/api/v1/crates/${pname}/${version}/download";
-    sha256 = "sha256-mlmvM/7FQkhSjLtueEJqZU3D86lL8Kf1EFXiY1+b/Oo=";
+    hash = "sha256-mlmvM/7FQkhSjLtueEJqZU3D86lL8Kf1EFXiY1+b/Oo=";
     downloadToTemp = true;
     postFetch = ''
       tar xzf $downloadedFile ${pname}-${version}/Cargo.lock
@@ -55,7 +55,7 @@ rustPlatform.buildRustPackage {
     inherit owner;
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-yF4i1V50TpR3pEqHQfAK4VTUW+GmT+XU6WVTWMzCUwo=";
+    hash = "sha256-yF4i1V50TpR3pEqHQfAK4VTUW+GmT+XU6WVTWMzCUwo=";
   };
 
   # Upstream doesn't include the lockfile so we need to add it back

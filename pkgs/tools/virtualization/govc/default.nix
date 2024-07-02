@@ -10,7 +10,7 @@ buildGoModule rec {
     rev = "v${version}";
     owner = "vmware";
     repo = "govmomi";
-    sha256 = "sha256-lqErey/uht+ub6deGgGNbytf0mhxgRekqe4y53Gtbms=";
+    hash = "sha256-lqErey/uht+ub6deGgGNbytf0mhxgRekqe4y53Gtbms=";
   };
 
   vendorHash = "sha256-1EAQMYaTEtfAiu7+UTkC7QZwSWC1Ihwj9leTd90T0ZU=";

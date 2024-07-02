@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
     owner = "jtv";
     repo = pname;
     rev = version;
-    sha256 = "sha256-mvGPMbk4b8NmPvzy5hS+Au69NtDGha8ONTEQf6I3VZE=";
+    hash = "sha256-mvGPMbk4b8NmPvzy5hS+Au69NtDGha8ONTEQf6I3VZE=";
   };
 
   nativeBuildInputs = [ python3 ];

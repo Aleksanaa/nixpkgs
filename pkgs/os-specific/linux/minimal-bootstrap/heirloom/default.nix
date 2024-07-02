@@ -13,7 +13,7 @@ let
 
   src = fetchurl {
     url = "mirror://sourceforge/heirloom/heirloom/${version}/heirloom-${version}.tar.bz2";
-    sha256 = "sha256-6zP3C8wBmx0OCkHx11UtRcV6FicuThxIY07D5ESWow8=";
+    hash = "sha256-6zP3C8wBmx0OCkHx11UtRcV6FicuThxIY07D5ESWow8=";
   };
 
   patches = [

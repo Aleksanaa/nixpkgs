@@ -9,7 +9,7 @@ stdenv.mkDerivation rec {
 
   src = fetchsvn {
     url = "https://source.redwax.eu/svn/redwax/rt/redwax-tool/tags/redwax-tool-${version}/";
-    sha256 = "sha256-MWSB1AkkRS18UUHGq8EWv3OIXPSVHpmrdD5Eq1VdbkA=";
+    hash = "sha256-MWSB1AkkRS18UUHGq8EWv3OIXPSVHpmrdD5Eq1VdbkA=";
   };
 
   nativeBuildInputs = [ autoreconfHook pkg-config txt2man which ];

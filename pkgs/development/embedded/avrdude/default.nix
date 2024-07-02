@@ -18,7 +18,7 @@ stdenv.mkDerivation (finalAttrs: {
     owner = "avrdudes";
     repo = "avdude";
     rev = "v${finalAttrs.version}";
-    sha256 = "sha256-JqW3AOMmAfcy+PQRcqviWlxA6GoMSEfzIFt1pRYY7Dw=";
+    hash = "sha256-JqW3AOMmAfcy+PQRcqviWlxA6GoMSEfzIFt1pRYY7Dw=";
   };
 
   nativeBuildInputs = [ cmake bison flex ] ++ lib.optionals docSupport [

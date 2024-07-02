@@ -9,7 +9,7 @@ buildPecl {
   pname = "rdkafka";
 
   version = "6.0.3";
-  sha256 = "sha256-Euqrl21JaX4x8WOLR4ietexhrbdYcIlBESsVf47H3Ug=";
+  hash = "sha256-Euqrl21JaX4x8WOLR4ietexhrbdYcIlBESsVf47H3Ug=";
 
   buildInputs = [
     rdkafka

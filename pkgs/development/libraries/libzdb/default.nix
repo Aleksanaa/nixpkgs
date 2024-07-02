@@ -8,7 +8,7 @@ stdenv.mkDerivation rec
   src = fetchurl
   {
     url = "https://www.tildeslash.com/libzdb/dist/libzdb-${version}.tar.gz";
-    sha256 = "sha256-oZV4Jvq3clSE/Ft0eApqfQ2Lf14uVNJuEGs5ngqGvrA=";
+    hash = "sha256-oZV4Jvq3clSE/Ft0eApqfQ2Lf14uVNJuEGs5ngqGvrA=";
   };
 
   buildInputs = [ sqlite ];

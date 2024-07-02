@@ -141,7 +141,7 @@ buildPythonApplication rec {
     # Included in next release.
     (fetchpatch {
       url = "https://github.com/buildbot/buildbot/commit/dd5d61e63e3b0740cc538a225ccf104ccecfc734.patch";
-      sha256 = "sha256-CL6uRaKxh8uCBfWQ0tNiLh2Ym0HVatWni8hcuTyAAw0=";
+      hash = "sha256-CL6uRaKxh8uCBfWQ0tNiLh2Ym0HVatWni8hcuTyAAw0=";
       excludes = ["master/buildbot/test/unit/changes/test_gitpoller.py"];
     })
   ];

@@ -17,7 +17,7 @@ in stdenv.mkDerivation rec {
     owner = "Alecaddd";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-MsHHTYERe0v+u3KnVtx+jmJTKORJTJ7bNfJMZHV9Ly4=";
+    hash = "sha256-MsHHTYERe0v+u3KnVtx+jmJTKORJTJ7bNfJMZHV9Ly4=";
   };
 
   nativeBuildInputs = [ meson ninja pkg-config vala gettext wrapGAppsHook3 python3 desktop-file-utils ];

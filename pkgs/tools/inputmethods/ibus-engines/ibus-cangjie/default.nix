@@ -34,7 +34,7 @@ stdenv.mkDerivation {
     owner = "Cangjians";
     repo = "ibus-cangjie";
     rev = "46c36f578047bb3cb2ce777217abf528649bc58d";
-    sha256 = "sha256-msVqWougc40bVXIonJA6K/VgurnDeR2TdtGKfd9rzwM=";
+    hash = "sha256-msVqWougc40bVXIonJA6K/VgurnDeR2TdtGKfd9rzwM=";
   };
 
   buildInputs = [

@@ -14,7 +14,7 @@ mkDerivation rec {
 
   src = fetchzip {
     url = "https://netix.dl.sourceforge.net/project/beebeep/Linux/beebeep-${version}-qt5-amd64.tar.gz";
-    sha256 = "sha256-YDgFRXFBM1tjLP99mHYJadgccHJYYPAZ1kqR+FngLKU=";
+    hash = "sha256-YDgFRXFBM1tjLP99mHYJadgccHJYYPAZ1kqR+FngLKU=";
   };
 
   nativeBuildInputs = [

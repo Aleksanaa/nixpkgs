@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://public.pengutronix.de/software/genimage/genimage-${version}.tar.xz";
-    sha256 = "sha256-qHVuNWeg1NgsNrCMzB4IglC5AG1WcMaysBQYXm7GBnE=";
+    hash = "sha256-qHVuNWeg1NgsNrCMzB4IglC5AG1WcMaysBQYXm7GBnE=";
   };
 
   nativeBuildInputs = [ autoreconfHook pkg-config ];

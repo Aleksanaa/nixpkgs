@@ -19,7 +19,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://dl.suckless.org/tools/svkbd-${version}.tar.gz";
-    sha256 = "sha256-+8Jh/D4dgULhRXtC1tZQg6AK4POh9czyRyrMi0auD1o=";
+    hash = "sha256-+8Jh/D4dgULhRXtC1tZQg6AK4POh9czyRyrMi0auD1o=";
   };
 
   inherit patches;

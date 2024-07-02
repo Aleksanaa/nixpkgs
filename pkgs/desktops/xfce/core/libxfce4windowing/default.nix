@@ -15,7 +15,7 @@ mkXfceDerivation {
   pname = "libxfce4windowing";
   version = "4.19.3";
 
-  sha256 = "sha256-nsobRyGeagUq1WHzYBq6vd9g5A65KEQC4cX+m7w0pqg=";
+  hash = "sha256-nsobRyGeagUq1WHzYBq6vd9g5A65KEQC4cX+m7w0pqg=";
 
   nativeBuildInputs = [
     gobject-introspection

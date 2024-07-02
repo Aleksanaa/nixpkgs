@@ -9,7 +9,7 @@ stdenv.mkDerivation rec {
     owner = "qbs";
     repo = "qbs";
     rev = "v${version}";
-    sha256 = "sha256-nL7UZh29Oecu3RvXYg5xsin2IvPWpApleLH37sEdSAI=";
+    hash = "sha256-nL7UZh29Oecu3RvXYg5xsin2IvPWpApleLH37sEdSAI=";
   };
 
   nativeBuildInputs = [ qmake ];

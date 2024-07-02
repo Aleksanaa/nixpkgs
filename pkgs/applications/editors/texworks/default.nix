@@ -20,7 +20,7 @@ stdenv.mkDerivation rec {
     owner = "TeXworks";
     repo = "texworks";
     rev = "release-${version}";
-    sha256 = "sha256-G8TVTVQPELyE6H9a6gWSyWHi653TWzUoaRdlfPnngM0=";
+    hash = "sha256-G8TVTVQPELyE6H9a6gWSyWHi653TWzUoaRdlfPnngM0=";
   };
 
   nativeBuildInputs = [

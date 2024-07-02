@@ -20,7 +20,7 @@ stdenv.mkDerivation rec {
     owner = "elfmz";
     repo = "far2l";
     rev = "v_${version}";
-    sha256 = "sha256-fFwO06edv2f/remnKc5snAjgmqveVNqxHiUcTlfe+4Y=";
+    hash = "sha256-fFwO06edv2f/remnKc5snAjgmqveVNqxHiUcTlfe+4Y=";
   };
 
   nativeBuildInputs = [ cmake ninja pkg-config m4 perl makeWrapper ];

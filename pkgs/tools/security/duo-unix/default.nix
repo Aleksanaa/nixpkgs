@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url    = "https://dl.duosecurity.com/duo_unix-${version}.tar.gz";
-    sha256 = "sha256-7huWd71SdnTe1ef8OoHgQKjYQKVpE8k/oNT7bA+OJR0=";
+    hash = "sha256-7huWd71SdnTe1ef8OoHgQKjYQKVpE8k/oNT7bA+OJR0=";
   };
 
   buildInputs = [ pam openssl zlib ];

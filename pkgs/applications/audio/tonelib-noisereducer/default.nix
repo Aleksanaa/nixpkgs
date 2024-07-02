@@ -21,7 +21,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://tonelib.net/download/221222/ToneLib-NoiseReducer-amd64.deb";
-    sha256 = "sha256-27JuFVmamIUUKRrpjlsE0E6x+5X9RutNGPiDf5dxitI=";
+    hash = "sha256-27JuFVmamIUUKRrpjlsE0E6x+5X9RutNGPiDf5dxitI=";
   };
 
   nativeBuildInputs = [ autoPatchelfHook dpkg ];

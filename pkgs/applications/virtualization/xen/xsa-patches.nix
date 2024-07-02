@@ -488,6 +488,6 @@ in {
 
   XSA_386 = (xsaPatch {
     name = "386";
-    sha256 = "sha256-pAuLgt3sDeL73NSDqZCWxRGZk1tWaYlDbh7cUcJ4s+w=";
+    hash = "sha256-pAuLgt3sDeL73NSDqZCWxRGZk1tWaYlDbh7cUcJ4s+w=";
   });
 }

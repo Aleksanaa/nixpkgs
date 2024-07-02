@@ -7,7 +7,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://sourceforge/iodbc/${pname}-${version}.tar.gz";
-    sha256 = "sha256-OJizLQeWE2D28s822zYDa3GaIw5HZGklioDzIkPoRfo=";
+    hash = "sha256-OJizLQeWE2D28s822zYDa3GaIw5HZGklioDzIkPoRfo=";
   };
 
   nativeBuildInputs = [ pkg-config ];

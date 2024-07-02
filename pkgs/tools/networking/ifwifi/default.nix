@@ -8,7 +8,7 @@ rustPlatform.buildRustPackage rec {
     owner = "araujobsd";
     repo = "ifwifi";
     rev = version;
-    sha256 = "sha256-DPMCwyKqGJrav0wASBky9bS1bvJ3xaGsDzsk1bKaH1U=";
+    hash = "sha256-DPMCwyKqGJrav0wASBky9bS1bvJ3xaGsDzsk1bKaH1U=";
   };
 
   cargoHash = "sha256-TL7ZsRbpRdYymJHuoCUCqe/U3Vacb9mtKFh85IOl+PA=";

@@ -27,7 +27,7 @@ stdenv.mkDerivation (finalAttrs: {
     owner = "apps";
     repo = "xfce4-panel-profiles";
     rev = "xfce4-panel-profiles-${finalAttrs.version}";
-    sha256 = "sha256-mGA70t2U4mqEbcrj/DDsPl++EKWyZ8YXzKzzVOrH5h8=";
+    hash = "sha256-mGA70t2U4mqEbcrj/DDsPl++EKWyZ8YXzKzzVOrH5h8=";
   };
 
   nativeBuildInputs = [

@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://www.w3.org/Tools/HTML-XML-utils/${pname}-${version}.tar.gz";
-    sha256 = "sha256-XoRynvNszTkk0ocu1O5pVMYzMtylQAuo606u8fLbT7I=";
+    hash = "sha256-XoRynvNszTkk0ocu1O5pVMYzMtylQAuo606u8fLbT7I=";
   };
 
   buildInputs = [curl libiconv];

@@ -14,10 +14,10 @@ mkCoqDerivation rec {
     { case = "8.6";              out = "0.9.5"; }
     { case = "8.5";              out = "0.9.4"; }
   ] null;
-  release."0.12.1".sha256 = "sha256-YIHyiRUHPy/LGM2DMTRKRwP7j6OSBYKpu6wO2mZOubo=";
-  release."0.12.0".sha256 = "sha256-9szpnWoS83bDc+iLqElfgz0LNRo9hSRQwUFIgpTca4c=";
-  release."0.11.8".sha256 = "sha256-uUBKJb7XjRnyb7rCisZrDcaDdsp1Bv1lXDIU3Ce8e5k=";
-  release."0.11.7".sha256 = "sha256-HkxUny0mxDDT4VouBBh8btwxGZgsb459kBufTLLnuEY=";
+  release."0.12.1".hash = "sha256-YIHyiRUHPy/LGM2DMTRKRwP7j6OSBYKpu6wO2mZOubo=";
+  release."0.12.0".hash = "sha256-9szpnWoS83bDc+iLqElfgz0LNRo9hSRQwUFIgpTca4c=";
+  release."0.11.8".hash = "sha256-uUBKJb7XjRnyb7rCisZrDcaDdsp1Bv1lXDIU3Ce8e5k=";
+  release."0.11.7".hash = "sha256-HkxUny0mxDDT4VouBBh8btwxGZgsb459kBufTLLnuEY=";
   release."0.11.6".sha256 = "0w6iyrdszz7zc8kaybhy3mwjain2d2f83q79xfd5di0hgdayh7q7";
   release."0.11.4".sha256 = "0yp8mhrhkc498nblvhq1x4j6i9aiidkjza4wzvrkp9p8rgx5g5y3";
   release."0.11.3".sha256 = "1w99nzpk72lffxis97k235axss5lmzhy5z3lga2i0si95mbpil42";

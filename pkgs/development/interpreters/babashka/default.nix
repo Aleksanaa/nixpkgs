@@ -13,7 +13,7 @@ let
 
     src = fetchurl {
       url = "https://github.com/babashka/babashka/releases/download/v${version}/babashka-${version}-standalone.jar";
-      sha256 = "sha256-xF0u2VO0xdNvRElhUb7atpvy2Y5T9/V1b92ffaOMga8=";
+      hash = "sha256-xF0u2VO0xdNvRElhUb7atpvy2Y5T9/V1b92ffaOMga8=";
     };
 
     graalvmDrv = graalvmCEPackages.graalvm-ce;

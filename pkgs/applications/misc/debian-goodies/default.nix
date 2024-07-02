@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
     owner = "debian";
     repo = "debian-goodies";
     rev = "debian/${version}";
-    sha256 = "sha256-g1xeWhCkC7HEHHOJpcZ6JFA9jmavJE0lUX1Cmp5A0QQ=";
+    hash = "sha256-g1xeWhCkC7HEHHOJpcZ6JFA9jmavJE0lUX1Cmp5A0QQ=";
   };
 
   postPatch = ''

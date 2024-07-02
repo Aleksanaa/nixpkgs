@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://download.pureftpd.org/pub/pure-ftpd/releases/pure-ftpd-${version}.tar.gz";
-    sha256 = "sha256-QWD2a3ZhXuojl+rE6j8KFGt5KCB7ebxMwvma17e9lRM=";
+    hash = "sha256-QWD2a3ZhXuojl+rE6j8KFGt5KCB7ebxMwvma17e9lRM=";
   };
 
   buildInputs = [ openssl pam libxcrypt ];

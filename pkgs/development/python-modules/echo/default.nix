@@ -25,7 +25,7 @@ buildPythonPackage rec {
     owner = "glue-viz";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-0FmUA7kOFSRZXwbj8d7asujBPOjE2pFhu6TDNSGD4r0=";
+    hash = "sha256-0FmUA7kOFSRZXwbj8d7asujBPOjE2pFhu6TDNSGD4r0=";
   };
 
   nativeBuildInputs = [

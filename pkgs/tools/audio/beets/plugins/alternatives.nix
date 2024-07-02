@@ -9,7 +9,7 @@ python3Packages.buildPythonApplication rec {
     repo = "beets-alternatives";
     owner = "geigerzaehler";
     rev = "v${version}";
-    sha256 = "sha256-ORmF7YOQD4LvKiYo4Rzz+mzppOEvLics58aOK/IKcHc=";
+    hash = "sha256-ORmF7YOQD4LvKiYo4Rzz+mzppOEvLics58aOK/IKcHc=";
   };
 
   nativeBuildInputs = [

@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
     owner = "raspberrypi";
     repo = pname;
     rev = version;
-    sha256 = "sha256-OcQJeiva6X2rUyh1rJ+w4O2dWxaR7MwMfbHlnWuBVb8=";
+    hash = "sha256-OcQJeiva6X2rUyh1rJ+w4O2dWxaR7MwMfbHlnWuBVb8=";
   };
 
   buildInputs = [ libusb1 pico-sdk ];

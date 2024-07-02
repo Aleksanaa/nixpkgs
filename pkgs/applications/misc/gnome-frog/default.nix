@@ -31,7 +31,7 @@ python3Packages.buildPythonApplication rec {
     owner = "TenderOwl";
     repo = "Frog";
     rev = "refs/tags/${version}";
-    sha256 = "sha256-zL6zuqHF1pTXT3l1mAFx2EL+0ThzjXfst/nEyNVorZg=";
+    hash = "sha256-zL6zuqHF1pTXT3l1mAFx2EL+0ThzjXfst/nEyNVorZg=";
   };
 
   format = "other";

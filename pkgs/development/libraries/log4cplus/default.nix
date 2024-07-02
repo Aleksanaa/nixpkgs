@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://sourceforge/log4cplus/log4cplus-${version}.tar.bz2";
-    sha256 = "sha256-ZZfeeCd15OD7qP3K2TjDcJ/YOagITEtu3648xQRuJog=";
+    hash = "sha256-ZZfeeCd15OD7qP3K2TjDcJ/YOagITEtu3648xQRuJog=";
   };
 
   meta = {

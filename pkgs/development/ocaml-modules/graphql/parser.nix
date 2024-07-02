@@ -9,7 +9,7 @@ buildDunePackage rec {
 
   src = fetchurl {
     url = "https://github.com/andreas/ocaml-graphql-server/releases/download/${version}/graphql-${version}.tbz";
-    sha256 = "sha256-v4v1ueF+NV7LvYIVinaf4rE450Z1P9OiMAito6/NHAY=";
+    hash = "sha256-v4v1ueF+NV7LvYIVinaf4rE450Z1P9OiMAito6/NHAY=";
   };
 
   nativeBuildInputs = [ menhir ];

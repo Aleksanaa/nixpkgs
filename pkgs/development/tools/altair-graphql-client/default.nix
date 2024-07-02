@@ -6,7 +6,7 @@ let
 
   src = fetchurl {
     url = "https://github.com/imolorhe/altair/releases/download/v${version}/altair_${version}_x86_64_linux.AppImage";
-    sha256 = "sha256-27X2BSGcHMSxt3ry+EO/Z6Bq8rqlvNNME0ehBUWxN9s=";
+    hash = "sha256-27X2BSGcHMSxt3ry+EO/Z6Bq8rqlvNNME0ehBUWxN9s=";
   };
 
   appimageContents = appimageTools.extract { inherit pname version src; };

@@ -42,7 +42,7 @@ stdenv.mkDerivation rec {
         majorMinorPatch = with lib.versions; "${major version}.${minor version}.${patch version}";
       in
       "https://support.hdfgroup.org/ftp/HDF5/releases/hdf5-${majorMinor}/hdf5-${majorMinorPatch}/src/hdf5-${version}.tar.bz2";
-    sha256 = "sha256-lCXyJO110SgLtG1vJpI92Tj5BA5+rr9X5m7HNXwI+Rc=";
+    hash = "sha256-lCXyJO110SgLtG1vJpI92Tj5BA5+rr9X5m7HNXwI+Rc=";
   };
 
   passthru = {

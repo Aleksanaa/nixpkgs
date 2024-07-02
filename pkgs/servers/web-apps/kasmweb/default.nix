@@ -10,7 +10,7 @@ stdenv.mkDerivation rec {
 
   src = fetchzip {
     url = "https://kasm-static-content.s3.amazonaws.com/kasm_release_${version}.${build}.tar.gz";
-    sha256 = "sha256-dCjWmI8gYtoMiMHVNgTg2ZROHXvT4ulynNvnKfMxURo=";
+    hash = "sha256-dCjWmI8gYtoMiMHVNgTg2ZROHXvT4ulynNvnKfMxURo=";
   };
 
   dontConfigure = true;

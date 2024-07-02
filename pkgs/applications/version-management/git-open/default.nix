@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
     owner = "paulirish";
     repo = "git-open";
     rev = "v${version}";
-    sha256 = "sha256-Bag2rI2uR7ilkg2ozjR8tPXqKz5XjiY7WAUJKTVTXd8=";
+    hash = "sha256-Bag2rI2uR7ilkg2ozjR8tPXqKz5XjiY7WAUJKTVTXd8=";
   };
 
   nativeBuildInputs = [ installShellFiles makeWrapper pandoc ];

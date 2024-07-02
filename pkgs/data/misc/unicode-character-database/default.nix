@@ -9,7 +9,7 @@ stdenvNoCC.mkDerivation rec {
 
   src = fetchurl {
     url = "https://www.unicode.org/Public/zipped/${version}/UCD.zip";
-    sha256 = "sha256-yxxmPQU5JlAM1QEilzYEV1JxOgZr11gCCYWYt6cFYXc=";
+    hash = "sha256-yxxmPQU5JlAM1QEilzYEV1JxOgZr11gCCYWYt6cFYXc=";
   };
 
   nativeBuildInputs = [

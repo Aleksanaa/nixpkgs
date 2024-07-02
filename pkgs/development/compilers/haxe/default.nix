@@ -127,6 +127,6 @@ in {
   };
   haxe_4_3 = generic {
     version = "4.3.4";
-    sha256 = "sha256-XGV4VG8nUofHGjHbtrLA+2kIpnnPqw5IlcNrP3EsL+Q=";
+    hash = "sha256-XGV4VG8nUofHGjHbtrLA+2kIpnnPqw5IlcNrP3EsL+Q=";
   };
 }

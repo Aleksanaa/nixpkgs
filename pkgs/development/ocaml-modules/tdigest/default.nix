@@ -11,7 +11,7 @@ buildDunePackage rec {
     owner = "SGrondin";
     repo = pname;
     rev = version;
-    sha256 = "sha256-pkJRJeEbBbAR1STb6v3Zu11twvHkAKAO0YjifRBFTDw=";
+    hash = "sha256-pkJRJeEbBbAR1STb6v3Zu11twvHkAKAO0YjifRBFTDw=";
   };
 
   minimalOCamlVersion = "4.08";

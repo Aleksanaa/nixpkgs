@@ -6,7 +6,7 @@ stdenvNoCC.mkDerivation rec {
 
   src = fetchurl {
     url = "https://github.com/karatelabs/karate/releases/download/v${version}/karate-${version}.jar";
-    sha256 = "sha256-3gNoXUchrfGkZC6UAfw2TXorzSlqnOZCe0gnuUHIIb4=";
+    hash = "sha256-3gNoXUchrfGkZC6UAfw2TXorzSlqnOZCe0gnuUHIIb4=";
   };
   dontUnpack = true;
 

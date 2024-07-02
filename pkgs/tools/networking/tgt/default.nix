@@ -10,7 +10,7 @@ stdenv.mkDerivation rec {
     owner = "fujita";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-Axx9D4BIg68R9bDDNyIGw8n91Jg1YJ/zN1rE6aeMZcs=";
+    hash = "sha256-Axx9D4BIg68R9bDDNyIGw8n91Jg1YJ/zN1rE6aeMZcs=";
   };
 
   nativeBuildInputs = [ libxslt docbook_xsl makeWrapper ];

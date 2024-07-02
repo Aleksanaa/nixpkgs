@@ -16,7 +16,7 @@ mkDerivation rec {
 
   src = fetchzip {
     url = "https://git.tuxfamily.org/qet/qet.git/snapshot/qet-${version}.tar.gz";
-    sha256 = "sha256-op2vnMPF9bNnHGphWFB/HEeoThE6tX+9UvX8LWVwkzI=";
+    hash = "sha256-op2vnMPF9bNnHGphWFB/HEeoThE6tX+9UvX8LWVwkzI=";
   };
 
   postPatch = ''

@@ -33,7 +33,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://sourceforge/lxde/${pname}-${version}.tar.xz";
-    sha256 = "sha256-HjGPV9fja2HCOlBNA9JDDHja0ULBgERRBh8bPqVEHug=";
+    hash = "sha256-HjGPV9fja2HCOlBNA9JDDHja0ULBgERRBh8bPqVEHug=";
   };
 
   nativeBuildInputs = [ pkg-config gettext m4 intltool libxmlxx ];

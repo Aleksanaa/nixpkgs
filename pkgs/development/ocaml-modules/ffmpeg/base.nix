@@ -7,7 +7,7 @@ rec {
     owner = "savonet";
     repo = "ocaml-ffmpeg";
     rev = "refs/tags/v${version}";
-    sha256 = "sha256-Tr0YhoaaUSOlA7vlhAjPyFJI/iL7Z54oO27RnG7d+nA=";
+    hash = "sha256-Tr0YhoaaUSOlA7vlhAjPyFJI/iL7Z54oO27RnG7d+nA=";
   };
 
   meta = with lib; {

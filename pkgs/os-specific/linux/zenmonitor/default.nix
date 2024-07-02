@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
     owner = "Ta180m";
     repo = "zenmonitor3";
     rev = "v${version}";
-    sha256 = "sha256-2EsuSMXnnMg0e0JD1TXJplsi7sOg9em0qqge2WlC6ro=";
+    hash = "sha256-2EsuSMXnnMg0e0JD1TXJplsi7sOg9em0qqge2WlC6ro=";
   };
 
   buildInputs = [ gtk3 ];

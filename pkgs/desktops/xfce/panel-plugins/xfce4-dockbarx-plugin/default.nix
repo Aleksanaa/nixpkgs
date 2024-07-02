@@ -20,7 +20,7 @@ stdenv.mkDerivation rec {
     owner = "xuzhen";
     repo = "xfce4-dockbarx-plugin";
     rev = "v${version}";
-    sha256 = "sha256-ZxaWORqA8LiM4CzakxClg5C6AsyHrzCGydgboCrC45g=";
+    hash = "sha256-ZxaWORqA8LiM4CzakxClg5C6AsyHrzCGydgboCrC45g=";
   };
 
   pythonPath = [

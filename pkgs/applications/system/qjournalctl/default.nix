@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
     owner = "pentix";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-anNNzqjbIaQI+MAwwMwzy6v4SKqi4u9F5IbFBErm4q8=";
+    hash = "sha256-anNNzqjbIaQI+MAwwMwzy6v4SKqi4u9F5IbFBErm4q8=";
   };
 
   postPatch = ''

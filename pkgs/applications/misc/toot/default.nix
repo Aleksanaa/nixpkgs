@@ -8,7 +8,7 @@ python3Packages.buildPythonApplication rec {
     owner  = "ihabunek";
     repo   = "toot";
     rev = "refs/tags/${version}";
-    sha256 = "sha256-FxA/loJzb/DBI1vWC71IFqdFcwjwIezhBJCGNeBzRoU=";
+    hash = "sha256-FxA/loJzb/DBI1vWC71IFqdFcwjwIezhBJCGNeBzRoU=";
   };
 
   nativeCheckInputs = with python3Packages; [ pytest ];

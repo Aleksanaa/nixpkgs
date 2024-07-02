@@ -39,7 +39,7 @@ mkDerivation {
     ./disable-librebuild.patch
     (fetchpatch {
       url = "https://marc.info/?l=openbsd-tech&m=171575286706032&q=raw";
-      sha256 = "sha256-2fqabJZLUvXUIWe5WZ4NrTOwgQCXqH49Wo0hAPu5lu0=";
+      hash = "sha256-2fqabJZLUvXUIWe5WZ4NrTOwgQCXqH49Wo0hAPu5lu0=";
     })
   ];
 

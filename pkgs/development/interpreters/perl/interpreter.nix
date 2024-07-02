@@ -248,7 +248,7 @@ stdenv.mkDerivation (rec {
     owner = "arsv";
     repo = "perl-cross";
     rev = crossVersion;
-    sha256 = "sha256-1Zqw4sy/lD2nah0Z8rAE11tSpq1Ym9nBbatDczR+mxs=";
+    hash = "sha256-1Zqw4sy/lD2nah0Z8rAE11tSpq1Ym9nBbatDczR+mxs=";
   };
 
   depsBuildBuild = [ buildPackages.stdenv.cc makeWrapper ];

@@ -23,7 +23,7 @@ let
         owner = "comby-tools";
         repo = "comby";
         rev = version;
-        sha256 = "sha256-yQrfSzJgJm0OWJxhxst2XjZULIVHeEfPMvMIwH7BYDc=";
+        hash = "sha256-yQrfSzJgJm0OWJxhxst2XjZULIVHeEfPMvMIwH7BYDc=";
       };
 
       patches = [ ./comby.patch ];

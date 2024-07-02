@@ -77,7 +77,7 @@ stdenv.mkDerivation {
     name = "perl538-locale-c.patch";
     url = "https://github.com/exg/rxvt-unicode/commit/16634bc8dd5fc4af62faf899687dfa8f27768d15.patch";
     excludes = [ "Changes" ];
-    sha256 = "sha256-JVqzYi3tcWIN2j5JByZSztImKqbbbB3lnfAwUXrumHM=";
+    hash = "sha256-JVqzYi3tcWIN2j5JByZSztImKqbbbB3lnfAwUXrumHM=";
   }) ++ optional stdenv.isDarwin ./patches/makefile-phony.patch;
 
   configureFlags = [

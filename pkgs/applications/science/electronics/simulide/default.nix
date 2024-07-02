@@ -96,7 +96,7 @@ in
     src = fetchbzr {
       # the branch name does not mach the version for some reason
       url = "https://code.launchpad.net/~arcachofo/simulide/simulide_0.4.14";
-      sha256 = "sha256-BBoZr/S2pif0Jft5wrem8y00dXl08jq3kFiIUtOr3LM=";
+      hash = "sha256-BBoZr/S2pif0Jft5wrem8y00dXl08jq3kFiIUtOr3LM=";
       inherit rev;
     };
     extraPostPatch = ''
@@ -118,7 +118,7 @@ in
     rev = "1449";
     src = fetchbzr {
       url = "https://code.launchpad.net/~arcachofo/simulide/1.0.0";
-      sha256 = "sha256-rJWZvnjVzaKXU2ktbde1w8LSNvu0jWkDIk4dq2l7t5g=";
+      hash = "sha256-rJWZvnjVzaKXU2ktbde1w8LSNvu0jWkDIk4dq2l7t5g=";
       inherit rev;
     };
     extraBuildInputs = [ qtscript ];
@@ -130,7 +130,7 @@ in
     rev = "1917";
     src = fetchbzr {
       url = "https://code.launchpad.net/~arcachofo/simulide/1.1.0";
-      sha256 = "sha256-qNBaGWl89Le9uC1VFK+xYhrLzIvOIWjkQbutnrAmZ2M=";
+      hash = "sha256-qNBaGWl89Le9uC1VFK+xYhrLzIvOIWjkQbutnrAmZ2M=";
       inherit rev;
     };
   };

@@ -27,7 +27,7 @@ mkDerivation rec {
     owner = "maliit";
     repo = "keyboard";
     rev = version;
-    sha256 = "sha256-XH3sKQuNMLgJi2aV+bnU2cflwkFIw4RYVfxzQiejCT0=";
+    hash = "sha256-XH3sKQuNMLgJi2aV+bnU2cflwkFIw4RYVfxzQiejCT0=";
   };
 
   postPatch = ''

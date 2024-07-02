@@ -58,7 +58,7 @@ final: prev: let
       rec {
         fileVersionCuda = "12.0";
         fullVersion = "8.6.1.6";
-        sha256 = "sha256-D4FXpfxTKZQ7M4uJNZE3M1CvqQyoEjnNrddYDNHrolQ=";
+        hash = "sha256-D4FXpfxTKZQ7M4uJNZE3M1CvqQyoEjnNrddYDNHrolQ=";
         tarball = tarballURL { inherit fileVersionCuda fullVersion; };
         supportedCudaVersions = [ "12.0" "12.1" ];
       }
@@ -68,7 +68,7 @@ final: prev: let
         fileVersionCuda = "11.8";
         fileVersionCudnn = "8.6";
         fullVersion = "8.5.3.1";
-        sha256 = "sha256-BNeuOYvPTUAfGxI0DVsNrX6Z/FAB28+SE0ptuGu7YDY=";
+        hash = "sha256-BNeuOYvPTUAfGxI0DVsNrX6Z/FAB28+SE0ptuGu7YDY=";
         tarball = tarballURL { inherit fileVersionCuda fileVersionCudnn fullVersion; };
         supportedCudaVersions = [ "11.0" "11.1" "11.2" "11.3" "11.4" "11.5" "11.6" "11.7" "11.8" ];
       }
@@ -76,7 +76,7 @@ final: prev: let
         fileVersionCuda = "10.2";
         fileVersionCudnn = "8.6";
         fullVersion = "8.5.3.1";
-        sha256 = "sha256-WCt6yfOmFbrjqdYCj6AE2+s2uFpISwk6urP+2I0BnGQ=";
+        hash = "sha256-WCt6yfOmFbrjqdYCj6AE2+s2uFpISwk6urP+2I0BnGQ=";
         tarball = tarballURL { inherit fileVersionCuda fileVersionCudnn fullVersion; };
         supportedCudaVersions = [ "10.2" ];
       }
@@ -86,7 +86,7 @@ final: prev: let
         fileVersionCuda = "11.8";
         fileVersionCudnn = "8.6";
         fullVersion = "8.5.2.2";
-        sha256 = "sha256-Ov5irNS/JETpEz01FIFNMs9YVmjGHL7lSXmDpgCdgao=";
+        hash = "sha256-Ov5irNS/JETpEz01FIFNMs9YVmjGHL7lSXmDpgCdgao=";
         tarball = tarballURL { inherit fileVersionCuda fileVersionCudnn fullVersion; };
         supportedCudaVersions = [ "11.0" "11.1" "11.2" "11.3" "11.4" "11.5" "11.6" "11.7" "11.8" ];
       }
@@ -94,7 +94,7 @@ final: prev: let
         fileVersionCuda = "10.2";
         fileVersionCudnn = "8.6";
         fullVersion = "8.5.2.2";
-        sha256 = "sha256-UruwQShYcHLY5d81lKNG7XaoUsZr245c+PUpUN6pC5E=";
+        hash = "sha256-UruwQShYcHLY5d81lKNG7XaoUsZr245c+PUpUN6pC5E=";
         tarball = tarballURL { inherit fileVersionCuda fileVersionCudnn fullVersion; };
         supportedCudaVersions = [ "10.2" ];
       }
@@ -104,7 +104,7 @@ final: prev: let
         fileVersionCuda = "11.8";
         fileVersionCudnn = "8.6";
         fullVersion = "8.5.1.7";
-        sha256 = "sha256-Ocx/B3BX0TY3lOj/UcTPIaXb7M8RFrACC6Da4PMGMHY=";
+        hash = "sha256-Ocx/B3BX0TY3lOj/UcTPIaXb7M8RFrACC6Da4PMGMHY=";
         tarball = tarballURL { inherit fileVersionCuda fileVersionCudnn fullVersion; };
         supportedCudaVersions = [ "11.0" "11.1" "11.2" "11.3" "11.4" "11.5" "11.6" "11.7" "11.8" ];
       }
@@ -112,7 +112,7 @@ final: prev: let
         fileVersionCuda = "10.2";
         fileVersionCudnn = "8.6";
         fullVersion = "8.5.1.7";
-        sha256 = "sha256-CcFGJhw7nFdPnSYYSxcto2MHK3F84nLQlJYjdIw8dPM=";
+        hash = "sha256-CcFGJhw7nFdPnSYYSxcto2MHK3F84nLQlJYjdIw8dPM=";
         tarball = tarballURL { inherit fileVersionCuda fileVersionCudnn fullVersion; };
         supportedCudaVersions = [ "10.2" ];
       }
@@ -122,7 +122,7 @@ final: prev: let
         fileVersionCuda = "11.6";
         fileVersionCudnn = "8.3";
         fullVersion = "8.4.0.6";
-        sha256 = "sha256-DNgHHXF/G4cK2nnOWImrPXAkOcNW6Wy+8j0LRpAH/LQ=";
+        hash = "sha256-DNgHHXF/G4cK2nnOWImrPXAkOcNW6Wy+8j0LRpAH/LQ=";
         tarball = tarballURL { inherit fileVersionCuda fileVersionCudnn fullVersion; };
         supportedCudaVersions = [ "11.0" "11.1" "11.2" "11.3" "11.4" "11.5" "11.6" ];
       }
@@ -130,7 +130,7 @@ final: prev: let
         fileVersionCuda = "10.2";
         fileVersionCudnn = "8.3";
         fullVersion = "8.4.0.6";
-        sha256 = "sha256-aCzH0ZI6BrJ0v+e5Bnm7b8mNltA7NNuIa8qRKzAQv+I=";
+        hash = "sha256-aCzH0ZI6BrJ0v+e5Bnm7b8mNltA7NNuIa8qRKzAQv+I=";
         tarball = tarballURL { inherit fileVersionCuda fileVersionCudnn fullVersion; };
         supportedCudaVersions = [ "10.2" ];
       }

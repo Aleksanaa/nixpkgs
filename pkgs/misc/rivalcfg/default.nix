@@ -8,7 +8,7 @@ python3Packages.buildPythonPackage rec {
     owner = "flozz";
     repo = "rivalcfg";
     rev = "refs/tags/v${version}";
-    sha256 = "sha256-zZQkfi84NE3mpGv7+Z6AnUXEj0y9SoBmbbtRiTDPS/8=";
+    hash = "sha256-zZQkfi84NE3mpGv7+Z6AnUXEj0y9SoBmbbtRiTDPS/8=";
   };
 
   propagatedBuildInputs = with python3Packages; [ hidapi setuptools ];

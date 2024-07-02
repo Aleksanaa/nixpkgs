@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
     repo = "git-secret";
     owner = "sobolevn";
     rev = "v${version}";
-    sha256 = "sha256-Vdlv3H99BZcT1O66ZCpq5olENOaUSubx58B1PQ/OlMU=";
+    hash = "sha256-Vdlv3H99BZcT1O66ZCpq5olENOaUSubx58B1PQ/OlMU=";
   };
 
   nativeBuildInputs = [ makeWrapper ];

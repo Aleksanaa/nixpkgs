@@ -9,7 +9,7 @@ buildPecl {
   pname = "yaml";
 
   version = "2.2.3";
-  sha256 = "sha256-WTfrlyLd9tZGJnmc+gJFmP8kUuoVeZLk5nMxolP5AjY=";
+  hash = "sha256-WTfrlyLd9tZGJnmc+gJFmP8kUuoVeZLk5nMxolP5AjY=";
 
   configureFlags = [ "--with-yaml=${libyaml.dev}" ];
 

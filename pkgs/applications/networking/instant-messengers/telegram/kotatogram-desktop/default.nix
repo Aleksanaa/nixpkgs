@@ -88,7 +88,7 @@ stdenv.mkDerivation rec {
     owner = "kotatogram";
     repo = "kotatogram-desktop";
     rev = "k${version}";
-    sha256 = "sha256-6bF/6fr8mJyyVg53qUykysL7chuewtJB8E22kVyxjHw=";
+    hash = "sha256-6bF/6fr8mJyyVg53qUykysL7chuewtJB8E22kVyxjHw=";
     fetchSubmodules = true;
   };
 

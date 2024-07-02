@@ -9,7 +9,7 @@ python3Packages.buildPythonApplication rec {
     owner = "bordaigorl";
     repo = pname;
     rev = "refs/tags/v${version}";
-    sha256 = "sha256-V26zmu8cQkLs0IMR7eFO8x34McnT3xYyzlZfntApYkk=";
+    hash = "sha256-V26zmu8cQkLs0IMR7eFO8x34McnT3xYyzlZfntApYkk=";
   };
 
   nativeBuildInputs = with python3Packages; [ pyqt5 setuptools wrapQtAppsHook ];

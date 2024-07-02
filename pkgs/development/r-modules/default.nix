@@ -1552,7 +1552,7 @@ let
           owner = "openbabel";
           repo = "openbabel";
           rev = "openbabel-${lib.replaceStrings ["."] ["-"] attrs.version}";
-          sha256 = "sha256-wQpgdfCyBAoh4pmj9j7wPTlMtraJ62w/EShxi/olVMY=";
+          hash = "sha256-wQpgdfCyBAoh4pmj9j7wPTlMtraJ62w/EShxi/olVMY=";
         };
       });
     in
@@ -1715,11 +1715,11 @@ let
       patches = let inherit (pkgs) fetchpatch; in [
         (fetchpatch {
           url = "https://github.com/Jiefei-Wang/SharedObject/pull/17/commits/50c4b2964649d7f5a14d843bd7089ab62650fcd3.patch";
-          sha256 = "sha256-zn535IeOYRvyQ2yxgoGEq2wccrl9xdu9nREmy7sV+PQ=";
+          hash = "sha256-zn535IeOYRvyQ2yxgoGEq2wccrl9xdu9nREmy7sV+PQ=";
         })
         (fetchpatch {
           url = "https://github.com/Jiefei-Wang/SharedObject/pull/17/commits/bf096a39858e9210cbe246d4b136905d4cfbfaf4.patch";
-          sha256 = "sha256-Z+BZOkFnLgIBiVuPsAHp7bMXzADcvuHV4hILdmLvd+k=";
+          hash = "sha256-Z+BZOkFnLgIBiVuPsAHp7bMXzADcvuHV4hILdmLvd+k=";
         })
       ];
     });

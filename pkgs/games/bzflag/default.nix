@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://download.bzflag.org/${pname}/source/${version}/${pname}-${version}.tar.bz2";
-    sha256 = "sha256-AYMEBf8mrR3FlafgaVyCTCeG5niGjZ/4Iq6xSsdIEBQ=";
+    hash = "sha256-AYMEBf8mrR3FlafgaVyCTCeG5niGjZ/4Iq6xSsdIEBQ=";
   };
 
   nativeBuildInputs = [ pkg-config ];

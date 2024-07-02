@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
   # fetchFromGitLab isn't working for some reason
   src = fetchurl {
     url = "https://gitlab.freedesktop.org/cangjie/libcangjie/-/archive/a73c1d8783f7b6526fd9b2cc44a669ffa5518d3d/libcangjie-a73c1d8783f7b6526fd9b2cc44a669ffa5518d3d.tar.gz";
-    sha256 = "sha256-j5IQ0hBefoF8p966YrfZgYCw7ht5twJhYi4l0NneukQ=";
+    hash = "sha256-j5IQ0hBefoF8p966YrfZgYCw7ht5twJhYi4l0NneukQ=";
   };
 
   nativeBuildInputs = [ pkg-config autoconf automake ];

@@ -14,7 +14,7 @@ stdenv.mkDerivation rec {
     owner = "haven-protocol-org";
     repo = "haven-main";
     rev = "v${version}";
-    sha256 = "sha256-jKeLFWJDwS8WWRynkDgBjvjq2EDpTEJadwkNsANQXws=";
+    hash = "sha256-jKeLFWJDwS8WWRynkDgBjvjq2EDpTEJadwkNsANQXws=";
     fetchSubmodules = true;
   };
 

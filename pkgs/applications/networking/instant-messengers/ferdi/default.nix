@@ -20,7 +20,7 @@ mkFranzDerivation' rec {
   version = "5.8.1";
   src = fetchurl {
     url = "https://master.dl.sourceforge.net/project/ferdi.mirror/v${version}/ferdi_${version}_amd64.deb";
-    sha256 = "sha256-Bl7bM5iDQlfPSZxksqlg7GbuwWlm53QkOf/TQEg3/n0=";
+    hash = "sha256-Bl7bM5iDQlfPSZxksqlg7GbuwWlm53QkOf/TQEg3/n0=";
   };
   extraBuildInputs = [ xorg.libxshmfence ];
   meta = with lib; {

@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "http://download.camlcity.org/download/findlib-${version}.tar.gz";
-    sha256 = "sha256-LfmWJ5rha2Bttf9Yefk9v63giY258aPoL3+EX6opMKI=";
+    hash = "sha256-LfmWJ5rha2Bttf9Yefk9v63giY258aPoL3+EX6opMKI=";
   };
 
   nativeBuildInputs = [ ocaml ];

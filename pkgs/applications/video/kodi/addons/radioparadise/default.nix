@@ -7,7 +7,7 @@ buildKodiAddon rec {
 
   src = fetchzip {
     url = "https://mirrors.kodi.tv/addons/${lib.toLower rel}/script.radioparadise/script.radioparadise-${version}.zip";
-    sha256 = "sha256-eRCP0XMQHmyDrZ8Y6RGFfxQ1r26/bWbE/PJz4PET7D8=";
+    hash = "sha256-eRCP0XMQHmyDrZ8Y6RGFfxQ1r26/bWbE/PJz4PET7D8=";
   };
 
   propagatedBuildInputs = [

@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
     owner = "MapServer";
     repo = "MapServer";
     rev = "rel-${lib.replaceStrings [ "." ] [ "-" ] version}";
-    sha256 = "sha256-fAf4kOe/6bQW0i46+EZbD/6iWI2Bjkn2no6XeR/+mg4=";
+    hash = "sha256-fAf4kOe/6bQW0i46+EZbD/6iWI2Bjkn2no6XeR/+mg4=";
   };
 
   patches = [

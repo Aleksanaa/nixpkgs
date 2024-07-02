@@ -32,7 +32,7 @@ in stdenv.mkDerivation (finalAttrs: {
     owner = "Orama-Interactive";
     repo = "Pixelorama";
     rev = "v${finalAttrs.version}";
-    sha256 = "sha256-VEQjZ9kDqXz1hoT4PrsBtzoi1TYWyN+YcPMyf9qJMRE=";
+    hash = "sha256-VEQjZ9kDqXz1hoT4PrsBtzoi1TYWyN+YcPMyf9qJMRE=";
   };
 
   nativeBuildInputs = [

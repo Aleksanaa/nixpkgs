@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://gnu/freeipmi/${pname}-${version}.tar.gz";
-    sha256 = "sha256-Gj2sXHa3zMTU+GqhK475shK673SJvwXombiau34U7bU=";
+    hash = "sha256-Gj2sXHa3zMTU+GqhK475shK673SJvwXombiau34U7bU=";
   };
 
   depsBuildBuild = [ buildPackages.stdenv.cc ];

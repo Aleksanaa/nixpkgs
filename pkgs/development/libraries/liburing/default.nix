@@ -7,7 +7,7 @@ stdenv.mkDerivation rec {
   src = fetchgit {
     url    = "http://git.kernel.dk/${pname}";
     rev    = "liburing-${version}";
-    sha256 = "sha256-hPyEZ0P1rfos53OCNd2OYFiqmv6TgpWaj5/xPLccCvM=";
+    hash = "sha256-hPyEZ0P1rfos53OCNd2OYFiqmv6TgpWaj5/xPLccCvM=";
   };
 
   separateDebugInfo = true;

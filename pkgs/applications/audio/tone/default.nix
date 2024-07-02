@@ -8,7 +8,7 @@ buildDotnetModule rec {
     owner = "sandreas";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-HhXyOPoDtraT7ef0kpE7SCQbvGFLrTddzS6Kdu0LxW4=";
+    hash = "sha256-HhXyOPoDtraT7ef0kpE7SCQbvGFLrTddzS6Kdu0LxW4=";
   };
 
   projectFile = "tone/tone.csproj";

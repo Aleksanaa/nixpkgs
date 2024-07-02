@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
     owner = "hpjansson";
     repo = "chafa";
     rev = version;
-    sha256 = "sha256-25GVRZGrYcQ+uo+S45HvX4jrdHKnYuSkXHQUr9NHdyY=";
+    hash = "sha256-25GVRZGrYcQ+uo+S45HvX4jrdHKnYuSkXHQUr9NHdyY=";
   };
 
   nativeBuildInputs = [ autoconf

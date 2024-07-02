@@ -11,7 +11,7 @@ stdenv.mkDerivation (finalAttrs: {
 
   src = fetchurl {
     url = "ftp://ftp.gnustep.org/pub/gnustep/core/gnustep-make-${finalAttrs.version}.tar.gz";
-    sha256 = "sha256-9UDfnw4drrPSOwjhSyBLKkbx0KQAXLFxyVMjQTgG5OE=";
+    hash = "sha256-9UDfnw4drrPSOwjhSyBLKkbx0KQAXLFxyVMjQTgG5OE=";
   };
 
   configureFlags = [

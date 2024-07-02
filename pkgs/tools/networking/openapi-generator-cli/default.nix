@@ -12,7 +12,7 @@ let this = stdenv.mkDerivation (finalAttrs: {
 
   src = fetchurl {
     url = "mirror://maven/org/openapitools/${finalAttrs.pname}/${finalAttrs.version}/${finalAttrs.jarfilename}";
-    sha256 = "sha256-NQdL3TzfxGvpqQLhGlSj+qPK4eNOtmy9lZ0cgHC719c=";
+    hash = "sha256-NQdL3TzfxGvpqQLhGlSj+qPK4eNOtmy9lZ0cgHC719c=";
   };
 
   dontUnpack = true;

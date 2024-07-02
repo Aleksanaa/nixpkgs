@@ -16,7 +16,7 @@
 }:
 let
   stagingPatch = fetchFromGitLab {
-    sha256 = "sha256-VQ4j4PuXRoXbCUZ16snVO+jRvuKD4Rjn14R7bhwdAco=";
+    hash = "sha256-VQ4j4PuXRoXbCUZ16snVO+jRvuKD4Rjn14R7bhwdAco=";
     domain = "gitlab.winehq.org";
     owner = "wine";
     repo = "wine-staging";
@@ -50,7 +50,7 @@ let
       })
     ];
     src = fetchFromGitLab rec {
-      sha256 = "sha256-GlPH34dr9aHx7xvlcbtDMn/wrY//DP58ilXjhQXgihQ=";
+      hash = "sha256-GlPH34dr9aHx7xvlcbtDMn/wrY//DP58ilXjhQXgihQ=";
       domain = "gitlab.winehq.org";
       owner = "wine";
       repo = "wine";

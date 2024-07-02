@@ -9,7 +9,7 @@ python3.pkgs.buildPythonApplication rec {
     owner = "layday";
     repo = pname;
     rev = "refs/tags/v${version}";
-    sha256 = "sha256-LSn8b29IEPimwLpmYU7vRRH2dcyaCCr/dk9MzBIW4U0=";
+    hash = "sha256-LSn8b29IEPimwLpmYU7vRRH2dcyaCCr/dk9MzBIW4U0=";
   };
 
   extras = [ ];  # Disable GUI, most dependencies are not packaged.

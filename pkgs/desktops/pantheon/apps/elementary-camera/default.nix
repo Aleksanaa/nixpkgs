@@ -25,7 +25,7 @@ stdenv.mkDerivation rec {
     owner = "elementary";
     repo = "camera";
     rev = version;
-    sha256 = "sha256-Sj89TBat2RY2Ms02M0P7gmE9tXYk1yrnPLzDwGyAFZA=";
+    hash = "sha256-Sj89TBat2RY2Ms02M0P7gmE9tXYk1yrnPLzDwGyAFZA=";
   };
 
   nativeBuildInputs = [

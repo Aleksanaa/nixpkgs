@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://www.nlnetlabs.nl/downloads/ldns/${pname}-${version}.tar.gz";
-    sha256 = "sha256-w/ct0QNrKQfjpW5qz537LlUSVrPBu9l4eULe7rcOeGA=";
+    hash = "sha256-w/ct0QNrKQfjpW5qz537LlUSVrPBu9l4eULe7rcOeGA=";
   };
 
   postPatch = ''

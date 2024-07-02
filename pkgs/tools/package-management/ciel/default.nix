@@ -44,7 +44,7 @@ rustPlatform.buildRustPackage rec {
     (fetchpatch {
       name = "use-canonicalize-path-to-find-libexec.patch";
       url = "https://github.com/AOSC-Dev/ciel-rs/commit/17f41538ed1057e855540f5abef7faf6ea4abf5c.patch";
-      sha256 = "sha256-ELK2KpOuoBS774apomUIo8q1eXYs/FX895G7eBdgOQg=";
+      hash = "sha256-ELK2KpOuoBS774apomUIo8q1eXYs/FX895G7eBdgOQg=";
     })
   ];
 

@@ -18,7 +18,7 @@ stdenv.mkDerivation rec {
     owner = "slyfabi";
     repo = "wsysmon";
     rev = version;
-    sha256 = "sha256-5kfZT+hm064qXoAzi0RdmUqXi8VaXamlbm+FJOrGh3A=";
+    hash = "sha256-5kfZT+hm064qXoAzi0RdmUqXi8VaXamlbm+FJOrGh3A=";
   };
 
   patches = [

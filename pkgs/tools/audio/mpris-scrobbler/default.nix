@@ -22,7 +22,7 @@ stdenv.mkDerivation rec {
     owner = "mariusor";
     repo = "mpris-scrobbler";
     rev = "v${version}";
-    sha256 = "sha256-eeOhFkLyx+smZmKPTbVB1OiYkHdWk5v2rnOb9yCIuYE=";
+    hash = "sha256-eeOhFkLyx+smZmKPTbVB1OiYkHdWk5v2rnOb9yCIuYE=";
   };
 
   postPatch = ''

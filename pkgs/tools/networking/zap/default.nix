@@ -5,7 +5,7 @@ stdenv.mkDerivation rec {
   version = "2.15.0";
   src = fetchurl {
     url = "https://github.com/zaproxy/zaproxy/releases/download/v${version}/ZAP_${version}_Linux.tar.gz";
-    sha256 = "sha256-ZBDhlrqrRYqSBOKar7V0X8oAOipsA4byxuXAS2diH6c=";
+    hash = "sha256-ZBDhlrqrRYqSBOKar7V0X8oAOipsA4byxuXAS2diH6c=";
   };
 
   buildInputs = [ jre ];

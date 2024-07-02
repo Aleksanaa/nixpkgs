@@ -24,7 +24,7 @@ in stdenv.mkDerivation {
     owner = "berarma";
     repo = "oversteer";
     rev = version;
-    sha256 = "sha256-J23fgEDkfZMjVEYHaSPbU9zh5CQFjPmqMsm09VybBv8=";
+    hash = "sha256-J23fgEDkfZMjVEYHaSPbU9zh5CQFjPmqMsm09VybBv8=";
   };
 
   buildInputs = [ bash gtk3 ];

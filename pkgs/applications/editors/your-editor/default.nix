@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
     owner = "your-editor";
     repo = "yed";
     rev = version;
-    sha256 = "sha256-QmUquXoDGhoan+Y1kdkTirdkIvYPBkeAEkMLkaE9QKk=";
+    hash = "sha256-QmUquXoDGhoan+Y1kdkTirdkIvYPBkeAEkMLkaE9QKk=";
   };
 
   installPhase = ''

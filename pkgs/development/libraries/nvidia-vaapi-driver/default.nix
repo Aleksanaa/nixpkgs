@@ -20,7 +20,7 @@ stdenv.mkDerivation rec {
     owner = "elFarto";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-ETdHbPI3rZR4026rOT5K9/pjKTZxD5+RioKzUVGMwsA=";
+    hash = "sha256-ETdHbPI3rZR4026rOT5K9/pjKTZxD5+RioKzUVGMwsA=";
   };
 
   patches = [

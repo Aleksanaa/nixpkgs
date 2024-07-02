@@ -16,7 +16,7 @@ stdenv.mkDerivation (finalAttrs: {
     owner = "theory";
     repo = "pgtap";
     rev = "v${finalAttrs.version}";
-    sha256 = "sha256-YgvfLGF7pLVcCKD66NnWAydDxtoYHH1DpLiYTEKHJ0E=";
+    hash = "sha256-YgvfLGF7pLVcCKD66NnWAydDxtoYHH1DpLiYTEKHJ0E=";
   };
 
   nativeBuildInputs = [ postgresql perl perlPackages.TAPParserSourceHandlerpgTAP which ];

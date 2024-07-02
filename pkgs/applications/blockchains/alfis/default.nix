@@ -20,7 +20,7 @@ rustPlatform.buildRustPackage rec {
     owner = "Revertron";
     repo = "Alfis";
     rev = "v${version}";
-    sha256 = "sha256-BNpz4SjWeZ20CxjyEIaFI43X7P3uoyWqOQssFb38Gv8=";
+    hash = "sha256-BNpz4SjWeZ20CxjyEIaFI43X7P3uoyWqOQssFb38Gv8=";
   };
 
   cargoLock = {

@@ -64,7 +64,7 @@ stdenv.mkDerivation rec {
     owner = "ibus";
     repo = "ibus";
     rev = version;
-    sha256 = "sha256-VgSjeKF9DCkDfE9lHEaWpgZb6ibdgoDf/I6qeJf8Ah4=";
+    hash = "sha256-VgSjeKF9DCkDfE9lHEaWpgZb6ibdgoDf/I6qeJf8Ah4=";
   };
 
   patches = [

@@ -34,7 +34,7 @@ in mkDerivation rec {
     owner = "pim";
     repo = "trojita";
     rev = "91087933c5e7a03a8097c0ffe5f7289abcfc123b";
-    sha256 = "sha256-15G9YjT3qBKbeOKfb/IgXOO+DaJaTULP9NJn/MFYZS8=";
+    hash = "sha256-15G9YjT3qBKbeOKfb/IgXOO+DaJaTULP9NJn/MFYZS8=";
   };
 
   buildInputs = [

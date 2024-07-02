@@ -18,7 +18,7 @@ stdenv.mkDerivation {
     group = "artwork";
     repo = "breath";
     rev = "98822e7d903f16116bfb02ff9921824c139d7bbc";
-    sha256 = "sha256-gvzhHOuOhxV3TC3UZeVpxeSDLpCJV+SaapcJ5mbHskY=";
+    hash = "sha256-gvzhHOuOhxV3TC3UZeVpxeSDLpCJV+SaapcJ5mbHskY=";
   };
 
   nativeBuildInputs = [

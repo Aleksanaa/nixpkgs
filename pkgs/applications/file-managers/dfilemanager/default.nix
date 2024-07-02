@@ -8,7 +8,7 @@ mkDerivation {
     owner = "probonopd";
     repo = "dfilemanager";
     rev = "61179500a92575e05cf9a71d401c388726bfd73d";
-    sha256 = "sha256-BHd2dZDVxy82vR6PyXIS5M6zBGJ4bQfOhdBCdOww4kc=";
+    hash = "sha256-BHd2dZDVxy82vR6PyXIS5M6zBGJ4bQfOhdBCdOww4kc=";
   };
 
   nativeBuildInputs = [ cmake ];

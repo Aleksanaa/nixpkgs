@@ -11,7 +11,7 @@ mkDerivation rec {
     owner = "plasma";
     repo = "latte-dock";
     rev = "131ee4d39ce8913b2de8f9a673903225345c7a38";
-    sha256 = "sha256-C1FvgkdxCzny+F6igS2YjsHOpkK34wl6je2tHlGQwU0=";
+    hash = "sha256-C1FvgkdxCzny+F6igS2YjsHOpkK34wl6je2tHlGQwU0=";
   };
 
   buildInputs = [ plasma-framework plasma-wayland-protocols qtwayland xorg.libpthreadstubs xorg.libXdmcp xorg.libSM wayland plasma-workspace plasma-desktop ];

@@ -17,7 +17,7 @@ mkXfceDerivation rec {
   version = "1.2.10";
   rev-prefix = "xfce4-cpugraph-plugin-";
   odd-unstable = false;
-  sha256 = "sha256-VPelWTtFHmU4ZgWLTzZKbtmQ4LOtVwJvpLG9rHtGoNs=";
+  hash = "sha256-VPelWTtFHmU4ZgWLTzZKbtmQ4LOtVwJvpLG9rHtGoNs=";
 
   buildInputs = [
     exo

@@ -15,7 +15,7 @@ python3.pkgs.buildPythonApplication rec {
     owner = "Fallen-Breath";
     repo = "MCDReforged";
     rev = "refs/tags/v${version}";
-    sha256 = "sha256-MLub++mkkB/jshpHJXtqgIhs7Gcb4jHUyHqGE65S8A8=";
+    hash = "sha256-MLub++mkkB/jshpHJXtqgIhs7Gcb4jHUyHqGE65S8A8=";
   };
 
   build-system = [ python3.pkgs.setuptools ];

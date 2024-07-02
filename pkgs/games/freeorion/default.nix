@@ -30,7 +30,7 @@ stdenv.mkDerivation rec {
     owner = "freeorion";
     repo = "freeorion";
     rev = "v${version}";
-    sha256 = "sha256-VvTq6TcLc5BMvRTjVsZ2HA9ug3WAqFuTHIoFQ/9/zWc=";
+    hash = "sha256-VvTq6TcLc5BMvRTjVsZ2HA9ug3WAqFuTHIoFQ/9/zWc=";
   };
 
   buildInputs = [

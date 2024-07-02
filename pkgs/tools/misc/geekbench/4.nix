@@ -14,7 +14,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://cdn.geekbench.com/Geekbench-${version}-Linux.tar.gz";
-    sha256 = "sha256-KVsBE0ueWewmoVY/vzxX2sKhRTzityPNR+wmTwZBWiI=";
+    hash = "sha256-KVsBE0ueWewmoVY/vzxX2sKhRTzityPNR+wmTwZBWiI=";
   };
 
   dontConfigure = true;

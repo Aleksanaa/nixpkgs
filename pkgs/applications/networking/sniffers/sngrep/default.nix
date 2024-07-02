@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
     owner = "irontec";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-EbB5Ok/8RUoNzkgoWIhHTRvlq9Vv2KVx6Hu8ejrLkMc=";
+    hash = "sha256-EbB5Ok/8RUoNzkgoWIhHTRvlq9Vv2KVx6Hu8ejrLkMc=";
   };
 
   nativeBuildInputs = [

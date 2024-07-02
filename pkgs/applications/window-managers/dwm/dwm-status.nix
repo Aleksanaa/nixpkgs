@@ -15,7 +15,7 @@ rustPlatform.buildRustPackage rec {
     owner = "Gerschtli";
     repo = pname;
     rev = version;
-    sha256 = "sha256-GkTPEmsnHFLUvbasAOXOQjFKs1Y9aaG87uyPvnQaT8Y=";
+    hash = "sha256-GkTPEmsnHFLUvbasAOXOQjFKs1Y9aaG87uyPvnQaT8Y=";
   };
 
   nativeBuildInputs = [ makeWrapper pkg-config ];

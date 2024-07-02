@@ -24,7 +24,7 @@ stdenv.mkDerivation rec {
     owner = "AirenSoft";
     repo = "OvenMediaEngine";
     rev = "v${version}";
-    sha256 = "sha256-hkLIJ3vGpnywcOw+bfEsQESGFe1FUcCVJlMlVgGsrNs=";
+    hash = "sha256-hkLIJ3vGpnywcOw+bfEsQESGFe1FUcCVJlMlVgGsrNs=";
   };
 
   sourceRoot = "${src.name}/src";

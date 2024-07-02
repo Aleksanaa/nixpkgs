@@ -10,7 +10,7 @@ stdenv.mkDerivation rec {
     owner = "engla";
     repo = "keybinder";
     rev = "v${version}";
-    sha256 = "sha256-elL6DZtzCwAtoyGZYP0jAma6tHPks2KAtrziWtBENGU=";
+    hash = "sha256-elL6DZtzCwAtoyGZYP0jAma6tHPks2KAtrziWtBENGU=";
   };
 
   nativeBuildInputs = [ pkg-config autoconf automake gobject-introspection ];

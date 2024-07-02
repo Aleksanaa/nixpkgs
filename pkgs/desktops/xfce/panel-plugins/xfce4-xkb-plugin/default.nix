@@ -16,7 +16,7 @@ mkXfceDerivation {
   category = "panel-plugins";
   pname = "xfce4-xkb-plugin";
   version = "0.8.3";
-  sha256 = "sha256-qWxjULrBpueQS3gxwRg49cQ3ovlQ8iWvYZ6Z/THm+/s=";
+  hash = "sha256-qWxjULrBpueQS3gxwRg49cQ3ovlQ8iWvYZ6Z/THm+/s=";
 
   buildInputs = [
     garcon

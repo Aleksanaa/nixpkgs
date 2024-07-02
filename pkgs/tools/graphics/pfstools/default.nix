@@ -10,7 +10,7 @@ mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://sourceforge/${pname}/${version}/${pname}-${version}.tgz";
-    sha256 = "sha256-m/aESYVmMibCGZjutDwmGsuOSziRuakbcpVUQGKJ18o=";
+    hash = "sha256-m/aESYVmMibCGZjutDwmGsuOSziRuakbcpVUQGKJ18o=";
   };
 
   outputs = [ "out" "dev" "man"];

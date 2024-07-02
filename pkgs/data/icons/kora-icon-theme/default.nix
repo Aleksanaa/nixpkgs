@@ -16,7 +16,7 @@ stdenvNoCC.mkDerivation rec  {
     owner = "bikass";
     repo = "kora";
     rev = "v${version}";
-    sha256 = "sha256-cWfQiJeyH/bkvASoe2nl4efHQdMpYFh587d5yycs31k=";
+    hash = "sha256-cWfQiJeyH/bkvASoe2nl4efHQdMpYFh587d5yycs31k=";
   };
 
   nativeBuildInputs = [

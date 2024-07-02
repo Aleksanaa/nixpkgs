@@ -14,7 +14,7 @@ in
       owner = "hzeller";
       repo = "gmrender-resurrect";
       rev = "v${version}";
-      sha256 = "sha256-FR5bMjwPnY1/PNdPRiaxoY1keogq40M06YOaoks4zVY=";
+      hash = "sha256-FR5bMjwPnY1/PNdPRiaxoY1keogq40M06YOaoks4zVY=";
     };
 
     buildInputs = [ gstreamer libupnp ];

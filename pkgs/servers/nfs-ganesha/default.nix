@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
     owner = "nfs-ganesha";
     repo = "nfs-ganesha";
     rev = "V${version}";
-    sha256 = "sha256-YFQcqRZenJUdTnlYM7gPnIxU47dytSHk5ALdbpSf5Ms=";
+    hash = "sha256-YFQcqRZenJUdTnlYM7gPnIxU47dytSHk5ALdbpSf5Ms=";
   };
 
   preConfigure = "cd src";

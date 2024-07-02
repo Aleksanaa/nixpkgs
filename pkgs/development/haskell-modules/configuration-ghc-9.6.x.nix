@@ -104,7 +104,7 @@ self: super: {
         name = "hourglass-pr-56.patch";
         url =
           "https://github.com/vincenthz/hs-hourglass/commit/cfc2a4b01f9993b1b51432f0a95fa6730d9a558a.patch";
-        sha256 = "sha256-gntZf7RkaR4qzrhjrXSC69jE44SknPDBmfs4z9rVa5Q=";
+        hash = "sha256-gntZf7RkaR4qzrhjrXSC69jE44SknPDBmfs4z9rVa5Q=";
       })
     ] (super.hourglass);
 
@@ -148,7 +148,7 @@ self: super: {
       { url = "https://github.com/typeclasses/ascii-predicates/commit/2e6d9ed45987a8566f3a77eedf7836055c076d1a.patch";
         name = "ascii-predicates-pull-1.patch";
         relative = "ascii-predicates";
-        sha256 = "sha256-4JguQFZNRQpjZThLrAo13jNeypvLfqFp6o7c1bnkmZo=";
+        hash = "sha256-4JguQFZNRQpjZThLrAo13jNeypvLfqFp6o7c1bnkmZo=";
       })
     super.ascii-predicates;
 
@@ -159,7 +159,7 @@ self: super: {
       { url = "https://github.com/typeclasses/ascii-numbers/commit/e9474ad91bc997891f1a46afd5d0bdf9b9f7d768.patch";
         name = "ascii-numbers-pull-1.patch";
         relative = "ascii-numbers";
-        sha256 = "sha256-buw1UeW57CFefEfqdDUraSyQ+H/NvCZOv6WF2ORiYQg=";
+        hash = "sha256-buw1UeW57CFefEfqdDUraSyQ+H/NvCZOv6WF2ORiYQg=";
       })
     super.ascii-numbers;
 
@@ -168,7 +168,7 @@ self: super: {
     # https://github.com/vimus/libmpd-haskell/pull/138
     (pkgs.fetchpatch { url = "https://github.com/vimus/libmpd-haskell/compare/95d3b3bab5858d6d1f0e079d0ab7c2d182336acb...5737096a339edc265a663f51ad9d29baee262694.patch";
                        name = "vimus-libmpd-haskell-pull-138.patch";
-                       sha256 = "sha256-CvvylXyRmoCoRJP2MzRwL0SBbrEzDGqAjXS+4LsLutQ=";
+                       hash = "sha256-CvvylXyRmoCoRJP2MzRwL0SBbrEzDGqAjXS+4LsLutQ=";
                      })
     super.libmpd;
 
@@ -180,7 +180,7 @@ self: super: {
       # https://github.com/jgoerzen/configfile/pull/12
       name = "ConfigFile-pr-12.patch";
       url = "https://github.com/jgoerzen/configfile/compare/d0a2e654be0b73eadbf2a50661d00574ad7b6f87...83ee30b43f74d2b6781269072cf5ed0f0e00012f.patch";
-      sha256 = "sha256-b7u9GiIAd2xpOrM0MfILHNb6Nt7070lNRIadn2l3DfQ=";
+      hash = "sha256-b7u9GiIAd2xpOrM0MfILHNb6Nt7070lNRIadn2l3DfQ=";
     })];
   }) super.ConfigFile;
 

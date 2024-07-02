@@ -24,7 +24,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://releases.pagure.org/libosinfo/${pname}-${version}.tar.xz";
-    sha256 = "sha256-i6bTG7XvBwVuOIeeBwZxr7z+wOtBqH+ZUEULu4MbCh0=";
+    hash = "sha256-i6bTG7XvBwVuOIeeBwZxr7z+wOtBqH+ZUEULu4MbCh0=";
   };
 
   patches = [

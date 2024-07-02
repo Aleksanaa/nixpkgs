@@ -22,7 +22,7 @@ stdenv.mkDerivation rec {
     owner = "portaloffreedom";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-jMP8hPv0Rv/OIVIzR/5R8LmEcyzwtcof9Ire86WtISc=";
+    hash = "sha256-jMP8hPv0Rv/OIVIzR/5R8LmEcyzwtcof9Ire86WtISc=";
   };
 
   nativeBuildInputs = [

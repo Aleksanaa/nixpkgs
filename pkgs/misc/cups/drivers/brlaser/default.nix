@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
     owner = "pdewacht";
     repo = "brlaser";
     rev = "2a49e3287c70c254e7e3ac9dabe9d6a07218c3fa";
-    sha256 = "sha256-1fvO9F7ifbYQHAy54mOx052XutfKXSK6iT/zj4Mhbww=";
+    hash = "sha256-1fvO9F7ifbYQHAy54mOx052XutfKXSK6iT/zj4Mhbww=";
   };
 
   nativeBuildInputs = [ cmake ];

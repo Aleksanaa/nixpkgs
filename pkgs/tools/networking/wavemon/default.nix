@@ -14,7 +14,7 @@ stdenv.mkDerivation rec {
     owner = "uoaerg";
     repo = "wavemon";
     rev = "v${version}";
-    sha256 = "sha256-MvIFuPATI0Y7aIYZkb2Yr+iCco4gILHhDU5FWeMCk5Q=";
+    hash = "sha256-MvIFuPATI0Y7aIYZkb2Yr+iCco4gILHhDU5FWeMCk5Q=";
   };
 
   nativeBuildInputs = [

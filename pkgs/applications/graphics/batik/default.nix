@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://apache/xmlgraphics/batik/binaries/batik-bin-${version}.tar.gz";
-    sha256 = "sha256-sEJphF3grlwZCEt3gHHm4JF8RpvKKBLLvKXf2lu/dhA=";
+    hash = "sha256-sEJphF3grlwZCEt3gHHm4JF8RpvKKBLLvKXf2lu/dhA=";
   };
 
   meta = with lib; {

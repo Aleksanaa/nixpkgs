@@ -8,7 +8,7 @@ buildGoModule rec {
     owner = "mongodb";
     repo = "mongo-tools";
     rev = version;
-    sha256 = "sha256-FGgO8JNUU0+WqIh13I0i9cprN8qE/020wDXjFsZdFy0=";
+    hash = "sha256-FGgO8JNUU0+WqIh13I0i9cprN8qE/020wDXjFsZdFy0=";
   };
 
   vendorHash = null;

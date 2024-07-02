@@ -10,7 +10,7 @@ mkDerivation rec {
     owner = "MaartenBaert";
     repo = "ssr";
     rev = version;
-    sha256 = "sha256-cVjQmyk+rCqmDJzdnDk7bQ8kpyD3HtTw3wLVx2thHok=";
+    hash = "sha256-cVjQmyk+rCqmDJzdnDk7bQ8kpyD3HtTw3wLVx2thHok=";
   };
 
   cmakeFlags = [

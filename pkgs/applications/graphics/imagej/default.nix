@@ -13,7 +13,7 @@
 let
   icon = fetchurl {
     url = "https://imagej.net/media/icons/imagej.png";
-    sha256 = "sha256-nU2nWI1wxZB/xlOKsZzdUjj+qiCTjO6GwEKYgZ5Risg=";
+    hash = "sha256-nU2nWI1wxZB/xlOKsZzdUjj+qiCTjO6GwEKYgZ5Risg=";
   };
 in stdenv.mkDerivation rec {
   pname = "imagej";
@@ -21,7 +21,7 @@ in stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://wsr.imagej.net/distros/cross-platform/ij${version}.zip";
-    sha256 = "sha256-MGuUdUDuW3s/yGC68rHr6xxzmYScUjdXRawDpc1UQqw=";
+    hash = "sha256-MGuUdUDuW3s/yGC68rHr6xxzmYScUjdXRawDpc1UQqw=";
   };
   nativeBuildInputs = [ copyDesktopItems makeWrapper unzip wrapGAppsHook3 ];
   buildInputs = [ glib ];

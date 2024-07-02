@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
     owner = "sorah";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-QUy38kJzMbYOyT86as4/yq2ctcszSnB8a3eVWxgd4Fo=";
+    hash = "sha256-QUy38kJzMbYOyT86as4/yq2ctcszSnB8a3eVWxgd4Fo=";
   };
 
   postPatch = ''

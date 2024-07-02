@@ -24,7 +24,7 @@ stdenv.mkDerivation rec {
     owner = "monado";
     repo = "demos/xrgears";
     rev = "6331b98e065494995c9cc4b48ccdd9d5ccaef461";
-    sha256 = "sha256-buw2beTPIWScq+3VQjUyF+uOwS6VF+mnAPHZ2eFGZjc=";
+    hash = "sha256-buw2beTPIWScq+3VQjUyF+uOwS6VF+mnAPHZ2eFGZjc=";
   };
 
   nativeBuildInputs = [

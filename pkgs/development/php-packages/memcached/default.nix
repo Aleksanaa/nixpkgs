@@ -17,7 +17,7 @@ buildPecl rec {
     owner = "php-memcached-dev";
     repo = "php-memcached";
     rev = "v${version}";
-    sha256 = "sha256-g9IzGSZUxLlOE32o9ZJOa3erb5Qs1ntR8nzS3kRd/EU=";
+    hash = "sha256-g9IzGSZUxLlOE32o9ZJOa3erb5Qs1ntR8nzS3kRd/EU=";
   };
 
   internalDeps = [ php.extensions.session ];

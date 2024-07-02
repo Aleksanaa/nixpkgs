@@ -14,7 +14,7 @@ stdenv.mkDerivation rec {
 
   src = fetchgit {
     url = "https://git.code.sf.net/p/qmidiarp/code";
-    sha256 = "sha256-oUdgff2xsXTis+C2Blv0tspWNIMGSODrKxWDpMDYnEU=";
+    hash = "sha256-oUdgff2xsXTis+C2Blv0tspWNIMGSODrKxWDpMDYnEU=";
     rev = "qmidiarp-${version}";
   };
 

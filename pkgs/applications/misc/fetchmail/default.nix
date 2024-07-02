@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://sourceforge/fetchmail/fetchmail-${version}.tar.xz";
-    sha256 = "sha256-pstOqGOsYdJC/7LbVko5EjdhV40+QNcc57bykFvmCdk=";
+    hash = "sha256-pstOqGOsYdJC/7LbVko5EjdhV40+QNcc57bykFvmCdk=";
   };
 
   buildInputs = [ openssl python3 ];

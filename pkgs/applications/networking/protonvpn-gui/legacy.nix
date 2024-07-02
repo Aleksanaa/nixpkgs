@@ -27,7 +27,7 @@ buildPythonApplication rec {
     owner = "ProtonVPN";
     repo = "linux-app";
     rev = "refs/tags/${version}";
-    sha256 = "sha256-MPS4d/yNkccsc/j85h7/4k4xL8uSCvhj/9JWPa7ezLY=";
+    hash = "sha256-MPS4d/yNkccsc/j85h7/4k4xL8uSCvhj/9JWPa7ezLY=";
   };
 
   nativeBuildInputs = [

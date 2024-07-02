@@ -8,6 +8,6 @@ callPackage ./generic.nix (args // rec {
 
   src = fetchurl {
     url = "mirror://sourceforge/tcl/tcl${version}-src.tar.gz";
-    sha256 = "sha256-Q6H650EvYf8R3iz9BdKM/Dpzdi81SkF8YjcKVOLK8GY=";
+    hash = "sha256-Q6H650EvYf8R3iz9BdKM/Dpzdi81SkF8YjcKVOLK8GY=";
   };
 })

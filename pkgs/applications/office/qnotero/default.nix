@@ -9,7 +9,7 @@ python3Packages.buildPythonPackage rec {
     owner = "ealbiter";
     repo = pname;
     rev = "refs/tags/v${version}";
-    sha256 = "sha256-Rym7neluRbYCpuezRQyLc6gSl3xbVR9fvhOxxW5+Nzo=";
+    hash = "sha256-Rym7neluRbYCpuezRQyLc6gSl3xbVR9fvhOxxW5+Nzo=";
   };
 
   propagatedBuildInputs = [ python3Packages.pyqt5 wrapQtAppsHook ];

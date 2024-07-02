@@ -65,7 +65,7 @@ stdenv.mkDerivation rec {
     owner = "linuxhw";
     repo = pname;
     rev = version;
-    sha256 = "sha256-WlLSgjVLqGGtwCyyUn9X3XbE2Yhz6LD245+U2JgGd+k=";
+    hash = "sha256-WlLSgjVLqGGtwCyyUn9X3XbE2Yhz6LD245+U2JgGd+k=";
   };
 
   makeFlags = [ "prefix=$(out)" ];

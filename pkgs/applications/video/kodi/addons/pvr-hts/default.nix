@@ -8,7 +8,7 @@ buildKodiBinaryAddon rec {
     owner = "kodi-pvr";
     repo = "pvr.hts";
     rev = "${version}-${rel}";
-    sha256 = "sha256-4jHcUjGarLHsn5CjBLWB1wQNjBBw4ftMuDY5uFAHAzY=";
+    hash = "sha256-4jHcUjGarLHsn5CjBLWB1wQNjBBw4ftMuDY5uFAHAzY=";
   };
 
   meta = with lib; {

@@ -7,12 +7,12 @@ stdenv.mkDerivation rec {
   # We use Arch Linux package as a snapshot, because upstream database is updated in-place.
   geoip = fetchurl {
     url = "https://archive.archlinux.org/packages/g/geoip-database/geoip-database-${version}-1-any.pkg.tar.zst";
-    sha256 = "sha256-H6tv0OEf04TvbhbWsm5vwq+lBj4GSyOezd258VOT8yQ=";
+    hash = "sha256-H6tv0OEf04TvbhbWsm5vwq+lBj4GSyOezd258VOT8yQ=";
   };
 
   extra = fetchurl {
     url = "https://archive.archlinux.org/packages/g/geoip-database-extra/geoip-database-extra-${version}-1-any.pkg.tar.zst";
-    sha256 = "sha256-Zb5m5TLJ1vcPKypZ3NliaL9oluz97ukTVGlOehuzyPU=";
+    hash = "sha256-Zb5m5TLJ1vcPKypZ3NliaL9oluz97ukTVGlOehuzyPU=";
   };
 
   nativeBuildInputs = [ zstd ];

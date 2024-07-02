@@ -104,7 +104,7 @@ in stdenv.mkDerivation (finalAttrs: {
     owner = "arakiken";
     repo = "mlterm";
     rev = finalAttrs.version;
-    sha256 = "sha256-gfs5cdwUUwSBWwJJSaxrQGWJvLkI27RMlk5QvDALEDg=";
+    hash = "sha256-gfs5cdwUUwSBWwJJSaxrQGWJvLkI27RMlk5QvDALEDg=";
   };
 
   nativeBuildInputs = [

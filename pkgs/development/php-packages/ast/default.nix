@@ -15,7 +15,7 @@ buildPecl {
     owner = "nikic";
     repo = "php-ast";
     rev = "v${version}";
-    sha256 = "sha256-ulMLufhLf9E11Z6+rVBZ14CY3ILp/NrhMjRXmrUHnBA=";
+    hash = "sha256-ulMLufhLf9E11Z6+rVBZ14CY3ILp/NrhMjRXmrUHnBA=";
   };
 
   meta = with lib; {

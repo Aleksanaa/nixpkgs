@@ -24,7 +24,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url    = "https://github.com/verifast/verifast/releases/download/${version}/${pname}-${version}-linux.tar.gz";
-    sha256 = "sha256-PlRsf4wFXoM+E+60SbeKzs/RZK0HNVirX47AnI6NeYM=";
+    hash = "sha256-PlRsf4wFXoM+E+60SbeKzs/RZK0HNVirX47AnI6NeYM=";
   };
 
   dontConfigure = true;

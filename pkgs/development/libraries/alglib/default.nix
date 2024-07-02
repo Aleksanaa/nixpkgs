@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://www.alglib.net/translator/re/alglib-${version}.cpp.gpl.tgz";
-    sha256 = "sha256-U7/ukBXdwC8GkpevFfSfbgbiyOf7CkDv0PUAL8BnAag=";
+    hash = "sha256-U7/ukBXdwC8GkpevFfSfbgbiyOf7CkDv0PUAL8BnAag=";
   };
 
   nativeBuildInputs = [

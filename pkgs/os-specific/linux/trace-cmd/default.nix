@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
   patches = [
     # Upstream patches to be released in the next version
     (fetchpatch {
-      sha256 = "sha256-eGuHODm29M7rbGYsyXUPoNe1xsIG3eJYhwXQDakRJHA=";
+      hash = "sha256-eGuHODm29M7rbGYsyXUPoNe1xsIG3eJYhwXQDakRJHA=";
       url = "https://git.kernel.org/pub/scm/utils/trace-cmd/trace-cmd.git/patch/?id=6b07a7df871342068604b204711ab741d421d051";
     })
   ];

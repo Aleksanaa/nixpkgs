@@ -11,7 +11,7 @@ python3Packages.buildPythonApplication rec {
 
   src = fetchurl {
     url = "https://launchpad.net/soundconverter/trunk/${version}/+download/${pname}-${version}.tar.gz";
-    sha256 = "sha256-hzIG/4LD3705erPYvXb7uoRwF9LtKKIKB3jrhpYMsZ0=";
+    hash = "sha256-hzIG/4LD3705erPYvXb7uoRwF9LtKKIKB3jrhpYMsZ0=";
   };
 
   buildInputs = [

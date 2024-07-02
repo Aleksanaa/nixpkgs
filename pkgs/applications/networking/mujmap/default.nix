@@ -14,7 +14,7 @@ rustPlatform.buildRustPackage rec {
     owner = "elizagamedev";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-Qb9fEPQrdn+Ek9bdOMfaPIxlGGpQ9RfQZOeeqoOf17E=";
+    hash = "sha256-Qb9fEPQrdn+Ek9bdOMfaPIxlGGpQ9RfQZOeeqoOf17E=";
   };
 
   cargoSha256 = "sha256-nnAYjutjxtEpDNoWTnlESDO4Haz14wZxY4gdyzdLgBU=";

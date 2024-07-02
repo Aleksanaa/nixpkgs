@@ -11,7 +11,7 @@ stdenv.mkDerivation {
     owner = "freifunk-gluon";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-dv0guQTmot5UO1GkMgzvD6uJFyum5kV89LI3xWS1DZA=";
+    hash = "sha256-dv0guQTmot5UO1GkMgzvD6uJFyum5kV89LI3xWS1DZA=";
   };
 
   nativeBuildInputs = with pkgs; [ cmake pkg-config doxygen ];

@@ -44,7 +44,7 @@ in stdenv.mkDerivation rec {
     owner = "benjamimgois";
     repo = pname;
     rev = version;
-    sha256 = "sha256-oXkGrMHjs8uui0pzGYW8jnttet/5IX0r8eat0n5saFk=";
+    hash = "sha256-oXkGrMHjs8uui0pzGYW8jnttet/5IX0r8eat0n5saFk=";
   };
 
   outputs = [ "out" "man" ];

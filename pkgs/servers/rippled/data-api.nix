@@ -12,7 +12,7 @@ in nodePackages.buildNodePackage rec {
     owner = "ripple";
     repo = "ripple-data-api";
     rev = "c56b860105f36c1c44ae011189d495272648c589";
-    sha256 = "sha256-QEBdYdW55sAz6jshIAr2dSfXuqE/vqA2/kBeoxf75a8=";
+    hash = "sha256-QEBdYdW55sAz6jshIAr2dSfXuqE/vqA2/kBeoxf75a8=";
   };
 
   deps = (filter (v: nixType v == "derivation") (attrValues np));

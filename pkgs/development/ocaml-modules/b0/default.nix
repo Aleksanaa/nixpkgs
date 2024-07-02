@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "${meta.homepage}/releases/b0-${version}.tbz";
-    sha256 = "sha256-ty04JQcP4RCme/VQw0ko2IBebWWX5cBU6nRTTeV1I/I=";
+    hash = "sha256-ty04JQcP4RCme/VQw0ko2IBebWWX5cBU6nRTTeV1I/I=";
   };
 
   strictDeps = true;

@@ -37,7 +37,7 @@ in
     '';
     src = fetchurl {
       url = "https://download.qoppa.com/pdfstudioviewer/PDFStudioViewer_linux64.deb";
-      sha256 = "sha256-JQx5yJLjwW4VRXLM+/VNDXFN8ZcHJxlxyKDIzc++hEs=";
+      hash = "sha256-JQx5yJLjwW4VRXLM+/VNDXFN8ZcHJxlxyKDIzc++hEs=";
     };
     jdk = jdk17;
   };
@@ -47,7 +47,7 @@ in
     version = "${year}.2.2";
     src = fetchurl {
       url = "https://download.qoppa.com/pdfstudio/v${year}/PDFStudio_v${dot2dash version}_linux64.deb";
-      sha256 = "sha256-HdkwRMqwquAaW6l3AukGReFtw2f5n36tZ8vXo6QiPvU=";
+      hash = "sha256-HdkwRMqwquAaW6l3AukGReFtw2f5n36tZ8vXo6QiPvU=";
     };
     extraBuildInputs = [
       (lib.getLib stdenv.cc.cc)  # for libstdc++.so.6 and libgomp.so.1
@@ -60,7 +60,7 @@ in
     version = "${year}.2.5";
     src = fetchurl {
       url = "https://download.qoppa.com/pdfstudio/v${year}/PDFStudio_v${dot2dash version}_linux64.deb";
-      sha256 = "sha256-3faZyWUnFe//S+gOskWhsZ6jzHw67FRsv/xP77R1jj4=";
+      hash = "sha256-3faZyWUnFe//S+gOskWhsZ6jzHw67FRsv/xP77R1jj4=";
     };
     extraBuildInputs = [
       (lib.getLib stdenv.cc.cc)  # for libstdc++.so.6 and libgomp.so.1
@@ -73,7 +73,7 @@ in
     version = "${year}.0.3";
     src = fetchurl {
       url = "https://download.qoppa.com/pdfstudio/v${year}/PDFStudio_v${dot2dash version}_linux64.deb";
-      sha256 = "sha256-Po7BMmEWoC46rP7tUwZT9Ji/Wi8lKc6WN8x47fx2DXg=";
+      hash = "sha256-Po7BMmEWoC46rP7tUwZT9Ji/Wi8lKc6WN8x47fx2DXg=";
     };
     extraBuildInputs = [
       (lib.getLib stdenv.cc.cc)  # for libstdc++.so.6 and libgomp.so.1

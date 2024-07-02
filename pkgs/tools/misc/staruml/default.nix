@@ -29,7 +29,7 @@ stdenv.mkDerivation (finalAttrs: {
 
   src = fetchurl {
       url = "https://files.staruml.io/releases-v6/StarUML_${finalAttrs.version}_amd64.deb";
-      sha256 = "sha256-jAvtcgn51RzO+fkS1LucJs0GOK/x7/7+mWhrNu/dyjg=";
+      hash = "sha256-jAvtcgn51RzO+fkS1LucJs0GOK/x7/7+mWhrNu/dyjg=";
     };
 
   nativeBuildInputs = [ wrapGAppsHook3 dpkg ];

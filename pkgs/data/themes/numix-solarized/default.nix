@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
     owner = "Ferdi265";
     repo = pname;
     rev = version;
-    sha256 = "sha256-r5xCe8Ew+/SuCUaZ0yjlumORTy/y1VwbQQjQ6uEyGsY=";
+    hash = "sha256-r5xCe8Ew+/SuCUaZ0yjlumORTy/y1VwbQQjQ6uEyGsY=";
   };
 
   nativeBuildInputs = [ python3 sassc glib gdk-pixbuf inkscape ];

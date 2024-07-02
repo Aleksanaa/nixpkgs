@@ -14,7 +14,7 @@ buildOctavePackage rec {
     owner = "gnu-octave";
     repo = "pkg-control";
     rev = "refs/tags/control-${version}";
-    sha256 = "sha256-7beEsdrne50NY4lGCotxGXwwWnMzUR2CKCc20OCjd0g=";
+    hash = "sha256-7beEsdrne50NY4lGCotxGXwwWnMzUR2CKCc20OCjd0g=";
   };
 
   # Running autoreconfHook inside the src directory fixes a compile issue about

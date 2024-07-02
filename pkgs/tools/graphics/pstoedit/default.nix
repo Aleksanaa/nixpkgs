@@ -9,7 +9,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://sourceforge/pstoedit/pstoedit-${version}.tar.gz";
-    sha256 = "sha256-jMKONLx/iNkTeA+AdOgT3VqqCsIFams21L8ASg6Q2AE=";
+    hash = "sha256-jMKONLx/iNkTeA+AdOgT3VqqCsIFams21L8ASg6Q2AE=";
   };
 
   #

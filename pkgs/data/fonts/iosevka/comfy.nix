@@ -25,7 +25,7 @@ let
     owner = "protesilaos";
     repo = "iosevka-comfy";
     rev = version;
-    sha256 = "sha256-kfEEJ6F1/dsG9CSLWcr0QOOnQxHPgPgb4QhgFrHTklE=";
+    hash = "sha256-kfEEJ6F1/dsG9CSLWcr0QOOnQxHPgPgb4QhgFrHTklE=";
   };
   privateBuildPlan = src.outPath + "/private-build-plans.toml";
   makeIosevkaFont = set:

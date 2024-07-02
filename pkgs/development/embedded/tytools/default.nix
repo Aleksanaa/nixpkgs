@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
     owner = "Koromix";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-MKhh0ooDZI1Ks8vVuPRiHhpOqStetGaAhE2ulvBstxA=";
+    hash = "sha256-MKhh0ooDZI1Ks8vVuPRiHhpOqStetGaAhE2ulvBstxA=";
   };
 
   nativeBuildInputs = [ cmake pkg-config wrapQtAppsHook ];

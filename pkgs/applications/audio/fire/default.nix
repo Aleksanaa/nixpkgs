@@ -27,7 +27,7 @@ let
     owner = "cameron314";
     repo = "readerwriterqueue";
     rev = "v1.0.6";
-    sha256 = "sha256-g7NX7Ucl5GWw3u6TiUOITjhv7492ByTzACtWR0Ph2Jc=";
+    hash = "sha256-g7NX7Ucl5GWw3u6TiUOITjhv7492ByTzACtWR0Ph2Jc=";
   };
 in
 stdenv.mkDerivation rec {
@@ -39,7 +39,7 @@ stdenv.mkDerivation rec {
     repo = "Fire";
     rev = "v${version}";
     fetchSubmodules = true;
-    sha256 = "sha256-X3pzTrNd0G6BouCDkr3dukQTFDzZ7qblIYxFQActKGE=";
+    hash = "sha256-X3pzTrNd0G6BouCDkr3dukQTFDzZ7qblIYxFQActKGE=";
   };
 
   patches = [

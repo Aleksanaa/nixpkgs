@@ -12,7 +12,7 @@ pythonPackages.buildPythonApplication rec {
     owner = "~thestr4ng3r";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-GFReOgM8zi5oyePpJm5HxtizUVqqUUINTRwyG/LGWB8=";
+    hash = "sha256-GFReOgM8zi5oyePpJm5HxtizUVqqUUINTRwyG/LGWB8=";
   };
 
   nativeBuildInputs = [

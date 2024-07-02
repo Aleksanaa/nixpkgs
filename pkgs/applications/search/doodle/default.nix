@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://grothoff.org/christian/doodle/download/doodle-${version}.tar.gz";
-    sha256 = "sha256-dtRPfUjhBNgN+5zHMYmszISmBv1+K6yjKsbQBiAXWRA=";
+    hash = "sha256-dtRPfUjhBNgN+5zHMYmszISmBv1+K6yjKsbQBiAXWRA=";
   };
 
   meta = {

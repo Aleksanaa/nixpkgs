@@ -18,7 +18,7 @@ buildGoModule rec {
     owner = "common-fate";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-YOEuAjVIOmQdudjPc1ooGWRjm2ADemS7xSntho1k5KA=";
+    hash = "sha256-YOEuAjVIOmQdudjPc1ooGWRjm2ADemS7xSntho1k5KA=";
   };
 
   vendorHash = "sha256-/X7kHaBZyDV4IqvKqyR7pAQLgYqIvcvSSh0NdrA5d3I=";

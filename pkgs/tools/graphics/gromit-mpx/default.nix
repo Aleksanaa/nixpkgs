@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
     owner = "bk138";
     repo = "gromit-mpx";
     rev = version;
-    sha256 = "sha256-olDQGw0qDWwXpqRopVoEPDXLRpFiiBo+/jiVeL7R6QA=";
+    hash = "sha256-olDQGw0qDWwXpqRopVoEPDXLRpFiiBo+/jiVeL7R6QA=";
   };
 
   nativeBuildInputs = [ cmake pkg-config wrapGAppsHook3 ];

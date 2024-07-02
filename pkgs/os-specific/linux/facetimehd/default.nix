@@ -18,7 +18,7 @@ stdenv.mkDerivation rec {
     owner = "patjak";
     repo = "facetimehd";
     rev = version;
-    sha256 = "sha256-h5Erga2hlDIWdDKQbkmkLY1aNCibFM7SVSnxVcoToaM=";
+    hash = "sha256-h5Erga2hlDIWdDKQbkmkLY1aNCibFM7SVSnxVcoToaM=";
   };
 
   preConfigure = ''

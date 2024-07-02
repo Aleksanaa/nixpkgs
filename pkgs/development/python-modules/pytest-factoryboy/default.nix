@@ -27,7 +27,7 @@ buildPythonPackage rec {
     owner = "pytest-dev";
     repo = "pytest-factoryboy";
     rev = version;
-    sha256 = "sha256-GYqYwtbmMWVqImVPPBbZNRJJGcbksUPsIbi6QuPRMco=";
+    hash = "sha256-GYqYwtbmMWVqImVPPBbZNRJJGcbksUPsIbi6QuPRMco=";
   };
 
   nativeBuildInputs = [ poetry-core ];

@@ -11,7 +11,7 @@ buildPythonApplication rec {
     owner = "jendrikseipp";
     repo = "rednotebook";
     rev = "refs/tags/v${version}";
-    sha256 = "sha256-K4uEZZZXU2mZ61t6Ak5mpiCsm/mcNhm+xJSzfJPiuwo=";
+    hash = "sha256-K4uEZZZXU2mZ61t6Ak5mpiCsm/mcNhm+xJSzfJPiuwo=";
   };
 
   # We have not packaged tests.

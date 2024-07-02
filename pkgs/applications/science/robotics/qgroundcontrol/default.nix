@@ -67,7 +67,7 @@ stdenv.mkDerivation rec {
     owner = "mavlink";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-a0+cpT413qi88PvaWQPxKABHfK7vbPE7B42n84n/SAk=";
+    hash = "sha256-a0+cpT413qi88PvaWQPxKABHfK7vbPE7B42n84n/SAk=";
     fetchSubmodules = true;
   };
 

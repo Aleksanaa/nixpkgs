@@ -13,7 +13,7 @@ stdenv.mkDerivation (finalAttrs: {
     owner = "ERGO-Code";
     repo = "HiGHS";
     rev = "v${finalAttrs.version}";
-    sha256 = "sha256-SJbS0403HyiW8zPrLsNWp8+h/wL7UdrS+QOEjLf1jzE=";
+    hash = "sha256-SJbS0403HyiW8zPrLsNWp8+h/wL7UdrS+QOEjLf1jzE=";
   };
 
   strictDeps = true;

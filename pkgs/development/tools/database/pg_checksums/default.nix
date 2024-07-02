@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
     owner = "credativ";
     repo = pname;
     rev = version;
-    sha256 = "sha256-Ij+4ceQauX3tC97ftk/JS3/WlocPBf7A7PJrylpTLzw=";
+    hash = "sha256-Ij+4ceQauX3tC97ftk/JS3/WlocPBf7A7PJrylpTLzw=";
   };
 
   nativeBuildInputs = [ libxslt.bin ];

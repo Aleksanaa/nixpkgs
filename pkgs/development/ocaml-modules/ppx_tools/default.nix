@@ -7,7 +7,7 @@ else
 let param =
   let v6_6 = {
     version = "6.6";
-    sha256 = "sha256-QhuaQ9346a3neoRM4GrOVzjR8fg9ysMZR1VzNgyIQtc=";
+    hash = "sha256-QhuaQ9346a3neoRM4GrOVzjR8fg9ysMZR1VzNgyIQtc=";
     nativeBuildInputs = [cppo];
     buildInputs = [cppo];
   }; in

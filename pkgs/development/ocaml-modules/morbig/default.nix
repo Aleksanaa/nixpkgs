@@ -10,7 +10,7 @@ buildDunePackage rec {
     owner = "colis-anr";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-fOBaJHHP/Imi9UDLflI52OdKDcmMxpl+NH3pfofmv/o=";
+    hash = "sha256-fOBaJHHP/Imi9UDLflI52OdKDcmMxpl+NH3pfofmv/o=";
   };
 
   duneVersion = "3";

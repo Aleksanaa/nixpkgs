@@ -10,7 +10,7 @@ buildGoModule rec {
     owner = "spiffe";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-wubrZJBPLA83VB57UVKLuh2cmyXHouwN4BVPiHFl+1s=";
+    hash = "sha256-wubrZJBPLA83VB57UVKLuh2cmyXHouwN4BVPiHFl+1s=";
   };
 
   vendorHash = "sha256-tx0zIr9rXuOvt+77Sp6dIdtN21fDX5FdnTxGpHWo7+A=";

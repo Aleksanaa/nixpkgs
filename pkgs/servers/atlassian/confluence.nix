@@ -13,7 +13,7 @@ lib.warnIf (crowdProperties != null) "Using `crowdProperties` is deprecated!"
 
   src = fetchurl {
     url = "https://product-downloads.atlassian.com/software/confluence/downloads/${pname}-${version}.tar.gz";
-    sha256 = "sha256-Z4a4YZO9UnZSAZYB0FHRsX8QwX0ju3SeISsQquyA+w0=";
+    hash = "sha256-Z4a4YZO9UnZSAZYB0FHRsX8QwX0ju3SeISsQquyA+w0=";
   };
 
   buildPhase = ''

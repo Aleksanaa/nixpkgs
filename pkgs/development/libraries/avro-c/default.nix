@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://apache/avro/avro-${version}/c/avro-c-${version}.tar.gz";
-    sha256 = "sha256-chfKrPt9XzRhF2ZHOmbC4nm8e/rxuimMfwSzsvulc2U=";
+    hash = "sha256-chfKrPt9XzRhF2ZHOmbC4nm8e/rxuimMfwSzsvulc2U=";
   };
 
   postPatch = ''

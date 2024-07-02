@@ -7,7 +7,7 @@ stdenv.mkDerivation rec {
     owner = "ocaml";
     repo = "ocamlbuild";
     rev = version;
-    sha256 = "sha256-dfcNu4ugOYu/M0rRQla7lXum/g1UzncdLGmpPYo0QUM=";
+    hash = "sha256-dfcNu4ugOYu/M0rRQla7lXum/g1UzncdLGmpPYo0QUM=";
   };
 
   createFindlibDestdir = true;

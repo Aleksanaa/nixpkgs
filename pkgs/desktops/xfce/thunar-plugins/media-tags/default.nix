@@ -15,7 +15,7 @@ mkXfceDerivation {
   version = "0.4.0";
   odd-unstable = false;
 
-  sha256 = "sha256-2WA7EtDmNl8XP0wK00iyQcSqV3mnfHNJZTKhBJ/YWPQ=";
+  hash = "sha256-2WA7EtDmNl8XP0wK00iyQcSqV3mnfHNJZTKhBJ/YWPQ=";
 
   nativeBuildInputs = [
     intltool

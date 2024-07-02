@@ -18,7 +18,7 @@ mkXfceDerivation {
   version = "0.6.2";
   odd-unstable = false;
 
-  sha256 = "sha256-A4siNxbTf9ObJJg8inPuH7Lo4dckLbFljV6aPFQxRto=";
+  hash = "sha256-A4siNxbTf9ObJJg8inPuH7Lo4dckLbFljV6aPFQxRto=";
 
   patches = [
     # shortcuts-plugin: Fix shortcuts-editor include

@@ -16,7 +16,7 @@ mkXfceDerivation {
   pname = "xfce4-dev-tools";
   version = "4.18.1";
 
-  sha256 = "sha256-JUyFlifNVhSnIMaI9qmgCtGIgkpmzYybMfuhPgJiDOg=";
+  hash = "sha256-JUyFlifNVhSnIMaI9qmgCtGIgkpmzYybMfuhPgJiDOg=";
 
   nativeBuildInputs = [
     autoreconfHook

@@ -9,7 +9,7 @@ stdenv.mkDerivation rec {
       "ftp://ftp.invisible-island.net/mawk/mawk-${version}.tgz"
       "https://invisible-mirror.net/archives/mawk/mawk-${version}.tgz"
     ];
-    sha256 = "sha256-TpF+h6ep+692mVeEpLC13A3ZVLl30JgwMPePagexp2U=";
+    hash = "sha256-TpF+h6ep+692mVeEpLC13A3ZVLl30JgwMPePagexp2U=";
   };
 
   depsBuildBuild = [ buildPackages.stdenv.cc ];

@@ -22,7 +22,7 @@ stdenv.mkDerivation rec {
     owner = "X0rg";
     repo = "CPU-X";
     rev = "v${version}";
-    sha256 = "sha256-8jJP0gxH3B6qLrhKNa4P9ZfSjxaXTeBB1+UuadflLQo=";
+    hash = "sha256-8jJP0gxH3B6qLrhKNa4P9ZfSjxaXTeBB1+UuadflLQo=";
   };
 
   nativeBuildInputs = [ cmake pkg-config wrapGAppsHook3 nasm makeWrapper ];

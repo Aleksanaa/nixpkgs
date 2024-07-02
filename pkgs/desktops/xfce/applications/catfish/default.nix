@@ -23,7 +23,7 @@ python3Packages.buildPythonApplication rec {
     owner = "apps";
     repo = pname;
     rev = "${pname}-${version}";
-    sha256 = "sha256-hfbIgSFn48++eGrJXzhXRxhWkrjgTYsr7BX/n0EXhGo=";
+    hash = "sha256-hfbIgSFn48++eGrJXzhXRxhWkrjgTYsr7BX/n0EXhGo=";
   };
 
   nativeBuildInputs = [

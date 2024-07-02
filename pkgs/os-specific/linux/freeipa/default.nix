@@ -68,7 +68,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://releases.pagure.org/freeipa/freeipa-${version}.tar.gz";
-    sha256 = "sha256-SPZ+QgssDKG1Hz1oqtVdg864qtcvncuOlzTWjN4+loM=";
+    hash = "sha256-SPZ+QgssDKG1Hz1oqtVdg864qtcvncuOlzTWjN4+loM=";
   };
 
   nativeBuildInputs = [

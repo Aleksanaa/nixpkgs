@@ -8,7 +8,7 @@ in stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://kde/stable/qca/${version}/qca-${version}.tar.xz";
-    sha256 = "sha256-SHWcqGoCAkYdkIumYTQ4DMO7fSD+08AxufwCiXlqgmQ=";
+    hash = "sha256-SHWcqGoCAkYdkIumYTQ4DMO7fSD+08AxufwCiXlqgmQ=";
   };
 
   buildInputs = [ openssl qtbase qt5compat ];

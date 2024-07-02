@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
     owner = "simdjson";
     repo = "simdjson";
     rev = "v${version}";
-    sha256 = "sha256-iTlIdLNOr1rRBnCwnI34e2RLL18Fmc/kRSMdZcOLp98=";
+    hash = "sha256-iTlIdLNOr1rRBnCwnI34e2RLL18Fmc/kRSMdZcOLp98=";
   };
 
   nativeBuildInputs = [ cmake ];

@@ -46,7 +46,7 @@ buildPythonPackage rec {
     owner = "mapillary";
     repo = "OpenSfM";
     rev = "7f170d0dc352340295ff480378e3ac37d0179f8e";
-    sha256 = "sha256-l/HTVenC+L+GpMNnDgnSGZ7+Qd2j8b8cuTs3SmORqrg=";
+    hash = "sha256-l/HTVenC+L+GpMNnDgnSGZ7+Qd2j8b8cuTs3SmORqrg=";
   };
   patches = [
     ./0002-cmake-find-system-distributed-gtest.patch

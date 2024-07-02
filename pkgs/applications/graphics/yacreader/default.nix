@@ -11,7 +11,7 @@ mkDerivation rec {
     owner = "YACReader";
     repo = pname;
     rev = version;
-    sha256 = "sha256-gQ4Aaapini6j3lCtowFbrfwbe91aFl50hp1EfxTO8uY=";
+    hash = "sha256-gQ4Aaapini6j3lCtowFbrfwbe91aFl50hp1EfxTO8uY=";
   };
 
   nativeBuildInputs = [ qmake pkg-config ];

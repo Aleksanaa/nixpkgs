@@ -15,7 +15,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "http://build.clusterlabs.org/corosync/releases/${pname}-${version}.tar.gz";
-    sha256 = "sha256-cCNUT6O7NsALvKvZk1tyabQdiWc4oQjtMuqbnJsn7D0=";
+    hash = "sha256-cCNUT6O7NsALvKvZk1tyabQdiWc4oQjtMuqbnJsn7D0=";
   };
 
   nativeBuildInputs = [ makeWrapper pkg-config ];

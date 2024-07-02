@@ -10,6 +10,6 @@ rec {
     owner = "linuxmint";
     repo = "nemo-extensions";
     rev = version;
-    sha256 = "sha256-zuE0SO5VJ2kKjK7JgsSf+wJgfyffTHhfICslEoPKK8Q=";
+    hash = "sha256-zuE0SO5VJ2kKjK7JgsSf+wJgfyffTHhfICslEoPKK8Q=";
   };
 }

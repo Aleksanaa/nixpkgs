@@ -18,7 +18,7 @@ stdenv.mkDerivation rec {
     owner = "frankosterfeld";
     repo = "qtkeychain";
     rev = version;
-    sha256 = "sha256-+1WX3ARH+jWeDiaJnX+ZlRMj+l3qvgBwcGKjB9QEJNI=";
+    hash = "sha256-+1WX3ARH+jWeDiaJnX+ZlRMj+l3qvgBwcGKjB9QEJNI=";
   };
 
   dontWrapQtApps = true;

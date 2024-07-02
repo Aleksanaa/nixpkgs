@@ -14,7 +14,7 @@ let
     owner = "ForkAwesome";
     repo = "Fork-Awesome";
     rev = "1.2.0";
-    sha256 = "sha256-zG6/0dWjU7/y/oDZuSEv+54Mchng64LVyV8bluskYzc=";
+    hash = "sha256-zG6/0dWjU7/y/oDZuSEv+54Mchng64LVyV8bluskYzc=";
   };
 in stdenv.mkDerivation (finalAttrs: {
   pname = "qtforkawesome";
@@ -24,7 +24,7 @@ in stdenv.mkDerivation (finalAttrs: {
     owner = "Martchus";
     repo = "qtforkawesome";
     rev = "v${finalAttrs.version}";
-    sha256 = "sha256-9e2TCg3itYtHZSvzCoaiIZmgsCMIoebh6C/XWtKz/2Q=";
+    hash = "sha256-9e2TCg3itYtHZSvzCoaiIZmgsCMIoebh6C/XWtKz/2Q=";
   };
 
   nativeBuildInputs = [

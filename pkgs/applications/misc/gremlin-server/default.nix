@@ -4,7 +4,7 @@ stdenv.mkDerivation rec {
   version = "3.7.0";
   src = fetchzip {
     url = "https://downloads.apache.org/tinkerpop/${version}/apache-tinkerpop-gremlin-server-${version}-bin.zip";
-    sha256 = "sha256-cS7R7Raz5tkrr5DNeW7jbEYDee2OgE4htTXJRnqXlqI=";
+    hash = "sha256-cS7R7Raz5tkrr5DNeW7jbEYDee2OgE4htTXJRnqXlqI=";
   };
 
   nativeBuildInputs = [ makeWrapper ];

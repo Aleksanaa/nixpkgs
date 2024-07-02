@@ -15,7 +15,7 @@ mkDerivation {
     owner = "ghcjs";
     repo = "ghcjs-base";
     rev = "fbaae59b05b020e91783df122249095e168df53f";
-    sha256 = "sha256-x6eCAK1Hne0QkV3Loi9YpxbleNHU593E4AO8cbk2vUc=";
+    hash = "sha256-x6eCAK1Hne0QkV3Loi9YpxbleNHU593E4AO8cbk2vUc=";
   };
   libraryHaskellDepends = [
     aeson attoparsec base binary bytestring containers deepseq dlist

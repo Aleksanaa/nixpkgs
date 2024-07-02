@@ -26,7 +26,7 @@ buildPythonPackage rec {
     owner = "petretiandrea";
     repo = "plugp100";
     rev = version;
-    sha256 = "sha256-V+9cVBMN8H4oFU51T9BDrLF46xgQHqIsMj8nuPedUGA=";
+    hash = "sha256-V+9cVBMN8H4oFU51T9BDrLF46xgQHqIsMj8nuPedUGA=";
   };
 
   propagatedBuildInputs =

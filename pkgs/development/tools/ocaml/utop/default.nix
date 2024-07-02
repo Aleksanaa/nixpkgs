@@ -13,7 +13,7 @@ buildDunePackage rec {
 
   src = fetchurl {
     url = "https://github.com/ocaml-community/utop/releases/download/${version}/utop-${version}.tbz";
-    sha256 = "sha256-D9WpvFtFhSSnFGOh/gzRb5t74TZzrjAxGLchbg0nO6k=";
+    hash = "sha256-D9WpvFtFhSSnFGOh/gzRb5t74TZzrjAxGLchbg0nO6k=";
   };
 
   nativeBuildInputs = [ makeWrapper cppo ];

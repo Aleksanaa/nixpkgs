@@ -21,7 +21,7 @@ in stdenv.mkDerivation (rec {
 
   src = fetchurl {
     url = "mirror://gnupg/${pname}/${pname}-${version}.tar.bz2";
-    sha256 = "sha256-i3nVRjnb9KvAi1QG+y835mmi3sCR3QJPuH3TZxMcY6k=";
+    hash = "sha256-i3nVRjnb9KvAi1QG+y835mmi3sCR3QJPuH3TZxMcY6k=";
   };
 
   postPatch = ''

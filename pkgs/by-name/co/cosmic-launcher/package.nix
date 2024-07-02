@@ -20,7 +20,7 @@ rustPlatform.buildRustPackage rec {
     owner = "pop-os";
     repo = pname;
     rev = "d5098e3674d1044645db256347f232fb33334376";
-    sha256 = "sha256-2nbjw6zynlmzoMBZhnQSnnQIgxkyq8JA+VSiQJHU6JQ=";
+    hash = "sha256-2nbjw6zynlmzoMBZhnQSnnQIgxkyq8JA+VSiQJHU6JQ=";
   };
 
   cargoLock = {

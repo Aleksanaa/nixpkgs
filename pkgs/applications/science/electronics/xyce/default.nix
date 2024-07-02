@@ -39,14 +39,14 @@ let
   xyce_src = fetchgit {
     url = "https://github.com/Xyce/Xyce.git";
     rev = "Release-${version}";
-    sha256 = "sha256-+aNy2bGuFQ517FZUvU0YqN0gmChRpVuFEmFGTCx9AgY=";
+    hash = "sha256-+aNy2bGuFQ517FZUvU0YqN0gmChRpVuFEmFGTCx9AgY=";
   };
 
   regression_src = fetchFromGitHub {
     owner = "Xyce";
     repo = "Xyce_Regression";
     rev = "Release-${version}";
-    sha256 = "sha256-Fxi/NpXXIw/bseWaLi2iQ4sg4S9Z+othGgSvQoxyJ9c=";
+    hash = "sha256-Fxi/NpXXIw/bseWaLi2iQ4sg4S9Z+othGgSvQoxyJ9c=";
   };
 in
 

@@ -10,7 +10,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://sourceforge/subread/subread-${version}/subread-${version}-source.tar.gz";
-    sha256 = "sha256-8P3aa5hjTSlGAolIwiAlPhCg8nx/pfJJE7ZbOsbLsEU=";
+    hash = "sha256-8P3aa5hjTSlGAolIwiAlPhCg8nx/pfJJE7ZbOsbLsEU=";
   };
 
   buildInputs = [

@@ -14,12 +14,12 @@ stdenv.mkDerivation {
   src = if stdenv.isAarch64 then (
     fetchurl {
       url = "https://web.archive.org/web/20230808124344/https://download.scdn.co/SpotifyARM64.dmg";
-      sha256 = "sha256-u22hIffuCT6DwN668TdZXYedY9PSE7ZnL+ITK78H7FI=";
+      hash = "sha256-u22hIffuCT6DwN668TdZXYedY9PSE7ZnL+ITK78H7FI=";
     })
   else (
     fetchurl {
       url = "https://web.archive.org/web/20230808124637/https://download.scdn.co/Spotify.dmg";
-      sha256 = "sha256-aaYMbZpa2LvyBeXmEAjrRYfYqbudhJHR/hvCNTsNQmw=";
+      hash = "sha256-aaYMbZpa2LvyBeXmEAjrRYfYqbudhJHR/hvCNTsNQmw=";
     });
 
   nativeBuildInputs = [ undmg ];

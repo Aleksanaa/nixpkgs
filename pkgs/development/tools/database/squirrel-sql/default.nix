@@ -10,7 +10,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://sourceforge/project/squirrel-sql/1-stable/${version}-plainzip/squirrelsql-${version}-standard.zip";
-    sha256 = "sha256-Y7eG2otbLjtXvs3mRXWL8jJywuhBQ9i/MfWJXvkxnuU=";
+    hash = "sha256-Y7eG2otbLjtXvs3mRXWL8jJywuhBQ9i/MfWJXvkxnuU=";
   };
 
   nativeBuildInputs = [ makeWrapper unzip ];

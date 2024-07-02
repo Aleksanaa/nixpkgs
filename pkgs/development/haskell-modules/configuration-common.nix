@@ -203,7 +203,7 @@ self: super: {
     (appendPatch (fetchpatch {
       name = "blaze-html-compat.patch";
       url = "https://github.com/mpickering/eventlog2html/commit/666aee9ee44c571173a73036b36ad4154c188481.patch";
-      sha256 = "sha256-9PLygLEpJ6pAZ31gSWiEMqWxmvElT6Unc/pgr6ULIaw=";
+      hash = "sha256-9PLygLEpJ6pAZ31gSWiEMqWxmvElT6Unc/pgr6ULIaw=";
     }))
    ];
 
@@ -242,7 +242,7 @@ self: super: {
       owner = "kim";
       repo = "leveldb-haskell";
       rev = "3a505f3a7de0f5d14463538d7c2c9a9881a60eb9";
-      sha256 = "sha256-okUn5ZuWcj8vPr0GWXvO1LygNCrDfttkDaUoOt+FLA0=";
+      hash = "sha256-okUn5ZuWcj8vPr0GWXvO1LygNCrDfttkDaUoOt+FLA0=";
     };
   }) super.leveldb-haskell;
 
@@ -328,22 +328,22 @@ self: super: {
     (fetchpatch {
       name = "loosen-bounds-1.patch";
       url = "https://github.com/haskell/ThreadScope/commit/8f9f21449adb3af07eed539dcaf267c9c9ee987b.patch";
-      sha256 = "sha256-egKM060QplSmUeDptHXoSom1vf5KBrvNcjb2Vk59N7A=";
+      hash = "sha256-egKM060QplSmUeDptHXoSom1vf5KBrvNcjb2Vk59N7A=";
     })
     (fetchpatch {
       name = "loosen-bounds-2.patch";
       url = "https://github.com/haskell/ThreadScope/commit/f366a9ee455eda16cd6a4dc26f0275e2cf2b5798.patch";
-      sha256 = "sha256-DaPTK5LRbZZS1KDIr5X/eXQasqtofrCteTbUQUZPu0Q=";
+      hash = "sha256-DaPTK5LRbZZS1KDIr5X/eXQasqtofrCteTbUQUZPu0Q=";
     })
     (fetchpatch {
       name = "loosen-bounds-3.patch";
       url = "https://github.com/haskell/ThreadScope/commit/12819abaa2322976004b7582e598db1cf952707a.patch";
-      sha256 = "sha256-r7MVw8wwKU4R5VmcypBzhOBfTlRCISoRJtwie3+2Vb0=";
+      hash = "sha256-r7MVw8wwKU4R5VmcypBzhOBfTlRCISoRJtwie3+2Vb0=";
     })
     (fetchpatch {
       name = "import-monad.patch";
       url = "https://github.com/haskell/ThreadScope/commit/8846508e9769a8dfd82b3ff66259ba4d58255932.patch";
-      sha256 = "sha256-wBqDJWmqvmU1sFuw/ZlxHOb8xPhZO2RBuyYFP9bJCVI=";
+      hash = "sha256-wBqDJWmqvmU1sFuw/ZlxHOb8xPhZO2RBuyYFP9bJCVI=";
     })
   ]
     super.threadscope);
@@ -393,7 +393,7 @@ self: super: {
       name = "git-annex-${super.git-annex.version}-src";
       url = "git://git-annex.branchable.com/";
       rev = "refs/tags/" + super.git-annex.version;
-      sha256 = "sha256-adV7I1P0O/dqH1rEyf3c2Vp4GSiiHReJyqnkSOYQGT0=";
+      hash = "sha256-adV7I1P0O/dqH1rEyf3c2Vp4GSiiHReJyqnkSOYQGT0=";
       # delete android and Android directories which cause issues on
       # darwin (case insensitive directory). Since we don't need them
       # during the build process, we can delete it to prevent a hash
@@ -442,7 +442,7 @@ self: super: {
       owner = "cachix";
       repo = "cachix";
       rev = "v1.7.4";
-      sha256 = "sha256-lHy5kgx6J8uD+16SO47dPrbob98sh+W1tf4ceSqPVK4=";
+      hash = "sha256-lHy5kgx6J8uD+16SO47dPrbob98sh+W1tf4ceSqPVK4=";
     };
     postUnpack = "sourceRoot=$sourceRoot/cachix-api";
   }) super.cachix-api;
@@ -452,7 +452,7 @@ self: super: {
       owner = "cachix";
       repo = "cachix";
       rev = "v1.7.4";
-      sha256 = "sha256-lHy5kgx6J8uD+16SO47dPrbob98sh+W1tf4ceSqPVK4=";
+      hash = "sha256-lHy5kgx6J8uD+16SO47dPrbob98sh+W1tf4ceSqPVK4=";
     };
     postUnpack = "sourceRoot=$sourceRoot/cachix";
   }) (lib.pipe
@@ -781,11 +781,11 @@ self: super: {
   snappy = appendPatches [
     (pkgs.fetchpatch {
       url = "https://github.com/bos/snappy/commit/8687802c0b85ed7fbbb1b1945a75f14fb9a9c886.patch";
-      sha256 = "sha256-p6rMzkjPAZVljsC1Ubj16/mNr4mq5JpxfP5xwT+Gt5M=";
+      hash = "sha256-p6rMzkjPAZVljsC1Ubj16/mNr4mq5JpxfP5xwT+Gt5M=";
     })
     (pkgs.fetchpatch {
       url = "https://github.com/bos/snappy/commit/21c3250c1f3d273cdcf597e2b7909a22aeaa710f.patch";
-      sha256 = "sha256-qHEQ8FFagXGxvtblBvo7xivRARzXlaMLw8nt0068nt0=";
+      hash = "sha256-qHEQ8FFagXGxvtblBvo7xivRARzXlaMLw8nt0068nt0=";
     })
   ] (dontCheck super.snappy);
 
@@ -1563,15 +1563,15 @@ self: super: {
   ghcjs-dom-hello = appendPatches [
     (fetchpatch {
       url = "https://github.com/ghcjs/ghcjs-dom-hello/commit/53991df6a4eba9f1e9633eb22f6a0486a79491c3.patch";
-      sha256 = "sha256-HQeUgjvzYyY14+CDYiMahAMn7fBcy2d7p8/kqGq+rnI=";
+      hash = "sha256-HQeUgjvzYyY14+CDYiMahAMn7fBcy2d7p8/kqGq+rnI=";
     })
     (fetchpatch {
       url = "https://github.com/ghcjs/ghcjs-dom-hello/commit/d766d937121f7ea5c4c154bd533a1eae47f531c9.patch";
-      sha256 = "sha256-QTkH+L+JMwGyuoqzHBnrokT7KzpHC4YiAWoeiaFBLUw=";
+      hash = "sha256-QTkH+L+JMwGyuoqzHBnrokT7KzpHC4YiAWoeiaFBLUw=";
     })
     (fetchpatch {
       url = "https://github.com/ghcjs/ghcjs-dom-hello/commit/831464d995f4033c9aa84f9ed9fb37a268f34d4e.patch";
-      sha256 = "sha256-hQMy+78geTuxd3kbdiyYqoAFrauu90HbpPi0EEKjMzM=";
+      hash = "sha256-hQMy+78geTuxd3kbdiyYqoAFrauu90HbpPi0EEKjMzM=";
     })
    ] super.ghcjs-dom-hello;
 
@@ -1579,15 +1579,15 @@ self: super: {
   jsaddle-hello = appendPatches [
     (fetchpatch {
       url = "https://github.com/ghcjs/jsaddle-hello/commit/c4de837675117b821c50a5079d20d84ec16ff26a.patch";
-      sha256 = "sha256-NsM7QqNLt5V8i5bveYgMrawGnZVsIuAoJfBF75jBwV0=";
+      hash = "sha256-NsM7QqNLt5V8i5bveYgMrawGnZVsIuAoJfBF75jBwV0=";
     })
     (fetchpatch {
       url = "https://github.com/ghcjs/jsaddle-hello/commit/5c437363833684ea951ec74a0d0fdf5b6fbaca85.patch";
-      sha256 = "sha256-CUyZsts0FAQ3c8Z+zfvwbmlAJCMcidV80n8dA/SoRls=";
+      hash = "sha256-CUyZsts0FAQ3c8Z+zfvwbmlAJCMcidV80n8dA/SoRls=";
     })
     (fetchpatch {
       url = "https://github.com/ghcjs/jsaddle-hello/commit/e2da9e266fbfa8f7fcf3009ab6cfbf825a8bcf7a.patch";
-      sha256 = "sha256-WL0CcnlMt6KI7MOZMg74fNN/I4gYSO3n+GiaXB2BOP0=";
+      hash = "sha256-WL0CcnlMt6KI7MOZMg74fNN/I4gYSO3n+GiaXB2BOP0=";
     })
   ] super.jsaddle-hello;
 
@@ -1599,7 +1599,7 @@ self: super: {
         (fetchpatch {
           name = "bump-reflex-dom-bounds.patch";
           url = "https://github.com/reflex-frp/reflex-dom/commit/70ff88942f9d2bcd364e301c70df8702f452df38.patch";
-          sha256 = "sha256-xzk1+6CnfhEBfXdL5RUFbLRSn7knMwydmV8v2F2W5gE=";
+          hash = "sha256-xzk1+6CnfhEBfXdL5RUFbLRSn7knMwydmV8v2F2W5gE=";
           relative = "reflex-dom";
         })
       )
@@ -1619,19 +1619,19 @@ self: super: {
         (fetchpatch {
           name = "fix-th-build-order.patch";
           url = "https://github.com/reflex-frp/reflex-dom/commit/1814640a14c6c30b1b2299e74d08fb6fcaadfb94.patch";
-          sha256 = "sha256-QyX2MLd7Tk0M1s0DU0UV3szXs8ngz775i3+KI62Q3B8=";
+          hash = "sha256-QyX2MLd7Tk0M1s0DU0UV3szXs8ngz775i3+KI62Q3B8=";
           relative = "reflex-dom-core";
         })
         (fetchpatch {
           name = "bump-reflex-dom-core-bounds.patch";
           url = "https://github.com/reflex-frp/reflex-dom/commit/51cdd96dde9d65fcde326a16a797397bf62102d9.patch";
-          sha256 = "sha256-Ct8gMbXqN+6vqTwFiqnKxddAfs+YFaBocF4G7PPMzFo=";
+          hash = "sha256-Ct8gMbXqN+6vqTwFiqnKxddAfs+YFaBocF4G7PPMzFo=";
           relative = "reflex-dom-core";
         })
         (fetchpatch {
           name = "new-mtl-compat.patch";
           url = "https://github.com/reflex-frp/reflex-dom/commit/df95bfc0b9baf70492f20daddfe6bb180f80c413.patch";
-          sha256 = "sha256-zkLZtcnfqpfiv6zDEmkZjWHr2b7lOnZ4zujm0/pkxQg=";
+          hash = "sha256-zkLZtcnfqpfiv6zDEmkZjWHr2b7lOnZ4zujm0/pkxQg=";
           relative = "reflex-dom-core";
         })
       ])
@@ -1698,7 +1698,7 @@ self: super: {
   # 2024-03-02: jailbreak for ansi-terminal <0.12, mtl <2.3
   monad-logger-extras = appendPatch (fetchpatch {
     url = "https://github.com/obsidiansystems/monad-logger-extras/commit/55d414352e740a5ecacf313732074d9b4cf2a6b3.patch";
-    sha256 = "sha256-xsQbr/QIrgWR0uwDPtV0NRTbVvP0tR9bY9NMe1JzqOw=";
+    hash = "sha256-xsQbr/QIrgWR0uwDPtV0NRTbVvP0tR9bY9NMe1JzqOw=";
   }) (doJailbreak super.monad-logger-extras);
 
   # Fails with encoding problems, likely needs locale data.
@@ -1716,7 +1716,7 @@ self: super: {
   Spock-core = appendPatches [
     (fetchpatch {
       url = "https://github.com/agrafix/Spock/commit/d0b51fa60a83bfa5c1b5fc8fced18001e7321701.patch";
-      sha256 = "sha256-l9voiczOOdYVBP/BNEUvqARb21t0Rp2kpsNbRFUWSLg=";
+      hash = "sha256-l9voiczOOdYVBP/BNEUvqARb21t0Rp2kpsNbRFUWSLg=";
       stripLen = 1;
     })
   ] (doJailbreak super.Spock-core);
@@ -1839,7 +1839,7 @@ self: super: {
       # Patch for hnix compat.
       (appendPatch (fetchpatch {
         url = "https://github.com/expipiplus1/update-nix-fetchgit/commit/dfa34f9823e282aa8c5a1b8bc95ad8def0e8d455.patch";
-        sha256 = "sha256-yBjn1gVihVTlLewKgJc2I9gEj8ViNBAmw0bcsb5rh1A=";
+        hash = "sha256-yBjn1gVihVTlLewKgJc2I9gEj8ViNBAmw0bcsb5rh1A=";
         excludes = [ "cabal.project" ];
       }))
     ];
@@ -1848,7 +1848,7 @@ self: super: {
   binary-strict = appendPatches [
     (fetchpatch {
       url = "https://github.com/idontgetoutmuch/binary-low-level/pull/16/commits/c16d06a1f274559be0dea0b1f7497753e1b1a8ae.patch";
-      sha256 = "sha256-deSbudy+2je1SWapirWZ1IVWtJ0sJVR5O/fnaAaib2g=";
+      hash = "sha256-deSbudy+2je1SWapirWZ1IVWtJ0sJVR5O/fnaAaib2g=";
     })
   ] super.binary-strict;
 
@@ -1921,14 +1921,14 @@ self: super: {
     (fetchpatch {
       name = "pipes-aeson-add-loop.patch";
       url = "https://github.com/k0001/pipes-aeson/commit/d22133b4a678edbb52bcaec5079dc88ccc0de1d3.patch";
-      sha256 = "sha256-5o5ys1P1+QB4rjLCYok5AcPRWCtRiecP/TqCFm8ulVY=";
+      hash = "sha256-5o5ys1P1+QB4rjLCYok5AcPRWCtRiecP/TqCFm8ulVY=";
       includes = ["src/Pipes/Aeson.hs" "src/Pipes/Aeson/Internal.hs" "src/Pipes/Aeson/Unchecked.hs"];
     })
     # https://github.com/k0001/pipes-aeson/pull/20
     (fetchpatch {
       name = "pipes-aeson-aeson-2.patch";
       url = "https://github.com/hercules-ci/pipes-aeson/commit/ac735c9cd459c6ef51ba82325d1c55eb67cb7b2c.patch";
-      sha256 = "sha256-viWZ6D5t79x50RXiOjP6UeQ809opgNFYZOP+h+1KJh0=";
+      hash = "sha256-viWZ6D5t79x50RXiOjP6UeQ809opgNFYZOP+h+1KJh0=";
       includes = ["src/Pipes/Aeson.hs" "src/Pipes/Aeson/Internal.hs" "src/Pipes/Aeson/Unchecked.hs"];
     })
   ] super.pipes-aeson;
@@ -1943,7 +1943,7 @@ self: super: {
       name = "moto-postgresql-monadfail.patch";
       url = "https://gitlab.com/k0001/moto/-/commit/09cc1c11d703c25f6e81325be6482dc7ec6cbf58.patch";
       relative = "moto-postgresql";
-      sha256 = "sha256-f2JVX9VveShCeV+T41RQgacpUoh1izfyHlE6VlErkZM=";
+      hash = "sha256-f2JVX9VveShCeV+T41RQgacpUoh1izfyHlE6VlErkZM=";
     })
   ] (unmarkBroken super.moto-postgresql);
 
@@ -1953,7 +1953,7 @@ self: super: {
       name = "moto-ghc-9.0.patch";
       url = "https://gitlab.com/k0001/moto/-/commit/5b6f015a1271765005f03762f1f1aaed3a3198ed.patch";
       relative = "moto";
-      sha256 = "sha256-RMa9tk+2ip3Ks73UFv9Ea9GEnElRtzIjdpld1Fx+dno=";
+      hash = "sha256-RMa9tk+2ip3Ks73UFv9Ea9GEnElRtzIjdpld1Fx+dno=";
     })
   ] super.moto;
 
@@ -2105,7 +2105,7 @@ self: super: {
   cli-git = lib.pipe super.cli-git [
     (appendPatch (fetchpatch {
       url = "https://github.com/obsidiansystems/cli-git/commit/be378a97e2f46522174231b77c952f759df3fad6.patch";
-      sha256 = "sha256-6RrhqkKpnb+FTHxccHNx6pdC7ClfqcJ2eoo+W7h+JUo=";
+      hash = "sha256-6RrhqkKpnb+FTHxccHNx6pdC7ClfqcJ2eoo+W7h+JUo=";
       excludes = [ ".github/**" ];
     }))
     doJailbreak
@@ -2121,7 +2121,7 @@ self: super: {
   # https://github.com/obsidiansystems/nix-thunk/pull/51/
   nix-thunk = appendPatch (fetchpatch {
     url = "https://github.com/obsidiansystems/nix-thunk/commit/c3dc3e799e8ce7756330f98b9f73f59c4b7a5502.patch";
-    sha256 = "sha256-C1ii1FXiCPFfw5NzyQZ0cEG6kIYGohVsnHycpYEJ24Q=";
+    hash = "sha256-C1ii1FXiCPFfw5NzyQZ0cEG6kIYGohVsnHycpYEJ24Q=";
   }) (doJailbreak super.nix-thunk);
 
   # list `modbus` in librarySystemDepends, correct to `libmodbus`
@@ -2139,7 +2139,7 @@ self: super: {
   haveibeenpwned = appendPatch
     (fetchpatch {
       url = "https://github.com/obsidiansystems/haveibeenpwned/pull/9/commits/14c134eec7de12f755b2d4667727762a8a1a6476.patch";
-      sha256 = "sha256-fau5+b6tufJ+MscrLgbYvvBsekPe8R6QAy/4H31dcQ4";
+      hash = "sha256-fau5+b6tufJ+MscrLgbYvvBsekPe8R6QAy/4H31dcQ4";
     })
     (doJailbreak super.haveibeenpwned);
 
@@ -2179,7 +2179,7 @@ self: super: {
     patches = [
       (fetchpatch {
         url = "https://gitlab.haskell.org/ghc/ghc/-/commit/08d1588bf38d83140a86817a7a615db486357d4f.patch";
-        sha256 = "sha256-Y9WW0KDQ/qY2L9ObPvh1i/6lxXIlprbxzdSBDfiaMtE=";
+        hash = "sha256-Y9WW0KDQ/qY2L9ObPvh1i/6lxXIlprbxzdSBDfiaMtE=";
         relative = "libraries/ghc-bignum";
       })
     ];
@@ -2247,7 +2247,7 @@ self: super: {
   yi-language = appendPatch (fetchpatch {
     url = "https://github.com/yi-editor/yi/commit/0d3bcb5ba4c237d57ce33a3dc39b63c56d890765.patch";
     relative = "yi-language";
-    sha256 = "sha256-AVQLvul3ufxGQyoXud05qauclNanf6kunip0oJ/9lWQ=";
+    hash = "sha256-AVQLvul3ufxGQyoXud05qauclNanf6kunip0oJ/9lWQ=";
   }) (dontCheck super.yi-language);
 
   # Tests need to lookup target triple x86_64-unknown-linux
@@ -2260,7 +2260,7 @@ self: super: {
     (fetchpatch {
       name = "llvm-hs-pure-bytestring-0.11.patch";
       url = "https://github.com/llvm-hs/llvm-hs/commit/fe8fd556e8d2cc028f61d4d7b4b6bf18c456d090.patch";
-      sha256 = "sha256-1d4wQg6JEJL3GwmXQpvbW7VOY5DwjUPmIsLEEur0Kps=";
+      hash = "sha256-1d4wQg6JEJL3GwmXQpvbW7VOY5DwjUPmIsLEEur0Kps=";
       relative = "llvm-hs-pure";
       excludes = [ "**/Triple.hs" ]; # doesn't exist in 9.0.0
     })
@@ -2526,7 +2526,7 @@ self: super: {
       (pkgs.fetchpatch {
         name = "use-crypton-connection.patch";
         url = "https://github.com/minio/minio-hs/commit/786cf1881f0b62b7539e63547e76afc3c1ade36a.patch";
-        sha256 = "sha256-zw0/jhKzShpqV1sUyxWTl73sQOzm6kA/yQOZ9n0L1Ag";
+        hash = "sha256-zw0/jhKzShpqV1sUyxWTl73sQOzm6kA/yQOZ9n0L1Ag";
       })
     ];
   }) (super.minio-hs.override { connection = self.crypton-connection; });
@@ -2690,7 +2690,7 @@ self: super: {
   # Raise version bounds: https://github.com/kosmikus/records-sop/pull/15
   records-sop = appendPatch (fetchpatch {
     url = "https://github.com/kosmikus/records-sop/commit/fb149f453a816ff14d0cb20b3ea56b80ff49d9f1.patch";
-    sha256 = "sha256-iHiF4EWL/GjJFnr/6aR+yMZKLMLAZK+gsgSxG8YaeDI=";
+    hash = "sha256-iHiF4EWL/GjJFnr/6aR+yMZKLMLAZK+gsgSxG8YaeDI=";
   }) super.records-sop;
 
   # Need https://github.com/well-typed/large-records/pull/151
@@ -3066,7 +3066,7 @@ self: super: {
   linux-namespaces = appendPatch
     (fetchpatch {
       url = "https://github.com/redneb/hs-linux-namespaces/commit/f4a3546541bb6c7172fdd03e177a961da60e3951.patch";
-      sha256 = "sha256-6Qv7NWIbzR3ktMGFogw5597bIqPH7Z4hoFvvBQAoquY=";
+      hash = "sha256-6Qv7NWIbzR3ktMGFogw5597bIqPH7Z4hoFvvBQAoquY=";
     })
     super.linux-namespaces;
 

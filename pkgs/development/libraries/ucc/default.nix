@@ -15,7 +15,7 @@ stdenv.mkDerivation rec {
     owner = "openucx";
     repo = "ucc";
     rev = "v${version}";
-    sha256 = "sha256-xcJLYktkxNK2ewWRgm8zH/dMaIoI+9JexuswXi7MpAU=";
+    hash = "sha256-xcJLYktkxNK2ewWRgm8zH/dMaIoI+9JexuswXi7MpAU=";
   };
 
   outputs = [ "out" "dev" ];

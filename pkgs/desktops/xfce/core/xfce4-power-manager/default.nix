@@ -14,7 +14,7 @@ mkXfceDerivation {
   pname = "xfce4-power-manager";
   version = "4.18.4";
 
-  sha256 = "sha256-aybY+B8VC/XS6FO3XRpYuJd9Atr9Tc/Uo45q9fh3YLE=";
+  hash = "sha256-aybY+B8VC/XS6FO3XRpYuJd9Atr9Tc/Uo45q9fh3YLE=";
 
   buildInputs = [
     gtk3

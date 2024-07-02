@@ -8,7 +8,7 @@ python3Packages.buildPythonApplication rec {
     rev = "v${version}";
     repo = "http-prompt";
     owner = "httpie";
-    sha256 = "sha256-e4GyuxCeXYNsnBXyjIJz1HqSrqTGan0N3wxUFS+Hvkw=";
+    hash = "sha256-e4GyuxCeXYNsnBXyjIJz1HqSrqTGan0N3wxUFS+Hvkw=";
   };
 
   propagatedBuildInputs = with python3Packages; [

@@ -30,7 +30,7 @@ let
 
     offlineCache = fetchYarnDeps {
       yarnLock = "${guiSrc}/yarn.lock";
-      sha256 = "sha256-AZIYkW2u1l9IaDpR9xiKNpc0sGAarLKwHf5kGnzdpKw=";
+      hash = "sha256-AZIYkW2u1l9IaDpR9xiKNpc0sGAarLKwHf5kGnzdpKw=";
     };
 
     buildPhase = ''

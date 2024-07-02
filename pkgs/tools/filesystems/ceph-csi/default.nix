@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
     owner = "ceph";
     repo = "ceph-csi";
     rev = "v${version}";
-    sha256 = "sha256-EgHl74kJ6lTS3pqz/Hxh/2tpc1xiDNcJxzERwKops+A=";
+    hash = "sha256-EgHl74kJ6lTS3pqz/Hxh/2tpc1xiDNcJxzERwKops+A=";
   };
 
   preConfigure = ''

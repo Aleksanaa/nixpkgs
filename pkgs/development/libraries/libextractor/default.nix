@@ -23,7 +23,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://gnu/libextractor/${pname}-${version}.tar.gz";
-    sha256 = "sha256-FvYzq4dGo4VHxKHaP0WRGSsIJa2DxDNvBXW4WEPYvY8=";
+    hash = "sha256-FvYzq4dGo4VHxKHaP0WRGSsIJa2DxDNvBXW4WEPYvY8=";
   };
 
   patches = [

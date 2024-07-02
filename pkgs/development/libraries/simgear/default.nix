@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://sourceforge/flightgear/release-${shortVersion}/${pname}-${version}.tar.bz2";
-    sha256 = "sha256-O5N8W5RCJHjl15EUvc1seOQ6Cm/7qXVEqG1EHD+ejDo=";
+    hash = "sha256-O5N8W5RCJHjl15EUvc1seOQ6Cm/7qXVEqG1EHD+ejDo=";
   };
 
   nativeBuildInputs = [ cmake ];

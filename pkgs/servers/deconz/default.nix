@@ -20,7 +20,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://deconz.dresden-elektronik.de/ubuntu/beta/deconz-${version}-qt5.deb";
-    sha256 = "sha256-BE/apFPutNdhlS1NWRHdVcVrt/16aFfZ6zRcjphIlZA=";
+    hash = "sha256-BE/apFPutNdhlS1NWRHdVcVrt/16aFfZ6zRcjphIlZA=";
   };
 
   nativeBuildInputs = [ dpkg autoPatchelfHook makeWrapper wrapQtAppsHook ];

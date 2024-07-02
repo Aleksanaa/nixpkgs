@@ -8,7 +8,7 @@ rustPlatform.buildRustPackage rec {
     owner = "cobalt-org";
     repo = "cobalt.rs";
     rev = "v${version}";
-    sha256 = "sha256-aAhceExz5SENL+FhPHyx8HmaNOWjNsynv81Rj2cS5M8=";
+    hash = "sha256-aAhceExz5SENL+FhPHyx8HmaNOWjNsynv81Rj2cS5M8=";
   };
 
   cargoHash = "sha256-vw7fGsTSEVO8s1LzilKJN5lGzOfQcms1h7rnTOyE4Kw=";

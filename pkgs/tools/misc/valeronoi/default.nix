@@ -20,7 +20,7 @@ stdenv.mkDerivation rec {
     owner = "ccoors";
     repo = pname;
     rev = "refs/tags/v${version}";
-    sha256 = "sha256-7z967y1hWpitZfXNlHHM8qEBdyuBQSFlJElS4ldsAaE=";
+    hash = "sha256-7z967y1hWpitZfXNlHHM8qEBdyuBQSFlJElS4ldsAaE=";
   };
 
   buildInputs = [

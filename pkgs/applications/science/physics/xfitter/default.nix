@@ -28,7 +28,7 @@ stdenv.mkDerivation rec {
   src = fetchurl {
     name = "${pname}-${version}.tgz";
     url = "https://www.xfitter.org/xFitter/xFitter/DownloadPage?action=AttachFile&do=get&target=${pname}-${version}.tgz";
-    sha256 = "sha256-ZHIQ5hOY+k0/wmpE0o4Po+RZ4MkVMk+bK1Rc6eqwwH0=";
+    hash = "sha256-ZHIQ5hOY+k0/wmpE0o4Po+RZ4MkVMk+bK1Rc6eqwwH0=";
   };
 
   patches = [

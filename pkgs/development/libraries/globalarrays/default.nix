@@ -10,7 +10,7 @@ stdenv.mkDerivation rec {
     owner = "GlobalArrays";
     repo = "ga";
     rev = "v${version}";
-    sha256 = "sha256-2ffQIg9topqKX7ygnWaa/UunL9d0Lj9qr9xucsjLuoY=";
+    hash = "sha256-2ffQIg9topqKX7ygnWaa/UunL9d0Lj9qr9xucsjLuoY=";
   };
 
   nativeBuildInputs = [ autoreconfHook gfortran ];

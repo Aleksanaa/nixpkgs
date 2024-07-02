@@ -212,7 +212,7 @@ stdenv.mkDerivation (rec {
     # fix hyperlinked haddock sources: https://github.com/haskell/haddock/pull/1482
     (fetchpatch {
       url = "https://patch-diff.githubusercontent.com/raw/haskell/haddock/pull/1482.patch";
-      sha256 = "sha256-8w8QUCsODaTvknCDGgTfFNZa8ZmvIKaKS+2ZJZ9foYk=";
+      hash = "sha256-8w8QUCsODaTvknCDGgTfFNZa8ZmvIKaKS+2ZJZ9foYk=";
       extraPrefix = "utils/haddock/";
       stripLen = 1;
     })
@@ -240,7 +240,7 @@ stdenv.mkDerivation (rec {
       name = "ghc-9.0.2-fcompact-unwind.patch";
       # Note that the test suite is not packaged.
       url = "https://gitlab.haskell.org/ghc/ghc/-/commit/c6132c782d974a7701e7f6447bdcd2bf6db4299a.patch?merge_request_iid=7423";
-      sha256 = "sha256-b4feGZIaKDj/UKjWTNY6/jH4s2iate0wAgMxG3rAbZI=";
+      hash = "sha256-b4feGZIaKDj/UKjWTNY6/jH4s2iate0wAgMxG3rAbZI=";
     })
   ]
 
@@ -251,7 +251,7 @@ stdenv.mkDerivation (rec {
       url = "https://github.com/haskell/cabal/commit/6c796218c92f93c95e94d5ec2d077f6956f68e98.patch";
       stripLen = 1;
       extraPrefix = "libraries/Cabal/";
-      sha256 = "sha256-yRQ6YmMiwBwiYseC5BsrEtDgFbWvst+maGgDtdD0vAY=";
+      hash = "sha256-yRQ6YmMiwBwiYseC5BsrEtDgFbWvst+maGgDtdD0vAY=";
     })
   ]
 

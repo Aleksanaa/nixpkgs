@@ -10,7 +10,7 @@ stdenv.mkDerivation rec {
     owner  = "arkhipov";
     repo   = "temporal_tables";
     rev    = "v${version}";
-    sha256 = "sha256-7+DCSPAPhsokWDq/5IXNhd7jY6FfzxxUjlsg/VJeD3k=";
+    hash = "sha256-7+DCSPAPhsokWDq/5IXNhd7jY6FfzxxUjlsg/VJeD3k=";
   };
 
   installPhase = ''

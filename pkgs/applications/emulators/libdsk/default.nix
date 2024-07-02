@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://www.seasip.info/Unix/LibDsk/${pname}-${version}.tar.gz";
-    sha256 = "sha256-W8w5o9rK/yCipQnfn4gMOwDZ+9WeV3G53q5h2XlevkE=";
+    hash = "sha256-W8w5o9rK/yCipQnfn4gMOwDZ+9WeV3G53q5h2XlevkE=";
   };
 
   meta = with lib; {

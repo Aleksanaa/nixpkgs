@@ -22,7 +22,7 @@ stdenv.mkDerivation rec {
     owner = "realmd";
     repo = pname;
     rev = version;
-    sha256 = "sha256-dipNKlIdc1DpXLg/YJjUxZlNoMFy+rt8Y/+AfWFA4dE=";
+    hash = "sha256-dipNKlIdc1DpXLg/YJjUxZlNoMFy+rt8Y/+AfWFA4dE=";
   };
 
   nativeBuildInputs = [

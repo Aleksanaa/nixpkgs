@@ -9,7 +9,7 @@ mkDerivation rec {
     owner = "buggins";
     repo = pname;
     rev = "cr${version}";
-    sha256 = "sha256-ZfgaLCLvBU6xP7nx7YJTsJSpvpdQgLpSMWH+BsG8E1g=";
+    hash = "sha256-ZfgaLCLvBU6xP7nx7YJTsJSpvpdQgLpSMWH+BsG8E1g=";
   };
 
   nativeBuildInputs = [ cmake pkg-config ];

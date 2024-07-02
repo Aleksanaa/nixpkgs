@@ -27,7 +27,7 @@ stdenv.mkDerivation rec {
     owner = "emersion";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-GIIDeZMIGUiZV0IUhcclRVThE5LKaqVc5VwnNT8beNU=";
+    hash = "sha256-GIIDeZMIGUiZV0IUhcclRVThE5LKaqVc5VwnNT8beNU=";
   };
 
   strictDeps = true;

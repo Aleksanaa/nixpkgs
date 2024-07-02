@@ -9,7 +9,7 @@ mkDerivation rec {
     owner = "steveire";
     repo = "grantlee";
     rev = "v${version}";
-    sha256 = "sha256-enP7b6A7Ndew2LJH569fN3IgPu2/KL5rCmU/jmKb9sY=";
+    hash = "sha256-enP7b6A7Ndew2LJH569fN3IgPu2/KL5rCmU/jmKb9sY=";
   };
 
   buildInputs = [ qtbase qtscript ];

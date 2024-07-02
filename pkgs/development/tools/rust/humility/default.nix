@@ -22,7 +22,7 @@ rustPlatform.buildRustPackage rec {
     owner = "oxidecomputer";
     repo = pname;
     rev = "67d932edde8b32c11e5d6356a54e97d65f7b9b2b";
-    sha256 = "sha256-3EVNlOAVfx/wUFn83VBKs1N5PanS4jVADUPlhCIok5M=";
+    hash = "sha256-3EVNlOAVfx/wUFn83VBKs1N5PanS4jVADUPlhCIok5M=";
   };
 
   cargoLock = {

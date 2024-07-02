@@ -8,7 +8,7 @@ python3Packages.buildPythonApplication rec {
     repo = "beets-copyartifacts";
     owner = "adammillerio";
     rev = "v${version}";
-    sha256 = "sha256-UTZh7T6Z288PjxFgyFxHnPt0xpAH3cnr8/jIrlJhtyU=";
+    hash = "sha256-UTZh7T6Z288PjxFgyFxHnPt0xpAH3cnr8/jIrlJhtyU=";
   };
 
   postPatch = ''

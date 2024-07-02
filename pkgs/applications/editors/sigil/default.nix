@@ -11,7 +11,7 @@ mkDerivation rec {
     repo = "Sigil";
     owner = "Sigil-Ebook";
     rev = version;
-    sha256 = "sha256-d54N6Kb+xLMxlRwqxqWXnFGQCvUmSy9z6j86aV+VioU=";
+    hash = "sha256-d54N6Kb+xLMxlRwqxqWXnFGQCvUmSy9z6j86aV+VioU=";
   };
 
   pythonPath = with python3Packages; [ lxml ];

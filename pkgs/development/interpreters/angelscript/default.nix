@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://www.angelcode.com/angelscript/sdk/files/angelscript_${version}.zip";
-    sha256 = "sha256-WLt0mvnH44YwRwX05uYnrkHf4D4LanPD0NLgF8T8lI8=";
+    hash = "sha256-WLt0mvnH44YwRwX05uYnrkHf4D4LanPD0NLgF8T8lI8=";
   };
 
   nativeBuildInputs = [ unzip cmake ];

@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "http://www.corpit.ru/mjt/udns/${pname}-${version}.tar.gz";
-    sha256 = "sha256-A1v8EuOBnQq6j0DugiCpdLfpspwyWdMQlwzEstHCA8A=";
+    hash = "sha256-A1v8EuOBnQq6j0DugiCpdLfpspwyWdMQlwzEstHCA8A=";
   };
 
   # udns uses a very custom build and hardcodes a .so name in a few places.

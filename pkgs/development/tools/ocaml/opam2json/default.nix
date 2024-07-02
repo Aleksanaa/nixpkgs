@@ -7,7 +7,7 @@ stdenv.mkDerivation rec {
     owner = "tweag";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-5pXfbUfpVABtKbii6aaI2EdAZTjHJ2QntEf0QD2O5AM=";
+    hash = "sha256-5pXfbUfpVABtKbii6aaI2EdAZTjHJ2QntEf0QD2O5AM=";
   };
 
   buildInputs = with ocamlPackages; [ yojson opam-file-format cmdliner ];

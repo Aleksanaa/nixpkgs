@@ -10,7 +10,7 @@ stdenv.mkDerivation rec {
     owner = "flacon";
     repo = "flacon";
     rev = "v${version}";
-    sha256 = "sha256-guIGSKmpinDDfTDSCmcJKWysUPdG/gw5oaKmXqgf53o=";
+    hash = "sha256-guIGSKmpinDDfTDSCmcJKWysUPdG/gw5oaKmXqgf53o=";
   };
 
   nativeBuildInputs = [ cmake pkg-config wrapQtAppsHook ];

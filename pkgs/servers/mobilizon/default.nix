@@ -58,7 +58,7 @@ mixRelease rec {
             owner = "danhper";
             repo = "elixir-web-push-encryption";
             rev = "6e143dcde0a2854c4f0d72816b7ecab696432779";
-            sha256 = "sha256-Da+/28SPZuUQBi8fQj31zmMvhMrYUaQIW4U4E+mRtMg=";
+            hash = "sha256-Da+/28SPZuUQBi8fQj31zmMvhMrYUaQIW4U4E+mRtMg=";
           };
           beamDeps = with final; [ httpoison jose ];
         };
@@ -69,7 +69,7 @@ mixRelease rec {
             owner = "tcitworld";
             repo = name;
             rev = "1033d922c82a7223db0ec138e2316557b70ff49f";
-            sha256 = "sha256-N3bJZznNazLewHS4c2B7LP1lgxd1wev+EWVlQ7rOwfU=";
+            hash = "sha256-N3bJZznNazLewHS4c2B7LP1lgxd1wev+EWVlQ7rOwfU=";
           };
           beamDeps = with final; [ mix_test_watch ex_doc timex ];
         };
@@ -80,7 +80,7 @@ mixRelease rec {
             owner = "tcitworld";
             repo = name;
             rev = "0c036448e261e8be6a512581c592fadf48982d84";
-            sha256 = "sha256-4pfply1vTAIT2Xvm3kONmrCK05xKfXFvcb8EKoSCXBE=";
+            hash = "sha256-4pfply1vTAIT2Xvm3kONmrCK05xKfXFvcb8EKoSCXBE=";
           };
           beamDeps = with final; [ ex_doc credo absinthe excoveralls hammer mock ];
         };
@@ -91,7 +91,7 @@ mixRelease rec {
             owner = "tcitworld";
             repo = name;
             rev = "8b5485fde00fafbde20f315bec387a77f7358334";
-            sha256 = "sha256-ttgCWoBKU7VTjZJBhZNtqVF4kN7psBr/qOeR65MbTqw=";
+            hash = "sha256-ttgCWoBKU7VTjZJBhZNtqVF4kN7psBr/qOeR65MbTqw=";
           };
           beamDeps = with final; [ httpoison ex_doc credo doctor dialyxir ];
         };

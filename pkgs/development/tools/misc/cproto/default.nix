@@ -10,7 +10,7 @@ stdenv.mkDerivation rec {
       # No version listings and apparently no versioned tarball over http(s).
       "ftp://ftp.invisible-island.net/cproto/cproto-${version}.tgz"
     ];
-    sha256 = "sha256-897D9hAncBlpdkWcS0SsJzVfYSDaduUjHsEyPjedFRE=";
+    hash = "sha256-897D9hAncBlpdkWcS0SsJzVfYSDaduUjHsEyPjedFRE=";
   };
 
   # patch made by Joe Khoobyar copied from gentoo bugs

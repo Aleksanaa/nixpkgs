@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://github.com/jagrosh/MusicBot/releases/download/${version}/JMusicBot-${version}.jar";
-    sha256 = "sha256-+0814w4zKNr2TxZ9CS8FxeuTLa71jM+DhrfFvLMFlw0=";
+    hash = "sha256-+0814w4zKNr2TxZ9CS8FxeuTLa71jM+DhrfFvLMFlw0=";
   };
 
   dontUnpack = true;

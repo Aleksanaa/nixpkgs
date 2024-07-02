@@ -24,7 +24,7 @@ stdenv.mkDerivation rec {
     owner = "~raphi";
     repo = "somebar";
     rev = version;
-    sha256 = "sha256-PBxCy1dZrOL1nmhVDQozvF0XL79uKMhhERGNpPPzaRU=";
+    hash = "sha256-PBxCy1dZrOL1nmhVDQozvF0XL79uKMhhERGNpPPzaRU=";
   };
 
   nativeBuildInputs = [ meson ninja pkg-config wayland-scanner ];

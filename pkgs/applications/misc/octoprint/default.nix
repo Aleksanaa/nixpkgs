@@ -63,7 +63,7 @@ let
                 owner = "OctoPrint";
                 repo = "OctoPrint-FileCheck";
                 rev = version;
-                sha256 = "sha256-e/QGEBa9+pjOdrZq3Zc6ifbSMClIyeTOi0Tji0YdVmI=";
+                hash = "sha256-e/QGEBa9+pjOdrZq3Zc6ifbSMClIyeTOi0Tji0YdVmI=";
               };
               doCheck = false;
             };

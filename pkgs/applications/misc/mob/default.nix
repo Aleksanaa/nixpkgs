@@ -15,7 +15,7 @@ buildGoModule rec {
     owner = "remotemobprogramming";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-uFtE7AprM/ye2sBQeszYy07RV7RmmqD9TGcTTuZwOfY=";
+    hash = "sha256-uFtE7AprM/ye2sBQeszYy07RV7RmmqD9TGcTTuZwOfY=";
   };
 
   vendorHash = null;

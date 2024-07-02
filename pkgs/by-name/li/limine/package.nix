@@ -24,7 +24,7 @@ stdenv.mkDerivation {
   # Packaging that in Nix is very cumbersome.
   src = fetchurl {
     url = "https://github.com/limine-bootloader/limine/releases/download/v${version}/limine-${version}.tar.gz";
-    sha256 = "sha256-Fue2KPyJ76Q1f+chvhwmJlmQ4QwXksyCeztd2d2cTH0=";
+    hash = "sha256-Fue2KPyJ76Q1f+chvhwmJlmQ4QwXksyCeztd2d2cTH0=";
   };
 
   nativeBuildInputs = [

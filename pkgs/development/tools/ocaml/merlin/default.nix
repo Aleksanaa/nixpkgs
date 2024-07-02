@@ -7,7 +7,7 @@ buildDunePackage rec {
 
   src = fetchurl {
     url = "https://github.com/ocaml/merlin/releases/download/v${version}/merlin-${version}.tbz";
-    sha256 = "sha256-wmBGNwXL3BduF4o1sUXtAOUHJ4xmMvsWAxl/QdNj/28=";
+    hash = "sha256-wmBGNwXL3BduF4o1sUXtAOUHJ4xmMvsWAxl/QdNj/28=";
   };
 
   minimalOCamlVersion = "4.02.3";

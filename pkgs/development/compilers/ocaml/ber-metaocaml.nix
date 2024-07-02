@@ -19,12 +19,12 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://caml.inria.fr/pub/distrib/ocaml-${baseOcamlBranch}/ocaml-${baseOcamlVersion}.tar.gz";
-    sha256 = "sha256-GDl53JwJyw9YCiMraFMaCbAlqmKLjY1ydEnxRv1vX+4=";
+    hash = "sha256-GDl53JwJyw9YCiMraFMaCbAlqmKLjY1ydEnxRv1vX+4=";
   };
 
   metaocaml = fetchurl {
     url = "http://okmij.org/ftp/ML/ber-metaocaml-${metaocamlPatch}.tar.gz";
-    sha256 = "sha256-vvq3xI4jSAsrXcDk97TPbFDYgO9NcQeN/yBcUbcb/y0=";
+    hash = "sha256-vvq3xI4jSAsrXcDk97TPbFDYgO9NcQeN/yBcUbcb/y0=";
   };
 
   x11env = buildEnv { name = "x11env"; paths = x11deps; };

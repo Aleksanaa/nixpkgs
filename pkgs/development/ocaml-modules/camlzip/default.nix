@@ -13,7 +13,7 @@ let
     then common // {
       version = "1.11";
       url = "https://github.com/xavierleroy/camlzip/archive/rel111.tar.gz";
-      sha256 = "sha256-/7vF3j4cE9wOWScjdtIy0u3pGzJ1UQY9R/3bdPHV7Tc=";
+      hash = "sha256-/7vF3j4cE9wOWScjdtIy0u3pGzJ1UQY9R/3bdPHV7Tc=";
     } else if lib.versionAtLeast ocaml.version "4.02"
     then common // {
       version = "1.10";

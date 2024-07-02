@@ -58,7 +58,7 @@ in rec {
   perl536 = callPackage ./interpreter.nix {
     self = perl536;
     version = "5.36.3";
-    sha256 = "sha256-8qGtiBFjkaF2Ji3ULfxS7yKvtA9MDpgQ8V1WHm8ccmo=";
+    hash = "sha256-8qGtiBFjkaF2Ji3ULfxS7yKvtA9MDpgQ8V1WHm8ccmo=";
     inherit passthruFun;
   };
 
@@ -66,7 +66,7 @@ in rec {
   perl538 = callPackage ./interpreter.nix {
     self = perl538;
     version = "5.38.2";
-    sha256 = "sha256-oKMVNEUet7g8fWWUpJdUOlTUiLyQygD140diV39AZV4=";
+    hash = "sha256-oKMVNEUet7g8fWWUpJdUOlTUiLyQygD140diV39AZV4=";
     inherit passthruFun;
   };
 }

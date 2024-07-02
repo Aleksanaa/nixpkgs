@@ -21,7 +21,7 @@ rustPlatform.buildRustPackage rec {
     owner = "we";
     repo = "irdest";
     rev = "${pname}-${version}";
-    sha256 = "sha256-ZZ7idZ67xvQFmQJqIFU/l77YU+yDQOqNthX5NR/l4k8=";
+    hash = "sha256-ZZ7idZ67xvQFmQJqIFU/l77YU+yDQOqNthX5NR/l4k8=";
   };
 
   cargoSha256 = "Nsux0QblBtzlhLEgfKYvkQrOz8+oVd2pqT3CL8TnQEc=";
@@ -46,7 +46,7 @@ rustPlatform.buildRustPackage rec {
 
     yarnDeps = fetchYarnDeps {
       yarnLock = src + "/ratman/dashboard/yarn.lock";
-      sha256 = "sha256-pWjKL41r/bTvWv+5qCgCFVL9+o64BiV2/ISdLeKEOqE=";
+      hash = "sha256-pWjKL41r/bTvWv+5qCgCFVL9+o64BiV2/ISdLeKEOqE=";
     };
 
     nativeBuildInputs = [ yarn nodejs fixup-yarn-lock ];

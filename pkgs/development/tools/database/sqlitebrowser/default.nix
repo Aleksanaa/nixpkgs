@@ -10,7 +10,7 @@ mkDerivation rec {
     owner = pname;
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-33iVic0kxemWld+SiHOWGlKFSi5fpk1RtLUiNDr7WNI=";
+    hash = "sha256-33iVic0kxemWld+SiHOWGlKFSi5fpk1RtLUiNDr7WNI=";
   };
 
   # We should be using qscintilla from nixpkgs instead of the vendored version,

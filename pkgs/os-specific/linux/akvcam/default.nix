@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
     owner = "webcamoid";
     repo = "akvcam";
     rev = version;
-    sha256 = "sha256-8jQxBvWRE9Bsh0oz76gO7o+ROm6Z5QGAIe3WERIouUw=";
+    hash = "sha256-8jQxBvWRE9Bsh0oz76gO7o+ROm6Z5QGAIe3WERIouUw=";
   };
   sourceRoot = "${src.name}/src";
 

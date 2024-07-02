@@ -25,7 +25,7 @@ stdenv.mkDerivation rec {
     owner = "linthesia";
     repo = "linthesia";
     rev = "1f2701241f8865c2f5c14a97b81ae64884cf0396";
-    sha256 = "sha256-3uPcpDUGtAGW9q/u8Cn+0bNqikII1Y/a0PKARW/5nao=";
+    hash = "sha256-3uPcpDUGtAGW9q/u8Cn+0bNqikII1Y/a0PKARW/5nao=";
   };
 
   postPatch = ''

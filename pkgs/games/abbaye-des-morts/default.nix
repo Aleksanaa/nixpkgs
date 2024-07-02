@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
     owner = "nevat";
     repo = "abbayedesmorts-gpl";
     rev = "v${version}";
-    sha256 = "sha256-/RAtOL51o3/5pDgqPLJMTtDFY9BpIowM5MpJ88+v/Zs=";
+    hash = "sha256-/RAtOL51o3/5pDgqPLJMTtDFY9BpIowM5MpJ88+v/Zs=";
   };
 
   buildInputs = [ SDL2 SDL2_image SDL2_mixer ];

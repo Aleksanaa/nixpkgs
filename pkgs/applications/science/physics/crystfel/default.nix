@@ -190,7 +190,7 @@ stdenv.mkDerivation rec {
   version = "0.11.0";
   src = fetchurl {
     url = "https://www.desy.de/~twhite/crystfel/crystfel-${version}.tar.gz";
-    sha256 = "sha256-ogNHWYfbxRmB5TdK8K0JpcCnYOOyXapQGSPh8mfp+Tc=";
+    hash = "sha256-ogNHWYfbxRmB5TdK8K0JpcCnYOOyXapQGSPh8mfp+Tc=";
   };
   nativeBuildInputs = [ meson pkg-config ninja flex bison doxygen opencl-headers makeWrapper ]
     ++ lib.optionals withGui [ wrapGAppsHook3 ];

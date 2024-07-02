@@ -52,7 +52,7 @@ melpaBuild rec {
     owner = "manateelazycat";
     repo = "mind-wave";
     rev = "5109162b74872091c5090a28389bef8f7020274c";
-    sha256 = "sha256-ZyXrpb0GLWSGnMsVIGL9qALSBCeIWNF0UwkCFgCKnu8=";
+    hash = "sha256-ZyXrpb0GLWSGnMsVIGL9qALSBCeIWNF0UwkCFgCKnu8=";
   };
   commit = "5109162b74872091c5090a28389bef8f7020274c";
   # elisp dependencies

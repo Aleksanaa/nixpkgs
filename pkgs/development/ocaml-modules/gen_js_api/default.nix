@@ -16,7 +16,7 @@ buildDunePackage rec {
     owner = "LexiFi";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-tplbnQ/1dzZq8m/ibMAkGqY8RHQRmBPHOwh0dGuZCJM=";
+    hash = "sha256-tplbnQ/1dzZq8m/ibMAkGqY8RHQRmBPHOwh0dGuZCJM=";
   };
 
   minimalOCamlVersion = "4.11";

@@ -5,7 +5,7 @@ mkXfceDerivation {
   pname = "garcon";
   version = "4.18.2";
 
-  sha256 = "sha256-J9f9MzZ1I9XIyvwuyINkvXDuXY6/MkjlH2Ct4yaEXsY=";
+  hash = "sha256-J9f9MzZ1I9XIyvwuyINkvXDuXY6/MkjlH2Ct4yaEXsY=";
 
   nativeBuildInputs = [ gobject-introspection ];
 

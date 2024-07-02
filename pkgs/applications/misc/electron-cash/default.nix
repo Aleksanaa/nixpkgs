@@ -9,7 +9,7 @@ python3Packages.buildPythonApplication rec {
     owner = "Electron-Cash";
     repo = "Electron-Cash";
     rev = "refs/tags/${version}";
-    sha256 = "sha256-xOyj5XerOwgfvI0qj7+7oshDvd18h5IeZvcJTis8nWo=";
+    hash = "sha256-xOyj5XerOwgfvI0qj7+7oshDvd18h5IeZvcJTis8nWo=";
   };
 
   build-system = with python3Packages; [

@@ -16,7 +16,7 @@ in stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://sourceforge/groove/groove/${version}/${pname}-${builtins.replaceStrings ["."] ["_"] version}-bin.zip";
-    sha256 = "sha256-JwoUlO6F2+8NtCnLC+xm5q0Jm8RIyU1rnuKGmjgJhFU=";
+    hash = "sha256-JwoUlO6F2+8NtCnLC+xm5q0Jm8RIyU1rnuKGmjgJhFU=";
   };
 
   nativeBuildInputs = [ unzip makeWrapper icoutils ];

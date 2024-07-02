@@ -4,7 +4,7 @@ stdenv.mkDerivation rec {
   version = "1.1.1";
   src = fetchurl {
     url = "https://www.seasip.info/Unix/PSF/${pname}-${version}.tar.gz";
-    sha256 = "sha256-MecY4JsIXTgHdkrFkQ+C3fC6OEFRUgjUgf7qxfKeZtM=";
+    hash = "sha256-MecY4JsIXTgHdkrFkQ+C3fC6OEFRUgjUgf7qxfKeZtM=";
   };
   outputs = ["out" "man" "dev" "lib"];
 

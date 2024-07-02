@@ -32,7 +32,7 @@
 }:
 let
   version = "1.17.31";
-  sha256 = "sha256-5qPW199o+CVJlqGwiAegsquBRWEb5uDKITxjN5dQYAQ=";
+  hash = "sha256-5qPW199o+CVJlqGwiAegsquBRWEb5uDKITxjN5dQYAQ=";
   rocksdb = rocksdb_8_3;
 
   inherit (darwin.apple_sdk_11_0) Libsystem;

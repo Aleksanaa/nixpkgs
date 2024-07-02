@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://github.com/libhangul/ibus-hangul/releases/download/${version}/${pname}-${version}.tar.xz";
-    sha256 = "sha256-parIgobNGJYCKYYOPhp3iXinrqpIStms+kgoS4f9w7s=";
+    hash = "sha256-parIgobNGJYCKYYOPhp3iXinrqpIStms+kgoS4f9w7s=";
   };
 
   patches = [

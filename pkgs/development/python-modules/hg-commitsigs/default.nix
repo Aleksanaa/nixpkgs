@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
   src = fetchhg {
     url = "https://foss.heptapod.net/mercurial/commitsigs";
     rev = "b53eb6862bff";
-    sha256 = "sha256-PS1OhC9MiVFD7WYlIn6FavD5TyhM50WoV6YagI2pLxU=";
+    hash = "sha256-PS1OhC9MiVFD7WYlIn6FavD5TyhM50WoV6YagI2pLxU=";
   };
 
   # Not sure how the tests are supposed to be run, and they 10 years old...

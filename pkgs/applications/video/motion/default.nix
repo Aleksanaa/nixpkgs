@@ -9,7 +9,7 @@ stdenv.mkDerivation rec {
     owner  = "Motion-Project";
     repo   = "motion";
     rev    = "release-${version}";
-    sha256 = "sha256-f23glk91HWSEW/Glq/DdEikTQeg1eELEg4XG9zTsU78=";
+    hash = "sha256-f23glk91HWSEW/Glq/DdEikTQeg1eELEg4XG9zTsU78=";
   };
 
   nativeBuildInputs = [ autoreconfHook pkg-config ];

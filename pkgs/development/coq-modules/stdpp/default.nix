@@ -13,9 +13,9 @@ mkCoqDerivation rec {
     { case = range "8.11" "8.13"; out = "1.5.0"; }
     { case = range "8.8" "8.10";  out = "1.4.0"; }
   ] null;
-  release."1.10.0".sha256 = "sha256-bfynevIKxAltvt76lsqVxBmifFkzEhyX8lRgTKxr21I=";
-  release."1.9.0".sha256 = "sha256-OXeB+XhdyzWMp5Karsz8obp0rTeMKrtG7fu/tmc9aeI=";
-  release."1.8.0".sha256 = "sha256-VkIGBPHevHeHCo/Q759Q7y9WyhSF/4SMht4cOPuAXHU=";
+  release."1.10.0".hash = "sha256-bfynevIKxAltvt76lsqVxBmifFkzEhyX8lRgTKxr21I=";
+  release."1.9.0".hash = "sha256-OXeB+XhdyzWMp5Karsz8obp0rTeMKrtG7fu/tmc9aeI=";
+  release."1.8.0".hash = "sha256-VkIGBPHevHeHCo/Q759Q7y9WyhSF/4SMht4cOPuAXHU=";
   release."1.7.0".sha256 = "sha256:0447wbzm23f9rl8byqf6vglasfn6c1wy6cxrrwagqjwsh3i5lx8y";
   release."1.6.0".sha256 = "1l1w6srzydjg0h3f4krrfgvz455h56shyy2lbcnwdbzjkahibl7v";
   release."1.5.0".sha256 = "1ym0fy620imah89p8b6rii8clx2vmnwcrbwxl3630h24k42092nf";

@@ -17,7 +17,7 @@ buildPecl {
     owner = "krakjoe";
     repo = "pcov";
     rev = "v${version}";
-    sha256 = "sha256-lyY17Y9chpTO8oeWmDGSh0YSnipYqCuy1qmn9su5Eu8=";
+    hash = "sha256-lyY17Y9chpTO8oeWmDGSh0YSnipYqCuy1qmn9su5Eu8=";
   };
 
   buildInputs = [ pcre2 ];

@@ -9,7 +9,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://www.mrc-bsu.cam.ac.uk/wp-content/uploads/2018/04/${pname}-${version}.tar.gz";
-    sha256 = "sha256-oonE2gxKw3H4ATImyF69Cp4d7F3puFiVDkhUy4FLTtg=";
+    hash = "sha256-oonE2gxKw3H4ATImyF69Cp4d7F3puFiVDkhUy4FLTtg=";
   };
 
   meta = with lib; {

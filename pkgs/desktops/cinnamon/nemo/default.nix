@@ -28,7 +28,7 @@ stdenv.mkDerivation rec {
     owner = "linuxmint";
     repo = pname;
     rev = version;
-    sha256 = "sha256-vSLFp0sgqGsZtcXdv82PVH0HcBbmcxrMySLFCBrLJpA=";
+    hash = "sha256-vSLFp0sgqGsZtcXdv82PVH0HcBbmcxrMySLFCBrLJpA=";
   };
 
   patches = [

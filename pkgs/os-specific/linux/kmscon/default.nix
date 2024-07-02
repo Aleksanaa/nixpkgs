@@ -27,7 +27,7 @@ stdenv.mkDerivation rec {
     owner = "Aetf";
     repo = "kmscon";
     rev = "v${version}";
-    sha256 = "sha256-8owyyzCrZVbWXcCR+RA+m0MOrdzW+efI+rIMWEVEZ1o=";
+    hash = "sha256-8owyyzCrZVbWXcCR+RA+m0MOrdzW+efI+rIMWEVEZ1o=";
   };
 
   strictDeps = true;
@@ -60,7 +60,7 @@ stdenv.mkDerivation rec {
     (fetchpatch {
       name = "0001-tests-fix-warnings.patch";
       url = "https://github.com/Aetf/kmscon/commit/b65f4269b03de580923ab390bde795e7956b633f.patch";
-      sha256 = "sha256-ngflPwmNMM/2JzhV+hHiH3efQyoSULfqEywzWox9iAQ=";
+      hash = "sha256-ngflPwmNMM/2JzhV+hHiH3efQyoSULfqEywzWox9iAQ=";
     })
   ];
 

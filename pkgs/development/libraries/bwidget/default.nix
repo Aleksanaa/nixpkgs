@@ -6,7 +6,7 @@ tcl.mkTclDerivation rec {
 
   src = fetchurl {
     url = "mirror://sourceforge/tcllib/bwidget-${version}.tar.gz";
-    sha256 = "sha256-v+ADY3S4QpPSNiCn9t2oZXGBPQx63+2YPB8zflzoGuA=";
+    hash = "sha256-v+ADY3S4QpPSNiCn9t2oZXGBPQx63+2YPB8zflzoGuA=";
   };
 
   dontBuild = true;

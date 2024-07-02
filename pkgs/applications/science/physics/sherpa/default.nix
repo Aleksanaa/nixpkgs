@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://www.hepforge.org/archive/sherpa/SHERPA-MC-${version}.tar.gz";
-    sha256 = "sha256-3zvLa1k/bm7uOWKUsTyQM39cPBXJJlF1OgPgznl1hks=";
+    hash = "sha256-3zvLa1k/bm7uOWKUsTyQM39cPBXJJlF1OgPgznl1hks=";
   };
 
   postPatch = lib.optionalString (stdenv.hostPlatform.libc == "glibc") ''

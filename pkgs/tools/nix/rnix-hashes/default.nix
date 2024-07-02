@@ -15,7 +15,7 @@ rustPlatform.buildRustPackage rec {
     # fix test failure
     (fetchpatch {
       url = "https://github.com/numtide/rnix-hashes/commit/62ab96cfd1efeade7d98efd9829eae8677bac9cc.patch";
-      sha256 = "sha256-oE2fBt20FmO2cEUGivu2mKo3z6rbhVLXSF8SRvhibFs=";
+      hash = "sha256-oE2fBt20FmO2cEUGivu2mKo3z6rbhVLXSF8SRvhibFs=";
     })
   ];
 

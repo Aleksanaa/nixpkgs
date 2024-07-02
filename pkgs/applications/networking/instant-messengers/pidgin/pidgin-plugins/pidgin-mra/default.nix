@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
     owner = "dreadatour";
     repo = "pidgin-mra";
     rev = "54b299266265cde800289b2d51f13b81f6bf379c";
-    sha256 = "sha256-fKdEOaijW2LfsH8RHlVGbMpL7Zhu+x2vW4fPEN4puKk=";
+    hash = "sha256-fKdEOaijW2LfsH8RHlVGbMpL7Zhu+x2vW4fPEN4puKk=";
   };
 
   nativeBuildInputs = [ pkg-config ];

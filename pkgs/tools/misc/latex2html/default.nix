@@ -10,7 +10,7 @@ stdenv.mkDerivation rec {
     owner = pname;
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-MF+S6x+k+lkutJQ60HCxFpdR96K3AFZcP/4guK9RvsA=";
+    hash = "sha256-MF+S6x+k+lkutJQ60HCxFpdR96K3AFZcP/4guK9RvsA=";
   };
 
   buildInputs = [ ghostscript netpbm perl ];

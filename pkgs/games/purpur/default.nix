@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://api.purpurmc.org/v2/purpur/${builtins.replaceStrings [ "r" ] [ "/" ] version}/download";
-    sha256 = "sha256-6wcCwVIGV32YQlgB57qthy6uWtuXGN4G8S7uAAgVyDE=";
+    hash = "sha256-6wcCwVIGV32YQlgB57qthy6uWtuXGN4G8S7uAAgVyDE=";
   };
 
   nativeBuildInputs = [ makeWrapper ];

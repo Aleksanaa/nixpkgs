@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://rsnapshot.org/downloads/rsnapshot-${version}.tar.gz";
-    sha256 = "sha256-ELdeAcolUR6CZqrNSVUxl1rRqK1VYha2pXx20CizgkI=";
+    hash = "sha256-ELdeAcolUR6CZqrNSVUxl1rRqK1VYha2pXx20CizgkI=";
   };
 
   propagatedBuildInputs = [perl openssh rsync logger];

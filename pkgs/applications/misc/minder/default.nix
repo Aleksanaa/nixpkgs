@@ -31,7 +31,7 @@ stdenv.mkDerivation rec {
     owner = "phase1geo";
     repo = pname;
     rev = version;
-    sha256 = "sha256-1r2PbBYw4mmiScKbX9BGqe4i+emSvismJfPm3opLlOg=";
+    hash = "sha256-1r2PbBYw4mmiScKbX9BGqe4i+emSvismJfPm3opLlOg=";
   };
 
   nativeBuildInputs = [

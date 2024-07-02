@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
     owner  = "kaio";
     repo   = "ibus-table";
     rev    = version;
-    sha256 = "sha256-XljpwsDsdZkcnXimnN7BzPhOZdUmEEJbBM53Sv/9rIo=";
+    hash = "sha256-XljpwsDsdZkcnXimnN7BzPhOZdUmEEJbBM53Sv/9rIo=";
   };
 
   postPatch = ''

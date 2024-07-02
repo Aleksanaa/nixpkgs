@@ -18,7 +18,7 @@ stdenv.mkDerivation {
 
   src = fetchurl {
     url = "https://gitlab.com/pine64-org/quartz-bsp/rkdeveloptool/-/archive/${rev}/rkdeveloptool-${rev}.tar.gz";
-    sha256 = "sha256-u/x1Y1zZ19SYwNLVAvpqjH247RijyDJ1HTDWIsmqlFk=";
+    hash = "sha256-u/x1Y1zZ19SYwNLVAvpqjH247RijyDJ1HTDWIsmqlFk=";
   };
 
   postPatch = ''

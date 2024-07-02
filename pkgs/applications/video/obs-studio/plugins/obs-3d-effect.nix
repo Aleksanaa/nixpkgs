@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
     owner = "exeldro";
     repo = "obs-3d-effect";
     rev = version;
-    sha256 = "sha256-CAWx1wgk6G+9O7PkplrTg7uCmb8Yt6U3Z6YMVsq7IrQ=";
+    hash = "sha256-CAWx1wgk6G+9O7PkplrTg7uCmb8Yt6U3Z6YMVsq7IrQ=";
   };
 
   nativeBuildInputs = [ cmake ];

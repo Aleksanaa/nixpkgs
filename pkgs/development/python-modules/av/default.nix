@@ -33,7 +33,7 @@ buildPythonPackage rec {
     (fetchpatch {
       name = "use-pkg-config-env-var-fix-cross.patch";
       url = "https://github.com/PyAV-Org/PyAV/commit/ba7a2c9f716af506838d399e6ed27ed6d64d2435.patch";
-      sha256 = "sha256-oH+g8sVoVCQe6DimRN38VT2GdziriwHYRAhldNxz9/E=";
+      hash = "sha256-oH+g8sVoVCQe6DimRN38VT2GdziriwHYRAhldNxz9/E=";
     })
   ];
 

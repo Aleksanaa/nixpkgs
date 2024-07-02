@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchzip {
     url = "https://www.yworks.com/resources/yed/demo/${pname}-${version}.zip";
-    sha256 = "sha256-u83OmIzq9VygKbfa886mj6BIa/9ET1btry2nR/wxeyI=";
+    hash = "sha256-u83OmIzq9VygKbfa886mj6BIa/9ET1btry2nR/wxeyI=";
   };
 
   nativeBuildInputs = [ makeWrapper unzip wrapGAppsHook3 ];

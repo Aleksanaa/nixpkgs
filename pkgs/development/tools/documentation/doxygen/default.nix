@@ -21,7 +21,7 @@ stdenv.mkDerivation rec {
     owner = "doxygen";
     repo = "doxygen";
     rev = "Release_${lib.replaceStrings [ "." ] [ "_" ] version}";
-    sha256 = "sha256-FPI5ICdn9Tne/g9SP6jAQS813AAyoDNooDR/Hyvq6R4=";
+    hash = "sha256-FPI5ICdn9Tne/g9SP6jAQS813AAyoDNooDR/Hyvq6R4=";
   };
 
   patches = [

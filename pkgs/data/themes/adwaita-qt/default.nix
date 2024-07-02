@@ -21,7 +21,7 @@ stdenv.mkDerivation rec {
     owner = "FedoraQt";
     repo = pname;
     rev = version;
-    sha256 = "sha256-K/+SL52C+M2OC4NL+mhBnm/9BwH0KNNTGIDmPwuUwkM=";
+    hash = "sha256-K/+SL52C+M2OC4NL+mhBnm/9BwH0KNNTGIDmPwuUwkM=";
   };
 
   nativeBuildInputs = [

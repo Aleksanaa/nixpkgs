@@ -21,7 +21,7 @@ python3Packages.buildPythonApplication rec {
     owner = "yktoo";
     repo = pname;
     rev = "refs/tags/v${version}";
-    sha256 = "sha256-qJ1lg9A1aCM+/v/JbQAVpYGX25qA5ULqsM8k7uH1uvQ=";
+    hash = "sha256-qJ1lg9A1aCM+/v/JbQAVpYGX25qA5ULqsM8k7uH1uvQ=";
   };
 
   postPatch = ''

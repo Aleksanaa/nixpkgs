@@ -27,7 +27,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://github.com/otfried/ipe/releases/download/v${version}/ipe-${version}-src.tar.gz";
-    sha256 = "sha256-wx/bZy8kB7dpZsz58BeRGdS1BzbrIoafgEmLyFg7wZU=";
+    hash = "sha256-wx/bZy8kB7dpZsz58BeRGdS1BzbrIoafgEmLyFg7wZU=";
   };
 
   nativeBuildInputs = [ pkg-config copyDesktopItems wrapQtAppsHook ];

@@ -10,7 +10,7 @@ stdenv.mkDerivation rec {
     owner = "OpenKinect";
     repo = "libfreenect";
     rev = "v${version}";
-    sha256 = "sha256-Lb5mrl9jiI1Z9UOAlP+bBPNoKNxm5VSrFZRvifEfhoU=";
+    hash = "sha256-Lb5mrl9jiI1Z9UOAlP+bBPNoKNxm5VSrFZRvifEfhoU=";
   };
 
   buildInputs = [ libusb1 freeglut libGLU libGL libXi libXmu ]

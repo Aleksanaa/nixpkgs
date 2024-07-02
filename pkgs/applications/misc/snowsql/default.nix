@@ -14,7 +14,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://sfc-repo.snowflakecomputing.com/snowsql/bootstrap/${lib.versions.majorMinor version}/linux_x86_64/snowflake-snowsql-${version}-1.x86_64.rpm";
-    sha256 = "sha256-KKCCj+pIwWhuzOuxljQ8Y11mAwD/GONspbXuPAMBdhE=";
+    hash = "sha256-KKCCj+pIwWhuzOuxljQ8Y11mAwD/GONspbXuPAMBdhE=";
   };
 
   nativeBuildInputs = [ rpmextract makeWrapper ];

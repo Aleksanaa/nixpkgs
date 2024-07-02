@@ -14,7 +14,7 @@ mkXfceDerivation rec {
   # Last release is too old
   version = "0.3.1-2024-05-29";
   rev = "cf40dffec6e9b80abb1f1aa6d7dceef4790173dc";
-  sha256 = "sha256-moCWSLGBJuWM4/lRJi6D3w38iJeCntLo3Vl/eVfu7lw=";
+  hash = "sha256-moCWSLGBJuWM4/lRJi6D3w38iJeCntLo3Vl/eVfu7lw=";
 
   nativeBuildInputs = [
     vala

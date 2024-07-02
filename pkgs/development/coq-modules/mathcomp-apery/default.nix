@@ -11,7 +11,7 @@ mkCoqDerivation {
       { cases = [ (range "8.13" "8.16") (range "1.12.0" "1.17.0") ]; out = "1.0.2"; }
     ] null;
 
-  release."1.0.2".sha256 = "sha256-llxyMKYvWUA7fyroG1S/jtpioAoArmarR1edi3cikcY=";
+  release."1.0.2".hash = "sha256-llxyMKYvWUA7fyroG1S/jtpioAoArmarR1edi3cikcY=";
 
   propagatedBuildInputs = [ mathcomp.field coqeal mathcomp-real-closed
     mathcomp-bigenough mathcomp-zify mathcomp-algebra-tactics ];

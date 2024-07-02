@@ -16,7 +16,7 @@ buildPythonPackage rec {
     repo = pname;
     owner = "wagtail";
     rev = "refs/tags/${version}";
-    sha256 = "sha256-jo8VwrmxHBJnORmuR6eTLrf/eupNL2vhXcw81EzfTxM=";
+    hash = "sha256-jo8VwrmxHBJnORmuR6eTLrf/eupNL2vhXcw81EzfTxM=";
   };
 
   propagatedBuildInputs = [

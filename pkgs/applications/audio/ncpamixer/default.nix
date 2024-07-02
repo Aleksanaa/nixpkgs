@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
     owner = "fulhax";
     repo = "ncpamixer";
     rev = version;
-    sha256 = "sha256-GJ2zSIxSnL53nFZ2aeGlVI7i4APt+aALVEhNP5RkpMc=";
+    hash = "sha256-GJ2zSIxSnL53nFZ2aeGlVI7i4APt+aALVEhNP5RkpMc=";
   };
 
   patches = [

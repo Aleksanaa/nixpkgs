@@ -10,7 +10,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://fc-solve.shlomifish.org/downloads/fc-solve/${pname}-${version}.tar.xz";
-    sha256 = "sha256-0y8yU291cykliPQbsNha5C1WE3bCGNxKtrrf5JBKN6c=";
+    hash = "sha256-0y8yU291cykliPQbsNha5C1WE3bCGNxKtrrf5JBKN6c=";
   };
 
   nativeBuildInputs = [ cmake perl pkg-config python3 ];

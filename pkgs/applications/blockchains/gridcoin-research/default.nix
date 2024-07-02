@@ -26,7 +26,7 @@ stdenv.mkDerivation rec {
     owner = "gridcoin-community";
     repo = "Gridcoin-Research";
     rev = "${version}";
-    sha256 = "sha256-HZirzXkqM2aep+wq8k2UCFWHPtN0sBZXjamgt7RYPBo=";
+    hash = "sha256-HZirzXkqM2aep+wq8k2UCFWHPtN0sBZXjamgt7RYPBo=";
   };
 
   nativeBuildInputs = [

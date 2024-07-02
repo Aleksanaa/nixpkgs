@@ -11,7 +11,7 @@ in stdenv.mkDerivation rec {
     owner  = "hughsie";
     repo   = "PackageKit-Qt";
     rev    = "v${version}";
-    sha256 = "sha256-pwDMLd+Gpl0P2ImPjGeZpKAOJ4dH5+P1se0l1qm5Ui0=";
+    hash = "sha256-pwDMLd+Gpl0P2ImPjGeZpKAOJ4dH5+P1se0l1qm5Ui0=";
   };
 
   buildInputs = [ packagekit ];

@@ -17,7 +17,7 @@ gnuradio3_8Minimal.pkgs.mkDerivation rec {
     owner = "miek";
     repo = "inspectrum";
     rev = "v${version}";
-    sha256 = "sha256-yY2W2hQpj8TIxiQBSbQHq0J16n74OfIwMDxFt3mLZYc=";
+    hash = "sha256-yY2W2hQpj8TIxiQBSbQHq0J16n74OfIwMDxFt3mLZYc=";
   };
 
   nativeBuildInputs = [

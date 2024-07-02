@@ -11,7 +11,7 @@ buildPythonApplication rec {
     owner = "nvbn";
     repo = pname;
     rev = version;
-    sha256 = "sha256-bRCy95owBJaxoyCNQF6gEENoxCkmorhyKzZgU1dQN6I=";
+    hash = "sha256-bRCy95owBJaxoyCNQF6gEENoxCkmorhyKzZgU1dQN6I=";
   };
 
   propagatedBuildInputs = [ colorama decorator psutil pyte six ];

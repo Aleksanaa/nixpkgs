@@ -8,7 +8,7 @@ buildDunePackage rec {
 
   src = fetchurl {
     url = "https://github.com/mirage/metrics/releases/download/v${version}/metrics-${version}.tbz";
-    sha256 = "sha256-d+DCD7XB0GED27DsC8YEW+48YcAK0EI8l4Uqx/PGFE0=";
+    hash = "sha256-d+DCD7XB0GED27DsC8YEW+48YcAK0EI8l4Uqx/PGFE0=";
   };
 
   propagatedBuildInputs = [ fmt ];

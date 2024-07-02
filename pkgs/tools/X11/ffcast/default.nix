@@ -10,7 +10,7 @@ stdenv.mkDerivation rec {
     owner = "ropery";
     repo = "FFcast";
     rev = version;
-    sha256 = "sha256-kxqwDGEguFTFHkQzXctXqxslt0+bYnfUdQ8C/8+eTXo=";
+    hash = "sha256-kxqwDGEguFTFHkQzXctXqxslt0+bYnfUdQ8C/8+eTXo=";
   };
 
   nativeBuildInputs = [ autoreconfHook makeWrapper perl /*for pod2man*/ ];

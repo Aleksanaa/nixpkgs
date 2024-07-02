@@ -6,7 +6,7 @@ buildDunePackage rec {
 
   src = fetchurl {
     url = "https://github.com/flowtype/ocaml-${pname}/releases/download/v${version}/${pname}-v${version}.tbz";
-    sha256 = "sha256-/mMj5UT22KQGVy1sjgEoOgPzyCYyeDPtWJYNDvQ9nlk=";
+    hash = "sha256-/mMj5UT22KQGVy1sjgEoOgPzyCYyeDPtWJYNDvQ9nlk=";
   };
 
   minimalOCamlVersion = "4.07";

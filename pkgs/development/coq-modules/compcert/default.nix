@@ -39,11 +39,11 @@ compcert = mkCoqDerivation {
     "3.8".sha256 = "1gzlyxvw64ca12qql3wnq3bidcx9ygsklv9grjma3ib4hvg7vnr7";
     "3.9".sha256 = "1srcz2dqrvmbvv5cl66r34zqkm0hsbryk7gd3i9xx4slahc9zvdb";
     "3.10".sha256 = "sha256:19rmx8r8v46101ij5myfrz60arqjy7q3ra3fb8mxqqi3c8c4l4j6";
-    "3.11".sha256 = "sha256-ZISs/ZAJVWtxp9+Sg5qV5Rss1gI9hK769GnBfawLa6A=";
-    "3.12".sha256 = "sha256-hXkQ8UnAx3k50OJGBmSm4hgrnRFCosu4+PEMrcKfmV0=";
-    "3.13".sha256 = "sha256-ZedxgEPr1ZgKIcyhQ6zD1l2xr6RDNNUYq/4ZyR6ojM4=";
-    "3.13.1".sha256 = "sha256-ldXbuzVB0Z+UVTd5S4yGSg6oRYiKbXLMmUZcQsJLcns=";
-    "3.14".sha256 = "sha256-QXJMpp/BaPiK5okHeo2rcmXENToXKjB51UqljMHTDgw=";
+    "3.11".hash = "sha256-ZISs/ZAJVWtxp9+Sg5qV5Rss1gI9hK769GnBfawLa6A=";
+    "3.12".hash = "sha256-hXkQ8UnAx3k50OJGBmSm4hgrnRFCosu4+PEMrcKfmV0=";
+    "3.13".hash = "sha256-ZedxgEPr1ZgKIcyhQ6zD1l2xr6RDNNUYq/4ZyR6ojM4=";
+    "3.13.1".hash = "sha256-ldXbuzVB0Z+UVTd5S4yGSg6oRYiKbXLMmUZcQsJLcns=";
+    "3.14".hash = "sha256-QXJMpp/BaPiK5okHeo2rcmXENToXKjB51UqljMHTDgw=";
   };
 
   strictDeps = true;
@@ -162,7 +162,7 @@ compcert.overrideAttrs (o:
           # Support for Coq 8.16.0
           (fetchpatch {
             url = "https://github.com/AbsInt/CompCert/commit/34be08a23d18d56f2dde24fd24b6dbe3bcb01ec3.patch";
-            sha256 = "sha256-a5YnftGVadVypEqrOYRRxI7YtGOEWyKnO4GqakFhvzI=";
+            hash = "sha256-a5YnftGVadVypEqrOYRRxI7YtGOEWyKnO4GqakFhvzI=";
           })
           # Support for Coq 8.16.1
           (fetchpatch {

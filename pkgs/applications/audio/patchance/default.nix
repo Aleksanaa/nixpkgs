@@ -6,7 +6,7 @@ buildPythonApplication rec {
 
   src = fetchurl {
     url = "https://github.com/Houston4444/Patchance/releases/download/v${version}/Patchance-${version}-source.tar.gz";
-    sha256 = "sha256-wlkEKkPH2C/y7TQicIVycWbtLUdX2hICcUWi7nFN51w=";
+    hash = "sha256-wlkEKkPH2C/y7TQicIVycWbtLUdX2hICcUWi7nFN51w=";
   };
 
   format = "other";

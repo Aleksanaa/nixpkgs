@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
     owner = "AGWA";
     repo = pname;
     rev = version;
-    sha256 = "sha256-GcGCX6hoKL+sNLAeGEzZpaM+cdFjcNlwYExfOFEPi0I=";
+    hash = "sha256-GcGCX6hoKL+sNLAeGEzZpaM+cdFjcNlwYExfOFEPi0I=";
   };
 
   strictDeps = true;

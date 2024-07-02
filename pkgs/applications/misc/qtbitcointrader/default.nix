@@ -8,7 +8,7 @@ mkDerivation rec {
     owner = "JulyIGHOR";
     repo = "QtBitcoinTrader";
     rev = "v${version}";
-    sha256 = "sha256-u3+Kwn8KunYUpWCd55TQuVVfoSp8hdti93d6hk7Uqx8=";
+    hash = "sha256-u3+Kwn8KunYUpWCd55TQuVVfoSp8hdti93d6hk7Uqx8=";
   };
 
   buildInputs = [ qt5.qtbase qt5.qtmultimedia qt5.qtscript ];

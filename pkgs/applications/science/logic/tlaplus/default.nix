@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://github.com/tlaplus/tlaplus/releases/download/v${version}/tla2tools.jar";
-    sha256 = "sha256-5P8V6oH05voSXAgwBDclSxdxdMalrfaNpElkar4IUZ0=";
+    hash = "sha256-5P8V6oH05voSXAgwBDclSxdxdMalrfaNpElkar4IUZ0=";
   };
 
   nativeBuildInputs = [ makeWrapper ];

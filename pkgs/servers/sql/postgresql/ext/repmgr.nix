@@ -19,7 +19,7 @@ stdenv.mkDerivation rec {
     owner = "EnterpriseDB";
     repo = "repmgr";
     rev = "v${version}";
-    sha256 = "sha256-OaEoP1BajVW9dt8On9Ppf8IXmAk47HHv8zKw3WlsLHw=";
+    hash = "sha256-OaEoP1BajVW9dt8On9Ppf8IXmAk47HHv8zKw3WlsLHw=";
   };
 
   nativeBuildInputs = [ flex ];

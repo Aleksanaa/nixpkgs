@@ -10,7 +10,7 @@ buildGoModule rec {
     owner = "anti-censorship/pluggable-transports";
     repo = "snowflake";
     rev = "v${version}";
-    sha256 = "sha256-QyTyFz4NIuUV7g5f6qV/ujfHYZDnnZmjeBinvcWlo0U=";
+    hash = "sha256-QyTyFz4NIuUV7g5f6qV/ujfHYZDnnZmjeBinvcWlo0U=";
   };
 
   vendorHash = "sha256-Qn8JFzrLCUrr6WGvVmaSYC7ooiMGl8iPMXkRvALho1A=";

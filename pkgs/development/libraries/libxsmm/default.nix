@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
     owner = "hfp";
     repo = "libxsmm";
     rev = version;
-    sha256 = "sha256-PpMiD/PeQ0pe5hqFG6VFHWpR8y3wnO2z1dJfHHeItlQ=";
+    hash = "sha256-PpMiD/PeQ0pe5hqFG6VFHWpR8y3wnO2z1dJfHHeItlQ=";
   };
 
   outputs = [ "out" "dev" "doc" ];

@@ -20,7 +20,7 @@ mkXfceDerivation {
   version = "1.1.3";
   odd-unstable = false;
 
-  sha256 = "sha256-CUIQf22Lmb6MNPd2wk8LlHFNUhdIoC1gzVV6RDP2PfY=";
+  hash = "sha256-CUIQf22Lmb6MNPd2wk8LlHFNUhdIoC1gzVV6RDP2PfY=";
 
   nativeBuildInputs = [
     libxslt

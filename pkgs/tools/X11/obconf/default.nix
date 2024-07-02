@@ -19,7 +19,7 @@ stdenv.mkDerivation rec {
   src = fetchgit {
     url = "git://git.openbox.org/dana/obconf";
     rev = "63ec47c5e295ad4f09d1df6d92afb7e10c3fec39";
-    sha256 = "sha256-qwm66VA/ueRMFtSUcrmuObNkz+KYgWRnmR7TnQwpxiE=";
+    hash = "sha256-qwm66VA/ueRMFtSUcrmuObNkz+KYgWRnmR7TnQwpxiE=";
   };
 
   nativeBuildInputs = [

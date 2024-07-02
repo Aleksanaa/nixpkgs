@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://dl.eviware.com/soapuios/${version}/SoapUI-${version}-linux-bin.tar.gz";
-    sha256 = "sha256-pT0ZANVC7Sv7zxMDPY86aclIUGZeazOZadiVVsmEjtw=";
+    hash = "sha256-pT0ZANVC7Sv7zxMDPY86aclIUGZeazOZadiVVsmEjtw=";
   };
 
   nativeBuildInputs = [makeWrapper];

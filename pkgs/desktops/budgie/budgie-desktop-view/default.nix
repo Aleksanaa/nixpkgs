@@ -20,7 +20,7 @@ stdenv.mkDerivation (finalAttrs: {
     owner = "BuddiesOfBudgie";
     repo = "budgie-desktop-view";
     rev = "v${finalAttrs.version}";
-    sha256 = "sha256-k6VfAGWvUarhBFnREasOvWH3M9uuT5SFUpMFmKo1fmE=";
+    hash = "sha256-k6VfAGWvUarhBFnREasOvWH3M9uuT5SFUpMFmKo1fmE=";
   };
 
   nativeBuildInputs = [

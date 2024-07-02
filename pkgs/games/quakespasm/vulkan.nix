@@ -10,7 +10,7 @@ stdenv.mkDerivation rec {
     owner = "Novum";
     repo = "vkQuake";
     rev = version;
-    sha256 = "sha256-+8DU1QT3Lgqf1AIReVnXQ2Lq6R6eBb8VjdkJfAn/Rtc=";
+    hash = "sha256-+8DU1QT3Lgqf1AIReVnXQ2Lq6R6eBb8VjdkJfAn/Rtc=";
   };
 
   sourceRoot = "${src.name}/Quake";

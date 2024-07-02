@@ -23,21 +23,21 @@ let
     owner = "p-ranav";
     repo = "glob";
     rev = "v0.0.1";
-    sha256 = "sha256-2y+a7YFBiYX8wbwCCWw1Cm+SFoXGB3ZxLPi/QdZhcdw=";
+    hash = "sha256-2y+a7YFBiYX8wbwCCWw1Cm+SFoXGB3ZxLPi/QdZhcdw=";
   };
 
   structopt = fetchFromGitHub {
     owner = "p-ranav";
     repo = "structopt";
     rev = "e9722d3c2b52cf751ebc1911b93d9649c4e365cc";
-    sha256 = "sha256-jIfKUyY2QQ2/donywwlz65PY8u7xODGoG6SlNtUhwkg=";
+    hash = "sha256-jIfKUyY2QQ2/donywwlz65PY8u7xODGoG6SlNtUhwkg=";
   };
 
   toml11 = fetchFromGitHub {
     owner = "ToruNiina";
     repo = "toml11";
     rev = "9086b1114f39a8fb10d08ca704771c2f9f247d02";
-    sha256 = "sha256-fHUElHO4ckNQq7Q88GdbHGxfaAvWoWtGB0eD9y2MnLo=";
+    hash = "sha256-fHUElHO4ckNQq7Q88GdbHGxfaAvWoWtGB0eD9y2MnLo=";
   };
 in
 stdenv.mkDerivation rec {
@@ -48,7 +48,7 @@ stdenv.mkDerivation rec {
     owner = "poacpm";
     repo = pname;
     rev = version;
-    sha256 = "sha256-JgGa7lomDvZG5HLxGJMALcezjnZprexJDTxyTUjLetg=";
+    hash = "sha256-JgGa7lomDvZG5HLxGJMALcezjnZprexJDTxyTUjLetg=";
   };
 
   preConfigure = ''

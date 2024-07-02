@@ -42,7 +42,7 @@ mkDerivation rec {
     owner = "pragha-music-player";
     repo = "pragha";
     rev = "v${version}";
-    sha256 = "sha256-C4zh2NHqP4bwKMi5s+3AfEtKqxRlzL66H8OyNonGzxE=";
+    hash = "sha256-C4zh2NHqP4bwKMi5s+3AfEtKqxRlzL66H8OyNonGzxE=";
   };
 
   nativeBuildInputs = [

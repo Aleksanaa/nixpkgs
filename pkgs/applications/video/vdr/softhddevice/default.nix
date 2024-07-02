@@ -19,7 +19,7 @@ stdenv.mkDerivation rec {
   src = fetchFromGitHub {
     owner = "ua0lnj";
     repo = "vdr-plugin-softhddevice";
-    sha256 = "sha256-PvSo5qiDMVrL6ylts5leR/3YAqIpIZcmnAqnGopPG94=";
+    hash = "sha256-PvSo5qiDMVrL6ylts5leR/3YAqIpIZcmnAqnGopPG94=";
     rev = "v${version}";
   };
 

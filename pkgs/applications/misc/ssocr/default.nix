@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
     owner = "auerswal";
     repo = "ssocr";
     rev = "v${version}";
-    sha256 = "sha256-EfZsTrZI6vKM7tB6mKNGEkdfkNFbN5p4TmymOJGZRBk=";
+    hash = "sha256-EfZsTrZI6vKM7tB6mKNGEkdfkNFbN5p4TmymOJGZRBk=";
   };
 
   nativeBuildInputs = [ pkg-config ];

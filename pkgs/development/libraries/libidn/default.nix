@@ -8,7 +8,7 @@ stdenv.mkDerivation (finalAttrs: {
 
   src = fetchurl {
     url = "mirror://gnu/libidn/${finalAttrs.pname}-${finalAttrs.version}.tar.gz";
-    sha256 = "sha256-1sGZ3NgG5P4nk2DLSwg0mg05Vg7VSP/RzK3ajN7LRyM=";
+    hash = "sha256-1sGZ3NgG5P4nk2DLSwg0mg05Vg7VSP/RzK3ajN7LRyM=";
   };
 
   outputs = [ "bin" "dev" "out" "info" "devdoc" ];

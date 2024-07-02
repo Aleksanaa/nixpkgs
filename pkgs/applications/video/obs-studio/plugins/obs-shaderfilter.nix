@@ -14,7 +14,7 @@ stdenv.mkDerivation rec {
     owner = "exeldro";
     repo = "obs-shaderfilter";
     rev = version;
-    sha256 = "sha256-INxz8W4AMKxRcfpZkhqqsWWWQQVEc2G9iFQBit1YA2E=";
+    hash = "sha256-INxz8W4AMKxRcfpZkhqqsWWWQQVEc2G9iFQBit1YA2E=";
   };
 
   nativeBuildInputs = [ cmake ];

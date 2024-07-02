@@ -27,7 +27,7 @@ let
 
         src = fetchPypi {
           inherit pname version;
-          sha256 = "sha256-67t3fL+TEjWbiXv4G6ANrg9ctp+6KhgmXcwYpvXvdRk=";
+          hash = "sha256-67t3fL+TEjWbiXv4G6ANrg9ctp+6KhgmXcwYpvXvdRk=";
         };
 
         postInstall = ''

@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://erratique.ch/software/bos/releases/bos-${version}.tbz";
-    sha256 = "sha256-2NYueGsQ1pfgRXIFqO7eqifrzJDxhV8Y3xkMrC49jzc=";
+    hash = "sha256-2NYueGsQ1pfgRXIFqO7eqifrzJDxhV8Y3xkMrC49jzc=";
   };
 
   nativeBuildInputs = [ ocaml findlib ocamlbuild topkg ];

@@ -12,7 +12,7 @@ mkXfceDerivation {
   pname = "xfce4-dict";
   version = "0.8.6";
 
-  sha256 = "sha256-a7St9iH+jzwq/llrMJkuqwgQrDFEjqebs/N6Lxa3dkI=";
+  hash = "sha256-a7St9iH+jzwq/llrMJkuqwgQrDFEjqebs/N6Lxa3dkI=";
 
   buildInputs = [
     glib

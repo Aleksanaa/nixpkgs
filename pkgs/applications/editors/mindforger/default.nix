@@ -30,7 +30,7 @@ stdenv.mkDerivation rec {
     #  this fixes compilation with QtWebEngine - referencing a commit trying to upstream the change - see https://github.com/dvorka/mindforger/pull/1357
     (fetchpatch {
       url = "https://github.com/dvorka/mindforger/commit/d28e2bade0278af1b5249953202810540969026a.diff";
-      sha256 = "sha256-qHKQQNGSc3F9seaOHV0gzBQFFqcTXk91LpKrojjpAUw=";
+      hash = "sha256-qHKQQNGSc3F9seaOHV0gzBQFFqcTXk91LpKrojjpAUw=";
     })
   ];
 

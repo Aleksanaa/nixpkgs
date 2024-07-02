@@ -14,7 +14,7 @@ buildDunePackage rec {
 
   src = fetchzip {
     url = "https://github.com/abeaumont/ocaml-pbkdf/archive/${version}.tar.gz";
-    sha256 = "sha256-dGi4Vw+7VBpK/NpJ6zdpogm+E6G/oJovXCksJBSmqjI=";
+    hash = "sha256-dGi4Vw+7VBpK/NpJ6zdpogm+E6G/oJovXCksJBSmqjI=";
   };
 
   minimalOCamlVersion = "4.08";

@@ -9,7 +9,7 @@ buildKodiBinaryAddon rec {
     owner = "xbmc";
     repo = "inputstream.rtmp";
     rev = "${version}-${rel}";
-    sha256 = "sha256-M6LFokWQRzBZ7inzRsMxyWzkV0XsGHh4d0CPhv1NCfI=";
+    hash = "sha256-M6LFokWQRzBZ7inzRsMxyWzkV0XsGHh4d0CPhv1NCfI=";
   };
 
   extraBuildInputs = [ openssl rtmpdump zlib ];

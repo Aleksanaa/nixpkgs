@@ -45,7 +45,7 @@ stdenv.mkDerivation rec {
     owner = "liballeg";
     repo = "allegro5";
     rev = version;
-    sha256 = "sha256-n2OCmZmAqeXjtnCTqJgQ5q4j8/lnPfH+5tpWKIFKle0=";
+    hash = "sha256-n2OCmZmAqeXjtnCTqJgQ5q4j8/lnPfH+5tpWKIFKle0=";
   };
 
   nativeBuildInputs = [

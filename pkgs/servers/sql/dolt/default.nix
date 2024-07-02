@@ -8,7 +8,7 @@ buildGoModule rec {
     owner = "dolthub";
     repo = "dolt";
     rev = "v${version}";
-    sha256 = "sha256-IeLG2IRHGrx5F3tIcvilhgC9BUFHpIpbzTo6vdQj+ZE=";
+    hash = "sha256-IeLG2IRHGrx5F3tIcvilhgC9BUFHpIpbzTo6vdQj+ZE=";
   };
 
   modRoot = "./go";

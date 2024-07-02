@@ -26,7 +26,7 @@ stdenv.mkDerivation rec {
     owner = "mapeditor";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-cFS1OSYfGMsnw+VkZD/HO4+D+pxNKuifWjNhy0FoxN0=";
+    hash = "sha256-cFS1OSYfGMsnw+VkZD/HO4+D+pxNKuifWjNhy0FoxN0=";
   };
 
   nativeBuildInputs = [ pkg-config qbs wrapQtAppsHook ];

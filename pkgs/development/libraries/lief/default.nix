@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
     owner = "lief-project";
     repo = "LIEF";
     rev = version;
-    sha256 = "sha256-lH4SqwPB2Jp/wUI2Cll67PQbHbwMqpNuLy/ei8roiHg=";
+    hash = "sha256-lH4SqwPB2Jp/wUI2Cll67PQbHbwMqpNuLy/ei8roiHg=";
   };
 
   outputs = [ "out" "py" ];

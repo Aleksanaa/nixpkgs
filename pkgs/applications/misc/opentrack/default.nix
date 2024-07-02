@@ -36,7 +36,7 @@ in
       owner = "opentrack";
       repo = "opentrack";
       rev = "opentrack-${version}";
-      sha256 = "sha256-8gpNORTJclYUYp57Vw/0YO3XC9Idurt0a79fhqx0+mo=";
+      hash = "sha256-8gpNORTJclYUYp57Vw/0YO3XC9Idurt0a79fhqx0+mo=";
     };
 
     nativeBuildInputs = [cmake pkg-config ninja copyDesktopItems];

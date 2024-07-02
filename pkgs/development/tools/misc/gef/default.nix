@@ -27,7 +27,7 @@ in stdenv.mkDerivation rec {
     owner = "hugsy";
     repo = "gef";
     rev = version;
-    sha256 = "sha256-fo8hC2T2WDcG0MQffPm2QBPR89EPiqctkUJC40PeyWg=";
+    hash = "sha256-fo8hC2T2WDcG0MQffPm2QBPR89EPiqctkUJC40PeyWg=";
   };
 
   dontBuild = true;

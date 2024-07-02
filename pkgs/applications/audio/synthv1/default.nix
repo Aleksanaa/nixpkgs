@@ -6,7 +6,7 @@ mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://sourceforge/synthv1/${pname}-${version}.tar.gz";
-    sha256 = "sha256-0V72T51icT/t9fJf4mwcMYZLjzTPnmiCbU+BdwnCmw4=";
+    hash = "sha256-0V72T51icT/t9fJf4mwcMYZLjzTPnmiCbU+BdwnCmw4=";
   };
 
   buildInputs = [ qtbase qttools libjack2 alsa-lib liblo lv2 ];

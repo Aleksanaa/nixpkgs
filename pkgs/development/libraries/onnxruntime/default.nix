@@ -35,7 +35,7 @@ let
     owner = "HowardHinnant";
     repo = "date";
     rev = "v2.4.1";
-    sha256 = "sha256-BYL7wxsYRI45l8C3VwxYIIocn5TzJnBtU0UZ9pHwwZw=";
+    hash = "sha256-BYL7wxsYRI45l8C3VwxYIIocn5TzJnBtU0UZ9pHwwZw=";
   };
 
   mp11 = fetchFromGitHub {
@@ -78,7 +78,7 @@ let
     owner = "NVIDIA";
     repo = "cutlass";
     rev = "v3.0.0";
-    sha256 = "sha256-YPD5Sy6SvByjIcGtgeGH80TEKg2BtqJWSg46RvnJChY=";
+    hash = "sha256-YPD5Sy6SvByjIcGtgeGH80TEKg2BtqJWSg46RvnJChY=";
    };
 in
 effectiveStdenv.mkDerivation rec {

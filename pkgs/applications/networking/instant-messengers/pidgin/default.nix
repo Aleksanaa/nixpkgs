@@ -47,7 +47,7 @@ let
 
     src = fetchurl {
       url = "mirror://sourceforge/pidgin/pidgin-${version}.tar.bz2";
-      sha256 = "sha256-EgBJ3I4X4JoqfSVq/yGR/4SRq7hAyMfrMZoWHi3xa6g=";
+      hash = "sha256-EgBJ3I4X4JoqfSVq/yGR/4SRq7hAyMfrMZoWHi3xa6g=";
     };
 
     nativeBuildInputs = [ makeWrapper intltool ];

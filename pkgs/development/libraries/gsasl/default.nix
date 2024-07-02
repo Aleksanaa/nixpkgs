@@ -8,7 +8,7 @@ stdenv.mkDerivation (finalAttrs: {
 
   src = fetchurl {
     url = "mirror://gnu/gsasl/${finalAttrs.pname}-${finalAttrs.version}.tar.gz";
-    sha256 = "sha256-1FtWLhO9E7n8ILNy9LUyaXQM9iefg28JzhG50yvO4HU=";
+    hash = "sha256-1FtWLhO9E7n8ILNy9LUyaXQM9iefg28JzhG50yvO4HU=";
   };
 
   # This is actually bug in musl. It is already fixed in trunc and

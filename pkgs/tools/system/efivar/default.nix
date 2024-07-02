@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
   patches = [
     (fetchpatch {
       url = "https://github.com/rhboot/efivar/commit/15622b7e5761f3dde3f0e42081380b2b41639a48.patch";
-      sha256 = "sha256-SjZXj0hA2eQu2MfBoNjFPtd2DMYadtL7ZqwjKSf2cmI=";
+      hash = "sha256-SjZXj0hA2eQu2MfBoNjFPtd2DMYadtL7ZqwjKSf2cmI=";
     })
     # src/Makefile: build util.c separately for makeguids
     # util.c needs to be built twice when cross-compiling

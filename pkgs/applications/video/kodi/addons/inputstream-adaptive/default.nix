@@ -4,7 +4,7 @@ let
     owner = "xbmc";
     repo = "Bento4";
     rev = "1.6.0-641-${rel}";
-    sha256 = "sha256-vsFMDzH8JJecYw0qWKGCxnd/m5wn62mCKE2g2HwQhwI=";
+    hash = "sha256-vsFMDzH8JJecYw0qWKGCxnd/m5wn62mCKE2g2HwQhwI=";
   };
 in
 buildKodiBinaryAddon rec {
@@ -16,7 +16,7 @@ buildKodiBinaryAddon rec {
     owner = "xbmc";
     repo = "inputstream.adaptive";
     rev = "${version}-${rel}";
-    sha256 = "sha256-ub4ep89datfr8aZLZAfoz7zhOizGFpzgp2PVON6Ptj8=";
+    hash = "sha256-ub4ep89datfr8aZLZAfoz7zhOizGFpzgp2PVON6Ptj8=";
   };
 
   extraCMakeFlags = [

@@ -15,7 +15,7 @@ stdenv.mkDerivation rec {
     owner = "icinga";
     repo = "icinga2";
     rev = "v${version}";
-    sha256 = "sha256-vUtLGkTLGObx3zbfRTboNVsl9AmpAkHc+IhWhnKupSM=";
+    hash = "sha256-vUtLGkTLGObx3zbfRTboNVsl9AmpAkHc+IhWhnKupSM=";
   };
 
   patches = [

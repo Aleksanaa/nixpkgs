@@ -22,17 +22,17 @@ let params = {
   "1.17.0" = {
     name = "lsp";
     minimalOCamlVersion = "4.14";
-    sha256 = "sha256-j7i71xfu/SYItNg0WBBbZg4N46ETTcj8IWrmWdTRlgA=";
+    hash = "sha256-j7i71xfu/SYItNg0WBBbZg4N46ETTcj8IWrmWdTRlgA=";
   };
   "1.14.2" = {
     name = "lsp";
     minimalOCamlVersion = "4.14";
-    sha256 = "sha256-1R+HYaGbPLGDs5DMN3jmnrZFMhMmPUHgF+s+yNzIVJQ=";
+    hash = "sha256-1R+HYaGbPLGDs5DMN3jmnrZFMhMmPUHgF+s+yNzIVJQ=";
   };
   "1.10.5" = {
     name = "jsonrpc";
     minimalOCamlVersion = "4.13";
-    sha256 = "sha256-TeJS6t1ruWhWPvWNatrnSUWI6T17XKiosHLYizBDDcw=";
+    hash = "sha256-TeJS6t1ruWhWPvWNatrnSUWI6T17XKiosHLYizBDDcw=";
   };
   "1.9.0" = {
     name = "jsonrpc";

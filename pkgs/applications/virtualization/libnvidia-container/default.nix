@@ -19,7 +19,7 @@ let
     owner = "NVIDIA";
     repo = "nvidia-modprobe";
     rev = modprobeVersion;
-    sha256 = "sha256-Y3ZOfge/EcmhqI19yWO7UfPqkvY1CHHvFC5l9vYyGuU=";
+    hash = "sha256-Y3ZOfge/EcmhqI19yWO7UfPqkvY1CHHvFC5l9vYyGuU=";
   };
   modprobePatch = substituteAll {
     src = ./modprobe.patch;
@@ -34,7 +34,7 @@ stdenv.mkDerivation rec {
     owner = "NVIDIA";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-7OTawWwjeKU8wIa8I/+aSvAJli4kEua94nJSNyCajpE=";
+    hash = "sha256-7OTawWwjeKU8wIa8I/+aSvAJli4kEua94nJSNyCajpE=";
   };
 
   patches = [

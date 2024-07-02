@@ -17,7 +17,7 @@ python3.pkgs.buildPythonApplication rec {
     owner = "GlasgowEmbedded";
     repo = "glasgow";
     rev = "e9a9801d5be3dcba0ee188dd8a6e9115e337795d";
-    sha256 = "sha256-ztB3I/jrDSm1gKB1e5igivUVloq+YYhkshDlWg75NMA=";
+    hash = "sha256-ztB3I/jrDSm1gKB1e5igivUVloq+YYhkshDlWg75NMA=";
   };
 
   nativeBuildInputs = [

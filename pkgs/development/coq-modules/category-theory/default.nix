@@ -5,7 +5,7 @@ mkCoqDerivation {
   pname = "category-theory";
   owner = "jwiegley";
 
-  release."1.0.0".sha256 = "sha256-qPgho4/VcL3vyMPJAMXXdqhYPEbNeXSZsoWbA/lGek4=";
+  release."1.0.0".hash = "sha256-qPgho4/VcL3vyMPJAMXXdqhYPEbNeXSZsoWbA/lGek4=";
   release."20211213".rev    = "449e30e929d56f6f90c22af2c91ffcc4d79837be";
   release."20211213".sha256 = "sha256:0vgfmph5l1zn6j4b851rcm43s8y9r83swsz07rpzhmfg34pk0nl0";
   release."20210730".rev    = "d87937faaf7460bcd6985931ac36f551d67e11af";

@@ -10,7 +10,7 @@ buildPythonApplication rec {
     owner = "posativ";
     repo = pname;
     rev = "refs/tags/${version}";
-    sha256 = "sha256-kZNf7Rlb1DZtQe4dK1B283OkzQQcCX+pbvZzfL65gsA=";
+    hash = "sha256-kZNf7Rlb1DZtQe4dK1B283OkzQQcCX+pbvZzfL65gsA=";
   };
 
   npmDeps = fetchNpmDeps {

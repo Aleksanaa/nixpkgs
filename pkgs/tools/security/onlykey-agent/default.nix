@@ -11,7 +11,7 @@ let
 
     src = fetchPypi {
       inherit pname version;
-      sha256 = "sha256-fW24IUYDvXhx/PpsCCbvaLhbCr2Q+iHChanF4h0r2Jk=";
+      hash = "sha256-fW24IUYDvXhx/PpsCCbvaLhbCr2Q+iHChanF4h0r2Jk=";
     };
   };
 
@@ -21,7 +21,7 @@ let
     src = fetchPypi {
       inherit version;
       pname = "lib-agent";
-      sha256 = "sha256-IrJizIHDIPHo4tVduUat7u31zHo3Nt8gcMOyUUqkNu0=";
+      hash = "sha256-IrJizIHDIPHo4tVduUat7u31zHo3Nt8gcMOyUUqkNu0=";
     };
     propagatedBuildInputs = oa.propagatedBuildInputs or [ ] ++ [
       bech32
@@ -49,7 +49,7 @@ python3Packages.buildPythonApplication rec {
 
   src = fetchPypi {
     inherit pname version;
-    sha256 = "sha256-SbGb7CjcD7cFPvASZtip56B4uxRiFKZBvbsf6sb8fds=";
+    hash = "sha256-SbGb7CjcD7cFPvASZtip56B4uxRiFKZBvbsf6sb8fds=";
   };
 
   propagatedBuildInputs = with python3Packages; [ lib-agent onlykey-cli setuptools ];

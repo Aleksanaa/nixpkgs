@@ -26,7 +26,7 @@ mkDerivation {
     owner = "StarLabsLtd";
     repo = "coreboot-configurator";
     rev = "944b575dc873c78627c352f9c1a1493981431a58";
-    sha256 = "sha256-ReWQNzeoyTF66hVnevf6Kkrnt0/PqRHd3oyyPYtx+0M=";
+    hash = "sha256-ReWQNzeoyTF66hVnevf6Kkrnt0/PqRHd3oyyPYtx+0M=";
   };
 
   nativeBuildInputs = [ inkscape meson ninja pkg-config wrapQtAppsHook ];

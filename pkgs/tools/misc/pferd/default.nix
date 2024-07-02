@@ -12,7 +12,7 @@ python3Packages.buildPythonApplication rec {
     owner = "Garmelon";
     repo = "PFERD";
     rev = "refs/tags/v${version}";
-    sha256 = "sha256-qN4GtQhiQpXZIagtphcn+oSYXroA9kk7E34IKoKMu7c=";
+    hash = "sha256-qN4GtQhiQpXZIagtphcn+oSYXroA9kk7E34IKoKMu7c=";
   };
 
   nativeBuildInputs = with python3Packages; [

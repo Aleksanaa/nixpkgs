@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
     owner = "nu774";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-GYvI9T5Bv2OcK0hMAQE7/tE6ajDyqkaak66b3Hc0Fls=";
+    hash = "sha256-GYvI9T5Bv2OcK0hMAQE7/tE6ajDyqkaak66b3Hc0Fls=";
   };
 
   nativeBuildInputs = [ autoreconfHook ];

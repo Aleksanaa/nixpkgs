@@ -21,7 +21,7 @@ buildDunePackage rec {
     owner = "ocaml-opam";
     repo = pname;
     rev = version;
-    sha256 = "sha256-CiZOljFBUUC3ExGSzzTATGqmxKjbzjRlL4aaL/fx9zI=";
+    hash = "sha256-CiZOljFBUUC3ExGSzzTATGqmxKjbzjRlL4aaL/fx9zI=";
   };
 
   duneVersion = "3";

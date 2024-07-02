@@ -14,7 +14,7 @@ mkDerivation rec {
     owner = "rncbc";
     repo = "qjackctl";
     rev = "${pname}_${lib.replaceStrings ["."] ["_"] version}";
-    sha256 = "sha256-tCABvZzAmDKgOfTylOf2uZsKeib8PgvdQd1niaI8RxM=";
+    hash = "sha256-tCABvZzAmDKgOfTylOf2uZsKeib8PgvdQd1niaI8RxM=";
   };
 
   buildInputs = [

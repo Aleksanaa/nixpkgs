@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://www.tarsnap.com/scrypt/${pname}-${version}.tgz";
-    sha256 = "sha256-1jLBGTQgrG+uv5SC5l4z06VmTszWQ7CaUJ0h0cHym+I=";
+    hash = "sha256-1jLBGTQgrG+uv5SC5l4z06VmTszWQ7CaUJ0h0cHym+I=";
   };
 
   outputs = [ "out" "lib" "dev" ];

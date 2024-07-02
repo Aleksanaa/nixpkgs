@@ -20,7 +20,7 @@ let
     let
       src = fetchzip {
         url = "https://android.googlesource.com/platform/external/zlib/+archive/61174f4fd262c6075f88768465f308aae95a2f04.tar.gz";
-        sha256 = "sha256-EMzKAHcEWOUugcHKH2Fj3ZaIHC9UlgO4ULKe3RvgxvI=";
+        hash = "sha256-EMzKAHcEWOUugcHKH2Fj3ZaIHC9UlgO4ULKe3RvgxvI=";
         stripRoot = false;
       };
     in

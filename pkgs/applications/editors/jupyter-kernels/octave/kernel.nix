@@ -9,7 +9,7 @@ buildPythonPackage rec {
   src = fetchPypi {
     pname = "octave_kernel";
     inherit version;
-    sha256 = "sha256-5ki2lekfK7frPsmPBIzYQOfANCUY9x+F2ZRAQSdPTxo=";
+    hash = "sha256-5ki2lekfK7frPsmPBIzYQOfANCUY9x+F2ZRAQSdPTxo=";
   };
 
   propagatedBuildInputs = [ metakernel ipykernel ];

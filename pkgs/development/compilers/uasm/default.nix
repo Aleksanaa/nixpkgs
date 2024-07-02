@@ -24,7 +24,7 @@ stdenv.mkDerivation rec {
     (fetchpatch {
       name = "fix-v2_55-compilation-on-macos.patch";
       url = "https://github.com/Terraspace/UASM/commit/b50c430cc3083c7f32e288a9f64fe1cafb03091d.patch";
-      sha256 = "sha256-FGFB282LSEKtGD1cIRH+Qi5bye5Gx4xb0Ty4J03xjCU";
+      hash = "sha256-FGFB282LSEKtGD1cIRH+Qi5bye5Gx4xb0Ty4J03xjCU";
     })
   ];
 

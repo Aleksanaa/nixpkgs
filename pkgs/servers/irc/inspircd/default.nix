@@ -151,7 +151,7 @@ stdenv.mkDerivation rec {
     owner = pname;
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-isLZKYf32+va66FGYMq4mWIEHNpqUWCcVhYWLA5lRwk=";
+    hash = "sha256-isLZKYf32+va66FGYMq4mWIEHNpqUWCcVhYWLA5lRwk=";
   };
 
   outputs = [ "bin" "lib" "man" "doc" "out" ];

@@ -15,7 +15,7 @@ let
     nnue = fetchurl {
       name = nnueFile;
       url = "https://tests.stockfishchess.org/api/nn/${nnueFile}";
-      sha256 = "sha256-WvEVQLv+/LVOOMXdAAyrS0ad+nWZodVb5dJyLCCokps=";
+      hash = "sha256-WvEVQLv+/LVOOMXdAAyrS0ad+nWZodVb5dJyLCCokps=";
     };
 in
 
@@ -27,7 +27,7 @@ stdenv.mkDerivation rec {
     owner = "official-stockfish";
     repo = "Stockfish";
     rev = "sf_${version}";
-    sha256 = "sha256-ASy2vIP94lnSKgxixK1GoC84yAysaJpxeyuggV4MrP4=";
+    hash = "sha256-ASy2vIP94lnSKgxixK1GoC84yAysaJpxeyuggV4MrP4=";
   };
 
   # This addresses a linker issue with Darwin

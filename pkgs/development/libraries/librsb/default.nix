@@ -20,7 +20,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://sourceforge/${pname}/${pname}-${version}.tar.gz";
-    sha256 = "sha256-7Enz94p8Q/yeEJdlk9EAqkmxhjMJ7Y+jzLt6rVLS97g=";
+    hash = "sha256-7Enz94p8Q/yeEJdlk9EAqkmxhjMJ7Y+jzLt6rVLS97g=";
   };
 
   # The default configure flags are still present when building

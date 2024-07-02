@@ -12,7 +12,7 @@ mkKdeDerivation rec {
 
   src = fetchurl {
     url = "mirror://kde/stable/polkit-qt-1/polkit-qt-1-${version}.tar.xz";
-    sha256 = "sha256-XTthHAYtK3apN1C7EMkHv9IdH/CNChXcLPY+J44Wd/s=";
+    hash = "sha256-XTthHAYtK3apN1C7EMkHv9IdH/CNChXcLPY+J44Wd/s=";
   };
 
   patches = [./full-paths.patch];

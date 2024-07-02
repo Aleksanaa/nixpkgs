@@ -6,7 +6,7 @@ mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://sourceforge/smtube/SMTube/${version}/${pname}-${version}.tar.bz2";
-    sha256 = "sha256-ZQIUAi/YC+zsYHVhlprZ5K6NGvT6LojmdQ1Z+WCg1lU=";
+    hash = "sha256-ZQIUAi/YC+zsYHVhlprZ5K6NGvT6LojmdQ1Z+WCg1lU=";
   };
 
   makeFlags = [

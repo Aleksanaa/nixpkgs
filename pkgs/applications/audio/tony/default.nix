@@ -18,14 +18,14 @@ stdenv.mkDerivation rec {
       url = "https://github.com/sonic-visualiser/svcore/commit/5a7b517e43b7f0b3f03b7fc3145102cf4e5b0ffc.patch";
       stripLen = 1;
       extraPrefix = "svcore/";
-      sha256 = "sha256-DOCdQqCihkR0g/6m90DbJxw00QTpyVmFzCxagrVWKiI=";
+      hash = "sha256-DOCdQqCihkR0g/6m90DbJxw00QTpyVmFzCxagrVWKiI=";
     })
     (fetchpatch2 {
       url = "https://github.com/sonic-visualiser/svgui/commit/5b6417891cff5cc614e8c96664d68674eb12b191.patch";
       stripLen = 1;
       extraPrefix = "svgui/";
       excludes = [ "svgui/widgets/CSVExportDialog.cpp" ];
-      sha256 = "sha256-pBCtoMXgjreUm/D0pl6+R9x1Ovwwwj8Ohv994oMX8XA=";
+      hash = "sha256-pBCtoMXgjreUm/D0pl6+R9x1Ovwwwj8Ohv994oMX8XA=";
     })
   ];
 

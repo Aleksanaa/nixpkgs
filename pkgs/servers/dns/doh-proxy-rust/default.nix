@@ -7,7 +7,7 @@ rustPlatform.buildRustPackage rec {
   src = fetchCrate {
     inherit version;
     crateName = "doh-proxy";
-    sha256 = "sha256-KvEayC+aY8aC5fSVIV9urNwLJcIfDMaAU+XdlGSmYRI=";
+    hash = "sha256-KvEayC+aY8aC5fSVIV9urNwLJcIfDMaAU+XdlGSmYRI=";
   };
 
   cargoHash = "sha256-eoC90ht9cbMLkPN3S4jxZipbFoZDTU7pIr6GRagGlJE=";

@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://entropymine.com/${pname}/${pname}-${version}.tar.gz";
-    sha256 = "sha256-p/u2XFreZ9nrwy5SxYmIpPmGuswAjJAh/ja1mEZtXI0=";
+    hash = "sha256-p/u2XFreZ9nrwy5SxYmIpPmGuswAjJAh/ja1mEZtXI0=";
   };
 
   postPatch = ''

@@ -18,7 +18,7 @@ let
     # HEAD revision of the gcc.amd64 branch on 2023-03-28. Reminder to update
     # whenever bumping package version.
     rev = "f49b13c3380cf9677ae9a93641ebc6f770899def";
-    sha256 = "sha256-8HNFUGx2uuEb8UrGUiqkN+uVDX83YIisT2uO1Z7GCxc=";
+    hash = "sha256-8HNFUGx2uuEb8UrGUiqkN+uVDX83YIisT2uO1Z7GCxc=";
   };
 in
 stdenv.mkDerivation rec {
@@ -29,7 +29,7 @@ stdenv.mkDerivation rec {
     owner = "rordenlab";
     repo = "dcm2niix";
     rev = "v${version}";
-    sha256 = "sha256-kOVEoqrk4l6sH8iDVx1QmOYP5tCufxsWnCnn9BibZ08=";
+    hash = "sha256-kOVEoqrk4l6sH8iDVx1QmOYP5tCufxsWnCnn9BibZ08=";
   };
 
   patches = lib.optionals withCloudflareZlib [

@@ -9,7 +9,7 @@ stdenv.mkDerivation (finalAttrs: {
 
   src = fetchurl {
     url = "https://www.ivarch.com/programs/sources/pv-${finalAttrs.version}.tar.gz";
-    sha256 = "sha256-1MkMF8/NRKqWuYI3cx5PgR4HHUwgUqaJ0tgeZnH1cbE=";
+    hash = "sha256-1MkMF8/NRKqWuYI3cx5PgR4HHUwgUqaJ0tgeZnH1cbE=";
   };
 
   meta = {

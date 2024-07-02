@@ -16,15 +16,15 @@ stdenv.mkDerivation rec {
   patches = [
     (fetchpatch {
       url = "https://salsa.debian.org/debian-phototools-team/jxrlib/-/raw/df96f9b9c1fbe9cdc97589c337f8a948bc81c4d0/debian/patches/usecmake.patch";
-      sha256 = "sha256-BpCToLgA5856PZk5mXlwAy3Oh9aYP/2wvu2DXDTqufM=";
+      hash = "sha256-BpCToLgA5856PZk5mXlwAy3Oh9aYP/2wvu2DXDTqufM=";
     })
     (fetchpatch {
       url = "https://salsa.debian.org/debian-phototools-team/jxrlib/-/raw/6c88037293aff8d5bc8a76ea32b36781c430ede3/debian/patches/bug803743.patch";
-      sha256 = "sha256-omIGa+ZrWjaH/IkBn4jgjufF/HEDKw69anVCX4hw+xQ=";
+      hash = "sha256-omIGa+ZrWjaH/IkBn4jgjufF/HEDKw69anVCX4hw+xQ=";
     })
     (fetchpatch {
       url = "https://salsa.debian.org/debian-phototools-team/jxrlib/-/raw/b23d49062ec6a9b2739c9dade86be525a72fc807/debian/patches/pkg-config.patch";
-      sha256 = "sha256-ZACaXEi+rbKIFBHtSBheyFfqV2HYsKKrT+SmTShyUhg=";
+      hash = "sha256-ZACaXEi+rbKIFBHtSBheyFfqV2HYsKKrT+SmTShyUhg=";
     })
   ];
 

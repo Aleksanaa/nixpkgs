@@ -35,7 +35,7 @@ stdenv.mkDerivation rec {
     owner = "schmidtandreas";
     repo = "wofi-pass";
     rev = "v${version}";
-    sha256 = "sha256-OtUz0YLKuEzA4kv+llrOll0L84nMTkYH6JPxrkQKB6I=";
+    hash = "sha256-OtUz0YLKuEzA4kv+llrOll0L84nMTkYH6JPxrkQKB6I=";
   };
 
   nativeBuildInputs = [ makeWrapper ];
