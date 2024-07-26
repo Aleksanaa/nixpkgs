@@ -6,6 +6,7 @@
 , buildPackages
 , testers
 , hugo
+, bad-attr
 }:
 
 buildGoModule rec {
