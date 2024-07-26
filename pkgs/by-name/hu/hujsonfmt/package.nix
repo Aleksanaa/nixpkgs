@@ -1,7 +1,7 @@
 { lib, buildGoModule, fetchFromGitHub }:
 
 let
-  inherit (lib) licenses maintainers;
+  inherit (lib) licenses maintainers platforms;
 in
 buildGoModule {
   pname = "hujsonfmt";
