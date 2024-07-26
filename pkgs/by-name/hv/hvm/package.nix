@@ -8,7 +8,6 @@ rustPlatform.buildRustPackage rec {
   version = "2.0.19";
 
   src = fetchCrate {
-    inherit pname version;
     hash = "sha256-+Cx+2v4JrQflDBaNZ9Fu8734Zr4rrgtnojUS4dkx7Ck=";
   };
 
