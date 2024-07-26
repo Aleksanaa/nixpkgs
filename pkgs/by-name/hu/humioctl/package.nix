@@ -27,7 +27,7 @@ buildGoModule rec {
     homepage = "https://github.com/humio/cli";
     description = "CLI for managing and sending data to Humio";
     license = licenses.asl20;
-    maintainers = with maintainers; [ lucperkins ];
+    maintainers = with maintainers; [ version ];
     mainProgram = "humioctl";
   };
 }
