@@ -12,7 +12,6 @@
 , udev
 , unzip
 , xorg
-, darwin
 }:
 
 let
@@ -73,15 +72,6 @@ in stdenv.mkDerivation rec {
     alsa-lib
     gtk3
     libgbm
-  ]) ++ lib.optionals stdenv.hostPlatform.isDarwin (with darwin.apple_sdk.frameworks; [
-    Cocoa
-    CoreServices
-    CoreMedia
-    CoreAudio
-    AudioToolbox
-    AVFoundation
-    Foundation
-    ApplicationServices
   ]);
 
   runtimeDependencies = lib.optional stdenv.hostPlatform.isLinux (lib.getLib udev);
