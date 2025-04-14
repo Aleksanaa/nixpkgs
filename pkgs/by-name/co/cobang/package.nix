@@ -18,14 +18,14 @@
 
 python3Packages.buildPythonApplication rec {
   pname = "cobang";
-  version = "1.4.3";
+  version = "1.6.1";
   pyproject = false; # Built with meson
 
   src = fetchFromGitHub {
     owner = "hongquan";
     repo = "CoBang";
     tag = "v${version}";
-    hash = "sha256-ggfFTK8XSr1UCBSpRE0992tnvJdKhAIVo6++v4neT7A=";
+    hash = "sha256-/0EfE4ZVfDFEbPel/g69sFqsBPMJ4pE9Fqz4t3o7jtY=";
   };
 
   # https://github.com/hongquan/CoBang/issues/117
@@ -63,6 +63,7 @@ python3Packages.buildPythonApplication rec {
     gst-python
     pillow
     pygobject3
+    gst-python
     python-zbar
   ];
 
